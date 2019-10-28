@@ -23,17 +23,7 @@ export default {
   data() {
     return {
       logo: require("../../static/icon-logo.svg"),
-      settings: require("../../data/theme.json"),
-      copyArr: [
-        "ENGAGEMENT",
-        "PIZZA",
-        "VR / AR",
-        "INTERFACES",
-        "EXPERIENCES",
-        "SOFTWARE",
-        "HARDWARE",
-        "DESIGN"
-      ]
+      settings: require("../../data/theme.json")
     };
   }
 };

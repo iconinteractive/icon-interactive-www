@@ -1,13 +1,29 @@
 <template>
   <div class="hero">
     <h1 class="hero-title">ICON DELIVERS</h1>
+    <h1>{{currentWord}}</h1>
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {};
+    return {
+      copyArr: [
+        "VR / AR",
+        "INTERFACES",
+        "INTERNET",
+        "EXPERIENCES",
+        "SOFTWARE",
+        "HARDWARE",
+        "SERVERS",
+        "SERVICES",
+        "PIZZA",
+        "PIZZAZZ",
+        "DESIGN"
+      ],
+      currentWord: "test"
+    };
   }
 };
 </script>
