@@ -23,9 +23,9 @@ sections:
   label: Theme config
 upload_dir: ''
 public_path: ''
-front_matter_path: https://s3.amazonaws.com/forestry.iconinteractive.com
-use_front_matter_path: true
-file_template: ":filename:"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: 'https://s3.amazonaws.com/forestry.iconinteractive.com/:filename:'
 build:
   preview_output_directory: dist
   install_dependencies_command: npm install
