@@ -4,7 +4,7 @@
       ICON
       <br />DELIVERS
       <br />
-      {{currentWord}}
+      <span class="pink">{{currentWord}}</span>
     </h1>
   </div>
 </template>
@@ -61,8 +61,12 @@ export default {
 
 .hero-title {
   font-size: 7rem;
+  letter-spacing: 2px;
   font-weight: 700;
   padding: 0;
   margin: 0 0 2rem 0;
+}
+.pink {
+  color: var(--color-highlight);
 }
 </style>

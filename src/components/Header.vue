@@ -10,9 +10,9 @@
         </g-link>
       </div>
       <nav class="nav right">
-        <g-link class="nav__link" to="/About">About</g-link>
         <g-link class="nav__link" to="/projects">Work</g-link>
-        <g-link class="nav__link" to="/contact">Contact</g-link>
+        <g-link class="nav__link" to="/about">About</g-link>
+        <g-link class="nav__link" to="/contact">Connect</g-link>
       </nav>
     </div>
   </header>
@@ -55,7 +55,7 @@ export default {
   fill: white;
 }
 .logo:hover {
-  animation: rotation 1s 1 ease-out;
+  animation: rotation 1s 1 ease-in-out;
 }
 @keyframes rotation {
   from {
@@ -73,11 +73,11 @@ export default {
   text-transform: uppercase;
 }
 .nav > * {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-decoration: none;
   margin-top: 4px;
-  margin-right: 3rem;
+  margin-right: 3.5rem;
   padding-bottom: 4px;
   border-bottom: 1px solid;
   border-color: transparent;
