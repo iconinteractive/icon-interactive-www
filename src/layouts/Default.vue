@@ -82,7 +82,8 @@ img {
 }
 
 .text-container {
-  width: 65%;
+  width: 70%;
+  font-size: 1.1rem;
 }
 
 .label {
