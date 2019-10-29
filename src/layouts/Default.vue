@@ -31,6 +31,7 @@ body {
   --color-base-1: rgb(43, 43, 43);
   --color-contrast: rgb(255, 255, 255);
   --color-contrast-1: rgb(243, 243, 243);
+  --color-highlight: #e51365;
   font-family: "DM Sans", -apple-system, system-ui, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   margin: 0;
@@ -43,7 +44,9 @@ body {
 
 h1 {
   font-family: "Archivo Black", "DM Sans", sans-serif;
-  /* letter-spacing: -0.01em; */
+  font-size: 4rem;
+  margin: 0 0 2rem 0;
+  padding-top: 1rem;
 }
 
 .layout {
@@ -70,8 +73,16 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: var(--color-highlight);
+}
+
 img {
   max-width: 100%;
+}
+
+.text-container {
+  width: 65%;
 }
 
 .label {

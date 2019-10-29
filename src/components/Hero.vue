@@ -22,8 +22,22 @@ export default {
         "PIZZAZZ",
         "DESIGN"
       ],
-      currentWord: "test"
+      currentWord: "",
+      idx: 0
     };
+  },
+  created() {
+    const wordUpdate = setInterval(() => {
+      if (this.idx === 10) {
+        this.idx = 0;
+      } else {
+        this.idx++;
+      }
+      this.currentWord = this.copyArr[this.idx];
+    }, 2000);
+  },
+  destroyed() {
+    wordUpdate.clearInterval();
   }
 };
 </script>

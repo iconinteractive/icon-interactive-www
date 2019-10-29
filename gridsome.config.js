@@ -2,11 +2,12 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "ICON Interactive",
+  siteUrl: `https://www.iconinteractive.com`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  titleTemplate: "%s",
+  siteDescription:
+    "ICON Interactive is a full-service digital agency that represents the merger of extraordinary design and powerful technology.",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
