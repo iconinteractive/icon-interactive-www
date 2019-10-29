@@ -88,7 +88,8 @@ export default {
 }
 .nav > *:hover {
   border-color: inherit;
-  color: #e51365;
+  color: var(--color-highlight);
+  transition: all 300ms ease-in;
 }
 .nav > .active {
   border-color: inherit;

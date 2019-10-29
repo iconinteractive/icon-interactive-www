@@ -9,21 +9,19 @@
       <form class="contact-form" name="contact">
         <div class="sender-info">
           <div>
-            <label for="name" class="label">Your name</label>
+            <label for="name" class="label">Name</label>
             <input type="text" name="name" />
           </div>
           <div>
-            <label for="email" class="label">Your email</label>
+            <label for="email" class="label">Email</label>
             <input type="email" name="email" />
           </div>
         </div>
-
         <div class="message">
           <label for="message" class="label">Message</label>
           <textarea name="message"></textarea>
         </div>
-
-        <button class="button">Submit form</button>
+        <button class="button">Submit</button>
       </form>
     </div>
   </Layout>
@@ -57,6 +55,7 @@ export default {};
 input:focus,
 textarea:focus {
   border-color: var(--color-highlight);
+  transition: all 300ms ease-in;
 }
 input,
 textarea {
@@ -68,22 +67,26 @@ textarea {
   color: inherit;
   font-size: 1rem;
   width: 100%;
+  transition: all 300ms ease-in;
 }
 textarea {
   resize: none;
   height: 140px;
+  transition: all 300ms ease-in;
 }
 textarea:focus {
   border: 1px solid var(--color-highlight);
+  transition: all 300ms ease-in;
 }
 .button {
-  color: var(--color-base);
-  background: var(--color-contrast);
+  color: var(--color-contrast);
+  background: var(--color-base);
   outline: none;
   border: 0;
   font-size: 0.8rem;
   padding: 0.8rem 1.6rem;
   border-radius: 0.3rem;
+  border: 1px solid #fff;
   margin-top: 2rem;
   cursor: pointer;
   transition: opacity 0.25s ease;
@@ -92,11 +95,12 @@ textarea:focus {
 }
 .button:hover {
   background-color: var(--color-highlight);
+  border: 1px solid var(--color-highlight);
   transition: all 300ms ease-in;
   color: var(--color-contrast);
 }
 .button:focus {
-  border: 1px solid var(--color-highlight);
+  border: 2px solid var(--color-highlight);
 }
 </style>
 
