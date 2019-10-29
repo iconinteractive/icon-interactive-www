@@ -56,7 +56,7 @@ export default {};
 }
 input:focus,
 textarea:focus {
-  border-color: var(--color-contrast-1);
+  border-color: var(--color-highlight);
 }
 input,
 textarea {
@@ -73,6 +73,9 @@ textarea {
   resize: none;
   height: 140px;
 }
+textarea:focus {
+  border: 1px solid var(--color-highlight);
+}
 .button {
   color: var(--color-base);
   background: var(--color-contrast);
@@ -88,10 +91,12 @@ textarea {
   letter-spacing: 0.035em;
 }
 .button:hover {
-  opacity: 0.6;
+  background-color: var(--color-highlight);
+  transition: all 300ms ease-in;
+  color: var(--color-contrast);
 }
 .button:focus {
-  border: 1px solid var(--color-base-1);
+  border: 1px solid var(--color-highlight);
 }
 </style>
 

@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <span>Copyright {{date}}</span>
+      <span>Copyright © {{date}}</span>
     </div>
   </footer>
 </template>
