@@ -94,10 +94,9 @@ textarea:focus {
   letter-spacing: 0.035em;
 }
 .button:hover {
-  background-color: var(--color-highlight);
   border: 1px solid var(--color-highlight);
   transition: all 300ms ease-in;
-  color: var(--color-contrast);
+  color: var(--color-highlight);
 }
 .button:focus {
   border: 2px solid var(--color-highlight);

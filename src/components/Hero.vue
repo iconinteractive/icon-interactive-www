@@ -32,6 +32,7 @@ export default {
     };
   },
   created() {
+    console.log("👽");
     this.currentWord = this.copyArr[this.idx];
     const wordUpdate = setInterval(() => {
       if (this.idx === 10) {
