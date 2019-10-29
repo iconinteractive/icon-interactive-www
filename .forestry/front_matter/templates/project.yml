@@ -26,4 +26,5 @@ fields:
   name: categories
   label: Categories
 pages:
+- projects/rare-signals.md
 - projects/panasonic-ces.md
