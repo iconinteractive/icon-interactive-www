@@ -55,7 +55,15 @@ export default {
   fill: white;
 }
 .logo:hover {
-  border: 2px solid var(--color-highlight);
+  animation: rotation 1s 1 ease-out;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 .site-name {
   font-size: 0.9rem;
