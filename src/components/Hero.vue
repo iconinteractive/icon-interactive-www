@@ -1,7 +1,11 @@
 <template>
   <div class="hero">
-    <h1 class="hero-title">ICON DELIVERS</h1>
-    <h1>{{currentWord}}</h1>
+    <h1 class="hero-title">
+      ICON
+      <br />DELIVERS
+      <br />
+      {{currentWord}}
+    </h1>
   </div>
 </template>
 
@@ -10,7 +14,7 @@ export default {
   data() {
     return {
       copyArr: [
-        "VR / AR",
+        "VR & AR",
         "INTERFACES",
         "INTERNET",
         "EXPERIENCES",
@@ -23,10 +27,12 @@ export default {
         "DESIGN"
       ],
       currentWord: "",
-      idx: 0
+      idx: 0,
+      intervalId: ""
     };
   },
   created() {
+    this.currentWord = this.copyArr[this.idx];
     const wordUpdate = setInterval(() => {
       if (this.idx === 10) {
         this.idx = 0;
@@ -35,9 +41,10 @@ export default {
       }
       this.currentWord = this.copyArr[this.idx];
     }, 2000);
+    this.intervalId = wordUpdate;
   },
   destroyed() {
-    wordUpdate.clearInterval();
+    clearInterval(this.intervalId);
   }
 };
 </script>
@@ -56,18 +63,5 @@ export default {
   font-weight: 700;
   padding: 0;
   margin: 0 0 2rem 0;
-}
-.hero-title p,
-.hero-subtitle p {
-  margin: 0;
-  padding: 0;
-}
-.hero-subtitle {
-  font-size: 1.15em;
-  font-weight: 400;
-  line-height: 1.68;
-  padding: 0;
-  margin: 0;
-  opacity: 0.6;
 }
 </style>

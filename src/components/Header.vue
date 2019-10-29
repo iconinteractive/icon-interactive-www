@@ -52,6 +52,10 @@ export default {
 }
 .logo {
   height: 3rem;
+  fill: white;
+}
+.logo:hover {
+  border: 2px solid var(--color-highlight);
 }
 .site-name {
   font-size: 0.9rem;
