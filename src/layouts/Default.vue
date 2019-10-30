@@ -56,6 +56,7 @@ h1 {
   position: sticky;
   position: -webkit-sticky;
   top: 1rem;
+  z-index: 10;
 }
 
 .layout {
@@ -66,6 +67,10 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 @media (min-width: 860px) {

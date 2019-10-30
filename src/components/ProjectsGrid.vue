@@ -34,8 +34,10 @@ export default {
   grid-gap: 4rem;
 }
 .project {
+  position: relative;
   grid-column: auto / span 2;
   text-align: center;
+  z-index: 0;
 }
 .project-link {
   text-decoration: none;
@@ -47,9 +49,15 @@ export default {
   box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
 }
 .project-title {
-  font-size: 1rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  font-size: 2rem;
   color: var(--color-contrast);
-  margin: 2rem 0 1rem 0;
+  /* margin: 2rem 0 1rem 0; */
+}
+.thumbnail:hover + h3 {
+  color: var(--color-highlight);
 }
 .categories {
   font-size: 0.8rem;

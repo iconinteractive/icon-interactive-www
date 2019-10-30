@@ -1,6 +1,5 @@
 <template>
   <Layout>
-    <!-- <div class="project"> -->
     <div class="container">
       <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
       <h1 class="title-sticky" v-html="$page.post.title" />
@@ -9,12 +8,14 @@
           <div class="categories-container">
             <div class="categories">
               <span class="label">Categories</span>
-              <span
-                class="category"
-                v-for="(category, index) in $page.post.categories"
-                :key="index"
-                v-text="category"
-              />
+              <ul>
+                <li
+                  class="category"
+                  v-for="(category, index) in $page.post.categories"
+                  :key="index"
+                  v-text="category"
+                />
+              </ul>
             </div>
           </div>
           <div class="year-container">
@@ -25,7 +26,6 @@
       </div>
       <div v-html="$page.post.content" class="content" />
     </div>
-    <!-- </div> -->
   </Layout>
 </template>
 
@@ -74,10 +74,10 @@ export default {
 .project-info > div:last-of-type {
   margin: 0;
 }
-.category:after {
-  content: ", ";
+.category:before {
+  content: "- ";
 }
-.category:last-of-type:after {
+/* .category:last-of-type:after {
   content: "";
-}
+} */
 </style>
