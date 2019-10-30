@@ -5,8 +5,12 @@
         <!-- <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" /> -->
         <div class="column">
           <h2>Interested? Let's connect</h2>
-          <a href="mailto:hello@iconinteractive.com">hello@iconinteractive.com</a>
-          <span>Copyright © {{date}}</span>
+          <a
+            href="mailto:hello@iconinteractive.com"
+            target="_blank"
+            rel="noreferrer"
+          >hello@iconinteractive.com</a>
+          <span>© {{date}} ICON Interactive</span>
         </div>
         <div class="column">
           <ul>
@@ -57,7 +61,7 @@ export default {
 ul {
   list-style: none;
   text-align: right;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 h2 {

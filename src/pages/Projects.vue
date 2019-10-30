@@ -1,9 +1,7 @@
 <template>
   <Layout>
     <div class="container">
-      <div class="page-header">
-        <h1 class="title">Work</h1>
-      </div>
+      <h1 class="title-sticky">Work</h1>
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
   </Layout>
@@ -37,12 +35,12 @@ export default {
 </script>
 
 <style scoped>
-.page-header {
-  padding: 2rem 0 4rem 0;
-}
-.title {
+.title-sticky {
   font-size: 4rem;
-  margin: 0 0 4rem 0;
+  margin: 4rem 0 4rem 0;
   padding: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 1rem;
 }
 </style>

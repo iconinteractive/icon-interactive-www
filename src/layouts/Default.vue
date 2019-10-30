@@ -1,5 +1,5 @@
 <template>
-  <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
+  <div class="layout">
     <Header />
     <slot />
     <Footer />
@@ -50,11 +50,7 @@ h1 {
 }
 
 .layout {
-  padding: 0;
-}
-
-.layout.sticky-header {
-  padding: 6rem 0 0 0;
+  padding: 4rem 0 0 0;
 }
 
 .container {

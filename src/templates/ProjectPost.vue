@@ -3,6 +3,7 @@
     <div class="project">
       <div class="container">
         <div class="project-header">
+          <g-image :src="$page.post.thumbnail" :alt="$page.post.title" />
           <h1 class="project-title" v-html="$page.post.title" />
           <div class="project-info">
             <div class="categories-container">
@@ -35,6 +36,7 @@ query ProjectPost ($path: String!) {
   post: projectPost (path: $path) {
     title
     date (format: "YYYY")
+    thumbnail
     content
     categories
   }
@@ -53,7 +55,7 @@ export default {
 
 <style scoped>
 .project-header {
-  padding: 20vh 0 4rem 0;
+  padding: 10vh 0 4rem 0;
 }
 .project-title {
   font-size: 4rem;

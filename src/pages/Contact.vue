@@ -1,11 +1,8 @@
 <template>
   <Layout>
     <div class="container">
-      <div class="contact-header">
-        <h1 class="contact-title">Connect</h1>
-        <p>Contact us to learn more about our services.</p>
-      </div>
-
+      <h1 class="title-sticky">Connect</h1>
+      <p>Contact us to learn more about our services.</p>
       <form class="contact-form" name="contact">
         <div class="sender-info">
           <div>
@@ -32,13 +29,13 @@ export default {};
 </script>
 
 <style scoped>
-.contact-header {
-  padding: 2rem 0 4rem 0;
-}
-.contact-title {
+.title-sticky {
   font-size: 4rem;
-  margin: 0 0 4rem 0;
+  margin: 4rem 0 4rem 0;
   padding: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 1rem;
 }
 .sender-info {
   display: flex;
