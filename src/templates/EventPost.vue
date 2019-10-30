@@ -1,26 +1,14 @@
 <template>
   <Layout>
-    <div class="journal">
-      <div class="container journal-container">
-        <div class="journal-header">
-          <h1 v-html="$page.post.title" class="journal-title" />
-          <div class="journal-meta">
-            <div class="journal-author">
-              <span class="label">Author</span>
-              <span class="author-name" v-text="$page.post.author" />
-            </div>
-            <div class="journal-date">
-              <span class="label">Date</span>
-              <div v-text="$page.post.date" />
-            </div>
-            <div class="journal-time">
-              <span class="label">Time</span>
-              <span>{{ $page.post.timeToRead }} min read</span>
-            </div>
-          </div>
+    <div class="container">
+      <h1 v-html="$page.post.title" class="title-sticky" />
+      <div class="journal-meta">
+        <div class="journal-date">
+          <span class="label">Date</span>
+          <div v-text="$page.post.date" />
         </div>
-        <EventContent :content="$page.post.content" />
       </div>
+      <EventContent :content="$page.post.content" />
     </div>
   </Layout>
 </template>
@@ -29,9 +17,7 @@
 query EventPost ($path: String!) {
   post: eventPost (path: $path) {
     title
-    author
-    date (format: "D. MMMM YYYY")
-    timeToRead
+    date (format: "MMMM D YYYY")
     content
   }
 }

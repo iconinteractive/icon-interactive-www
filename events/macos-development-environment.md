@@ -1,12 +1,11 @@
 ---
 date: 2019-05-16
-title: macOS development environment
-author: Nichlas W. Andersen
-excerpt: Get up and running with a fresh macOS Mojave install
-
+title: Event Test
+excerpt: Get up and running with a fresh install
 ---
+
 ### Install Homebrew
 
-    $ brew brew brew
+    $ brew install icon-interactive
 
-Enjoy your new system! 🎉
+Enjoy your new icon system! 🎉

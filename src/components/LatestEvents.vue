@@ -1,27 +1,27 @@
 <template>
-    <div>
-        <div class="latest-journals-heading container">
-        <span class="label">Latest and greatest</span>
-        </div>
-        <div class="latest-journals">
-        <div class="container">
-            <g-link :to="item.node.path" class="journal" v-for="item in journals" :key="item.node.id">
-              <h3 class="journal-title">{{ item.node.title }}</h3>
-            </g-link>
-        </div>
-        </div>
+  <div>
+    <div class="latest-journals-heading container">
+      <h2 class="label">Events</h2>
     </div>
+    <div class="latest-journals">
+      <div class="container">
+        <g-link :to="item.node.path" class="journal" v-for="item in journals" :key="item.node.id">
+          <h3 class="journal-title">{{ item.node.title }}</h3>
+        </g-link>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-    props: {
-        journals: {
-            type: Array,
-            required: true
-        }
+  props: {
+    journals: {
+      type: Array,
+      required: true
     }
-}
+  }
+};
 </script>
 
 <style scoped>
@@ -30,7 +30,6 @@ export default {
   margin-bottom: 1rem;
   font-size: 0.6rem;
   font-weight: 400;
-  text-transform: uppercase;
 }
 .latest-journals {
   max-width: 100%;
@@ -55,7 +54,8 @@ export default {
 }
 
 .journal:hover {
-  background: var(--color-base-1);
+  background: var(--color-highlight);
+  color: #fff;
 }
 
 .journal-title {
@@ -108,5 +108,4 @@ export default {
     border-bottom: 1px solid var(--color-base-1);
   }
 }
-
 </style>
