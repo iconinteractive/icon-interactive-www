@@ -4,13 +4,6 @@
       <g-link :to="item.node.path" class="project-link">
         <g-image :src="item.node.thumbnail" :alt="item.node.title" class="thumbnail" />
         <h3 class="project-title">{{ item.node.title }}</h3>
-        <div class="categories">
-          <span
-            class="category"
-            v-for="(item, index) in item.node.categories"
-            :key="index"
-          >{{ item }}</span>
-        </div>
       </g-link>
     </div>
   </div>

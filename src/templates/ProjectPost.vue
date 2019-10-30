@@ -77,7 +77,4 @@ export default {
 .category:before {
   content: "- ";
 }
-/* .category:last-of-type:after {
-  content: "";
-} */
 </style>
