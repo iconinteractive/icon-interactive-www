@@ -74,4 +74,14 @@ a:hover {
   transition: all 300ms ease-in;
   text-decoration: underline;
 }
+@media (max-width: 720px) {
+  .row {
+    flex-direction: column;
+  }
+
+  ul {
+    margin-top: 2rem;
+    text-align: left;
+  }
+}
 </style>

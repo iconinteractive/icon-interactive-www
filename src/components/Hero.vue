@@ -69,4 +69,9 @@ export default {
 .pink {
   color: var(--color-highlight);
 }
+@media (max-width: 720px) {
+  .hero-title {
+    font-size: 11vw;
+  }
+}
 </style>

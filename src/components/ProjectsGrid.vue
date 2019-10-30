@@ -47,6 +47,7 @@ export default {
   left: 2.5rem;
   font-size: 2rem;
   color: var(--color-contrast-1);
+  transition: all 500ms ease-out;
 }
 .thumbnail:hover + h3 {
   transition: all 500ms ease-out;
@@ -61,14 +62,5 @@ export default {
 }
 .category:last-of-type {
   margin: 0;
-}
-
-@media (min-width: 920px) {
-  .project {
-    grid-column: auto / span 1;
-  }
-  .project:nth-child(3n + 1) {
-    grid-column: auto / span 2;
-  }
 }
 </style>

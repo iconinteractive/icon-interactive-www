@@ -50,7 +50,6 @@ h1 {
 }
 
 .title-sticky {
-  font-size: 4rem;
   margin: 4rem 0 4rem 0;
   padding: 0;
   position: sticky;
@@ -100,5 +99,10 @@ img {
   display: block;
   font-weight: 700;
   margin-bottom: 0.5rem;
+}
+@media (max-width: 620px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 </style>

@@ -7,7 +7,7 @@
         <div class="project-info">
           <div class="categories-container">
             <div class="categories">
-              <span class="label">Categories</span>
+              <span class="label">Services</span>
               <ul>
                 <li
                   class="category"
