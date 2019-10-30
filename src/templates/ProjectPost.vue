@@ -66,7 +66,7 @@ export default {
 .project-info {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .project-info > div {
   margin-right: 4rem;
@@ -77,4 +77,13 @@ export default {
 .category:before {
   content: "- ";
 }
+.label {
+  color: var(--color-highlight);
+}
+ul {
+  margin: 0;
+}
+/* .content {
+  border: 3px solid salmon;
+} */
 </style>

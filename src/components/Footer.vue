@@ -4,7 +4,7 @@
       <div class="row">
         <!-- <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" /> -->
         <div class="column">
-          <h2>Interested? Let's connect</h2>
+          <h3 class="footer-text">Interested? Let's connect</h3>
           <a href="mailto:hello@iconinteractive.com">hello@iconinteractive.com</a>
           <span>© {{date}} ICON Interactive</span>
         </div>
@@ -60,7 +60,7 @@ ul {
   font-size: 1.2rem;
   margin: 0;
 }
-h2 {
+.footer-text {
   margin: 0;
   font-size: 2rem;
 }
@@ -68,7 +68,7 @@ a {
   font-size: 2rem;
   text-decoration: none;
   color: var(--color-highlight);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 a:hover {
   transition: all 300ms ease-in;

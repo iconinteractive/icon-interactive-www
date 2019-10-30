@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="latest-journals-heading container">
-      <h2 class="label">Events</h2>
+      <h2>
+        <g-link class="link" to="/events">Events</g-link>
+      </h2>
     </div>
     <div class="latest-journals">
       <div class="container">
@@ -61,6 +63,15 @@ export default {
 .journal-title {
   font-size: 1rem;
   line-height: 1.35;
+}
+
+.link {
+  text-decoration: none;
+  transition: all 500ms ease-out;
+}
+
+.link:hover {
+  transition: all 500ms ease-out;
 }
 
 @media (min-width: 580px) {

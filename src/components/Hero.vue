@@ -15,6 +15,7 @@ export default {
     return {
       copyArr: [
         "VR & AR",
+        "ACTIVATIONS",
         "INTERFACES",
         "INTERNET",
         "EXPERIENCES",
@@ -69,7 +70,7 @@ export default {
 .pink {
   color: var(--color-highlight);
 }
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   .hero-title {
     font-size: 11vw;
   }

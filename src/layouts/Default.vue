@@ -36,7 +36,7 @@ body {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 1rem;
   background: var(--color-base);
   color: var(--color-contrast);
   transition: background 0.5s ease;
@@ -99,6 +99,10 @@ img {
   display: block;
   font-weight: 700;
   margin-bottom: 0.5rem;
+}
+h2 {
+  font-family: "Archivo Black", "DM Sans", sans-serif;
+  font-size: 2rem;
 }
 @media (max-width: 620px) {
   h1 {
