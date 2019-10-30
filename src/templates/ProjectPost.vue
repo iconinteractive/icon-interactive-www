@@ -1,33 +1,31 @@
 <template>
   <Layout>
-    <div class="project">
-      <div class="container">
-        <div class="project-header">
-          <g-image :src="$page.post.thumbnail" :alt="$page.post.title" />
-          <h1 class="project-title" v-html="$page.post.title" />
-          <div class="project-info">
-            <div class="categories-container">
-              <div class="categories">
-                <span class="label">Categories</span>
-                <span
-                  class="category"
-                  v-for="(category, index) in $page.post.categories"
-                  :key="index"
-                  v-text="category"
-                />
-              </div>
-            </div>
-
-            <div class="year-container">
-              <span class="label">Year</span>
-              <div v-html="$page.post.date" />
+    <!-- <div class="project"> -->
+    <div class="container">
+      <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
+      <h1 class="title-sticky" v-html="$page.post.title" />
+      <div class="project-header">
+        <div class="project-info">
+          <div class="categories-container">
+            <div class="categories">
+              <span class="label">Categories</span>
+              <span
+                class="category"
+                v-for="(category, index) in $page.post.categories"
+                :key="index"
+                v-text="category"
+              />
             </div>
           </div>
+          <div class="year-container">
+            <span class="label">Year</span>
+            <div v-html="$page.post.date" />
+          </div>
         </div>
-
-        <div v-html="$page.post.content" class="content" />
       </div>
+      <div v-html="$page.post.content" class="content" />
     </div>
+    <!-- </div> -->
   </Layout>
 </template>
 
@@ -55,12 +53,15 @@ export default {
 
 <style scoped>
 .project-header {
-  padding: 10vh 0 4rem 0;
+  padding: 0vh 0 4rem 0;
 }
 .project-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
+}
+.thumbnail {
+  margin-top: 4rem;
 }
 .project-info {
   display: flex;
