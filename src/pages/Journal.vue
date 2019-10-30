@@ -1,26 +1,19 @@
 <template>
   <Layout>
-
     <div class="container">
-      <div class="journal-hero">
-        <h1 class="journal-header">
-          a wise person once said...
-        </h1>
-      </div>
+      <h1 class="title-sticky">Events</h1>
+      <g-link
+        :to="item.node.path"
+        v-for="item in $page.posts.edges"
+        :key="item.node.id"
+        class="journal-post"
+      >
+        <div class="container journal">
+          <h2 class="journal-title">{{ item.node.title }}</h2>
+          <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+        </div>
+      </g-link>
     </div>
-
-    <g-link 
-      :to="item.node.path"
-      v-for="item in $page.posts.edges" 
-      :key="item.node.id"
-      class="journal-post"
-    >
-      <div class="container journal">
-        <h2 class="journal-title">{{ item.node.title }}</h2>
-        <p class="journal-excerpt">{{ item.node.excerpt }}</p>
-      </div>
-    </g-link>
-      
   </Layout>
 </template>
 
@@ -40,19 +33,18 @@ query Journal {
 </page-query>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style scoped>
 .container.journal {
   max-width: 720px;
 }
-.journal-hero {
+/* .journal-hero {
   padding: 4rem 0;
   text-align: center;
   color: var(--color-base-1);
-}
+} */
 .journal-header {
   font-size: 3rem;
   font-weight: 700;

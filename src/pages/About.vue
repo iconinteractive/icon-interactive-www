@@ -59,15 +59,6 @@ export default {};
 </script>
 
 <style scoped>
-.title-sticky {
-  font-size: 4rem;
-  margin: 4rem 0 4rem 0;
-  padding: 0;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 1rem;
-}
-
 ul {
   list-style: none;
   padding: 0;
