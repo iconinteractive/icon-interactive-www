@@ -2,7 +2,6 @@
   <Layout>
     <div class="journal">
       <div class="container journal-container">
-
         <div class="journal-header">
           <h1 v-html="$page.post.title" class="journal-title" />
           <div class="journal-meta">
@@ -12,25 +11,23 @@
             </div>
             <div class="journal-date">
               <span class="label">Date</span>
-              <div v-text="$page.post.date"/>
+              <div v-text="$page.post.date" />
             </div>
             <div class="journal-time">
               <span class="label">Time</span>
               <span>{{ $page.post.timeToRead }} min read</span>
             </div>
-          </div>          
+          </div>
         </div>
-
-        <JournalContent :content="$page.post.content" />
-
+        <EventContent :content="$page.post.content" />
       </div>
     </div>
   </Layout>
 </template>
 
 <page-query>
-query JournalPost ($path: String!) {
-  post: journalPost (path: $path) {
+query EventPost ($path: String!) {
+  post: eventPost (path: $path) {
     title
     author
     date (format: "D. MMMM YYYY")
@@ -41,18 +38,18 @@ query JournalPost ($path: String!) {
 </page-query>
 
 <script>
-import JournalContent from "@/components/JournalContent"
+import EventContent from "@/components/EventContent";
 
 export default {
   components: {
-    JournalContent
+    EventContent
   },
-  metaInfo () {
+  metaInfo() {
     return {
       title: this.$page.post.title
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>

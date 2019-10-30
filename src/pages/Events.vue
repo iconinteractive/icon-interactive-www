@@ -18,8 +18,8 @@
 </template>
 
 <page-query>
-query Journal {
-	posts: allJournalPost {
+query Event {
+	posts: allEventPost {
     edges {
       node {
         id
