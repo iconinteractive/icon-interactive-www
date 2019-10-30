@@ -43,8 +43,8 @@ export default {
 }
 .project-title {
   position: absolute;
-  bottom: 2rem;
-  left: 2rem;
+  bottom: 0.3rem;
+  left: 2.5rem;
   font-size: 2rem;
   color: var(--color-contrast-1);
 }
