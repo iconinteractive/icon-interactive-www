@@ -51,12 +51,12 @@ export default {
 .project-title {
   position: absolute;
   bottom: 2rem;
-  left: 1rem;
+  left: 2rem;
   font-size: 2rem;
-  color: var(--color-contrast);
-  /* margin: 2rem 0 1rem 0; */
+  color: var(--color-contrast-1);
 }
 .thumbnail:hover + h3 {
+  transition: all 500ms ease-out;
   color: var(--color-highlight);
 }
 .categories {
