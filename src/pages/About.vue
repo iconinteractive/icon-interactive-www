@@ -68,6 +68,11 @@
             <g-image src="~/assets/dog.jpeg" alt="dog" />
             <span class="small-title">FAIRCHILD IPSUM</span>
             <p>Fairchild scientists conserve tropical plants, attempting to avoid the extinction of species and their habitats. This work leads to quantifiable conservation benefits to Fairchild’s priority geographic investment regions (South Florida, Caribbean, oceanic islands, tropical Africa, and Madagascar)</p>
+            <br />
+            <span class="small-title">LET'S GET BUILDING</span>
+            <h2>
+              <a href="https://www.linkedin.com/company/icon-interactive">Open Roles ⟶</a>
+            </h2>
           </div>
         </div>
       </section>
@@ -158,6 +163,14 @@ h2 {
 }
 img {
   margin-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  transition: all 500ms ease-in;
+}
+a:hover {
+  text-decoration: underline;
+  transition: all 500ms ease-in;
 }
 @media (max-width: 850px) {
   .title {
