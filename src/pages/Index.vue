@@ -4,7 +4,6 @@
       <Hero />
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
-    <LatestEvents :events="$page.events.edges" />
   </Layout>
 </template>
 
@@ -21,15 +20,6 @@ query Posts {
         path
       }
     }
-  },
-  events: allEventPost (perPage: 4) {
-    edges {
-      node {
-        id
-        path
-        title
-      }
-    }
   }
 }
 </page-query>
@@ -37,13 +27,11 @@ query Posts {
 <script>
 import Hero from "@/components/Hero";
 import ProjectsGrid from "@/components/ProjectsGrid";
-import LatestEvents from "@/components/LatestEvents";
 
 export default {
   components: {
     Hero,
-    ProjectsGrid,
-    LatestEvents
+    ProjectsGrid
   }
 };
 </script>
