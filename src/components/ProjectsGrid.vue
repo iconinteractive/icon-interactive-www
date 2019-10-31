@@ -63,4 +63,10 @@ export default {
 .category:last-of-type {
   margin: 0;
 }
+
+@media (max-width: 700px) {
+  .thumbnail {
+    height: 250px;
+  }
+}
 </style>

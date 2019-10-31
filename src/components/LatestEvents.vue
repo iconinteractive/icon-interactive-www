@@ -71,6 +71,7 @@ export default {
 
 .link:hover {
   transition: all 500ms ease-out;
+  text-decoration: underline;
 }
 
 @media (min-width: 580px) {

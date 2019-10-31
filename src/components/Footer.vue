@@ -4,7 +4,7 @@
       <div class="row">
         <!-- <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" /> -->
         <div class="column">
-          <h3 class="footer-text">Interested? Let's connect</h3>
+          <h4 class="footer-text">Interested? Let's connect</h4>
           <a href="mailto:hello@iconinteractive.com">hello@iconinteractive.com</a>
           <span>© {{date}} ICON Interactive</span>
         </div>
@@ -61,6 +61,7 @@ ul {
   margin: 0;
 }
 .footer-text {
+  font-weight: normal;
   margin: 0;
   font-size: 2rem;
 }

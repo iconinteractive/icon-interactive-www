@@ -48,6 +48,12 @@ h1 {
   margin: 0 0 2rem 0;
   padding-top: 1rem;
 }
+h3 {
+  font-family: "Archivo Black", "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
+  padding-top: 1rem;
+}
 
 .title-sticky {
   margin: 4rem 0 4rem 0;
