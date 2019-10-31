@@ -1,12 +1,14 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <div class="row">
-        <!-- <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" /> -->
-        <div class="column">
-          <h4 class="footer-text">Interested? Let's connect</h4>
-          <a href="mailto:hello@iconinteractive.com">hello@iconinteractive.com</a>
-          <span>© {{date}} ICON Interactive</span>
+      <div class="grid">
+        <div class="row">
+          <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />
+          <div class="column">
+            <span class="footer-text">Interested? Let's connect</span>
+            <a href="mailto:hello@iconinteractive.com">hello@iconinteractive.com</a>
+            <span>© {{date}} ICON Interactive</span>
+          </div>
         </div>
         <div class="column">
           <ul>
@@ -46,9 +48,13 @@ export default {
   fill: white;
   margin: 2% 5% 0 0;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+}
 .row {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
 }
 .column {
   display: flex;
@@ -76,8 +82,15 @@ a:hover {
   text-decoration: underline;
 }
 @media (max-width: 720px) {
+  .logo {
+    display: none;
+  }
   .row {
     flex-direction: column;
+    align-content: left;
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 
   ul {
