@@ -81,6 +81,10 @@ export default {
 </script>
 
 <style scoped>
+li {
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+}
 </style>
 
 

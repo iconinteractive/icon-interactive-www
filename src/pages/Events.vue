@@ -61,7 +61,7 @@ export default {};
   transition: transform 0.5s ease;
 }
 .journal-post:hover {
-  background-color: var(--color-base-1);
+  border: 1px solid var(--color-highlight);
 }
 .journal-post:hover > * {
   transform: translateX(4rem);

@@ -2,8 +2,8 @@
   <Layout>
     <div class="container">
       <h1 v-html="$page.post.title" class="title-sticky" />
-      <div class="journal-meta">
-        <div class="journal-date">
+      <div class="event-meta">
+        <div class="event-date">
           <span class="label">Date</span>
           <div v-text="$page.post.date" />
         </div>
@@ -39,26 +39,29 @@ export default {
 </script>
 
 <style scoped>
-.journal-container {
+.event-container {
   max-width: 840px;
 }
-.journal-header {
+.event-header {
   padding: 2rem 0 4rem 0;
 }
-.journal-title {
+.event-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }
-.journal-meta {
+.event-meta {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
-.journal-meta > div {
+.event-meta > div {
   margin-right: 4rem;
 }
-.journal-meta > div:last-of-type {
+.event-meta > div:last-of-type {
   margin: 0;
+}
+.label {
+  color: var(--color-highlight);
 }
 </style>
