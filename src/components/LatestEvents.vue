@@ -44,8 +44,9 @@ export default {
   flex: 0 0 100%;
   display: block;
   padding: 0.5rem;
-  transition: background 300ms ease;
+  transition: all 300ms ease;
   text-decoration: none;
+  border: 1px solid var(--color-base);
 }
 
 .event:last-of-type {
@@ -53,7 +54,7 @@ export default {
 }
 
 .event:hover {
-  background: var(--color-highlight);
+  border: 1px solid var(--color-highlight);
   color: #fff;
   transition: background 300ms ease;
 }
