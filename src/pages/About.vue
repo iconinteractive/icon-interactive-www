@@ -13,7 +13,7 @@
       </section>
       <section>
         <label>WHAT WE DO</label>
-        <h2 class="title-sticky">Capabilities</h2>
+        <h2>Capabilities</h2>
         <ul class="grid-four">
           <li class="project" v-for="(item,idx) in services" :key="idx">
             <label>{{idx + 1}}</label>
@@ -21,7 +21,8 @@
           </li>
         </ul>
         <label>WHERE WE ARE</label>
-        <h2 class="title-sticky">Locations</h2>
+        <h2>Locations</h2>
+        <g-image src="~/assets/place.jpeg" alt="buildings" />
         <ul class="grid-four">
           <li>
             <h3>Ann Arbor</h3>
@@ -55,6 +56,20 @@
             </p>
           </li>
         </ul>
+        <label>BE ICONIC</label>
+        <h2>Culture</h2>
+        <div class="grid-two">
+          <div>
+            <g-image src="~/assets/hat.jpeg" alt="icon hat" />
+            <span class="small-title">FAIRCHILD IPSUM</span>
+            <p>Fairchild scientists conserve tropical plants, attempting to avoid the extinction of species and their habitats. This work leads to quantifiable conservation benefits to Fairchild’s priority geographic investment regions (South Florida, Caribbean, oceanic islands, tropical Africa, and Madagascar)</p>
+          </div>
+          <div>
+            <g-image src="~/assets/dog.jpeg" alt="dog" />
+            <span class="small-title">FAIRCHILD IPSUM</span>
+            <p>Fairchild scientists conserve tropical plants, attempting to avoid the extinction of species and their habitats. This work leads to quantifiable conservation benefits to Fairchild’s priority geographic investment regions (South Florida, Caribbean, oceanic islands, tropical Africa, and Madagascar)</p>
+          </div>
+        </div>
       </section>
     </div>
   </Layout>
@@ -98,6 +113,11 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 4rem;
 }
+.grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
 label {
   position: relative;
   bottom: -8px;
@@ -105,6 +125,13 @@ label {
   background-color: var(--color-base);
   border-bottom: 1px solid var(--color-base);
   padding-right: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.small-title {
+  color: var(--color-highlight);
+  padding-top: 4rem;
 }
 h3 {
   width: 100%;
@@ -114,14 +141,10 @@ h3 {
 h2 {
   margin-top: 10px;
 }
-label {
-  font-size: 0.8rem;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-}
 .about-text {
   margin-left: 28%;
   max-width: 50%;
+  margin-bottom: 5%;
 }
 .title {
   font-size: 7rem;
@@ -133,11 +156,21 @@ label {
 .pink {
   color: var(--color-highlight);
 }
+img {
+  margin-bottom: 1rem;
+}
 @media (max-width: 850px) {
+  .title {
+    font-size: 11vw;
+  }
   .grid-four {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
+  }
+  .about-text {
+    margin-left: 0;
+    max-width: 90%;
   }
 }
 </style>
