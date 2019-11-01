@@ -5,10 +5,10 @@
         <div>
           <label>LET'S CONNECT</label>
           <h2>
-            <a href="hello@iconinteractive.com">hello@iconinteractive.com</a>
+            <a href="hello@iconinteractive.com">⟶ Email</a>
           </h2>
           <h2>
-            <a href="tel:7347079245">734.707.9245</a>
+            <a href="tel:7347079245">⟶ 734.707.9245</a>
           </h2>
           <ul class="grid-two">
             <li>
@@ -73,7 +73,6 @@ export default {
 .flex {
   margin-top: 4rem;
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
 }
 .pink {
@@ -84,10 +83,10 @@ export default {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 10vh;
-  transition: all 4s ease-in-out;
+  transition: all 5s ease-in-out;
 }
 .email:hover {
-  transition: all 4s ease-in-out;
+  transition: all 5s ease-in-out;
   filter: hue-rotate(360deg);
   animation: bounce 1s;
 }
@@ -101,14 +100,19 @@ a:hover {
 label {
   color: var(--color-highlight);
 }
+h2 {
+  margin: 0.8rem 0;
+}
 h3 {
   margin-bottom: 1rem;
 }
+
 .grid-two {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
+  grid-row-gap: 0.5rem;
 }
 .mail-link-container {
   height: 100%;
