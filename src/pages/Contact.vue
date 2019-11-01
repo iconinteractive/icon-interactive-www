@@ -82,7 +82,7 @@ export default {
   font-family: "Archivo Black", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 10vh;
+  font-size: 12vh;
   transition: all 5s ease-in-out;
 }
 .email:hover {
@@ -96,6 +96,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  transition: all 300ms ease-in;
 }
 label {
   color: var(--color-highlight);
