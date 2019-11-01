@@ -10,7 +10,6 @@
       >
         <div class="container event">
           <h2 class="event-title">{{ item.node.title }}</h2>
-          <p class="event-excerpt">{{ item.node.excerpt }}</p>
         </div>
       </g-link>
     </div>
@@ -25,7 +24,6 @@ query Event {
         id
         path
         title
-        excerpt
       }
     }
   }
@@ -69,9 +67,6 @@ export default {};
 .event-title {
   font-size: 2rem;
   color: var(--color-contrast);
-}
-.event-excerpt {
-  color: var(--color-contrast-1);
 }
 
 @media (min-width: 560px) {

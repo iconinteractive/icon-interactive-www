@@ -31,17 +31,9 @@ export default {
   position: relative;
   height: 1rem;
   z-index: 10;
-  /* position: fixed;
-  top: 4%;
-  left: 0; */
   width: 100%;
 }
-/* .header.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%; */
-/*  */
+
 .header > .container {
   display: flex;
   align-items: center;

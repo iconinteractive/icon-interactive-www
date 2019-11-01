@@ -2,9 +2,10 @@
   <div class="hero">
     <h1 class="hero-title">
       ICON
-      <br />DELIVERS
       <br />
-      <span class="pink">{{currentWord}}</span>
+      <span class="pink">DELIVERS</span>
+      <br />
+      {{currentWord}}
     </h1>
   </div>
 </template>

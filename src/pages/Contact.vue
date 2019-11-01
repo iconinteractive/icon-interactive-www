@@ -1,94 +1,138 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 class="title-sticky">Connect</h1>
-      <p>Contact us to learn more about our services.</p>
-      <form class="contact-form" name="contact">
-        <div class="sender-info">
-          <div>
-            <label for="name" class="label">Name</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email" class="label">Email</label>
-            <input type="email" name="email" />
-          </div>
+      <section class="flex">
+        <div>
+          <label>LET'S CONNECT</label>
+          <h2>
+            <a href="hello@iconinteractive.com">hello@iconinteractive.com</a>
+          </h2>
+          <h2>
+            <a href="tel:7347079245">734.707.9245</a>
+          </h2>
+          <ul class="grid-two">
+            <li>
+              <h3>Ann Arbor</h3>
+              <p>
+                220 Felch St
+                <br />Ann Arbor, MI 48103
+              </p>
+            </li>
+            <li>
+              <h3>New York</h3>
+              <p>
+                180 Varick St
+                <br />Suite 912
+                <br />New York, NY 1004
+              </p>
+            </li>
+            <li>
+              <h3>Boston</h3>
+              <p>
+                129 Kingston St
+                <br />Floor 2
+                <br />Boston, MA 02111
+              </p>
+            </li>
+            <li>
+              <h3>Detroit</h3>
+              <p>
+                1442 Brush St
+                <br />Floor 3
+                <br />Detroit, MI 48226
+              </p>
+            </li>
+          </ul>
         </div>
-        <div class="message">
-          <label for="message" class="label">Message</label>
-          <textarea name="message"></textarea>
+        <div class="mail-link-container">
+          <a href="mailto:hello@iconinteractive" class="email">
+            hello
+            <br />
+            <span class="pink">@</span>icon
+            <br />inter
+            <br />active
+            <br />.com
+          </a>
         </div>
-        <button class="button">Submit</button>
-      </form>
+      </section>
     </div>
   </Layout>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    openEmail() {
+      window.location.href = "mailto:mail@example.org";
+    }
+  }
+};
 </script>
 
 <style scoped>
-.sender-info {
+.flex {
+  margin-top: 4rem;
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
+  /* flex-direction: column; */
+  justify-content: space-between;
 }
-.sender-info > div {
-  flex: 1;
-  margin-right: 4rem;
-}
-.sender-info > div:last-of-type {
-  margin: 0;
-}
-input:focus,
-textarea:focus {
-  border-color: var(--color-highlight);
-  transition: all 300ms ease-in;
-}
-input,
-textarea {
-  background: transparent;
-  border: 1px solid var(--color-base-1);
-  outline: none;
-  border-radius: 0.3rem;
-  padding: 0.8rem 1rem;
-  color: inherit;
-  font-size: 1rem;
-  width: 100%;
-  transition: all 300ms ease-in;
-}
-textarea {
-  resize: none;
-  height: 140px;
-  transition: all 300ms ease-in;
-}
-textarea:focus {
-  border: 1px solid var(--color-highlight);
-  transition: all 300ms ease-in;
-}
-.button {
-  color: var(--color-contrast);
-  background: var(--color-base);
-  outline: none;
-  border: 0;
-  font-size: 0.8rem;
-  padding: 0.8rem 1.6rem;
-  border-radius: 0.3rem;
-  border: 1px solid #fff;
-  margin-top: 2rem;
-  cursor: pointer;
-  transition: opacity 0.25s ease;
-  font-size: 500;
-  letter-spacing: 0.035em;
-}
-.button:hover {
-  border: 1px solid var(--color-highlight);
-  transition: all 300ms ease-in;
+.pink {
   color: var(--color-highlight);
 }
-.button:focus {
-  border: 2px solid var(--color-highlight);
+.email {
+  font-family: "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10vh;
+  transition: all 4s ease-in-out;
+}
+.email:hover {
+  transition: all 4s ease-in-out;
+  filter: hue-rotate(360deg);
+  animation: bounce 1s;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+label {
+  color: var(--color-highlight);
+}
+h3 {
+  margin-bottom: 1rem;
+}
+.grid-two {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+.mail-link-container {
+  height: 100%;
+
+  text-align: right;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 </style>
 
