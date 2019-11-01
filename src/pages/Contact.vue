@@ -88,7 +88,6 @@ export default {
 .email:hover {
   transition: all 5s ease-in-out;
   filter: hue-rotate(360deg);
-  animation: bounce 1s;
 }
 a {
   display: block;
@@ -119,25 +118,6 @@ h3 {
   height: 100%;
 
   text-align: right;
-}
-@keyframes bounce {
-  0%,
-  20%,
-  60%,
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  80% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
 }
 </style>
 

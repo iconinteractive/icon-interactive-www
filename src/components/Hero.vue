@@ -2,10 +2,9 @@
   <div class="hero">
     <h1 class="hero-title">
       ICON
+      <br />DELIVERS
       <br />
-      <span class="pink">DELIVERS</span>
-      <br />
-      {{currentWord}}
+      <span class="pink">{{currentWord}}</span>
     </h1>
   </div>
 </template>
@@ -58,7 +57,7 @@ export default {
   /* width: 90vw; */
   max-width: 100%;
   margin: 0 auto;
-  padding: 4rem 0 8rem 0;
+  padding: 4rem 0 0 0;
 }
 
 .hero-title {

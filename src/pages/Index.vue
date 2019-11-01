@@ -1,10 +1,14 @@
 <template>
-  <Layout>
+  <section>
     <div class="container">
       <Hero />
-      <ProjectsGrid :projects="$page.projects.edges" />
     </div>
-  </Layout>
+    <Layout>
+      <div class="container spacer">
+        <ProjectsGrid :projects="$page.projects.edges" />
+      </div>
+    </Layout>
+  </section>
 </template>
 
 <page-query>
@@ -35,3 +39,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.spacer {
+  margin-top: 10rem;
+}
+</style>

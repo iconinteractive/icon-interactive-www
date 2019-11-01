@@ -3,7 +3,7 @@
     <div class="container">
       <div class="grid">
         <div class="row">
-          <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />
+          <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo-footer" />
           <div class="column">
             <span class="footer-text">Interested? Let's connect</span>
             <a href="mailto:hello@iconinteractive.com">hello@iconinteractive.com</a>
@@ -43,7 +43,7 @@ export default {
   font-size: 0.8rem;
   padding: 6rem 0;
 }
-.logo {
+.logo-footer {
   height: 3rem;
   fill: white;
   margin: 2% 5% 0 0;
@@ -82,7 +82,7 @@ a:hover {
   text-decoration: underline;
 }
 @media (max-width: 720px) {
-  .logo {
+  .logo-footer {
     display: none;
   }
   .row {
