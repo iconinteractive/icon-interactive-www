@@ -19,22 +19,22 @@ fields:
   label: Date
   config:
     required: true
-    date_format: YYYY-MM-DD
+    date_format: YYYY
     time_format: ''
-    export_format: YYYY-MM-DD
+    export_format: YYYY
     display_utc: true
   default: now
-  hidden: true
+  hidden: false
 - name: client
   type: text
   config:
-    required: false
+    required: true
   label: Client
 - name: brief
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
@@ -44,7 +44,7 @@ fields:
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
