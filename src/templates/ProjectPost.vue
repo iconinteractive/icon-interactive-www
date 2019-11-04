@@ -28,12 +28,12 @@
           </div>
         </div>
       </div>
-      <section class="project-info">
-        <div>
+      <section class="project-text-container">
+        <div class="project-text">
           <span class="label">Brief</span>
-          <p v-html="$page.post.intro" />
+          <p v-html="$page.post.brief" />
         </div>
-        <div>
+        <div class="project-text">
           <span class="label">Solution</span>
           <p v-html="$page.post.solution" />
         </div>
@@ -53,6 +53,7 @@ query ProjectPost ($path: String!) {
     categories
     brief
     solution
+    client
   }
 }
 </page-query>
@@ -89,6 +90,14 @@ export default {
 }
 .project-info > div:last-of-type {
   margin: 0;
+}
+.project-text-container {
+  display: flex;
+}
+.project-text {
+  width: 50%;
+
+  margin-right: 2rem;
 }
 .category:before {
   content: "- ";
