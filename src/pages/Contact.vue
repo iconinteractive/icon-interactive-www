@@ -5,7 +5,7 @@
         <div>
           <label>LET'S CONNECT</label>
           <h2>
-            <a href="hello@iconinteractive.com">⟶ Email</a>
+            <a href="mailto:hello@iconinteractive.com">⟶ Email</a>
           </h2>
           <h2>
             <a href="tel:7347079245">⟶ 734.707.9245</a>
