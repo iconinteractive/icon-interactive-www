@@ -1,7 +1,7 @@
 ---
 date: 2019-11-01
 year: 2019
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/481A9962-1200x800.jpg
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/ef-pro2x.jpg
 title: EF Pro Cycling
 categories:
 - Web
@@ -19,5 +19,4 @@ solution: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden
   Matheson Hammock Park.
 
 ---
-
-![](https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/Asset 9@2x-80.jpg)![](https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/Main.jpg)
+![](https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/frame32x.jpg)
