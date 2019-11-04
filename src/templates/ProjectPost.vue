@@ -96,7 +96,7 @@ export default {
 }
 .project-text {
   width: 50%;
-
+  font-size: 1rem;
   margin-right: 2rem;
 }
 .category:before {

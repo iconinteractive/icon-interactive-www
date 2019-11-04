@@ -84,6 +84,7 @@ export default {
   text-decoration: none;
   font-size: 12vh;
   transition: all 5s ease-in-out;
+  line-height: 0.9em;
 }
 .email:hover {
   transition: all 5s ease-in-out;
@@ -94,7 +95,6 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
   transition: all 300ms ease-in;
 }
 label {

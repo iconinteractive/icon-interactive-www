@@ -141,7 +141,8 @@ label {
 h3 {
   width: 100%;
   border-top: 1px solid var(--color-highlight);
-  margin-top: 2px;
+  padding-top: 32px;
+  margin-bottom: 1rem;
 }
 h2 {
   margin-top: 10px;
