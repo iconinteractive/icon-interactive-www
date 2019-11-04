@@ -7,7 +7,7 @@
         </g-link>
       </div>
       <div class="intro" :class="{hide: $route.path !== '/'}">
-        <p>ICON is a full service digital agency offering x, y, and z.</p>
+        <p>ICON is a digital agency offering software, design, & mixed realities.</p>
       </div>
       <nav class="nav" :class="{hide: $route.path === '/'}">
         <g-link class="nav__link" to="/projects">Work</g-link>
