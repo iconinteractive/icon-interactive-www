@@ -11,6 +11,9 @@ fields:
   label: Title
   config:
     required: true
+- type: tag_list
+  name: categories
+  label: Categories
 - type: datetime
   name: date
   label: Date
@@ -22,9 +25,31 @@ fields:
     display_utc: true
   default: now
   hidden: true
-- type: tag_list
-  name: categories
-  label: Categories
+- name: client
+  type: text
+  config:
+    required: false
+  label: Client
+- name: brief
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Brief
+  description: 'An intro to the project brief '
+- name: solution
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Solution
+  description: A paragraph about our process & solution
 pages:
-- projects/rare-signals.md
 - projects/panasonic-ces.md
+- projects/rare-signals.md
