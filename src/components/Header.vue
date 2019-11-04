@@ -48,12 +48,12 @@ export default {
     }
   },
   created() {
-    if (process.isClient && this.$route.path === "/") {
+    if (process.isClient) {
       document.addEventListener("scroll", this.handleScroll);
     }
   },
   destroyed() {
-    if (process.isClient && this.$route.path === "/") {
+    if (process.isClient) {
       document.removeEventListener("scroll", this.handleScroll);
     }
   }
