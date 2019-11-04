@@ -5,6 +5,7 @@ title: Rare Signals
 categories:
 - Branding
 - " Web Development"
+- Design
 brief: Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
   collections of rare tropical plants including palms, cycads, flowering trees, and
   vines.
