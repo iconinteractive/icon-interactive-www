@@ -82,9 +82,8 @@ export default {
   display: flex;
   width: 80%;
   justify-content: space-between;
-
   transition: all 1s ease-in-out;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-left: 10%;
 }
 .show {
