@@ -2,15 +2,16 @@
   <Layout>
     <div class="container">
       <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
-      <h1 class="title-sticky" v-html="$page.post.title" />
+
       <div class="project-header">
         <div class="project-info">
+          <span class="label" v-html="$page.post.client">Client</span>
+          <h1 class="title-sticky" v-html="$page.post.title" />
           <div class="categories-container">
             <div class="categories">
-              <span class="label">Services</span>
               <ul>
                 <li
-                  class="category"
+                  class="category label"
                   v-for="(category, index) in $page.post.categories"
                   :key="index"
                   v-text="category"
@@ -19,20 +20,14 @@
             </div>
           </div>
           <div class="year-container">
-            <span class="label">Year</span>
-            <div v-html="$page.post.date" />
+            <div />
           </div>
-          <div class="year-container">
-            <span class="label">Client</span>
-            <div v-html="$page.post.client" />
-          </div>
+        </div>
+        <div class="project-text">
+          <p v-html="$page.post.brief" />
         </div>
       </div>
       <section class="project-text-container">
-        <div class="project-text">
-          <span class="label">Brief</span>
-          <p v-html="$page.post.brief" />
-        </div>
         <div class="project-text">
           <span class="label">Solution</span>
           <p v-html="$page.post.solution" />
@@ -70,20 +65,29 @@ export default {
 
 <style scoped>
 .project-header {
-  padding: 0vh 0 4rem 0;
+  padding: 2rem 0 4rem 0;
+  display: flex;
 }
 .project-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }
+.title-sticky {
+  margin-top: 0;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
 .thumbnail {
   margin-top: 4rem;
 }
 .project-info {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   font-size: 1rem;
+  width: 50%;
+  margin-right: 3rem;
 }
 .project-info > div {
   margin-right: 4rem;
