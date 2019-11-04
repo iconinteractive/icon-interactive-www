@@ -22,8 +22,22 @@
             <span class="label">Year</span>
             <div v-html="$page.post.date" />
           </div>
+          <div class="year-container">
+            <span class="label">Client</span>
+            <div v-html="$page.post.client" />
+          </div>
         </div>
       </div>
+      <section class="project-info">
+        <div>
+          <span class="label">Brief</span>
+          <p v-html="$page.post.intro" />
+        </div>
+        <div>
+          <span class="label">Solution</span>
+          <p v-html="$page.post.solution" />
+        </div>
+      </section>
       <div v-html="$page.post.content" class="content" />
     </div>
   </Layout>
@@ -37,6 +51,8 @@ query ProjectPost ($path: String!) {
     thumbnail
     content
     categories
+    brief
+    solution
   }
 }
 </page-query>
@@ -83,7 +99,4 @@ export default {
 ul {
   margin: 0;
 }
-/* .content {
-  border: 3px solid salmon;
-} */
 </style>
