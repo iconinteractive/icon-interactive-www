@@ -51,5 +51,5 @@ fields:
   label: Solution
   description: A paragraph about our process & solution
 pages:
-- projects/rare-signals.md
 - projects/panasonic-ces.md
+- projects/rare-signals.md

@@ -6,13 +6,15 @@ categories:
 - Activation
 - " Interactive"
 - " Augmented Reality"
+client: Panasonic
+brief: Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
+  collections of rare tropical plants including palms, cycads, flowering trees, and
+  vines.
+solution: Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
+  collections of rare tropical plants including palms, cycads, flowering trees, and
+  vines.
 
 ---
-Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive collections of rare tropical plants including palms, cycads, flowering trees, and vines.
-
-## **Title**
-
-Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive collections of rare tropical plants including palms, cycads, flowering trees, and vines
 
 ![](https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.006.jpeg)
 
