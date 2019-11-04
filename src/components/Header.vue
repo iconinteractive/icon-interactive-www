@@ -149,5 +149,19 @@ export default {
 }
 .nav > .active {
   border-color: inherit;
+  color: var(--color-highlight);
+}
+
+@media (max-width: 700px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+  }
+
+  .nav__link {
+    margin: 1rem 0;
+    text-align: right;
+  }
 }
 </style>

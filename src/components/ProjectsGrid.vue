@@ -42,15 +42,16 @@ export default {
   box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
 }
 .project-title {
+  font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
   bottom: 0.3rem;
   left: 2.5rem;
   font-size: 2rem;
   color: var(--color-contrast-1);
-  transition: all 500ms ease-out;
+  transition: all 800ms ease-in-out;
 }
 .thumbnail:hover + h3 {
-  transition: all 500ms ease-out;
+  transition: all 800ms ease-in-out;
   color: var(--color-highlight);
 }
 .categories {

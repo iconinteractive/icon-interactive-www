@@ -66,13 +66,21 @@ export default {
   font-weight: 700;
   padding: 0;
   margin: 0 0 2rem 0;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 .pink {
   color: var(--color-highlight);
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 @media (max-width: 900px) {
   .hero-title {
-    font-size: 11vw;
+    font-size: 14vw;
   }
 }
 </style>
