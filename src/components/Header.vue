@@ -7,7 +7,7 @@
         </g-link>
       </div>
       <div class="intro" :class="{hide: $route.path !== '/'}">
-        <p>ICON is a digital agency offering software, design, & mixed realities.</p>
+        <p>ICON is a full service digital agency offering x, y, and z.</p>
       </div>
       <nav class="nav" :class="{hide: $route.path === '/'}">
         <g-link class="nav__link" to="/projects">Work</g-link>
@@ -83,9 +83,13 @@ export default {
   width: 80%;
   justify-content: space-between;
   transition: all 1s ease-in-out;
-  font-size: 1.7rem;
   margin-left: 10%;
 }
+
+.intro p {
+  font-size: 1.2rem;
+}
+
 .show {
   opacity: 1;
 }
