@@ -4,7 +4,7 @@ thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amaz
 title: Rare Signals
 categories:
   - Branding
-  - " Web Development"
+  - "Web Development"
   - Design
 brief:
   Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
