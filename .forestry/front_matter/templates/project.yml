@@ -85,7 +85,7 @@ fields:
   label: horizontal image three
   description: max file size is 250 mb
 pages:
+- projects/rare-signals.md
 - projects/dts.md
 - projects/ef-pro-cycling.md
-- projects/rare-signals.md
 - projects/panasonic-ces.md
