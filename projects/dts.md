@@ -29,3 +29,5 @@ solution: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden
 
 ---
 ![](https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.007.jpeg)
+
+![](https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.003.jpeg)
