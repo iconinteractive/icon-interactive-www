@@ -2,55 +2,79 @@
 label: Project
 hide_body: false
 fields:
-  - type: file
-    name: thumbnail
-    label: Thumbnail
-    description: This is the main image for the project.
-  - type: text
-    name: title
-    label: Title
-    config:
-      required: true
-  - type: tag_list
-    name: categories
-    label: Categories
-  - type: datetime
-    name: date
-    label: Date
-    config:
-      required: true
-      date_format: MM/YYYY
-      time_format: ""
-      export_format: YYYY-MM-DD
-      display_utc: true
-    default: now
-    hidden: true
-  - name: client
-    type: text
-    config:
-      required: true
-    label: Client
-  - name: brief
-    type: textarea
-    default: ""
-    config:
-      required: true
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Brief
-    description: "An intro to the project brief"
-  - name: solution
-    type: textarea
-    default: ""
-    config:
-      required: true
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Solution
-    description: A paragraph about our process & solution
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: This is the main image for the project.
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: tag_list
+  name: categories
+  label: Categories
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+    date_format: MM/YYYY
+    time_format: ''
+    export_format: YYYY-MM-DD
+    display_utc: true
+  default: now
+  hidden: true
+- name: client
+  type: text
+  config:
+    required: true
+  label: Client
+- name: horizontal_image_three
+  type: file
+  config:
+    maxSize: 250
+  label: horizontal image three
+  description: max file size is 250 mb
+- name: brief
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Brief
+  description: An intro to the project brief
+- name: solution
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Solution
+  description: A paragraph about our process & solution
+- name: horizontal_image_two
+  type: file
+  config:
+    maxSize: 250
+  label: horizontal image two
+  description: second horizontal image
+- name: vertical_image_one
+  type: file
+  config:
+    maxSize: 250
+  label: vertical image one
+  description: vertical image one
+- name: vertical_image_two
+  type: file
+  config:
+    maxSize: 250
+  label: vertical image two
+  description: vertical image two
 pages:
-  - projects/ef-pro-cycling.md
-  - projects/rare-signals.md
-  - projects/panasonic-ces.md
+- projects/rare-signals.md
+- projects/ef-pro-cycling.md
+- projects/panasonic-ces.md
