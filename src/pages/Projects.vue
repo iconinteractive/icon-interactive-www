@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 class="title-sticky">Work</h1>
+      <h1 class="title">Work</h1>
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
   </Layout>

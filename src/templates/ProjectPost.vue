@@ -2,11 +2,10 @@
   <Layout>
     <div class="container">
       <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
-
       <div class="project-header">
         <div class="project-info">
           <span class="label" v-html="$page.post.client">Client</span>
-          <h1 class="title-sticky" v-html="$page.post.title" />
+          <h1 class="title" v-html="$page.post.title" />
           <div class="categories-container">
             <div class="categories">
               <ul>
@@ -73,7 +72,7 @@ export default {
   margin: 0 0 4rem 0;
   padding: 0;
 }
-.title-sticky {
+.title {
   margin-top: 0;
   font-size: 3rem;
   margin-bottom: 1rem;

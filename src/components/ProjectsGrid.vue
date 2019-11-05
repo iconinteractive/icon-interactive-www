@@ -49,10 +49,12 @@ export default {
   font-size: 2rem;
   color: var(--color-contrast-1);
   transition: all 800ms ease-in-out;
+  padding: 0 0.5rem;
 }
 .thumbnail:hover + h3 {
   transition: all 800ms ease-in-out;
   color: var(--color-highlight);
+  background: var(--color-contrast-1);
 }
 .categories {
   font-size: 0.8rem;
