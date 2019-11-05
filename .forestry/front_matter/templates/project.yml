@@ -68,12 +68,6 @@ fields:
       format: markdown
   label: process
   description: A paragraph about our process.
-- name: horizontal_image_three
-  type: file
-  config:
-    maxSize: 250
-  label: horizontal image three
-  description: max file size is 250 mb
 - name: solution
   type: textarea
   default: ''
@@ -84,6 +78,12 @@ fields:
       format: markdown
   label: solution
   description: A paragraph about our solution.
+- name: horizontal_image_three
+  type: file
+  config:
+    maxSize: 250
+  label: horizontal image three
+  description: max file size is 250 mb
 pages:
 - projects/dts.md
 - projects/ef-pro-cycling.md
