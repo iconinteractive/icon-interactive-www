@@ -39,7 +39,7 @@ fields:
       schema:
         format: markdown
     label: Brief
-    description: "An intro to the project brief "
+    description: "An intro to the project brief"
   - name: solution
     type: textarea
     default: ""
