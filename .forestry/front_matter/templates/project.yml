@@ -2,55 +2,55 @@
 label: Project
 hide_body: false
 fields:
-- type: file
-  name: thumbnail
-  label: Thumbnail
-  description: This will only show up on the front page
-- type: text
-  name: title
-  label: Title
-  config:
-    required: true
-- type: tag_list
-  name: categories
-  label: Categories
-- type: datetime
-  name: date
-  label: Date
-  config:
-    required: true
-    date_format: MM/YYYY
-    time_format: ''
-    export_format: YYYY-MM-DD
-    display_utc: true
-  default: now
-  hidden: true
-- name: client
-  type: text
-  config:
-    required: true
-  label: Client
-- name: brief
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Brief
-  description: 'An intro to the project brief '
-- name: solution
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Solution
-  description: A paragraph about our process & solution
+  - type: file
+    name: thumbnail
+    label: Thumbnail
+    description: This is the main image for the project.
+  - type: text
+    name: title
+    label: Title
+    config:
+      required: true
+  - type: tag_list
+    name: categories
+    label: Categories
+  - type: datetime
+    name: date
+    label: Date
+    config:
+      required: true
+      date_format: MM/YYYY
+      time_format: ""
+      export_format: YYYY-MM-DD
+      display_utc: true
+    default: now
+    hidden: true
+  - name: client
+    type: text
+    config:
+      required: true
+    label: Client
+  - name: brief
+    type: textarea
+    default: ""
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Brief
+    description: "An intro to the project brief "
+  - name: solution
+    type: textarea
+    default: ""
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Solution
+    description: A paragraph about our process & solution
 pages:
-- projects/ef-pro-cycling.md
-- projects/rare-signals.md
-- projects/panasonic-ces.md
+  - projects/ef-pro-cycling.md
+  - projects/rare-signals.md
+  - projects/panasonic-ces.md
