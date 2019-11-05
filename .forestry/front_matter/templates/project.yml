@@ -30,12 +30,6 @@ fields:
   config:
     required: true
   label: Client
-- name: horizontal_image_three
-  type: file
-  config:
-    maxSize: 250
-  label: horizontal image three
-  description: max file size is 250 mb
 - name: brief
   type: textarea
   default: ''
@@ -46,16 +40,6 @@ fields:
       format: markdown
   label: Brief
   description: An intro to the project brief
-- name: solution
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Solution
-  description: A paragraph about our process & solution
 - name: horizontal_image_two
   type: file
   config:
@@ -74,6 +58,32 @@ fields:
     maxSize: 250
   label: vertical image two
   description: vertical image two
+- name: process
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: process
+  description: A paragraph about our process.
+- name: horizontal_image_three
+  type: file
+  config:
+    maxSize: 250
+  label: horizontal image three
+  description: max file size is 250 mb
+- name: solution
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: solution
+  description: A paragraph about our solution.
 pages:
 - projects/rare-signals.md
 - projects/ef-pro-cycling.md
