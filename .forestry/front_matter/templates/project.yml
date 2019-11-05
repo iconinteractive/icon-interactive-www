@@ -85,6 +85,7 @@ fields:
   label: solution
   description: A paragraph about our solution.
 pages:
+- projects/dts.md
 - projects/ef-pro-cycling.md
 - projects/rare-signals.md
 - projects/panasonic-ces.md
