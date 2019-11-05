@@ -23,10 +23,24 @@
           <p v-html="$page.post.brief" />
         </div>
       </div>
-      <g-image :src="$page.post.horizontal_image_two" :alt="$page.post.title" />
+      <g-image
+        v-if="$page.post.horizontal_image_two"
+        :src="$page.post.horizontal_image_two"
+        :alt="$page.post.title"
+      />
       <section class="two-column">
-        <g-image class="vertical-img" :src="$page.post.vertical_image_one" :alt="$page.post.title" />
-        <g-image class="vertical-img" :src="$page.post.vertical_image_two" :alt="$page.post.title" />
+        <g-image
+          v-if="$page.post.vertical_image_one"
+          class="vertical-img"
+          :src="$page.post.vertical_image_one"
+          :alt="$page.post.title"
+        />
+        <g-image
+          v-if="$page.post.vertical_image_two"
+          class="vertical-img"
+          :src="$page.post.vertical_image_two"
+          :alt="$page.post.title"
+        />
       </section>
       <section class="two-column">
         <div class="project-text">
@@ -38,7 +52,11 @@
           <p v-html="$page.post.solution" />
         </div>
       </section>
-      <g-image :src="$page.post.horizontal_image_three" :alt="$page.post.title" />
+      <g-image
+        v-if="$page.post.horizontal_image_three"
+        :src="$page.post.horizontal_image_three"
+        :alt="$page.post.title"
+      />
       <div v-html="$page.post.content" class="content" />
     </div>
   </Layout>
@@ -115,7 +133,7 @@ export default {
   display: flex;
 }
 img {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 .category:before {
   content: "- ";
