@@ -18,15 +18,17 @@
               </ul>
             </div>
           </div>
-          <div class="year-container">
-            <div />
-          </div>
         </div>
         <div class="project-text">
           <p v-html="$page.post.brief" />
         </div>
       </div>
+      <g-image :src="$page.post.horizontal_image_two" :alt="$page.post.title" />
       <section class="project-text-container">
+        <div class="project-text">
+          <span class="label">Process</span>
+          <p v-html="$page.post.process" />
+        </div>
         <div class="project-text">
           <span class="label">Solution</span>
           <p v-html="$page.post.solution" />
@@ -43,11 +45,16 @@ query ProjectPost ($path: String!) {
     title
     date (format: "YYYY")
     thumbnail
+    client
     content
     categories
     brief
+    process
     solution
-    client
+    horizontal_image_two
+    vertical_image_one
+    vertical_image_two
+    horizontal_image_three
   }
 }
 </page-query>
@@ -79,6 +86,11 @@ export default {
 }
 .thumbnail {
   margin-top: 4rem;
+}
+
+.half-column {
+  display: flex;
+  width: 50%;
 }
 .project-info {
   display: flex;
