@@ -23,8 +23,8 @@ sections:
   label: Theme config
 upload_dir: ''
 public_path: https://s3.amazonaws.com/forestry.iconinteractive.com
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: ":filename:"
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: dist
