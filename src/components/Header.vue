@@ -66,6 +66,7 @@ export default {
   height: 1rem;
   z-index: 10;
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .header.sticky {

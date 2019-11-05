@@ -28,19 +28,14 @@
         :src="$page.post.horizontal_image_two"
         :alt="$page.post.title"
       />
-      <section class="two-column">
+      <section class="two-column" v-if="$page.post.vertical_image_one">
         <g-image
           v-if="$page.post.vertical_image_one"
           class="vertical-img"
           :src="$page.post.vertical_image_one"
           :alt="$page.post.title"
         />
-        <g-image
-          v-if="$page.post.vertical_image_two"
-          class="vertical-img"
-          :src="$page.post.vertical_image_two"
-          :alt="$page.post.title"
-        />
+        <g-image class="vertical-img" :src="$page.post.vertical_image_two" :alt="$page.post.title" />
       </section>
       <section class="two-column">
         <div class="project-text">
@@ -108,9 +103,8 @@ export default {
   margin-bottom: 1rem;
 }
 .thumbnail {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
-
 .two-column {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -132,7 +126,7 @@ export default {
 .project-text-container {
   display: flex;
 }
-img {
+.g-image {
   margin: 2rem 0;
 }
 .category:before {

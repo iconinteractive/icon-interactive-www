@@ -56,7 +56,6 @@ export default {
   background: var(--color-highlight);
   color: var(--color-contrast-1);
 }
-
 h3:hover {
   background: var(--color-highlight);
   color: var(--color-contrast-1);
