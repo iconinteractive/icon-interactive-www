@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
       <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
-      <div class="project-header">
+      <div class="two-column">
         <div class="project-info">
           <span class="label" v-html="$page.post.client">Client</span>
           <h1 class="title" v-html="$page.post.title" />
@@ -19,12 +19,16 @@
             </div>
           </div>
         </div>
-        <div class="project-text">
+        <div class="project-info">
           <p v-html="$page.post.brief" />
         </div>
       </div>
       <g-image :src="$page.post.horizontal_image_two" :alt="$page.post.title" />
-      <section class="project-text-container">
+      <section class="two-column">
+        <g-image class="vertical-img" :src="$page.post.vertical_image_one" :alt="$page.post.title" />
+        <g-image class="vertical-img" :src="$page.post.vertical_image_two" :alt="$page.post.title" />
+      </section>
+      <section class="two-column">
         <div class="project-text">
           <span class="label">Process</span>
           <p v-html="$page.post.process" />
@@ -34,6 +38,7 @@
           <p v-html="$page.post.solution" />
         </div>
       </section>
+      <g-image :src="$page.post.horizontal_image_three" :alt="$page.post.title" />
       <div v-html="$page.post.content" class="content" />
     </div>
   </Layout>
@@ -88,31 +93,29 @@ export default {
   margin-top: 4rem;
 }
 
-.half-column {
-  display: flex;
-  width: 50%;
+.two-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: auto;
+}
+.vertical-img {
+  margin-right: 2.5%;
 }
 .project-info {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   font-size: 1rem;
-  width: 50%;
-  margin-right: 3rem;
+  width: 90%;
+  margin: 4rem 2rem;
 }
 .project-info > div {
   margin-right: 4rem;
 }
-.project-info > div:last-of-type {
-  margin: 0;
-}
+
 .project-text-container {
   display: flex;
 }
-.project-text {
-  width: 50%;
-  font-size: 1rem;
-  margin-right: 2rem;
+img {
+  margin: 1rem 0;
 }
 .category:before {
   content: "- ";
