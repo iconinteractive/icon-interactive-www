@@ -105,12 +105,12 @@ img {
 
 .text-container {
   width: 70%;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .label {
   display: block;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 h2 {
