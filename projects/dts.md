@@ -25,7 +25,7 @@ solution: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden
   with extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
-  Matheson Hammock Park.
+  Matheson Hammock Park. bloop
 
 ---
 ![](https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.007.jpeg)
