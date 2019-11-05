@@ -14,7 +14,7 @@ brief: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, w
   Matheson Hammock Park.
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.006.jpeg
 vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/vert-2.jpg
-vertical_image_two: ''
+vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/vert-2.jpg
 process: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
   extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
