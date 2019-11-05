@@ -23,7 +23,7 @@ export default {
 <style scoped>
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 4rem;
 }
 .project {
