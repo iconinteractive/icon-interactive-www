@@ -33,7 +33,7 @@ export default {
     };
   },
   created() {
-    console.log("👽");
+    console.log("👽 Built on gridsome & forestry");
     this.currentWord = this.copyArr[this.idx];
     const wordUpdate = setInterval(() => {
       if (this.idx === 10) {
@@ -56,8 +56,11 @@ export default {
   text-align: left;
   max-width: 100%;
   margin: 0 auto;
-  padding: 4rem 0 0 0;
+  padding: 10vh 15vw;
   hyphens: auto;
+  width: calc(100vw + 15px);
+  height: 70vh;
+  text-align: left;
 }
 
 .hero-title {
@@ -79,6 +82,9 @@ export default {
   hyphens: auto;
 }
 @media (max-width: 900px) {
+  .hero {
+    padding: 5vh 5vw;
+  }
   .hero-title {
     font-size: 14vw;
   }

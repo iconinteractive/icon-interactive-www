@@ -1,8 +1,6 @@
 <template>
   <section>
-    <div class="container">
-      <Hero />
-    </div>
+    <Hero />
     <Layout>
       <div class="container spacer">
         <ProjectsGrid :projects="$page.projects.edges" />
