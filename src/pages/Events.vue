@@ -1,7 +1,10 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 class="title-sticky">Events</h1>
+      <h1 class="title">
+        LATEST &
+        <span class="pink">GREATEST</span>
+      </h1>
       <g-link
         :to="item.node.path"
         v-for="item in $page.posts.edges"
@@ -9,6 +12,7 @@
         class="event-post"
       >
         <div class="container event">
+          <label>{{item.node.date}}</label>
           <h2 class="event-title">{{ item.node.title }}</h2>
         </div>
       </g-link>
@@ -24,6 +28,7 @@ query Event {
         id
         path
         title
+        date (format: "MM-YYYY")
       }
     }
   }
@@ -67,6 +72,10 @@ export default {};
 .event-title {
   font-size: 2rem;
   color: var(--color-contrast);
+}
+.pink {
+  display: block;
+  color: var(--color-highlight);
 }
 
 @media (min-width: 560px) {
