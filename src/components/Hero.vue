@@ -18,7 +18,6 @@ export default {
         "ACTIVATIONS",
         "INTERFACES",
         "INTERNET",
-        "EXPERIENCES",
         "SOFTWARE",
         "HARDWARE",
         "SERVERS",
@@ -83,10 +82,9 @@ export default {
   .hero {
     padding: 5vh 5vw;
     height: 65vh;
-    border: 1px solid cyan;
   }
   .hero-title {
-    font-size: 15vw;
+    font-size: 12vw;
   }
 }
 </style>

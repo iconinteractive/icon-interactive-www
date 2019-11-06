@@ -167,5 +167,8 @@ export default {
   .nav__link:hover {
     text-decoration: none;
   }
+  .intro p {
+    font-size: 1rem;
+  }
 }
 </style>
