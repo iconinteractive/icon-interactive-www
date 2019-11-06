@@ -10,3 +10,5 @@ Fairchild scientists conserve tropical plants, attempting to avoid the extinctio
 These have been selected because of conservation need, institutional expertise, and history. Main activities include field exploration of important plant areas, conservation assessments, species recovery, and direct support to in-situ conservation.
 
 Fairchild partners with area colleges (including Florida International University, University of Miami, Miami Dade College, and University of Florida) to train graduate and postdoctoral students.
+
+![](https://s3.amazonaws.com/forestry.iconinteractive.com/flamingo.gif)
