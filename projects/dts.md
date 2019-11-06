@@ -3,30 +3,29 @@ date: 2019-10-05
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.003.jpeg
 title: DTS
 categories:
-  - web
-  - " mobile"
-  - experiental
+- web
+- " mobile"
+- experiental
 client: Digital Theater Systems
-brief:
-  Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
+brief: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
   extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
   Matheson Hammock Park.
-horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.006.jpeg
-vertical_image_one: ""
-vertical_image_two: ""
-process:
-  Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
+horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.004.jpeg
+vertical_image_one: ''
+vertical_image_two: ''
+process: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
   extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
   Matheson Hammock Park.
 horizontal_image_three: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.005.jpeg
-solution:
-  Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden,
+solution: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden,
   with extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
   Matheson Hammock Park. bloop
+display_on_home_page: false
+
 ---
