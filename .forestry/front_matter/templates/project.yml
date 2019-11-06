@@ -11,6 +11,11 @@ fields:
   label: Title
   config:
     required: true
+- name: display_on_home_page
+  type: boolean
+  label: Display on home page
+  description: toggles if project should be displayed on the home page :)
+  default: false
 - type: tag_list
   name: categories
   label: Categories
