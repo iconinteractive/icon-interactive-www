@@ -4,7 +4,7 @@ thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.003.jpeg
 title: DTS
 categories:
   - web
-  - " mobile"
+  - "mobile"
   - experiental
 client: Digital Theater Systems
 brief:
@@ -29,5 +29,5 @@ solution:
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
   Matheson Hammock Park.
-display_on_home_page: false
+display_on_home_page: true
 ---

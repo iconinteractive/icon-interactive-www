@@ -119,5 +119,14 @@ h3 {
 
   text-align: right;
 }
+@media (max-width: 850px) {
+  .grid-two {
+    grid-template-columns: 1fr;
+  }
+
+  .flex {
+    display: block;
+  }
+}
 </style>
 

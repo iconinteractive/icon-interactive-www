@@ -7,7 +7,7 @@
         </g-link>
       </div>
       <div class="intro" :class="{hide: $route.path !== '/'}">
-        <p>ICON is a full service digital agency offering x, y, and z.</p>
+        <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
       </div>
       <nav class="nav" :class="{hide: $route.path === '/'}">
         <g-link class="nav__link" to="/projects">Work</g-link>
@@ -84,7 +84,7 @@ export default {
   width: 80%;
   justify-content: space-between;
   transition: all 1s ease-in-out;
-  margin-left: 10%;
+  margin: 0 7%;
 }
 
 .intro p {
@@ -144,12 +144,11 @@ export default {
   margin: 0;
 }
 .nav > *:hover {
-  border-color: inherit;
+  /* border-color: inherit; */
   color: var(--color-highlight);
   transition: all 300ms ease-in;
 }
 .nav > .active {
-  border-color: inherit;
   color: var(--color-highlight);
 }
 
@@ -161,8 +160,12 @@ export default {
   }
 
   .nav__link {
-    margin: 1rem 0;
+    margin: 0;
     text-align: right;
+  }
+
+  .nav__link:hover {
+    text-decoration: none;
   }
 }
 </style>

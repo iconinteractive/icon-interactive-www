@@ -138,4 +138,9 @@ export default {
 ul {
   margin: 0;
 }
+@media (max-width: 850px) {
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

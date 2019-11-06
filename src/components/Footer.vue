@@ -97,5 +97,11 @@ a:hover {
     margin-top: 2rem;
     text-align: left;
   }
+  a {
+    font-size: 1.5rem;
+  }
+  .footer-text {
+    font-size: 1.5rem;
+  }
 }
 </style>

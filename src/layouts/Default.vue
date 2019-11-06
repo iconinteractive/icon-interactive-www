@@ -1,7 +1,9 @@
 <template>
   <div class="layout">
     <Header />
-    <slot />
+    <transition name="fade" appear>
+      <slot />
+    </transition>
     <Footer />
   </div>
 </template>
@@ -83,6 +85,13 @@ h3 {
 ul {
   list-style: none;
   padding: 0;
+}
+.fade-enter-active {
+  transition: opacity 0.75s;
+}
+
+.fade-enter {
+  opacity: 0;
 }
 
 @media (min-width: 860px) {

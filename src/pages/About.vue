@@ -179,8 +179,11 @@ a:hover {
   }
   .grid-four {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 4rem;
+  }
+  .grid-two {
+    grid-template-columns: 1fr;
   }
   .about-text {
     margin-left: 0;

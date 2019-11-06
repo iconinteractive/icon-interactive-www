@@ -11,8 +11,8 @@
 
 <page-query>
 query Posts {
-	projects: allProjectPost {
-    edges {
+	projects: allProjectPost (filter: {display_on_home_page: {eq: true}}){
+    edges{
       node {
         id
         date (format: "YYYY")
@@ -20,6 +20,7 @@ query Posts {
         categories
         thumbnail
         path
+        display_on_home_page
       }
     }
   }
