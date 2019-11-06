@@ -11,6 +11,7 @@
       </div>
       <nav class="nav" :class="{hide: $route.path === '/'}">
         <g-link class="nav__link" to="/projects">Work</g-link>
+        <g-link class="nav__link" to="/events">News</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
         <g-link class="nav__link" to="/contact">Connect</g-link>
       </nav>
@@ -88,7 +89,7 @@ export default {
 }
 
 .intro p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .show {
@@ -108,7 +109,7 @@ export default {
   text-decoration: none;
 }
 .logo {
-  height: 5rem;
+  height: 7rem;
   fill: white;
 }
 .logo:hover {

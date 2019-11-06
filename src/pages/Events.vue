@@ -62,7 +62,7 @@ export default {};
   border: 1px solid var(--color-highlight);
 }
 .event-post:hover > * {
-  transform: translateX(4rem);
+  transform: translateX(3rem);
 }
 .event-post h1,
 .event-post h2 {
