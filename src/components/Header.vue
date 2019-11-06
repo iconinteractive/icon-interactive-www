@@ -85,7 +85,7 @@ export default {
   width: 80%;
   justify-content: space-between;
   transition: all 1s ease-in-out;
-  margin: 0 7%;
+  margin: 0 10%;
 }
 
 .intro p {
