@@ -27,6 +27,8 @@ front_matter_path: " "
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+  preview_env:
+  - GRAPHQL_ENDPOINT=/___graphql
   preview_output_directory: dist
   install_dependencies_command: npm install
   preview_docker_image: node:10
