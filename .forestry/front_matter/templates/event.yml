@@ -17,3 +17,5 @@ fields:
     time_format: ''
     export_format: YYYY-MM-DD
   default: now
+pages:
+- events/rocket-mortgage-nexus-league-of-legends-360°-fan-dome.md

@@ -91,6 +91,6 @@ fields:
   description: max file size is 250 mb
 pages:
 - projects/rare-signals.md
-- projects/ef-pro-cycling.md
-- projects/dts.md
 - projects/panasonic-ces.md
+- projects/dts.md
+- projects/ef-pro-cycling.md
