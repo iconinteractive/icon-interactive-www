@@ -1,14 +1,14 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 v-html="$page.post.title" class="title-sticky" />
+      <h1 v-html="$page.post.title" class="title" />
       <div class="event-meta">
         <div class="event-date">
           <span class="label">Date</span>
           <div v-text="$page.post.date" />
         </div>
       </div>
-      <EventContent :content="$page.post.content" />
+      <EventContent class="event-content" :content="$page.post.content" />
     </div>
   </Layout>
 </template>
@@ -39,8 +39,8 @@ export default {
 </script>
 
 <style scoped>
-.event-container {
-  max-width: 840px;
+.event-content {
+  width: 60%;
 }
 .event-header {
   padding: 2rem 0 4rem 0;
@@ -63,5 +63,10 @@ export default {
 }
 .label {
   color: var(--color-highlight);
+}
+@media (max-width: 860px) {
+  .event-content {
+    width: 95%;
+  }
 }
 </style>

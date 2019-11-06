@@ -12,7 +12,7 @@
         class="event-post"
       >
         <div class="container event">
-          <label>{{item.node.date}}</label>
+          <label class="pink">{{item.node.date}}</label>
           <h2 class="event-title">{{ item.node.title }}</h2>
         </div>
       </g-link>
@@ -51,7 +51,7 @@ export default {};
 }
 .event-post {
   display: block;
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-decoration: none;
   transition: background 0.5s ease;
 }
@@ -80,13 +80,13 @@ export default {};
 
 @media (min-width: 560px) {
   .event-post {
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
 }
 
 @media (min-width: 860px) {
   .event-post {
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
 }
 </style>
