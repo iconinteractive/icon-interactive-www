@@ -9,8 +9,8 @@ categories:
 brief: Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
   collections of rare tropical plants including palms, cycads, flowering trees, and
   vines. Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
-  collections of rare tropical plants including palms, cycads, flowering trees, and
-  vines.
+  collections of rare tropical plants including palms, cycads, bulbs, flowering trees,
+  and vines.
 client: Rare Signals
 solution: Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
   collections of rare tropical plants including palms, cycads, flowering trees, and
