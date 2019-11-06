@@ -69,14 +69,14 @@ export default {
   font-weight: 700;
   padding: 0;
   margin: 0 0 2rem 0;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
 }
 .pink {
   color: var(--color-highlight);
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
@@ -84,6 +84,7 @@ export default {
 @media (max-width: 900px) {
   .hero {
     padding: 5vh 5vw;
+    height: 70vh;
   }
   .hero-title {
     font-size: 14vw;
