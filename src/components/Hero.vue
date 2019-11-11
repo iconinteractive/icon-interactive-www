@@ -4,28 +4,32 @@
       ICON
       <br />DELIVERS
       <br />
-      <VueTyper
-        :text="copyArr"
-        :repeat="Infinity"
-        :shuffle="false"
-        initial-action="typing"
-        :pre-type-delay="70"
-        :type-delay="75"
-        :pre-erase-delay="2000"
-        :erase-delay="200"
-        erase-style="select-back"
-        :erase-on-complete="false"
-        caret-animation="blink"
-      ></VueTyper>
+      <ClientOnly>
+        <VueTyper
+          :text="copyArr"
+          :repeat="Infinity"
+          :shuffle="false"
+          initial-action="typing"
+          :pre-type-delay="70"
+          :type-delay="75"
+          :pre-erase-delay="2000"
+          :erase-delay="180"
+          erase-style="select-back"
+          :erase-on-complete="false"
+          caret-animation="blink"
+        ></VueTyper>
+      </ClientOnly>
     </h1>
   </div>
 </template>
 
 <script>
-import { VueTyper } from "vue-typer";
 export default {
   components: {
-    VueTyper
+    VueTyper: () =>
+      import("vue-typer")
+        .then(m => m.VueTyper)
+        .catch()
   },
   data() {
     return {
