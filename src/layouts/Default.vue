@@ -45,6 +45,12 @@ body {
   color: var(--color-contrast);
   transition: background 0.5s ease;
 }
+::selection {
+  background: rgba(229, 19, 101, 1);
+}
+::-moz-selection {
+  background: rgba(229, 19, 101, 1);
+}
 
 h1 {
   font-family: "Archivo Black", "DM Sans", sans-serif;

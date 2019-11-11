@@ -13,8 +13,8 @@
           :pre-type-delay="70"
           :type-delay="75"
           :pre-erase-delay="2000"
-          :erase-delay="180"
-          erase-style="select-back"
+          :erase-delay="480"
+          erase-style="select-all"
           :erase-on-complete="false"
           caret-animation="blink"
         ></VueTyper>
