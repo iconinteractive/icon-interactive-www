@@ -4,13 +4,29 @@
       ICON
       <br />DELIVERS
       <br />
-      <span class="pink">{{currentWord}}</span>
+      <VueTyper
+        :text="copyArr"
+        :repeat="Infinity"
+        :shuffle="false"
+        initial-action="typing"
+        :pre-type-delay="70"
+        :type-delay="75"
+        :pre-erase-delay="2000"
+        :erase-delay="200"
+        erase-style="select-back"
+        :erase-on-complete="false"
+        caret-animation="blink"
+      ></VueTyper>
     </h1>
   </div>
 </template>
 
 <script>
+import { VueTyper } from "vue-typer";
 export default {
+  components: {
+    VueTyper
+  },
   data() {
     return {
       copyArr: [
@@ -33,24 +49,34 @@ export default {
   },
   created() {
     console.log("👽 Built on gridsome & forestry");
-    this.currentWord = this.copyArr[this.idx];
-    const wordUpdate = setInterval(() => {
-      if (this.idx === 10) {
-        this.idx = 0;
-      } else {
-        this.idx++;
-      }
-      this.currentWord = this.copyArr[this.idx];
-    }, 2000);
-    this.intervalId = wordUpdate;
+    // this.currentWord = this.copyArr[this.idx];
+    // const wordUpdate = setInterval(() => {
+    //   if (this.idx === 10) {
+    //     this.idx = 0;
+    //   } else {
+    //     this.idx++;
+    //   }
+    //   this.currentWord = this.copyArr[this.idx];
+    // }, 2000);
+    // this.intervalId = wordUpdate;
   },
   destroyed() {
-    clearInterval(this.intervalId);
+    // clearInterval(this.intervalId);
   }
 };
 </script>
 
 <style>
+.vue-typer .custom.char.typed {
+  color: #e51365;
+}
+.vue-typer .custom.caret {
+  background-color: #e51365;
+}
+.vue-typer .custom.char.selected {
+  background-color: #e51365;
+  color: #fff;
+}
 .hero {
   text-align: left;
   max-width: 100%;

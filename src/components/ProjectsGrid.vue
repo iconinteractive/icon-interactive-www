@@ -1,5 +1,5 @@
 <template>
-  <div class="projects">
+  <div class="projects" :class="{twoColumn: $route.path === '/projects'}">
     <div class="project" v-for="item in projects" :key="item.node.id">
       <g-link :to="item.node.path" class="project-link">
         <g-image :src="item.node.thumbnail" :alt="item.node.title" class="thumbnail" />
@@ -26,9 +26,12 @@ export default {
   grid-template-columns: 1fr;
   grid-gap: 4rem;
 }
+.twoColumn {
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 10vh 50vh; */
+}
 .project {
   position: relative;
-  grid-column: auto / span 2;
   text-align: center;
   z-index: 0;
 }
