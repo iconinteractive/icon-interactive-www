@@ -1,132 +1,94 @@
 <template>
   <Layout>
     <div class="container">
-      <section class="flex">
-        <div>
-          <label>LET'S CONNECT</label>
-          <h2>
-            <a href="mailto:hello@iconinteractive.com">⟶ Email</a>
-          </h2>
-          <h2>
-            <a href="tel:7347079245">⟶ 734.707.9245</a>
-          </h2>
-          <ul class="grid-two">
-            <li>
-              <h3>Ann Arbor</h3>
-              <p>
-                220 Felch St
-                <br />Ann Arbor, MI 48103
-              </p>
-            </li>
-            <li>
-              <h3>New York</h3>
-              <p>
-                180 Varick St
-                <br />Suite 912
-                <br />New York, NY 1004
-              </p>
-            </li>
-            <li>
-              <h3>Boston</h3>
-              <p>
-                129 Kingston St
-                <br />Floor 2
-                <br />Boston, MA 02111
-              </p>
-            </li>
-            <li>
-              <h3>Detroit</h3>
-              <p>
-                1442 Brush St
-                <br />Floor 3
-                <br />Detroit, MI 48226
-              </p>
-            </li>
-          </ul>
+      <h1 class="title">Connect</h1>
+      <form class="contact-form" name="contact">
+        <div class="sender-info">
+          <div>
+            <label for="name" class="label">Name</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="email" class="label">Email</label>
+            <input type="email" name="email" />
+          </div>
         </div>
-        <div class="mail-link-container">
-          <a href="mailto:hello@iconinteractive" class="email">
-            hello
-            <br />
-            <span class="pink">@</span>icon
-            <br />inter
-            <br />active
-            <br />.com
-          </a>
+        <div class="message">
+          <label for="message" class="label">Message</label>
+          <textarea name="message"></textarea>
         </div>
-      </section>
+        <button class="button">Send</button>
+      </form>
     </div>
   </Layout>
 </template>
 
 <script>
-export default {
-  methods: {
-    openEmail() {
-      window.location.href = "mailto:mail@example.org";
-    }
-  }
-};
+export default {};
 </script>
 
 <style scoped>
-.flex {
-  margin-top: 4rem;
+.contact-header {
+  padding: 2rem 0 4rem 0;
+}
+.contact-title {
+  font-size: 4rem;
+  margin: 0 0 4rem 0;
+  padding: 0;
+}
+.sender-info {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
-.pink {
-  color: var(--color-highlight);
+.sender-info > div {
+  flex: 1;
+  margin-right: 4rem;
 }
-.email {
-  font-family: "Archivo Black", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 12vh;
-  transition: all 5s ease-in-out;
-  line-height: 0.9em;
+.sender-info > div:last-of-type {
+  margin: 0;
 }
-.email:hover {
-  transition: all 5s ease-in-out;
-  filter: hue-rotate(360deg);
+input:focus,
+textarea:focus {
+  border-color: var(--color-highlight);
+  transition: all 300ms ease-in-out;
 }
-a {
-  display: block;
-  text-decoration: none;
-}
-a:hover {
-  transition: all 300ms ease-in;
-}
-label {
-  color: var(--color-highlight);
-}
-h2 {
-  margin: 0.8rem 0;
-}
-h3 {
-  margin-bottom: 1rem;
-}
-
-.grid-two {
-  display: grid;
+input,
+textarea {
+  background: transparent;
+  border: 1px solid var(--color-base-1);
+  transition: all 300ms ease-in-out;
+  outline: none;
+  border-radius: 0.3rem;
+  padding: 0.8rem 1rem;
+  color: inherit;
+  font-size: 1rem;
   width: 100%;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
-  grid-row-gap: 0.5rem;
 }
-.mail-link-container {
-  height: 100%;
-
-  text-align: right;
+textarea {
+  resize: none;
+  height: 140px;
 }
-@media (max-width: 850px) {
-  .grid-two {
-    grid-template-columns: 1fr;
-  }
-
-  .flex {
-    display: block;
-  }
+.button {
+  color: var(--color-contrast);
+  background: var(--color-base);
+  border: 1px solid var(--color-contrast);
+  outline: none;
+  font-size: 1rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  font-size: 500;
+  letter-spacing: 0.035em;
+}
+.button:hover {
+  border: 1px solid var(--color-highlight);
+  color: var(--color-highlight);
+  transition: all 300ms ease-in-out;
+}
+.button:focus {
+  border: 1px solid var(--color-contrast);
 }
 </style>
-

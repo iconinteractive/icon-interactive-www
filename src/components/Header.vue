@@ -142,7 +142,9 @@ export default {
   border-color: transparent;
   transition: border 0.15s;
 }
-
+.nav > *:last-of-type {
+  margin-right: 0;
+}
 .nav > *:hover {
   /* border-color: inherit; */
   color: var(--color-highlight);
