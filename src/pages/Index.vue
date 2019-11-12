@@ -68,5 +68,6 @@ export default {
 .start-button:hover {
   background: var(--color-highlight);
   color: var(--color-contrast);
+  transition: all 500ms ease-in-out;
 }
 </style>

@@ -24,11 +24,10 @@ export default {
 .projects {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 4rem;
+  grid-gap: 1.5rem;
 }
 .twoColumn {
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 10vh 50vh; */
 }
 .project {
   position: relative;
@@ -39,7 +38,7 @@ export default {
   text-decoration: none;
 }
 .thumbnail {
-  height: 90vh;
+  height: 100%;
   width: 100vw;
   object-fit: cover;
   transition: all 0.15s ease;
@@ -79,6 +78,9 @@ h3:hover {
 @media (max-width: 700px) {
   .thumbnail {
     height: 250px;
+  }
+  .twoColumn {
+    grid-template-columns: 1fr;
   }
 }
 </style>
