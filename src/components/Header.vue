@@ -1,11 +1,9 @@
 <template>
   <header class="header" :class="{sticky: $route.path === '/'}">
     <div class="container">
-      <!-- <div class="left"> -->
       <g-link :to="{ name: 'home' }" class="home-link">
         <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />
       </g-link>
-      <!-- </div> -->
       <div class="intro" :class="{hide: $route.path !== '/'}">
         <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
       </div>
@@ -38,6 +36,7 @@ export default {
         document.querySelector(".nav").style.display = "flex";
         document.querySelector(".intro").style.opacity = 0;
         document.querySelector(".intro").style.display = "none";
+        document.querySelector(".start-button").style.display = "none";
       }
       if (
         process.isClient &&
@@ -48,6 +47,7 @@ export default {
         document.querySelector(".nav").style.display = "none";
         document.querySelector(".intro").style.opacity = 1;
         document.querySelector(".intro").style.display = "flex";
+        document.querySelector(".start-button").style.display = "block";
       }
     }
   },
@@ -83,18 +83,20 @@ export default {
 
 .nav {
   display: flex;
+  justify-content: center;
   transition: all 1s ease-in-out;
 }
+
 .intro {
   display: flex;
-  width: 70%;
-  justify-content: space-between;
+  width: 40%;
+  justify-content: space-evenly;
   transition: all 1s ease-in-out;
-  margin: 0 10%;
+  margin-right: 40%;
 }
 
 .intro p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .show {
@@ -102,6 +104,7 @@ export default {
 }
 .hide {
   opacity: 0;
+  display: none;
 }
 
 .header > .container {
@@ -127,13 +130,6 @@ export default {
   to {
     transform: rotate(359deg);
   }
-}
-.site-name {
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 .nav > * {
   font-size: 1.2rem;
