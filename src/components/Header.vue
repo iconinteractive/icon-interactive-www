@@ -1,11 +1,11 @@
 <template>
   <header class="header" :class="{sticky: $route.path === '/'}">
     <div class="container">
-      <div class="left">
-        <g-link :to="{ name: 'home' }" class="home-link">
-          <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />
-        </g-link>
-      </div>
+      <!-- <div class="left"> -->
+      <g-link :to="{ name: 'home' }" class="home-link">
+        <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />
+      </g-link>
+      <!-- </div> -->
       <div class="intro" :class="{hide: $route.path !== '/'}">
         <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
       </div>
@@ -35,7 +35,9 @@ export default {
         this.$route.path === "/"
       ) {
         document.querySelector(".nav").style.opacity = 1;
+        document.querySelector(".nav").style.display = "flex";
         document.querySelector(".intro").style.opacity = 0;
+        document.querySelector(".intro").style.display = "none";
       }
       if (
         process.isClient &&
@@ -43,14 +45,16 @@ export default {
         this.$route.path === "/"
       ) {
         document.querySelector(".nav").style.opacity = 0;
+        document.querySelector(".nav").style.display = "none";
         document.querySelector(".intro").style.opacity = 1;
+        document.querySelector(".intro").style.display = "flex";
       }
-      const header = document.querySelector(".header");
     }
   },
   created() {
     if (process.isClient && this.$route.path === "/") {
       document.addEventListener("scroll", this.handleScroll);
+      document.querySelector(".nav").style.display = "none";
     }
   },
   destroyed() {
@@ -78,11 +82,12 @@ export default {
 }
 
 .nav {
+  display: flex;
   transition: all 1s ease-in-out;
 }
 .intro {
   display: flex;
-  width: 80%;
+  width: 70%;
   justify-content: space-between;
   transition: all 1s ease-in-out;
   margin: 0 10%;
@@ -109,7 +114,7 @@ export default {
   text-decoration: none;
 }
 .logo {
-  height: 7rem;
+  height: 80px;
   fill: white;
 }
 .logo:hover {

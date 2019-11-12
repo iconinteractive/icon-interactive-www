@@ -1,8 +1,9 @@
 <template>
   <section>
     <Hero />
+    <span class="button" @click="scrollDown">Get Started</span>
     <Layout>
-      <div class="container spacer">
+      <div class="container spacer" id="start">
         <ProjectsGrid :projects="$page.projects.edges" />
       </div>
     </Layout>
@@ -35,6 +36,12 @@ export default {
   components: {
     Hero,
     ProjectsGrid
+  },
+  methods: {
+    scrollDown() {
+      const top = document.querySelector("#start");
+      top.scrollIntoView({ behavior: "smooth" });
+    }
   }
 };
 </script>
@@ -42,5 +49,14 @@ export default {
 <style scoped>
 .spacer {
   margin-top: 10rem;
+}
+.button {
+  position: absolute;
+  right: 10vw;
+  bottom: 7vh;
+  background: var(--color-base);
+  color: var(--color-highlight);
+  padding: 1rem;
+  border: 1px solid var(--color-highlight);
 }
 </style>
