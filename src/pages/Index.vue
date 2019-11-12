@@ -55,7 +55,7 @@ export default {
 .start-button {
   position: absolute;
   right: 10vw;
-  bottom: 7vh;
+  bottom: 10vh;
   background: var(--color-base);
   color: var(--color-highlight);
   padding: 1rem;
@@ -69,5 +69,11 @@ export default {
   background: var(--color-highlight);
   color: var(--color-contrast);
   transition: all 500ms ease-in-out;
+}
+@media (max-width: 700px) {
+  .start-button {
+    right: 27%;
+    bottom: 45vh;
+  }
 }
 </style>

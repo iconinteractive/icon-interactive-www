@@ -156,9 +156,12 @@ export default {
 
 @media (max-width: 700px) {
   .nav {
-    display: flex;
     flex-direction: column;
     justify-items: right;
+  }
+  .intro {
+    width: 60%;
+    margin-right: 5%;
   }
 
   .nav__link {

@@ -54,7 +54,7 @@ body {
 
 h1 {
   font-family: "Archivo Black", "DM Sans", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   margin: 0 0 2rem 0;
   padding-top: 1rem;
 }
@@ -134,7 +134,10 @@ h2 {
 }
 @media (max-width: 620px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+  .title {
+    margin-bottom: 1rem;
   }
 }
 </style>

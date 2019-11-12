@@ -141,6 +141,18 @@ ul {
 @media (max-width: 850px) {
   .two-column {
     grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .project-info {
+    font-size: 1rem;
+    width: 90%;
+    margin: 0;
+  }
+  .g-image {
+    margin: 0.5rem 0;
+  }
+  .thumbnail {
+    margin: 2rem 0;
   }
 }
 </style>

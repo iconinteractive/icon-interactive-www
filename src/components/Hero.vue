@@ -35,37 +35,22 @@ export default {
     return {
       copyArr: [
         "VR & AR",
-        "ACTIVATIONS",
-        "INTERFACES",
         "INTERNET",
         "SOFTWARE",
         "HARDWARE",
         "SERVERS",
-        "SERVICES",
+        "STRATEGY",
+        "INSIGHT",
         "PIZZA",
         "PIZZAZZ",
-        "DESIGN"
-      ],
-      currentWord: "",
-      idx: 0,
-      intervalId: ""
+        "DESIGN",
+        "FINESSE",
+        "TACT"
+      ]
     };
   },
   created() {
-    console.log("👽 Built on gridsome & forestry");
-    // this.currentWord = this.copyArr[this.idx];
-    // const wordUpdate = setInterval(() => {
-    //   if (this.idx === 10) {
-    //     this.idx = 0;
-    //   } else {
-    //     this.idx++;
-    //   }
-    //   this.currentWord = this.copyArr[this.idx];
-    // }, 2000);
-    // this.intervalId = wordUpdate;
-  },
-  destroyed() {
-    // clearInterval(this.intervalId);
+    console.log("👽 Built with gridsome & forestry");
   }
 };
 </script>
@@ -110,7 +95,7 @@ export default {
 }
 @media (max-width: 900px) {
   .hero {
-    padding: 5vh 5vw;
+    padding: 10vh 5vw;
     height: 65vh;
   }
   .hero-title {
