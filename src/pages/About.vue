@@ -15,8 +15,9 @@
         <label>WHAT WE DO</label>
         <h2>Capabilities</h2>
         <ul class="grid-two">
-          <li class="project" v-for="(item,idx) in services" :key="idx">
-            <h3>{{item}}</h3>
+          <li class="project" v-for="(paragraph, serviceName) in services" :key="serviceName">
+            <h3>{{formatServiceName(serviceName)}}</h3>
+            <p>{{paragraph}}</p>
           </li>
         </ul>
         <label>WHERE WE ARE</label>
@@ -83,15 +84,34 @@
 export default {
   data() {
     return {
-      services: [
-        "AR/VR",
-        "Software Development",
-        "Experiential",
-        "Design",
-        "Strategy",
-        "Activations"
-      ]
+      services: require("../../data/about.json")
     };
+  },
+  methods: {
+    formatServiceName(name) {
+      let format = name.replace("_", " ");
+      if (format === "ar vr") {
+        return "AR/VR";
+      } else {
+        let output = "";
+        let spaceIdx = "";
+        for (let idx = 0; idx < format.length; idx++) {
+          if (idx === 0) {
+            output += format[idx].toUpperCase();
+            continue;
+          }
+          if (format[idx] === " ") {
+            spaceIdx = idx;
+          }
+          if (spaceIdx === idx - 1) {
+            output += format[idx].toUpperCase();
+          } else {
+            output += format[idx];
+          }
+        }
+        return output;
+      }
+    }
   }
 };
 </script>
