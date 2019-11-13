@@ -2,27 +2,26 @@
 label: About Page Paragraphs
 hide_body: true
 fields:
-  - type: textarea
-    name: ar_vr
-    label: AR/VR
-  - type: textarea
-    name: software_dev
-    label: Software Development
-  - type: textarea
-    name: software_dev
-    label: Software Development
-  - type: textarea
-    name: experiential
-    label: Experiential
-  - type: textarea
-    name: design
-    label: Design
-  - type: textarea
-    name: strategy
-    label: Strategy
-  - type: textarea
-    name: design
-    label: Design
-
+- type: textarea
+  name: ar_vr
+  label: AR/VR
+- type: textarea
+  name: software_dev
+  label: Software Development
+- type: textarea
+  name: software_dev
+  label: Software Development
+- type: textarea
+  name: experiential
+  label: Experiential
+- type: textarea
+  name: design
+  label: Design
+- type: textarea
+  name: strategy
+  label: Strategy
+- type: textarea
+  name: design
+  label: Design
 pages:
-  - data/about.json
+- data/about.json
