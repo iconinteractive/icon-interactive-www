@@ -84,9 +84,9 @@ h3 {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 90vw;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 5vw;
 }
 ul {
   list-style: none;
