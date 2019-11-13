@@ -85,7 +85,6 @@ h3 {
 
 .container {
   max-width: 90vw;
-  margin: 0 auto;
   padding: 0 5vw;
 }
 ul {

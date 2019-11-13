@@ -1,9 +1,15 @@
 <template>
   <section>
     <Hero />
-    <button class="start-button" @click="scrollDown">Get Started</button>
+    <section class="container">
+      <div class="description">
+        <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
+        <button class="start-button" @click="scrollDown">Get Started</button>
+      </div>
+    </section>
     <Layout>
       <div class="container spacer" id="start">
+        <h2>ICON has been providing unique experiences & creative solutions to clients around the globe for over two decades.</h2>
         <ProjectsGrid :projects="$page.projects.edges" />
       </div>
     </Layout>
@@ -40,7 +46,7 @@ export default {
   methods: {
     scrollDown() {
       if (process.isClient) {
-        const top = document.querySelector("#start");
+        const top = document.querySelector(".header");
         top.scrollIntoView({ behavior: "smooth" });
       }
     }
@@ -50,12 +56,25 @@ export default {
 
 <style scoped>
 .spacer {
-  margin-top: 10rem;
+  margin-top: 7rem;
+}
+h2 {
+  font-family: "DM Sans";
+  padding: 1rem;
+  border: 2px solid var(--color-highlight);
+  border-radius: 0.3rem;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 0 10% 0 0;
+}
+.description p {
+  margin: 0 10%;
 }
 .start-button {
-  position: absolute;
-  right: 10vw;
-  bottom: 10vh;
   background: var(--color-base);
   color: var(--color-highlight);
   padding: 1rem;
@@ -65,6 +84,8 @@ export default {
   font-size: 1.2rem;
   z-index: 100;
   border-radius: 0.3rem;
+  width: 400px;
+  height: 60px;
 }
 .start-button:hover {
   background: var(--color-highlight);

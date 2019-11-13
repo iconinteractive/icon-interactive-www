@@ -4,10 +4,7 @@
       <g-link :to="{ name: 'home' }" class="home-link">
         <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />
       </g-link>
-      <div class="intro" :class="{hide: $route.path !== '/'}">
-        <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
-      </div>
-      <nav class="nav" :class="{hide: $route.path === '/'}">
+      <nav class="nav">
         <g-link class="nav__link" to="/projects">Work</g-link>
         <g-link class="nav__link" to="/events">News</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
@@ -27,28 +24,29 @@ export default {
   },
   methods: {
     handleScroll() {
-      if (
-        process.isClient &&
-        window.pageYOffset > 300 &&
-        this.$route.path === "/"
-      ) {
-        document.querySelector(".nav").style.opacity = 1;
-        document.querySelector(".nav").style.display = "flex";
-        document.querySelector(".intro").style.opacity = 0;
-        document.querySelector(".intro").style.display = "none";
-        document.querySelector(".start-button").style.display = "none";
-      }
-      if (
-        process.isClient &&
-        window.pageYOffset === 0 &&
-        this.$route.path === "/"
-      ) {
-        document.querySelector(".nav").style.opacity = 0;
-        document.querySelector(".nav").style.display = "none";
-        document.querySelector(".intro").style.opacity = 1;
-        document.querySelector(".intro").style.display = "flex";
-        document.querySelector(".start-button").style.display = "block";
-      }
+      //   if (
+      //     process.isClient &&
+      //     window.pageYOffset > 300 &&
+      //     this.$route.path === "/"
+      //   ) {
+      //     // document.querySelector(".nav").style.opacity = 1;
+      //     // document.querySelector(".nav").style.display = "flex";
+      //     // document.querySelector(".intro").style.opacity = 0;
+      //     // document.querySelector(".intro").style.display = "none";
+      //     // document.querySelector(".start-button").style.display = "none";
+      //   }
+      //   if (
+      //     process.isClient &&
+      //     window.pageYOffset === 0 &&
+      //     this.$route.path === "/"
+      //   ) {
+      //     // document.querySelector(".nav").style.opacity = 0;
+      //     // document.querySelector(".nav").style.display = "none";
+      //     // document.querySelector(".intro").style.opacity = 1;
+      //     // document.querySelector(".intro").style.display = "flex";
+      //     // document.querySelector(".start-button").style.display = "block";
+      //   }
+      // }
     }
   },
   created() {
@@ -74,7 +72,7 @@ export default {
   margin-bottom: 2rem;
 }
 
-.header.sticky {
+.sticky {
   position: sticky;
   position: -webkit-sticky;
   top: 1rem;

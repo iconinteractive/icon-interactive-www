@@ -69,11 +69,11 @@ export default {
 .hero {
   text-align: left;
   max-width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 10vh 15vw;
   hyphens: auto;
   width: calc(100vw + 15px);
-  height: 70vh;
+  height: 75vh;
   text-align: left;
 }
 
