@@ -10,6 +10,7 @@
     <Layout>
       <div class="container spacer" id="start">
         <h2>ICON has been providing unique experiences & creative solutions to clients around the globe for over two decades.</h2>
+        <h1>Recently we've...</h1>
         <ProjectsGrid :projects="$page.projects.edges" />
       </div>
     </Layout>
@@ -62,6 +63,7 @@ h2 {
   font-family: "DM Sans";
   padding: 1rem;
   border: 2px solid var(--color-highlight);
+  color: var(--color-highlight);
   border-radius: 0.3rem;
 }
 .description {
@@ -69,7 +71,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
-  margin: 0 10% 0 0;
+  margin: 0;
 }
 .description p {
   margin: 0 10%;

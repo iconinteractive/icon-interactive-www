@@ -33,6 +33,7 @@ export default {
 body {
   --color-base: rgb(0, 0, 0);
   --color-base-1: rgb(43, 43, 43);
+  --color-base-opacity: rgb(0, 0, 0, 0.9);
   --color-contrast: rgb(255, 255, 255);
   --color-contrast-1: rgb(243, 243, 243);
   --color-highlight: #e51365;
@@ -80,7 +81,7 @@ h3 {
 }
 
 .layout {
-  padding: 4rem 0 0 0;
+  padding: 2rem 0 0 0;
 }
 
 .container {

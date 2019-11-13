@@ -50,15 +50,15 @@ export default {
     }
   },
   created() {
-    if (process.isClient && this.$route.path === "/") {
-      document.addEventListener("scroll", this.handleScroll);
-      document.querySelector(".nav").style.display = "none";
-    }
+    // if (process.isClient && this.$route.path === "/") {
+    //   document.addEventListener("scroll", this.handleScroll);
+    //   document.querySelector(".nav").style.display = "none";
+    // }
   },
   destroyed() {
-    if (process.isClient && this.$route.path === "/") {
-      document.removeEventListener("scroll", this.handleScroll);
-    }
+    // if (process.isClient && this.$route.path === "/") {
+    //   document.removeEventListener("scroll", this.handleScroll);
+    // }
   }
 };
 </script>
@@ -66,17 +66,18 @@ export default {
 <style scoped>
 .header {
   position: relative;
-  height: 1rem;
+  height: 50%;
   z-index: 10;
   width: 100%;
   margin-bottom: 2rem;
+  background-color: var(--color-base-opacity);
 }
 
 .sticky {
   position: sticky;
   position: -webkit-sticky;
-  top: 1rem;
-  padding-top: 3.5rem;
+  top: 0;
+  padding-top: 2rem;
 }
 
 .nav {
@@ -115,8 +116,9 @@ export default {
   text-decoration: none;
 }
 .logo {
-  height: 80px;
+  height: 65px;
   fill: white;
+  margin-bottom: 0.25rem;
 }
 .logo:hover {
   animation: rotation 1s 1 ease-in-out;

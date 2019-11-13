@@ -44,7 +44,7 @@ export default {
   padding: 6rem 0;
 }
 .logo-footer {
-  height: 80px;
+  height: 65px;
   fill: white;
   margin: 2% 5% 0 0;
 }
