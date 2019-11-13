@@ -16,7 +16,6 @@
         <h2>Capabilities</h2>
         <ul class="grid-two">
           <li class="project" v-for="(item,idx) in services" :key="idx">
-            <label>{{idx + 1}}</label>
             <h3>{{item}}</h3>
           </li>
         </ul>
