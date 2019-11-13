@@ -24,10 +24,10 @@ export default {
 .projects {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1.5rem;
+  grid-gap: 10px;
 }
 .twoColumn {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 .project {
   position: relative;

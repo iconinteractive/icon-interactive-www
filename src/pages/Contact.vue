@@ -70,9 +70,9 @@ textarea {
   height: 140px;
 }
 .button {
-  color: var(--color-contrast);
   background: var(--color-base);
-  border: 1px solid var(--color-contrast);
+  color: var(--color-highlight);
+  border: 1px solid var(--color-highlight);
   outline: none;
   font-size: 1rem;
   padding: 0.8rem 1.6rem;
@@ -84,8 +84,8 @@ textarea {
   letter-spacing: 0.035em;
 }
 .button:hover {
-  border: 1px solid var(--color-highlight);
-  color: var(--color-highlight);
+  background: var(--color-highlight);
+  color: var(--color-contrast);
   transition: all 300ms ease-in-out;
 }
 .button:focus {

@@ -64,11 +64,12 @@ export default {
   cursor: pointer;
   font-size: 1.2rem;
   z-index: 100;
+  border-radius: 0.3rem;
 }
 .start-button:hover {
   background: var(--color-highlight);
   color: var(--color-contrast);
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 @media (max-width: 700px) {
   .start-button {

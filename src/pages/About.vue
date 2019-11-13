@@ -14,7 +14,7 @@
       <section>
         <label>WHAT WE DO</label>
         <h2>Capabilities</h2>
-        <ul class="grid-four">
+        <ul class="grid-two">
           <li class="project" v-for="(item,idx) in services" :key="idx">
             <label>{{idx + 1}}</label>
             <h3>{{item}}</h3>
@@ -85,20 +85,12 @@ export default {
   data() {
     return {
       services: [
-        "Branding",
-        "Concepting",
         "AR/VR",
-        "Development",
+        "Software Development",
         "Experiential",
-        "Full Stack",
-        "Graphic Design",
-        "Interactive",
-        "Jelly Making",
-        "Kit Production",
-        "Lighting",
-        "Mapping",
-        "Notation",
-        "Pizza"
+        "Design",
+        "Strategy",
+        "Activations"
       ]
     };
   }
@@ -115,13 +107,13 @@ h2 {
 }
 .grid-four {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 4rem;
 }
 .grid-two {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
 }
 label {
   position: relative;
