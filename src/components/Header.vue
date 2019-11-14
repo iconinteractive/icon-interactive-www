@@ -1,5 +1,5 @@
 <template>
-  <header class="header" :class="{sticky: $route.path === '/'}">
+  <header class="header">
     <div class="container">
       <g-link :to="{ name: 'home' }" class="home-link">
         <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />

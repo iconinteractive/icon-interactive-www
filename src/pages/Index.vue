@@ -1,17 +1,15 @@
 <template>
   <section>
-    <Hero />
-    <section class="container">
-      <div class="description">
-        <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
-        <button class="start-button" @click="scrollDown">Get Started</button>
-      </div>
-    </section>
     <Layout>
-      <div class="container spacer" id="start">
-        <!-- <h2>ICON has been providing unique experiences & creative solutions to clients around the globe for over two decades.</h2>
-        <h1>Recently we've...</h1>-->
-        <ProjectsGrid :projects="$page.projects.edges" />
+      <div class="container spacer">
+        <Hero />
+        <div class="description">
+          <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
+          <button class="start-button" @click="scrollDown">Get Started</button>
+        </div>
+        <h2>ICON has been providing unique experiences & creative solutions to clients around the globe for over two decades.</h2>
+        <h1>Recently we've...</h1>
+        <ProjectsGrid id="start" :projects="$page.projects.edges" />
       </div>
     </Layout>
   </section>
@@ -57,7 +55,7 @@ export default {
 
 <style scoped>
 .spacer {
-  margin-top: 7rem;
+  margin-top: 3rem;
 }
 h2 {
   font-family: "DM Sans";

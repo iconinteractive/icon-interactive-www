@@ -69,12 +69,12 @@ export default {
 .hero {
   text-align: left;
   max-width: 100%;
-  /* margin: 0 auto; */
-  padding: 10vh 15vw;
+  padding-left: 125px;
   hyphens: auto;
   width: calc(100vw + 15px);
-  height: 75vh;
+  height: 150%;
   text-align: left;
+  border: 1px solid cyan;
 }
 
 .hero-title {
