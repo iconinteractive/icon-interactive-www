@@ -72,9 +72,9 @@ export default {
   padding-left: 125px;
   hyphens: auto;
   width: calc(100vw + 15px);
-  height: 150%;
+  height: 100%;
   text-align: left;
-  border: 1px solid cyan;
+  margin-bottom: 8vh;
 }
 
 .hero-title {
@@ -86,6 +86,7 @@ export default {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  line-height: 6.75rem;
 }
 .pink {
   color: var(--color-highlight);

@@ -5,11 +5,11 @@
         <Hero />
         <div class="description">
           <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
-          <button class="start-button" @click="scrollDown">Get Started</button>
+          <p>We've been been providing unique experiences & creative solutions to clients around the globe for over two decades.</p>
         </div>
-        <h2>ICON has been providing unique experiences & creative solutions to clients around the globe for over two decades.</h2>
-        <h1>Recently we've...</h1>
-        <ProjectsGrid id="start" :projects="$page.projects.edges" />
+        <button class="start-button" @click="scrollDown">Get Started</button>
+        <h1 id="start">Recently we've...</h1>
+        <ProjectsGrid :projects="$page.projects.edges" />
       </div>
     </Layout>
   </section>
@@ -45,7 +45,7 @@ export default {
   methods: {
     scrollDown() {
       if (process.isClient) {
-        const top = document.querySelector(".header");
+        const top = document.querySelector("#start");
         top.scrollIntoView({ behavior: "smooth" });
       }
     }
@@ -70,10 +70,10 @@ h2 {
   align-items: center;
   font-size: 1.5rem;
   margin: 0;
+  padding-left: 125px;
+  width: 100%;
 }
-.description p {
-  margin: 0 10%;
-}
+
 .start-button {
   background: var(--color-base);
   color: var(--color-highlight);

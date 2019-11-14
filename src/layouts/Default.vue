@@ -85,8 +85,8 @@ h3 {
 }
 
 .container {
-  max-width: 90vw;
-  padding: 0 5vw;
+  margin: 0;
+  margin: 0 6rem;
 }
 ul {
   list-style: none;
@@ -99,13 +99,6 @@ ul {
 .fade-enter {
   opacity: 0;
 }
-
-@media (min-width: 860px) {
-  .container {
-    padding: 0 6rem;
-  }
-}
-
 a {
   color: inherit;
 }
@@ -132,12 +125,16 @@ h2 {
   font-family: "Archivo Black", "DM Sans", sans-serif;
   font-size: 2rem;
 }
-@media (max-width: 620px) {
+
+@media (max-width: 800px) {
   h1 {
     font-size: 2rem;
   }
   .title {
     margin-bottom: 1rem;
+  }
+  .container {
+    margin: 0 2rem;
   }
 }
 </style>
