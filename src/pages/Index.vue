@@ -4,13 +4,12 @@
       <div class="container">
         <Hero />
         <div class="description">
-          <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
-          <p>We've been been providing unique experiences & creative solutions to clients around the globe for over two decades.</p>
-          <!-- <button class="start-button" @click="scrollDown">Get Started</button> -->
+          <p>ICON is a full-service digital agency that has been providing unique experiences & creative solutions to clients around the globe for over two decades.</p>
+          <div class="flex-center">
+            <button class="start-button" @click="scrollDown">Get Started</button>
+          </div>
         </div>
-
-        <h1>Recently we've...</h1>
-        <ProjectsGrid :projects="$page.projects.edges" />
+        <ProjectsGrid id="start" :projects="$page.projects.edges" />
       </div>
     </Layout>
   </section>
@@ -68,12 +67,31 @@ h2 {
 }
 .description {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 2fr 1fr;
   grid-gap: 8vw;
   font-size: 1.5rem;
   padding: 0 125px;
   width: 100%;
+  height: 20vh;
+  margin: 15vh 0;
 }
+
+.description p {
+  margin: 0;
+}
+
+.above-fold {
+  height: 50vh;
+  border: 1px solid purple;
+  margin-bottom: 20vh;
+}
+/* 
+div.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
 
 .start-button {
   background: var(--color-base);
@@ -85,7 +103,7 @@ h2 {
   font-size: 1.2rem;
   z-index: 100;
   border-radius: 0.3rem;
-  width: 400px;
+  width: 200px;
   height: 60px;
 }
 .start-button:hover {

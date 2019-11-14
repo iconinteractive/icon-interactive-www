@@ -50,7 +50,7 @@ export default {
     };
   },
   created() {
-    console.log("👽 Built with gridsome & forestry");
+    console.log("👽 Built on gridsome & forestry");
   }
 };
 </script>
@@ -70,10 +70,9 @@ export default {
   text-align: left;
   padding-left: 125px;
   hyphens: auto;
-  width: calc(100vw + 15px);
   height: 100%;
   text-align: left;
-  margin-bottom: 3vh;
+  margin-bottom: 0;
 }
 
 .hero-title {
