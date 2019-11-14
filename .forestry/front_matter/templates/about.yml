@@ -1,24 +1,21 @@
 ---
-label: About Page Paragraphs
+label: Service Offering
 hide_body: true
 fields:
-- type: textarea
-  name: ar_vr
-  label: AR/VR
-- type: textarea
-  name: software_development
-  label: Software Development
-- type: textarea
-  name: experiential
-  label: Experiential
-- type: textarea
-  name: design
-  label: Design
-- type: textarea
-  name: strategy
-  label: Strategy
-- type: textarea
-  name: activations
-  label: Activations
+  - type: textarea
+    name: strategy
+    label: Strategy
+  - type: textarea
+    name: design_visual_content
+    label: Design & Visual Content
+  - type: textarea
+    name: web_mobile
+    label: Web & Mobile
+  - type: textarea
+    name: experiential
+    label: Experiential
+  - type: textarea
+    name: custom_software
+    label: Custom Software
 pages:
-- data/about.json
+  - data/about.json

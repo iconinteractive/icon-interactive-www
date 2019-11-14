@@ -7,17 +7,25 @@
         <span class="pink">DELIVERS</span>
       </h1>
       <section>
-        <p
-          class="about-text"
-        >ICON Interactive is a full-service digital agency that represents the merger of extraordinary design and powerful technology. Each initiative, each project, receives the full weight of both sides of the brain, rendering beautiful imagery that engages the eye, and functional control that gives real purpose.</p>
+        <p class="about-text">
+          ICON Interactive is a full-service digital agency that represents the
+          merger of extraordinary design and powerful technology. Each
+          initiative, each project, receives the full weight of both sides of
+          the brain, rendering beautiful imagery that engages the eye, and
+          functional control that gives real purpose.
+        </p>
       </section>
       <section>
         <label>WHAT WE DO</label>
         <h2>Capabilities</h2>
         <ul class="grid-two">
-          <li class="project" v-for="(paragraph, serviceName) in services" :key="serviceName">
-            <h3>{{formatServiceName(serviceName)}}</h3>
-            <p>{{paragraph}}</p>
+          <li
+            class="project"
+            v-for="(paragraph, serviceName) in services"
+            :key="serviceName"
+          >
+            <h3>{{ formatServiceName(serviceName) }}</h3>
+            <p>{{ paragraph }}</p>
           </li>
         </ul>
         <label>WHERE WE ARE</label>
@@ -35,24 +43,21 @@
             <h3>New York</h3>
             <p>
               180 Varick St
-              <br />Suite 912
-              <br />New York, NY 1004
+              <br />Suite 912 <br />New York, NY 1004
             </p>
           </li>
           <li>
             <h3>Boston</h3>
             <p>
               129 Kingston St
-              <br />Floor 2
-              <br />Boston, MA 02111
+              <br />Floor 2 <br />Boston, MA 02111
             </p>
           </li>
           <li>
             <h3>Detroit</h3>
             <p>
               1442 Brush St
-              <br />Floor 3
-              <br />Detroit, MI 48226
+              <br />Floor 3 <br />Detroit, MI 48226
             </p>
           </li>
         </ul>
@@ -62,16 +67,30 @@
           <div>
             <g-image src="~/assets/hat.jpeg" alt="icon hat" />
             <span class="small-title">FAIRCHILD IPSUM</span>
-            <p>Fairchild scientists conserve tropical plants, attempting to avoid the extinction of species and their habitats. This work leads to quantifiable conservation benefits to Fairchild’s priority geographic investment regions (South Florida, Caribbean, oceanic islands, tropical Africa, and Madagascar)</p>
+            <p>
+              Fairchild scientists conserve tropical plants, attempting to avoid
+              the extinction of species and their habitats. This work leads to
+              quantifiable conservation benefits to Fairchild’s priority
+              geographic investment regions (South Florida, Caribbean, oceanic
+              islands, tropical Africa, and Madagascar)
+            </p>
           </div>
           <div>
             <g-image src="~/assets/dog.jpeg" alt="dog" />
             <span class="small-title">FAIRCHILD IPSUM</span>
-            <p>Fairchild scientists conserve tropical plants, attempting to avoid the extinction of species and their habitats. This work leads to quantifiable conservation benefits to Fairchild’s priority geographic investment regions (South Florida, Caribbean, oceanic islands, tropical Africa, and Madagascar)</p>
+            <p>
+              Fairchild scientists conserve tropical plants, attempting to avoid
+              the extinction of species and their habitats. This work leads to
+              quantifiable conservation benefits to Fairchild’s priority
+              geographic investment regions (South Florida, Caribbean, oceanic
+              islands, tropical Africa, and Madagascar)
+            </p>
             <br />
             <span class="small-title">LET'S GET BUILDING</span>
             <h2>
-              <a href="https://www.linkedin.com/company/icon-interactive">Open Roles ⟶</a>
+              <a href="https://www.linkedin.com/company/icon-interactive"
+                >Open Roles ⟶</a
+              >
             </h2>
           </div>
         </div>
@@ -90,8 +109,10 @@ export default {
   methods: {
     formatServiceName(name) {
       let format = name.replace("_", " ");
-      if (format === "ar vr") {
-        return "AR/VR";
+      if (format === "web mobile") {
+        return "Web & Mobile";
+      } else if (format === "design visual content") {
+        return "Design & Visual Content";
       } else {
         let output = "";
         let spaceIdx = "";
@@ -202,5 +223,3 @@ a:hover {
   }
 }
 </style>
-
-
