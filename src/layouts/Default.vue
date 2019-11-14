@@ -128,7 +128,7 @@ h2 {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
   .title {
     margin-bottom: 1rem;

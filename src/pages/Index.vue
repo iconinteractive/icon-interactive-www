@@ -1,14 +1,15 @@
 <template>
   <section>
     <Layout>
-      <div class="container spacer">
+      <div class="container">
         <Hero />
         <div class="description">
           <p>ICON is a full-service digital agency that represents the merger of extraordinary design and powerful technology.</p>
           <p>We've been been providing unique experiences & creative solutions to clients around the globe for over two decades.</p>
+          <!-- <button class="start-button" @click="scrollDown">Get Started</button> -->
         </div>
-        <button class="start-button" @click="scrollDown">Get Started</button>
-        <h1 id="start">Recently we've...</h1>
+
+        <h1>Recently we've...</h1>
         <ProjectsGrid :projects="$page.projects.edges" />
       </div>
     </Layout>
@@ -54,8 +55,9 @@ export default {
 </script>
 
 <style scoped>
-.spacer {
-  margin-top: 3rem;
+h1 {
+  margin-top: 10vh;
+  border-top: 1px solid var(--color-highlight);
 }
 h2 {
   font-family: "DM Sans";
@@ -65,12 +67,11 @@ h2 {
   border-radius: 0.3rem;
 }
 .description {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8vw;
   font-size: 1.5rem;
-  margin: 0;
-  padding-left: 125px;
+  padding: 0 125px;
   width: 100%;
 }
 
@@ -92,10 +93,16 @@ h2 {
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .start-button {
     right: 27%;
     bottom: 45vh;
+  }
+  .description {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 0;
   }
 }
 </style>

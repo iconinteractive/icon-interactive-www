@@ -55,6 +55,7 @@ textarea:focus {
 }
 input,
 textarea {
+  font-family: "DM Sans", sans-serif;
   background: transparent;
   border: 1px solid var(--color-base-1);
   transition: all 300ms ease-in-out;
@@ -62,7 +63,7 @@ textarea {
   border-radius: 0.3rem;
   padding: 0.8rem 1rem;
   color: inherit;
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: 100%;
 }
 textarea {
@@ -90,5 +91,16 @@ textarea {
 }
 .button:focus {
   border: 1px solid var(--color-contrast);
+}
+
+@media (max-width: 800px) {
+  .sender-info {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .sender-info > div {
+    margin: 1rem 0;
+  }
 }
 </style>

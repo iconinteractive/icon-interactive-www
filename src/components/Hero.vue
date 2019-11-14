@@ -68,13 +68,12 @@ export default {
 }
 .hero {
   text-align: left;
-  max-width: 100%;
   padding-left: 125px;
   hyphens: auto;
   width: calc(100vw + 15px);
   height: 100%;
   text-align: left;
-  margin-bottom: 8vh;
+  margin-bottom: 3vh;
 }
 
 .hero-title {
@@ -94,13 +93,14 @@ export default {
   -ms-hyphens: auto;
   hyphens: auto;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .hero {
-    padding: 10vh 5vw;
-    height: 65vh;
+    padding-left: 0;
+    margin: 10vh 0;
   }
   .hero-title {
-    font-size: 12vw;
+    font-size: 3.75rem;
+    line-height: 3.5rem;
   }
 }
 </style>
