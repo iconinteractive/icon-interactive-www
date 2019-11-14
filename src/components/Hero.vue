@@ -34,23 +34,23 @@ export default {
   data() {
     return {
       copyArr: [
-        "VR & AR",
-        "INTERNET",
-        "SOFTWARE",
-        "HARDWARE",
-        "SERVERS",
         "STRATEGY",
-        "INSIGHT",
-        "PIZZA",
-        "PIZZAZZ",
+        "WEB",
+        "AR & VR",
+        "BRAND",
+        "SOFTWARE",
+        "IMPACT",
         "DESIGN",
-        "FINESSE",
-        "TACT"
+        "TRAFFIC",
+        "RESULTS",
+        "PIZZA"
       ]
     };
   },
   created() {
-    console.log("👽 Built on gridsome & forestry");
+    console.log(
+      "👽 Built on gridsome & forestry. Curious to see how things work? Check out our open roles on the About page ;)"
+    );
   }
 };
 </script>
