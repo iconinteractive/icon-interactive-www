@@ -4,9 +4,14 @@
       <div class="container">
         <Hero />
         <div class="description">
-          <p>ICON is a full-service digital agency that has been providing unique experiences & creative solutions to clients around the globe for over two decades.</p>
+          <p>
+            ICON is a full-service digital agency determined to change the way
+            people interact with the world. For the better.
+          </p>
           <div class="flex-center">
-            <button class="start-button" @click="scrollDown">Get Started</button>
+            <button class="start-button" @click="scrollDown">
+              Get Started
+            </button>
           </div>
         </div>
         <ProjectsGrid id="start" :projects="$page.projects.edges" />

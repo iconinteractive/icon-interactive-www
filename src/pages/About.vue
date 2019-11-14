@@ -6,13 +6,24 @@
         <br />
         <span class="pink">DELIVERS</span>
       </h1>
-      <section>
-        <p class="about-text">
-          ICON Interactive is a full-service digital agency that represents the
-          merger of extraordinary design and powerful technology. Each
-          initiative, each project, receives the full weight of both sides of
-          the brain, rendering beautiful imagery that engages the eye, and
-          functional control that gives real purpose.
+      <section class="about-text">
+        <strong
+          >There’s an agency on every corner, but you’ll find there’s only one
+          ICON. We invent and deploy digital customer experiences and interfaces
+          that drive performance, value, learning, and growth.
+        </strong>
+        <p>
+          With offices in Detroit, NYC, Ann Arbor, and Boston, our team of ICONs
+          is the extended team you’ve imagined. Our relentless focus on clients
+          and customers - paired with an old-fashioned work ethic and the latest
+          technologies - will redefine what’s possible. You’ve heard it all
+          before? Great. Now come see it in action.
+        </p>
+        <p>
+          Strategy. Design. Experiential. Web. Software.
+          <br />
+          <br />
+          Let’s plug in, dream it up, and get it done.
         </p>
       </section>
       <section>
@@ -20,7 +31,7 @@
         <h2>Capabilities</h2>
         <ul class="grid-two">
           <li
-            class="project"
+            class="services"
             v-for="(paragraph, serviceName) in services"
             :key="serviceName"
           >
@@ -66,24 +77,26 @@
         <div class="grid-two">
           <div>
             <g-image src="~/assets/hat.jpeg" alt="icon hat" />
-            <span class="small-title">FAIRCHILD IPSUM</span>
+            <span class="small-title">More Than A Name</span>
             <p>
-              Fairchild scientists conserve tropical plants, attempting to avoid
-              the extinction of species and their habitats. This work leads to
-              quantifiable conservation benefits to Fairchild’s priority
-              geographic investment regions (South Florida, Caribbean, oceanic
-              islands, tropical Africa, and Madagascar)
+              Yes, we have our core values, our mission, and our vision. More
+              importantly, we’re building a team of ICONs that wants to embrace
+              all of this, do right by our clients, and run into the future
+              kicking a** along the way. We’re a team of talented motivated
+              individuals that simultaneously crave fun, invention, success, and
+              teamwork. We’re growing. Check us out and become an ICON. Your
+              individuality and contributions are welcome here.
             </p>
           </div>
           <div>
             <g-image src="~/assets/dog.jpeg" alt="dog" />
-            <span class="small-title">FAIRCHILD IPSUM</span>
+            <span class="small-title">Clients, You’re Also ICONs</span>
             <p>
-              Fairchild scientists conserve tropical plants, attempting to avoid
-              the extinction of species and their habitats. This work leads to
-              quantifiable conservation benefits to Fairchild’s priority
-              geographic investment regions (South Florida, Caribbean, oceanic
-              islands, tropical Africa, and Madagascar)
+              Donny Deutsch said it well … ICONs move society forward. Exactly
+              how we like to think of our clients. We strive to capture their
+              essence. Their purpose and brand promise. We help bring these
+              things to life using design and technology. Together, we’ll move
+              society forward and we can’t wait to learn about you.
             </p>
             <br />
             <span class="small-title">LET'S GET BUILDING</span>
@@ -184,9 +197,10 @@ h2 {
   margin-top: 10px;
 }
 .about-text {
-  margin-left: 28%;
+  margin: 0 auto;
   max-width: 50%;
   margin-bottom: 5%;
+  font-size: 1.2rem;
 }
 .title {
   font-size: 7rem;
@@ -208,6 +222,14 @@ a {
 a:hover {
   text-decoration: underline;
   transition: all 500ms ease-in;
+}
+
+.services p {
+  font-size: 1.2rem;
+}
+
+.grid-two p {
+  font-size: 1.2rem;
 }
 @media (max-width: 850px) {
   .title {
