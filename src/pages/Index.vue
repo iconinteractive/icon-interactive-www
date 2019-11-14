@@ -9,8 +9,8 @@
     </section>
     <Layout>
       <div class="container spacer" id="start">
-        <h2>ICON has been providing unique experiences & creative solutions to clients around the globe for over two decades.</h2>
-        <h1>Recently we've...</h1>
+        <!-- <h2>ICON has been providing unique experiences & creative solutions to clients around the globe for over two decades.</h2>
+        <h1>Recently we've...</h1>-->
         <ProjectsGrid :projects="$page.projects.edges" />
       </div>
     </Layout>
