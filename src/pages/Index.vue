@@ -69,7 +69,7 @@ h2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 8vw;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 0 125px;
   width: 100%;
   height: 20vh;
@@ -85,13 +85,6 @@ h2 {
   border: 1px solid purple;
   margin-bottom: 20vh;
 }
-/* 
-div.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-} */
 
 .start-button {
   background: var(--color-base);
