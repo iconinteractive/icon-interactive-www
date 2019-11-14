@@ -21,44 +21,6 @@ export default {
       logo: require("../../static/icon-logo.svg"),
       settings: require("../../data/theme.json")
     };
-  },
-  methods: {
-    handleScroll() {
-      //   if (
-      //     process.isClient &&
-      //     window.pageYOffset > 300 &&
-      //     this.$route.path === "/"
-      //   ) {
-      //     // document.querySelector(".nav").style.opacity = 1;
-      //     // document.querySelector(".nav").style.display = "flex";
-      //     // document.querySelector(".intro").style.opacity = 0;
-      //     // document.querySelector(".intro").style.display = "none";
-      //     // document.querySelector(".start-button").style.display = "none";
-      //   }
-      //   if (
-      //     process.isClient &&
-      //     window.pageYOffset === 0 &&
-      //     this.$route.path === "/"
-      //   ) {
-      //     // document.querySelector(".nav").style.opacity = 0;
-      //     // document.querySelector(".nav").style.display = "none";
-      //     // document.querySelector(".intro").style.opacity = 1;
-      //     // document.querySelector(".intro").style.display = "flex";
-      //     // document.querySelector(".start-button").style.display = "block";
-      //   }
-      // }
-    }
-  },
-  created() {
-    // if (process.isClient && this.$route.path === "/") {
-    //   document.addEventListener("scroll", this.handleScroll);
-    //   document.querySelector(".nav").style.display = "none";
-    // }
-  },
-  destroyed() {
-    // if (process.isClient && this.$route.path === "/") {
-    //   document.removeEventListener("scroll", this.handleScroll);
-    // }
   }
 };
 </script>
