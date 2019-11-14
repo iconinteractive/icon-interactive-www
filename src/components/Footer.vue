@@ -6,7 +6,8 @@
           <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo-footer" />
           <div class="column">
             <span class="footer-text">Interested? Let's connect</span>
-            <a href="mailto:hello@iconinteractive.com">hello@iconinteractive.com</a>
+            <a href="mailto:info@iconinteractive.com">info@iconinteractive.com</a>
+            <a href="tel:7347079245">734.707.9245</a>
             <span>© {{date}} ICON Interactive</span>
           </div>
         </div>
@@ -46,7 +47,7 @@ export default {
 .logo-footer {
   height: 65px;
   fill: white;
-  margin: 2% 5% 0 0;
+  margin: 5% 5% 5% 0;
 }
 .grid {
   display: grid;
@@ -75,11 +76,13 @@ a {
   font-size: 2rem;
   text-decoration: none;
   color: var(--color-highlight);
-  margin-bottom: 0.5rem;
 }
 a:hover {
   transition: all 300ms ease-in;
   text-decoration: underline;
+}
+a:last-of-type {
+  margin-bottom: 0.5rem;
 }
 @media (max-width: 720px) {
   .logo-footer {
