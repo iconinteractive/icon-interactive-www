@@ -108,10 +108,12 @@ export default {
   },
   methods: {
     formatServiceName(name) {
-      let format = name.replace("_", " ");
-      if (format === "web mobile") {
+      let format = name;
+      console.log(format);
+      if (format === "web_mobile") {
         return "Web & Mobile";
-      } else if (format === "design visual content") {
+      }
+      if (format === "design_visual_content") {
         return "Design & Visual Content";
       } else {
         let output = "";
@@ -121,8 +123,10 @@ export default {
             output += format[idx].toUpperCase();
             continue;
           }
-          if (format[idx] === " ") {
+          if (format[idx] === "_") {
             spaceIdx = idx;
+            output += " ";
+            continue;
           }
           if (spaceIdx === idx - 1) {
             output += format[idx].toUpperCase();
