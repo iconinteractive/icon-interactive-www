@@ -60,7 +60,7 @@ fields:
     config:
       required: false
       options:
-      - stategy
+      - strategy
       - design and visual content
       - web and mobile
       - experiential
@@ -168,6 +168,6 @@ fields:
   description: 'Results ROI Figures. Ex: 200+ qualified leads'
 pages:
 - projects/rare-signals.md
-- projects/panasonic-ces.md
 - projects/ef-pro-cycling.md
+- projects/panasonic-ces.md
 - projects/dts.md
