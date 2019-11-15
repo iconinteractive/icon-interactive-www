@@ -2,25 +2,11 @@
 label: Project
 hide_body: false
 fields:
-- type: file
-  name: thumbnail
-  label: Thumbnail
-  description: This is the main image for the project.
-- type: text
-  name: title
-  label: Title
-  config:
-    required: true
 - name: display_on_home_page
   type: boolean
   label: Display on home page
   description: toggles if project should be displayed on the home page :)
   default: false
-- type: tag_list
-  name: categories
-  label: Category Tags
-  description: 'Please add 1 - 3 tags from the following: strategy, design and visual
-    content, web and mobile, experiential, custom software. '
 - type: datetime
   name: date
   label: Date
@@ -32,11 +18,25 @@ fields:
     display_utc: true
   default: now
   hidden: false
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: This is the main image for the project.
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
 - name: client
   type: text
   config:
     required: true
   label: Client name
+- type: tag_list
+  name: categories
+  label: Category Tags
+  description: 'Please add 1 - 3 tags from the following: strategy, design and visual
+    content, web and mobile, experiential, custom software. '
 - name: brief_label
   type: text
   config:
