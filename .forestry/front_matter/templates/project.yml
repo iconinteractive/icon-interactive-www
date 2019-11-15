@@ -32,11 +32,60 @@ fields:
   config:
     required: true
   label: Client name
-- type: tag_list
-  name: categories
-  label: Category Tags
-  description: 'Please add 1 - 3 tags from the following: strategy, design and visual
-    content, web and mobile, experiential, custom software. '
+- name: service_tag_one
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - strategy
+    - design and visual content
+    - " web and mobile"
+    - " experiential"
+    - " custom software"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Service tag one
+  description: add a service tag - at least one tag is required to post
+- name: service_tag_two
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - strategy
+    - " design and visual content"
+    - " web and mobile"
+    - " experiential"
+    - " custom software"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Service tag two
+  description: optional service tag
+- name: service_tag_three
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - strategy
+    - " design and visual content"
+    - " web and mobile"
+    - " experiential"
+    - custom software
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Service tag three
+  description: optional service tag
 - name: brief_label
   type: text
   config:
