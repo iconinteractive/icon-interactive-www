@@ -36,7 +36,13 @@ fields:
   type: text
   config:
     required: true
-  label: Client
+  label: Client name
+- name: brief_label
+  type: text
+  config:
+    required: false
+  label: Brief paragraph label
+  description: 'Label for the initial paragraph. Examples: Brief, Challenge, etc.'
 - name: brief
   type: textarea
   default: ''
