@@ -32,60 +32,63 @@ fields:
   config:
     required: true
   label: Client name
-- name: service_tag_one
-  type: select
-  default: ''
-  config:
-    required: true
-    options:
-    - strategy
-    - design and visual content
-    - web and mobile
-    - experiential
-    - custom software
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Service tag one
-  description: add a service tag - at least one tag is required to post
-- name: service_tag_two
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - strategy
-    - design and visual content
-    - web and mobile
-    - experiential
-    - custom software
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Service tag two
-  description: optional service tag
-- name: service_tag_three
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - strategy
-    - design and visual content
-    - web and mobile
-    - experiential
-    - custom software
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Service tag three
-  description: optional service tag
+- name: service_tags
+  type: field_group
+  config: {}
+  fields:
+  - name: service_tag_one
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - strategy
+      - design and visual content
+      - web and mobile
+      - experiential
+      - custom software
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Service Tag One
+    description: required
+  - name: service_tag_two
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - stategy
+      - design and visual content
+      - web and mobile
+      - experiential
+      - custom software
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Service Tag Two
+  - name: service_tag_three
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - strategy
+      - design and visual content
+      - web and mobile
+      - experiential
+      - custom software
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Service Tag Three
+  label: Service Tags
 - name: brief_label
   type: text
   config:
