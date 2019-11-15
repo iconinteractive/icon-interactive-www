@@ -135,6 +135,7 @@ h2 {
   }
   .container {
     margin: 0 2rem;
+    max-width: 100vw;
   }
 }
 </style>

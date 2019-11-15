@@ -20,6 +20,7 @@
           </div>
         </div>
         <div class="project-info">
+          <span class="label" v-html="$page.post.brief_label" />
           <p v-html="$page.post.brief" />
         </div>
       </div>
@@ -39,11 +40,7 @@
       </section>
       <section class="two-column">
         <div class="project-text">
-          <span class="label">Process</span>
-          <p v-html="$page.post.process" />
-        </div>
-        <div class="project-text">
-          <span class="label">Solution</span>
+          <span class="label" v-html="$page.post.solution_label" />
           <p v-html="$page.post.solution" />
         </div>
       </section>
@@ -145,6 +142,10 @@ export default {
 }
 ul {
   margin: 0;
+}
+.content {
+  display: flex;
+  margin: 0 auto;
 }
 @media (max-width: 850px) {
   .two-column {
