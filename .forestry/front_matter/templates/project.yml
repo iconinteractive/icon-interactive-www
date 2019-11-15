@@ -57,10 +57,10 @@ fields:
       required: false
       options:
         - strategy
-        - " design and visual content"
-        - " web and mobile"
-        - " experiential"
-        - " custom software"
+        - "design and visual content"
+        - "web and mobile"
+        - "experiential"
+        - "custom software"
       source:
         type: simple
         section:
