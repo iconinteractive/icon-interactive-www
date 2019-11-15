@@ -2,169 +2,170 @@
 label: Project
 hide_body: false
 fields:
-- name: display_on_home_page
-  type: boolean
-  label: Display on home page
-  description: toggles if project should be displayed on the home page :)
-  default: false
-- type: datetime
-  name: date
-  label: Date
-  config:
-    required: true
-    date_format: MM/YYYY
-    time_format: ''
-    export_format: YYYY-MM-DD
-    display_utc: true
-  default: now
-  hidden: false
-- type: file
-  name: thumbnail
-  label: Thumbnail
-  description: This is the main image for the project.
-- type: text
-  name: title
-  label: Title
-  config:
-    required: true
-- name: client
-  type: text
-  config:
-    required: true
-  label: Client name
-- name: service_tag_one
-  type: select
-  default: ''
-  config:
-    required: true
-    options:
-    - strategy
-    - design and visual content
-    - " web and mobile"
-    - " experiential"
-    - " custom software"
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Service tag one
-  description: add a service tag - at least one tag is required to post
-- name: service_tag_two
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - strategy
-    - " design and visual content"
-    - " web and mobile"
-    - " experiential"
-    - " custom software"
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Service tag two
-  description: optional service tag
-- name: service_tag_three
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - strategy
-    - " design and visual content"
-    - " web and mobile"
-    - " experiential"
-    - custom software
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Service tag three
-  description: optional service tag
-- name: brief_label
-  type: text
-  config:
-    required: false
-  label: Brief paragraph label
-  description: 'Label for the initial paragraph. Examples: Brief, Challenge, etc.'
-- name: brief
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Brief
-  description: An intro to the project brief
-- name: horizontal_image_two
-  type: file
-  config:
-    maxSize: 250
-  label: Horizontal image two
-  description: second horizontal image
-- name: solution_label
-  type: text
-  config:
-    required: false
-  label: Solution paragraph label
-  description: 'Title label for the solution paragraph. Ex: Activation, Solution,
-    etc.'
-- name: solution
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Solution
-  description: A paragraph about our solution to the project brief.
-- name: vertical_image_one
-  type: file
-  config:
-    maxSize: 250
-  label: Vertical image one
-  description: vertical image one
-- name: vertical_image_two
-  type: file
-  config:
-    maxSize: 250
-  label: Vertical image two
-  description: vertical image two
-- name: pull_quote
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Pull Quote
-  description: optional pull quote
-- name: horizontal_image_three
-  type: file
-  config:
-    maxSize: 250
-  label: Horizontal image three
-  description: max file size is 250 mb
-- name: results
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Results
-  description: 'Results ROI Figures. Ex: 200+ qualified leads'
+  - name: display_on_home_page
+    type: boolean
+    label: Display on home page
+    description: toggles if project should be displayed on the home page :)
+    default: false
+  - type: datetime
+    name: date
+    label: Date
+    config:
+      required: true
+      date_format: MM/YYYY
+      time_format: ""
+      export_format: YYYY-MM-DD
+      display_utc: true
+    default: now
+    hidden: false
+  - type: file
+    name: thumbnail
+    label: Thumbnail
+    description: This is the main image for the project.
+  - type: text
+    name: title
+    label: Title
+    config:
+      required: true
+  - name: client
+    type: text
+    config:
+      required: true
+    label: Client name
+  - name: service_tag_one
+    type: select
+    default: ""
+    config:
+      required: true
+      options:
+        - strategy
+        - design and visual content
+        - "web and mobile"
+        - "experiential"
+        - "custom software"
+      source:
+        type: simple
+        section:
+        file:
+        path:
+    label: Service tag one
+    description: add a service tag - at least one tag is required to post
+  - name: service_tag_two
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+        - strategy
+        - " design and visual content"
+        - " web and mobile"
+        - " experiential"
+        - " custom software"
+      source:
+        type: simple
+        section:
+        file:
+        path:
+    label: Service tag two
+    description: optional service tag
+  - name: service_tag_three
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+        - strategy
+        - "design and visual content"
+        - "web and mobile"
+        - "experiential"
+        - custom software
+      source:
+        type: simple
+        section:
+        file:
+        path:
+    label: Service tag three
+    description: optional service tag
+  - name: brief_label
+    type: text
+    config:
+      required: false
+    label: Brief paragraph label
+    description: "Label for the initial paragraph. Examples: Brief, Challenge, etc."
+  - name: brief
+    type: textarea
+    default: ""
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Brief
+    description: An intro to the project brief
+  - name: horizontal_image_two
+    type: file
+    config:
+      maxSize: 250
+    label: Horizontal image two
+    description: second horizontal image
+  - name: solution_label
+    type: text
+    config:
+      required: false
+    label: Solution paragraph label
+    description:
+      "Title label for the solution paragraph. Ex: Activation, Solution,
+      etc."
+  - name: solution
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Solution
+    description: A paragraph about our solution to the project brief.
+  - name: vertical_image_one
+    type: file
+    config:
+      maxSize: 250
+    label: Vertical image one
+    description: vertical image one
+  - name: vertical_image_two
+    type: file
+    config:
+      maxSize: 250
+    label: Vertical image two
+    description: vertical image two
+  - name: pull_quote
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Pull Quote
+    description: optional pull quote
+  - name: horizontal_image_three
+    type: file
+    config:
+      maxSize: 250
+    label: Horizontal image three
+    description: max file size is 250 mb
+  - name: results
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Results
+    description: "Results ROI Figures. Ex: 200+ qualified leads"
 pages:
-- projects/dts.md
-- projects/rare-signals.md
-- projects/panasonic-ces.md
-- projects/ef-pro-cycling.md
+  - projects/dts.md
+  - projects/rare-signals.md
+  - projects/panasonic-ces.md
+  - projects/ef-pro-cycling.md

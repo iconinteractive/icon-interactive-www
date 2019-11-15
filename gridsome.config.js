@@ -7,7 +7,7 @@ module.exports = {
   host: "0.0.0.0",
   titleTemplate: "%s",
   siteDescription:
-    "ICON Interactive is a full-service digital agency that represents the merger of extraordinary design and powerful technology.",
+    "ICON is a full-service digital agency determined to change the way people interact with the world.",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
