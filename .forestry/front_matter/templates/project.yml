@@ -57,20 +57,15 @@ fields:
   type: file
   config:
     maxSize: 250
-  label: horizontal image two
+  label: Horizontal image two
   description: second horizontal image
-- name: vertical_image_one
-  type: file
+- name: solution_label
+  type: text
   config:
-    maxSize: 250
-  label: vertical image one
-  description: vertical image one
-- name: vertical_image_two
-  type: file
-  config:
-    maxSize: 250
-  label: vertical image two
-  description: vertical image two
+    required: false
+  label: Solution paragraph label
+  description: 'Title label for the solution paragraph. Ex: Activation, Solution,
+    etc.'
 - name: solution
   type: textarea
   default: ''
@@ -81,12 +76,44 @@ fields:
       format: markdown
   label: Solution
   description: A paragraph about our solution to the project brief.
+- name: vertical_image_one
+  type: file
+  config:
+    maxSize: 250
+  label: Vertical image one
+  description: vertical image one
+- name: vertical_image_two
+  type: file
+  config:
+    maxSize: 250
+  label: Vertical image two
+  description: vertical image two
+- name: pull_quote
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Pull Quote
+  description: optional pull quote
 - name: horizontal_image_three
   type: file
   config:
     maxSize: 250
-  label: horizontal image three
+  label: Horizontal image three
   description: max file size is 250 mb
+- name: results
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Results
+  description: 'Results ROI Figures. Ex: 200+ qualified leads'
 pages:
 - projects/dts.md
 - projects/rare-signals.md
