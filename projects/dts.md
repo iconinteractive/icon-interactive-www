@@ -33,6 +33,10 @@ service_tag_two: ''
 service_tag_three: ''
 solution_label: ''
 pull_quote: ''
-results: ''
+results: "## 100+\n\nleads generated\n\n# "
+service_tags:
+  service_tag_one: design and visual content
+  service_tag_two: stategy
+  service_tag_three: web and mobile
 
 ---
