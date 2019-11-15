@@ -164,7 +164,7 @@ fields:
   label: Results
   description: 'Results ROI Figures. Ex: 200+ qualified leads'
 pages:
+- projects/rare-signals.md
 - projects/panasonic-ces.md
 - projects/dts.md
 - projects/ef-pro-cycling.md
-- projects/rare-signals.md

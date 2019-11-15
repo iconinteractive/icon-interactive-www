@@ -25,5 +25,12 @@ process: Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with ex
   vines.
 horizontal_image_three: https://s3.amazonaws.com/forestry.iconinteractive.com/RareSignals.008.jpeg
 display_on_home_page: false
+service_tag_one: strategy
+service_tag_two: ''
+service_tag_three: ''
+brief_label: ''
+solution_label: ''
+pull_quote: ''
+results: ''
 
 ---
