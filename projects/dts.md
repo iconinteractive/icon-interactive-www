@@ -2,41 +2,36 @@
 date: 2019-10-05
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.003.jpeg
 title: DTS
-categories:
-- web
-- mobile
-- experiental
 client: Digital Theater Systems
-brief: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
+brief:
+  Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
   extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
   Matheson Hammock Park.
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.004.jpeg
-vertical_image_one: ''
-vertical_image_two: ''
-process: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
+vertical_image_one: ""
+vertical_image_two: ""
+process:
+  Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
   extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
   Matheson Hammock Park.
 horizontal_image_three: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.005.jpeg
-solution: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden,
+solution:
+  Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden,
   with extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
   Matheson Hammock Park.
 display_on_home_page: true
 brief_label: Challenge
-service_tag_one: strategy
-service_tag_two: ''
-service_tag_three: ''
-solution_label: ''
-pull_quote: ''
+solution_label: ""
+pull_quote: ""
 results: "## 100+\n\nleads generated\n\n# "
 service_tags:
   service_tag_one: design and visual content
   service_tag_two: stategy
   service_tag_three: web and mobile
-
 ---

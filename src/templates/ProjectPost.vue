@@ -9,12 +9,12 @@
           <div class="categories-container">
             <div class="categories">
               <ul>
-                <li
+                <!-- <li
                   class="category label"
                   v-for="(category, index) in $page.post.categories"
                   :key="index"
                   v-text="category"
-                />
+                />-->
               </ul>
             </div>
           </div>
@@ -64,11 +64,15 @@ query ProjectPost ($path: String!) {
     date (format: "YYYY")
     thumbnail
     client
+    service_tags
     content
     categories
+    brief_label
     brief
     process
+    solution_label
     solution
+    results
     horizontal_image_two
     vertical_image_one
     vertical_image_two
