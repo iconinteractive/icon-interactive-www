@@ -30,5 +30,9 @@ brief_label: ''
 solution_label: ''
 pull_quote: ''
 results: ''
+service_tags:
+  service_tag_one: experiential
+  service_tag_two: design and visual content
+  service_tag_three: ''
 
 ---
