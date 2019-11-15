@@ -9,9 +9,7 @@
             people interact with the world. For the better.
           </p>
           <div class="flex-center">
-            <button class="start-button" @click="scrollDown">
-              Get Started
-            </button>
+            <button class="start-button" @click="scrollDown">Get Started</button>
           </div>
         </div>
         <ProjectsGrid id="start" :projects="$page.projects.edges" />
@@ -28,7 +26,6 @@ query Posts {
         id
         date (format: "YYYY")
         title
-        categories
         thumbnail
         path
         display_on_home_page

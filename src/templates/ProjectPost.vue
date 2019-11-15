@@ -9,12 +9,12 @@
           <div class="categories-container">
             <div class="categories">
               <ul>
-                <!-- <li
+                <li
                   class="category label"
-                  v-for="(category, index) in $page.post.categories"
+                  v-for="(tag, index) in $page.post.service_tags"
                   :key="index"
-                  v-text="category"
-                />-->
+                  v-text="formatServiceName(tag)"
+                />
               </ul>
             </div>
           </div>
@@ -64,9 +64,12 @@ query ProjectPost ($path: String!) {
     date (format: "YYYY")
     thumbnail
     client
-    service_tags
+    service_tags {
+     service_tag_one
+     service_tag_two
+     service_tag_three
+    }
     content
-    categories
     brief_label
     brief
     process
@@ -82,11 +85,15 @@ query ProjectPost ($path: String!) {
 </page-query>
 
 <script>
+import formatServiceName from "@/components/utility-funcs/formatServiceName.js";
 export default {
   metaInfo() {
     return {
       title: this.$page.post.title
     };
+  },
+  methods: {
+    formatServiceName: formatServiceName
   }
 };
 </script>
@@ -132,9 +139,6 @@ export default {
 }
 .g-image {
   margin: 2rem 0;
-}
-.category:before {
-  content: "- ";
 }
 .label {
   color: var(--color-highlight);

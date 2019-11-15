@@ -7,8 +7,8 @@
         <span class="pink">DELIVERS</span>
       </h1>
       <section class="about-text">
-        <strong
-          >There’s an agency on every corner, but you’ll find there’s only one
+        <strong>
+          There’s an agency on every corner, but you’ll find there’s only one
           ICON. We invent and deploy digital customer experiences and interfaces
           that drive performance, value, learning, and growth.
         </strong>
@@ -22,19 +22,14 @@
         <p>
           Strategy. Design. Experiential. Web. Software.
           <br />
-          <br />
-          Let’s plug in, dream it up, and get it done.
+          <br />Let’s plug in, dream it up, and get it done.
         </p>
       </section>
       <section>
         <label>WHAT WE DO</label>
         <h2>Capabilities</h2>
         <ul class="grid-two">
-          <li
-            class="services"
-            v-for="(paragraph, serviceName) in services"
-            :key="serviceName"
-          >
+          <li class="services" v-for="(paragraph, serviceName) in services" :key="serviceName">
             <h3>{{ formatServiceName(serviceName) }}</h3>
             <p>{{ paragraph }}</p>
           </li>
@@ -54,21 +49,24 @@
             <h3>New York</h3>
             <p>
               180 Varick St
-              <br />Suite 912 <br />New York, NY 1004
+              <br />Suite 912
+              <br />New York, NY 1004
             </p>
           </li>
           <li>
             <h3>Boston</h3>
             <p>
               129 Kingston St
-              <br />Floor 2 <br />Boston, MA 02111
+              <br />Floor 2
+              <br />Boston, MA 02111
             </p>
           </li>
           <li>
             <h3>Detroit</h3>
             <p>
               1442 Brush St
-              <br />Floor 3 <br />Detroit, MI 48226
+              <br />Floor 3
+              <br />Detroit, MI 48226
             </p>
           </li>
         </ul>
@@ -101,9 +99,7 @@
             <br />
             <span class="small-title">LET'S GET BUILDING</span>
             <h2>
-              <a href="https://www.linkedin.com/company/icon-interactive"
-                >Open Roles ⟶</a
-              >
+              <a href="https://www.linkedin.com/company/icon-interactive">Open Roles ⟶</a>
             </h2>
           </div>
         </div>
@@ -113,6 +109,8 @@
 </template>
 
 <script>
+import formatServiceName from "@/components/utility-funcs/formatServiceName.js";
+
 export default {
   data() {
     return {
@@ -120,36 +118,7 @@ export default {
     };
   },
   methods: {
-    formatServiceName(name) {
-      let format = name;
-      console.log(format);
-      if (format === "web_mobile") {
-        return "Web & Mobile";
-      }
-      if (format === "design_visual_content") {
-        return "Design & Visual Content";
-      } else {
-        let output = "";
-        let spaceIdx = "";
-        for (let idx = 0; idx < format.length; idx++) {
-          if (idx === 0) {
-            output += format[idx].toUpperCase();
-            continue;
-          }
-          if (format[idx] === "_") {
-            spaceIdx = idx;
-            output += " ";
-            continue;
-          }
-          if (spaceIdx === idx - 1) {
-            output += format[idx].toUpperCase();
-          } else {
-            output += format[idx];
-          }
-        }
-        return output;
-      }
-    }
+    formatServiceName: formatServiceName
   }
 };
 </script>
