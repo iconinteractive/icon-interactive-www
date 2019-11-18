@@ -88,10 +88,7 @@ h3 {
   margin: 0;
   margin: 0 6rem;
 }
-ul {
-  list-style: none;
-  padding: 0;
-}
+
 .fade-enter-active {
   transition: opacity 0.75s;
 }

@@ -21,7 +21,7 @@
         </div>
         <div class="project-info">
           <h2 class="label" v-html="$page.post.brief_label" />
-          <p v-html="$page.post.brief" />
+          <div v-html="$page.post.brief" />
         </div>
       </div>
       <g-image
@@ -46,7 +46,7 @@
         </div>
         <div class="project-text">
           <h2 class="label">Results & ROI</h2>
-          <p v-html="$page.post.results" />
+          <div v-html="$page.post.results" />
         </div>
       </section>
       <g-image
@@ -106,6 +106,10 @@ export default {
   padding: 2rem 0 4rem 0;
   display: flex;
 }
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
 .project-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
@@ -147,9 +151,6 @@ export default {
 .label {
   color: var(--color-highlight);
 }
-ul {
-  margin: 0;
-}
 
 blockquote {
   font-size: 2rem;
@@ -167,6 +168,7 @@ blockquote p {
   display: flex;
   margin: 0 auto;
 }
+
 @media (max-width: 850px) {
   .two-column {
     grid-template-columns: 1fr;

@@ -135,11 +135,15 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 4rem;
+  list-style: none;
+  padding: 0;
 }
 .grid-two {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem;
+  list-style: none;
+  padding: 0;
 }
 label {
   position: relative;
