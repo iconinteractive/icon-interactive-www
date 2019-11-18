@@ -19,8 +19,9 @@
                 </ul>
               </div>
             </div>
+            <div v-if="$page.post.project_url" v-html="$page.post.project_url" />
           </div>
-          <div class="project-info">
+          <div class="project-text">
             <h2 class="label" v-html="$page.post.brief_label" />
             <div v-html="$page.post.brief" />
           </div>
@@ -51,7 +52,7 @@
           </div>
           <div class="project-text">
             <h2 class="label" v-if="$page.post.results">Results & ROI</h2>
-            <div class="roi" v-html="$page.post.results" />
+            <div class="roi" v-html="$page.post.results" v-if="$page.post.results" />
           </div>
         </section>
         <g-image
@@ -72,6 +73,7 @@ query ProjectPost ($path: String!) {
     date (format: "YYYY")
     thumbnail
     client
+    project_url
     service_tags {
      service_tag_one
      service_tag_two
@@ -158,6 +160,9 @@ export default {
 
 .project-text-container {
   display: flex;
+}
+.project-text {
+  font-size: 1.2rem;
 }
 .g-image {
   margin: 2rem 0;
