@@ -15,27 +15,29 @@ brief: Come up with a stunning and attractive experiential concept that authenti
   Little Caesar’s Arena Chevy Plaza in Detroit, Michigan.
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
 solution_label: Activation
-solution: "The Rocket Mortgage Nexus delivered a genuine connection between Rocket
+solution: "<p>The Rocket Mortgage Nexus delivered a genuine connection between Rocket
   Mortgage and eSport fans, providing ongoing dialogue and interactions while entertaining
-  fans in an eye-opening environment.  \n\nOur two-day experiential pop-up featured
-  multiple ways fans and the public could get closer to the eSport they love, including:\n\n-
-  Overhead 360 gameplay including exclusive team and pro player footage \n\n- Meet
+  fans in an eye-opening environment.</p><p>Our two-day experiential pop-up featured
+  multiple ways fans and the public could get closer to the eSport they love, including:</p><ul><li><p>Overhead
+  360 gameplay including exclusive team and pro player footage</p></li><li><p>Meet
   and greets with pro 100 Thieves players – including Nadeshot and Aphromoo – provided
-  autograph and photo opportunities\n\n- Opportunities to win a 100 Thieves autographed
-  jersey\n\n- Physical takeaways and shareable digital takeaways throughout the dome\n\nQuicken
-  Loans is a prominent partner of 100 Thieves, the North American organization founded
-  by Matthew “Nadeshot” Haag in 2017. Dan Gilbert, the largest shareholder in 100
-  Thieves, is the founder of Quicken Loans."
+  autograph and photo opportunities</p></li><li><p>Opportunities to win a 100 Thieves
+  autographed jersey</p></li><li><p>Physical takeaways and shareable digital takeaways
+  throughout the dome</p></li></ul><p>Quicken Loans is a prominent partner of <strong>100
+  Thieves</strong>, the North American organization founded by Matthew “Nadeshot”
+  Haag in 2017. <strong>Dan Gilbert</strong>, the largest shareholder in 100 Thieves,
+  is the founder of Quicken Loans.</p>"
 vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
 vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
-pull_quote: <blockquote><h4>"There was an awesome dome and we had provided some Rift
-  content for them to be able to show. We want to make sure our fans have a great
-  experience and leave saying ‘thank you for being here and thank you for creating
-  this experience.’ We got that. And they told us… this is the best fan day activation
-  we have seen in Chevy Plaza in a long time."<br>- Matt Archambault, Head of NA Partnerships
-  for Riot Games</h4></blockquote>
+pull_quote: |-
+  "There was an awesome dome and we had provided some Rift content for them to be able to show. We want to make sure our fans have a great experience and leave saying ‘thank you for being here and thank you for creating this experience.’ We got that. And they told us… this is the best fan day activation we have seen in Chevy Plaza in a long time."
+
+  - Matt Archambault, Head of NA Partnerships for Riot Games
 horizontal_image_three: ''
 results: ''
 
 ---
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=0&width=850" width="850" height="475" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
+> “To see your brand associated with something that people are so excited about makes you feel good that your brand is part of it. We are doing really amazing activations outside the arena. This giant dome with projection mapping. We are getting great feedback and it makes me excited to be a part of it.”  
+> \- Casey Hurbis, CMO, Rocket Mortgage

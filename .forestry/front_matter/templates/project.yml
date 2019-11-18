@@ -100,9 +100,9 @@ fields:
   default: ''
   config:
     required: true
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Brief
   description: An intro to the project brief
 - name: horizontal_image_two
@@ -123,9 +123,9 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Solution
   description: A paragraph about our solution to the project brief.
 - name: vertical_image_one
@@ -145,7 +145,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: html-blocks
   label: Pull Quote
