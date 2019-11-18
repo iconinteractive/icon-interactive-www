@@ -1,68 +1,66 @@
 <template>
   <Layout>
-    <div class="container">
-      <g-image
-        :src="$page.post.thumbnail"
-        :alt="$page.post.title"
-        class="thumbnail"
-      />
-      <div class="two-column">
-        <div class="project-info">
-          <span class="label" v-html="$page.post.client">Client</span>
-          <h1 class="title" v-html="$page.post.title" />
-          <div class="categories-container">
-            <div class="categories">
-              <ul>
-                <li
-                  class="category label"
-                  v-for="(tag, index) in $page.post.service_tags"
-                  :key="index"
-                  v-text="formatServiceName(tag)"
-                />
-              </ul>
+    <div>
+      <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
+      <div class="container">
+        <div class="two-column">
+          <div class="project-info">
+            <span class="label" v-html="$page.post.client">Client</span>
+            <h1 class="title" v-html="$page.post.title" />
+            <div class="categories-container">
+              <div class="categories">
+                <ul>
+                  <li
+                    class="category label"
+                    v-for="(tag, index) in $page.post.service_tags"
+                    :key="index"
+                    v-text="formatServiceName(tag)"
+                  />
+                </ul>
+              </div>
             </div>
           </div>
+          <div class="project-info">
+            <h2 class="label" v-html="$page.post.brief_label" />
+            <div v-html="$page.post.brief" />
+          </div>
         </div>
-        <div class="project-info">
-          <h2 class="label" v-html="$page.post.brief_label" />
-          <div v-html="$page.post.brief" />
-        </div>
+        <g-image
+          v-if="$page.post.horizontal_image_two"
+          :src="$page.post.horizontal_image_two"
+          :alt="$page.post.title"
+        />
+        <section class="two-column" v-if="$page.post.vertical_image_one">
+          <g-image
+            v-if="$page.post.vertical_image_one"
+            class="vertical-img"
+            :src="$page.post.vertical_image_one"
+            :alt="$page.post.title"
+          />
+          <g-image
+            class="vertical-img"
+            :src="$page.post.vertical_image_two"
+            :alt="$page.post.title"
+          />
+        </section>
+        <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
+        <section class="two-column">
+          <div class="project-text">
+            <h2 class="label" v-html="$page.post.solution_label" />
+            <div v-html="$page.post.solution" />
+          </div>
+          <div class="project-text">
+            <h2 class="label" v-if="$page.post.results">Results & ROI</h2>
+            <div v-html="$page.post.results" />
+          </div>
+        </section>
+        <g-image
+          v-if="$page.post.horizontal_image_three"
+          :src="$page.post.horizontal_image_three"
+          :alt="$page.post.title"
+        />
+        <div v-html="$page.post.content" class="content" />
       </div>
-      <g-image
-        v-if="$page.post.horizontal_image_two"
-        :src="$page.post.horizontal_image_two"
-        :alt="$page.post.title"
-      />
-      <section class="two-column" v-if="$page.post.vertical_image_one">
-        <g-image
-          v-if="$page.post.vertical_image_one"
-          class="vertical-img"
-          :src="$page.post.vertical_image_one"
-          :alt="$page.post.title"
-        />
-        <g-image
-          class="vertical-img"
-          :src="$page.post.vertical_image_two"
-          :alt="$page.post.title"
-        />
-      </section>
-      <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
-      <section class="two-column">
-        <div class="project-text">
-          <h2 class="label" v-html="$page.post.solution_label" />
-          <div v-html="$page.post.solution" />
-        </div>
-        <div class="project-text">
-          <h2 class="label">Results & ROI</h2>
-          <div v-html="$page.post.results" />
-        </div>
-      </section>
-      <g-image
-        v-if="$page.post.horizontal_image_three"
-        :src="$page.post.horizontal_image_three"
-        :alt="$page.post.title"
-      />
-      <div v-html="$page.post.content" class="content" />
     </div>
   </Layout>
 </template>
