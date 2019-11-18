@@ -24,9 +24,9 @@ solution: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden
   Matheson Hammock Park.
 display_on_home_page: true
 brief_label: Challenge
-solution_label: ''
+solution_label: Solution
 pull_quote: ''
-results: "## 100+\n\nleads generated\n\n# "
+results: "<p></p>"
 service_tags:
   service_tag_one: design and visual content
   service_tag_two: custom software
