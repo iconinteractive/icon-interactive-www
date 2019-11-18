@@ -34,10 +34,15 @@ pull_quote: |-
 
   - Matt Archambault, Head of NA Partnerships for Riot Games
 horizontal_image_three: ''
-results: ''
+results: |-
+  1000+ hours of rocket mortgage content
+
+  200+ qualified leads
 
 ---
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=0&width=850" width="850" height="475" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
-> “To see your brand associated with something that people are so excited about makes you feel good that your brand is part of it. We are doing really amazing activations outside the arena. This giant dome with projection mapping. We are getting great feedback and it makes me excited to be a part of it.”  
+> “To see your brand associated with something that people are so excited about makes you feel good that your brand is part of it. We are doing really amazing activations outside the arena. This giant dome with projection mapping. We are getting great feedback and it makes me excited to be a part of it.”
+>
+>   
 > \- Casey Hurbis, CMO, Rocket Mortgage
