@@ -34,7 +34,10 @@ pull_quote: |-
 
   - Matt Archambault, Head of NA Partnerships for Riot Games
 horizontal_image_three: ''
-results: ''
+results: |-
+  1000+ hours of rocket mortgage content
+
+  200+ qualified leads
 
 ---
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=0&width=850" width="850" height="475" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
