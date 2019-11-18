@@ -32,6 +32,16 @@ fields:
   config:
     required: true
   label: Client name
+- name: project_url
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Project URL
+  description: 'Add project URL if applicable '
 - name: service_tags
   type: field_group
   config: {}
