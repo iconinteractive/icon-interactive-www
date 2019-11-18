@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="project-info">
-          <span class="label" v-html="$page.post.brief_label" />
+          <h2 class="label" v-html="$page.post.brief_label" />
           <p v-html="$page.post.brief" />
         </div>
       </div>
@@ -38,10 +38,15 @@
         />
         <g-image class="vertical-img" :src="$page.post.vertical_image_two" :alt="$page.post.title" />
       </section>
+      <p v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
       <section class="two-column">
         <div class="project-text">
-          <span class="label" v-html="$page.post.solution_label" />
+          <h2 class="label" v-html="$page.post.solution_label" />
           <p v-html="$page.post.solution" />
+        </div>
+        <div class="project-text">
+          <h2 class="label">Results & ROI</h2>
+          <p v-html="$page.post.results" />
         </div>
       </section>
       <g-image
@@ -72,6 +77,7 @@ query ProjectPost ($path: String!) {
     process
     solution_label
     solution
+    pull_quote
     results
     horizontal_image_two
     vertical_image_one
@@ -142,6 +148,11 @@ export default {
 }
 ul {
   margin: 0;
+}
+
+blockquote {
+  font-size: 2rem;
+  color: greenyellow;
 }
 .content {
   display: flex;
