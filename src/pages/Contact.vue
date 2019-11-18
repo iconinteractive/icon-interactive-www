@@ -2,7 +2,12 @@
   <Layout>
     <div class="container">
       <h1 class="title">Connect</h1>
-      <form class="contact-form" name="contact">
+      <form
+        class="contact-form"
+        name="contact"
+        action="https://www.form-data.com/_functions/submit/wn7goc9zzuok4lcb2oeu1p"
+        method="POST"
+      >
         <div class="sender-info">
           <div>
             <label for="name" class="label">Name</label>
@@ -17,14 +22,25 @@
           <label for="message" class="label">Message</label>
           <textarea name="message"></textarea>
         </div>
-        <button class="button">Send</button>
+        <div class="g-recaptcha" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+        <input type="submit" class="button" value="Send" />
       </form>
     </div>
   </Layout>
 </template>
 
 <script>
-export default {};
+export default {
+  metaInfo: {
+    script: [
+      {
+        src: "https://www.google.com/recaptcha/api.js",
+        async: true,
+        defer: true
+      }
+    ]
+  }
+};
 </script>
 
 <style scoped>
@@ -47,6 +63,9 @@ export default {};
 }
 .sender-info > div:last-of-type {
   margin: 0;
+}
+.g-recaptcha {
+  margin-top: 1rem;
 }
 input:focus,
 textarea:focus {
