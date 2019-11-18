@@ -142,6 +142,7 @@ export default {
 }
 .g-image {
   margin: 2rem 0;
+  width: 100%;
 }
 .label {
   color: var(--color-highlight);
