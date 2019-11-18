@@ -38,7 +38,7 @@
         />
         <g-image class="vertical-img" :src="$page.post.vertical_image_two" :alt="$page.post.title" />
       </section>
-      <p v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
+      <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
       <section class="two-column">
         <div class="project-text">
           <h2 class="label" v-html="$page.post.solution_label" />
@@ -152,7 +152,14 @@ ul {
 
 blockquote {
   font-size: 2rem;
-  color: greenyellow;
+  color: var(--color-highlight);
+  border-bottom: 1px solid #fff;
+}
+
+blockquote p {
+  font-size: 2rem;
+  color: var(--color-highlight);
+  border-bottom: 1px solid #fff;
 }
 .content {
   display: flex;
