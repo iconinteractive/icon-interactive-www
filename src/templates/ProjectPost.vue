@@ -1,7 +1,11 @@
 <template>
   <Layout>
     <div class="container">
-      <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
+      <g-image
+        :src="$page.post.thumbnail"
+        :alt="$page.post.title"
+        class="thumbnail"
+      />
       <div class="two-column">
         <div class="project-info">
           <span class="label" v-html="$page.post.client">Client</span>
@@ -36,7 +40,11 @@
           :src="$page.post.vertical_image_one"
           :alt="$page.post.title"
         />
-        <g-image class="vertical-img" :src="$page.post.vertical_image_two" :alt="$page.post.title" />
+        <g-image
+          class="vertical-img"
+          :src="$page.post.vertical_image_two"
+          :alt="$page.post.title"
+        />
       </section>
       <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
       <section class="two-column">
