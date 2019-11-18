@@ -29,13 +29,16 @@ solution: "<p>The Rocket Mortgage Nexus delivered a genuine connection between R
   is the founder of Quicken Loans.</p>"
 vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
 vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
-pull_quote: |-
-  "There was an awesome dome and we had provided some Rift content for them to be able to show. We want to make sure our fans have a great experience and leave saying ‘thank you for being here and thank you for creating this experience.’ We got that. And they told us… this is the best fan day activation we have seen in Chevy Plaza in a long time."
-
-  - Matt Archambault, Head of NA Partnerships for Riot Games
+pull_quote: <p>"There was an awesome dome and we had provided some Rift content for
+  them to be able to show. We want to make sure our fans have a great experience and
+  leave saying ‘thank you for being here and thank you for creating this experience.’
+  We got that. And they told us… this is the best fan day activation we have seen
+  in Chevy Plaza in a long time." </p><p>- Matt Archambault, Head of NA Partnerships
+  for Riot Games</p>
 horizontal_image_three: ''
 results: "<h2>1000+ </h2><p>hours of rocket mortgage content </p><h2>200+ </h2><p>qualified
   leads</p>"
+project_url: ''
 
 ---
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=0&width=850" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>

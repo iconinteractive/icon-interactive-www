@@ -155,7 +155,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: html-blocks
   label: Pull Quote
@@ -177,8 +177,8 @@ fields:
   label: Results
   description: 'Results ROI Figures. Ex: 200+ qualified leads'
 pages:
+- projects/rocket-mortgage-nexus.md
 - projects/ef-pro-cycling.md
 - projects/dts.md
 - projects/panasonic-ces.md
-- projects/rocket-mortgage-nexus.md
 - projects/rare-signals.md
