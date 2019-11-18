@@ -145,7 +145,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
   label: Pull Quote
@@ -161,7 +161,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
   label: Results
