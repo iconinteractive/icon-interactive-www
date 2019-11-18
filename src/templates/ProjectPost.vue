@@ -51,7 +51,7 @@
           </div>
           <div class="project-text">
             <h2 class="label" v-if="$page.post.results">Results & ROI</h2>
-            <div v-html="$page.post.results" />
+            <div class="roi" v-html="$page.post.results" />
           </div>
         </section>
         <g-image
@@ -138,7 +138,16 @@ export default {
 .vertical-img {
   margin-right: 2.5%;
 }
-.project-info {
+.roi {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-highlight);
+  border-left: 1px solid var(--color-highlight);
+}
+
+.roi h1 .project-info {
   font-size: 1rem;
   width: 90%;
   margin: 4rem 2rem;

@@ -65,6 +65,7 @@ export default {
   margin: 0;
 }
 .g-recaptcha {
+  margin-left: calc(50% - 152px);
   margin-top: 1rem;
 }
 input:focus,
