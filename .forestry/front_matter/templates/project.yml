@@ -166,6 +166,16 @@ fields:
       format: html-blocks
   label: Results
   description: 'Results ROI Figures. Ex: 200+ qualified leads'
+- name: project_url
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Project URL
+  description: 'Add project URL if applicable '
 pages:
 - projects/ef-pro-cycling.md
 - projects/dts.md
