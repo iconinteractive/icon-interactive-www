@@ -26,7 +26,7 @@ solution: "<p>In total, ICON created twenty animations for the page. As viewers 
   and feel of the visuals. Keeping the amount of text to a minimum let the animations
   carry most of the story. The vibrant color palette and stylized characters gave
   the experience a lighthearted feel, keeping viewers engaged with the information.</p>"
-horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/second.jpg
+horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/ef-01.gif
 vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vert-1.jpg
 vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/vert-2.jpg
 process: The process fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic
