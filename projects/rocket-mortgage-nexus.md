@@ -2,20 +2,22 @@
 date: 2019-11-15
 service_tags:
   service_tag_one: experiential
-  service_tag_two: ''
-  service_tag_three: ''
+  service_tag_two: ""
+  service_tag_three: ""
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
 title: Rocket Mortgage Nexus
 client: Rocket Mortage
 brief_label: Challenge
-brief: Come up with a stunning and attractive experiential concept that authentically
+brief:
+  Come up with a stunning and attractive experiential concept that authentically
   connects Rocket Mortgage with the world of eSports.  ICON delivered a “never seen
   before” experiential activation leveraging a 40’x40’ tailgate space located in the
   Little Caesar’s Arena Chevy Plaza in Detroit, Michigan.
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
 solution_label: Activation
-solution: "<p>The Rocket Mortgage Nexus delivered a genuine connection between Rocket
+solution:
+  "<p>The Rocket Mortgage Nexus delivered a genuine connection between Rocket
   Mortgage and eSport fans, providing ongoing dialogue and interactions while entertaining
   fans in an eye-opening environment.</p><p>Our two-day experiential pop-up featured
   multiple ways fans and the public could get closer to the eSport they love, including:</p><ul><li><p>Overhead
@@ -33,16 +35,11 @@ pull_quote: |-
   "There was an awesome dome and we had provided some Rift content for them to be able to show. We want to make sure our fans have a great experience and leave saying ‘thank you for being here and thank you for creating this experience.’ We got that. And they told us… this is the best fan day activation we have seen in Chevy Plaza in a long time."
 
   - Matt Archambault, Head of NA Partnerships for Riot Games
-horizontal_image_three: ''
+horizontal_image_three: ""
 results: |-
   1000+ hours of rocket mortgage content
 
   200+ qualified leads
-
 ---
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=0&width=850" width="850" height="475" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
-> “To see your brand associated with something that people are so excited about makes you feel good that your brand is part of it. We are doing really amazing activations outside the arena. This giant dome with projection mapping. We are getting great feedback and it makes me excited to be a part of it.”
->
->   
-> \- Casey Hurbis, CMO, Rocket Mortgage
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=0&width=850" width="850" height="475" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>

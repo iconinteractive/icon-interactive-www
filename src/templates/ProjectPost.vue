@@ -42,7 +42,7 @@
       <section class="two-column">
         <div class="project-text">
           <h2 class="label" v-html="$page.post.solution_label" />
-          <p v-html="$page.post.solution" />
+          <div v-html="$page.post.solution" />
         </div>
         <div class="project-text">
           <h2 class="label">Results & ROI</h2>
@@ -152,8 +152,9 @@ ul {
 
 blockquote {
   font-size: 2rem;
-  color: var(--color-highlight);
-  border-bottom: 1px solid #fff;
+  color: var(--color-contrast);
+  padding-left: 1rem;
+  border-left: 1px solid var(--color-highlight);
 }
 
 blockquote p {
