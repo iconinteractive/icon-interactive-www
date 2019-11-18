@@ -28,8 +28,12 @@ solution: "The Rocket Mortgage Nexus delivered a genuine connection between Rock
   Thieves, is the founder of Quicken Loans."
 vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
 vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
-pull_quote: "<h2>testing</h2><p>roi results 200+++ </p><p>leads and invitations sent
-  out</p>"
+pull_quote: <h3>"There was an awesome dome and we had provided some Rift content for
+  them to be able to show. We want to make sure our fans have a great experience and
+  leave saying ‘thank you for being here and thank you for creating this experience.’
+  We got that. And they told us… this is the best fan day activation we have seen
+  in Chevy Plaza in a long time."<br><strong>Matt Archambault, Head of NA Partnerships
+  for Riot Games</strong></h3>
 horizontal_image_three: ''
 results: ''
 
