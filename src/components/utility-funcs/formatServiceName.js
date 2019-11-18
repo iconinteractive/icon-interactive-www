@@ -1,6 +1,7 @@
 function formatServiceName(name) {
   let format = name;
-  console.log(format);
+  let output = "";
+  let spaceIdx = -2;
   if (format === "web_mobile" || format === "web and mobile") {
     return "Web & Mobile";
   }
@@ -10,24 +11,25 @@ function formatServiceName(name) {
   ) {
     return "Design & Visual Content";
   } else {
-    let output = "";
-    let spaceIdx = "";
     for (let idx = 0; idx < format.length; idx++) {
       if (idx === 0) {
         output += format[idx].toUpperCase();
         continue;
       }
-      if (format[idx] === "_") {
+      if (format[idx] === "_" || format[idx] === " ") {
         spaceIdx = idx;
         output += " ";
         continue;
       }
       if (spaceIdx === idx - 1) {
         output += format[idx].toUpperCase();
+        console.log(output);
+        continue;
       } else {
         output += format[idx];
       }
     }
+    console.log("yurrr");
     return output;
   }
 }
