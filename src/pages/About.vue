@@ -7,11 +7,12 @@
         <span class="pink">DELIVERS</span>
       </h1>
       <section class="about-text">
-        <strong>
-          There’s an agency on every corner, but you’ll find there’s only one
-          ICON. We invent and deploy digital customer experiences and interfaces
-          that drive performance, value, learning, and growth.
-        </strong>
+        There’s an agency on every corner, but you’ll find there’s only one
+        ICON. We invent and deploy digital customer experiences and interfaces
+        that drive
+        <span
+          class="pink"
+        >performance, value, learning, & growth.</span>
         <p>
           With offices in Detroit, NYC, Ann Arbor, and Boston, our team of ICONs
           is the extended team you’ve imagined. Our relentless focus on clients
@@ -19,11 +20,8 @@
           technologies - will redefine what’s possible. You’ve heard it all
           before? Great. Now come see it in action.
         </p>
-        <p>
-          Strategy. Design. Experiential. Web. Software.
-          <br />
-          <br />Let’s plug in, dream it up, and get it done.
-        </p>
+        <p class="pink">Strategy. Design. Experiential. Web. Software.</p>
+        <p>Let’s plug in, dream it up, and get it done.</p>
       </section>
       <section>
         <label>WHAT WE DO</label>

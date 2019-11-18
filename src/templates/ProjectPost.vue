@@ -19,7 +19,7 @@
                 </ul>
               </div>
             </div>
-            <div v-if="$page.post.project_url" v-html="$page.post.project_url" />
+            <div class="url" v-if="$page.post.project_url" v-html="$page.post.project_url" />
           </div>
           <div class="project-text">
             <h2 class="label" v-html="$page.post.brief_label" />
@@ -139,6 +139,9 @@ export default {
 }
 .vertical-img {
   margin-right: 2.5%;
+}
+.url {
+  font-size: 1.2rem;
 }
 .roi {
   display: flex;

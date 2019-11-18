@@ -99,6 +99,7 @@ a:last-of-type {
   ul {
     margin-top: 2rem;
     text-align: left;
+    padding: 0;
   }
   a {
     font-size: 1.5rem;

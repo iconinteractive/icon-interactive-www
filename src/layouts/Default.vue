@@ -41,7 +41,7 @@ body {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background: var(--color-base);
   color: var(--color-contrast);
   transition: background 0.5s ease;
