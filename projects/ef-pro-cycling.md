@@ -4,12 +4,11 @@ year: 2019
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/ef-pro2x.jpg
 title: EF Pro Cycling
 client: Education First
-brief: <p>Introducing the team-based nature of professional cycling to newbies and
+brief: "<p>Introducing the team-based nature of professional cycling to newbies and
   non-cyclists alike is what Education First sought to do through their “How to Explain
   Cycling to your Friends” page. In keeping with the client’s mission of opening the
   world through education, ICON landed on the idea of creating a series of animations
-  that would provide a dynamic but informative experience accessible across all devices.</p><p><a
-  href="https://www.efprocycling.com/" title="https://www.efprocycling.com/">https://www.efprocycling.com/</a></p>
+  that would provide a dynamic but informative experience accessible across all devices.</p>"
 solution: "<p>In total, ICON created twenty animations for the page. As viewers scroll,
   they follow a cyclist—the “leader”—and watch as his teammates guide him to victory
   through strong winds and across tough terrain. With each new sequence in the story,
