@@ -1,5 +1,5 @@
 <template>
-  <div class="projects" :class="{twoColumn: $route.path === '/projects'}">
+  <div class="projects" :class="{threeColumn: $route.path === '/projects'}">
     <div class="project" v-for="item in projects" :key="item.node.id">
       <g-link :to="item.node.path" class="project-link">
         <g-image :src="item.node.thumbnail" :alt="item.node.title" class="thumbnail" />
@@ -23,11 +23,14 @@ export default {
 <style scoped>
 .projects {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-}
-.twoColumn {
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+/* .twoColumn {
+  grid-template-columns: repeat(2, 1fr);
+} */
+.threeColumn {
+  grid-template-columns: repeat(3, 1fr);
 }
 .project {
   position: relative;
@@ -48,16 +51,18 @@ export default {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
   bottom: 0.3rem;
-  left: 3rem;
-  font-size: 2rem;
+  left: 1rem;
+  font-size: 1.5rem;
   color: var(--color-contrast-1);
-  transition: all 1200ms ease-in-out;
+  transition: all 1s ease-in-out;
   padding: 0 0.5rem;
+  opacity: 0;
 }
 .thumbnail:hover + h3 {
-  transition: all 1200ms ease-in-out;
+  transition: all 1s ease-in-out;
   background: var(--color-highlight);
   color: var(--color-contrast-1);
+  opacity: 1;
 }
 h3:hover {
   background: var(--color-highlight);

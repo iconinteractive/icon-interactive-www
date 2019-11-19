@@ -65,7 +65,7 @@ export default {
   margin: 0;
 }
 .g-recaptcha {
-  margin-left: calc(50% - 152px);
+  /* margin-left: calc(50% - 152px); */
   margin-top: 1rem;
 }
 input:focus,
@@ -103,6 +103,7 @@ textarea {
   transition: all 300ms ease-in-out;
   font-size: 500;
   letter-spacing: 0.035em;
+  width: 302px;
 }
 .button:hover {
   background: var(--color-highlight);
