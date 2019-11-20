@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
       <section>
-        <h1 class="title">Capabilities</h1>
+        <h1>Capabilities</h1>
         <ul class="grid-two">
           <li class="services" v-for="(paragraph, serviceName) in services" :key="serviceName">
             <h3>{{ formatServiceName(serviceName) }}</h3>

@@ -34,22 +34,6 @@ export default {
         .then(m => m.VueTyper)
         .catch()
   },
-  data() {
-    return {
-      // copyArr: [
-      //   "STRATEGY",
-      //   "WEB",
-      //   "AR & VR",
-      //   "BRAND",
-      //   "SOFTWARE",
-      //   "IMPACT",
-      //   "DESIGN",
-      //   "TRAFFIC",
-      //   "RESULTS",
-      //   "PIZZA"
-      // ]
-    };
-  },
   created() {
     console.log(
       "👽 Built on gridsome & forestry. Curious to see how things work? Check out our open roles on the About page ;)"
