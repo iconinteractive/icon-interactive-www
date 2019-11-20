@@ -26,10 +26,21 @@ display_on_home_page: true
 brief_label: Challenge
 solution_label: Solution
 pull_quote: ''
-results: "<p></p>"
+results:
+  column_one: ''
+  column_two: ''
+  column_three: ''
 service_tags:
   service_tag_one: design and visual content
   service_tag_two: custom software
   service_tag_three: web and mobile
+project_url: ''
+introduction: "<h2>Intro statement</h2><p>Mandem intro statement tropical gardens
+  with extensive collections of rare tropical plants including palms, cycads, flowering
+  trees, and vines.</p>"
+two_column_horizontal_images:
+  image_one: ''
+  image_two: ''
+pull_quote_2: ''
 
 ---
