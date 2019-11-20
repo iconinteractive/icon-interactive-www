@@ -8,5 +8,14 @@ fields:
 - type: textarea
   name: site_description
   label: Site description
+- name: home_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Home text
 pages:
 - data/theme.json
