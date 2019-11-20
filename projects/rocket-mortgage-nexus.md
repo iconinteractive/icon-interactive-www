@@ -13,7 +13,7 @@ brief: Come up with a stunning and attractive experiential concept that authenti
   connects Rocket Mortgage with the world of eSports.  ICON delivered a “never seen
   before” experiential activation leveraging a 40’x40’ tailgate space located in the
   Little Caesar’s Arena Chevy Plaza in Detroit, Michigan.
-horizontal_image_two: ''
+horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
 solution_label: Activation
 solution: "<p>The Rocket Mortgage Nexus delivered a genuine connection between Rocket
   Mortgage and eSport fans, providing ongoing dialogue and interactions while entertaining
@@ -46,11 +46,11 @@ introduction: "<h2>ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH
   Mortgage partnered with Riot Games to bring League of Legends to Detroit as presenting
   sponsor of the LCS Summer Finals.</p>"
 two_column_vertical_images:
-  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
-  vertical_image_two_: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
+  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
+  vertical_image_two_: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
 two_column_horizontal_images:
-  image_one: ''
-  image_two: ''
+  image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
+  image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
 pull_quote_2: "<p>“To see your brand associated with something that people are so
   excited about makes you feel good that your brand is part of it. We are doing really
   amazing activations outside the arena. This giant dome with projection mapping.
