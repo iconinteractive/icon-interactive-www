@@ -2,13 +2,9 @@
 label: Homepage
 hide_body: true
 fields:
-<<<<<<< HEAD
   - type: text
     name: site_name
     label: Site name
-  - type: textarea
-    name: site_description
-    label: Site description
   - name: home_text
     type: textarea
     default: ""
@@ -18,19 +14,5 @@ fields:
       schema:
         format: markdown
     label: Home text
-=======
-- type: text
-  name: site_name
-  label: Site name
-- name: home_text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Home text
->>>>>>> 35fb9e051d2615f8d8b444f20ff5b5ce038444ec
 pages:
   - data/theme.json
