@@ -28,3 +28,5 @@ fields:
     label: Detroit
   label: Location Images
   description: 'Make sure images are all the exact same dimensions in pixels '
+pages:
+- data/about.json

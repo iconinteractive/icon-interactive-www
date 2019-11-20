@@ -17,5 +17,3 @@ fields:
 - type: textarea
   name: custom_software
   label: Custom Software
-pages:
-- data/about.json
