@@ -20,17 +20,16 @@
             </div>
             <div class="url" v-if="$page.post.project_url" v-html="$page.post.project_url" />
           </div>
-          <div class="project-text">
-            <h2 class="label" v-html="$page.post.brief_label" />
-            <div v-html="$page.post.brief" />
-          </div>
+          <div v-html="$page.post.introduction" />
         </div>
         <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
+        <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
         <g-image
           v-if="$page.post.horizontal_image_two"
           :src="$page.post.horizontal_image_two"
           :alt="$page.post.title"
         />
+
         <section class="two-column" v-if="$page.post.vertical_image_one">
           <g-image
             v-if="$page.post.vertical_image_one"
@@ -44,15 +43,15 @@
             :alt="$page.post.title"
           />
         </section>
-        <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
-        <section class="two-column">
+
+        <section>
+          <div class="project-text">
+            <h2 class="label" v-html="$page.post.brief_label" />
+            <div v-html="$page.post.brief" />
+          </div>
           <div class="project-text">
             <h2 class="label" v-html="$page.post.solution_label" />
             <div v-html="$page.post.solution" />
-          </div>
-          <div class="project-text">
-            <h2 class="label" v-if="$page.post.results">Results & ROI</h2>
-            <div class="roi" v-html="$page.post.results" v-if="$page.post.results" />
           </div>
         </section>
         <g-image
@@ -60,6 +59,14 @@
           :src="$page.post.horizontal_image_three"
           :alt="$page.post.title"
         />
+        <div class="project-text" v-if="$page.post.results">
+          <h2 class="label">Results & ROI</h2>
+          <section class="three-column">
+            <div class="roi" v-html="$page.post.results.column_one" />
+            <div class="roi" v-html="$page.post.results.column_two" />
+            <div class="roi" v-html="$page.post.results.column_three" />
+          </section>
+        </div>
         <div v-html="$page.post.content" class="content" />
       </div>
     </div>
@@ -149,6 +156,13 @@ export default {
   grid-gap: 20px;
   grid-template-rows: auto;
 }
+.three-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 4rem;
+}
+
 .vertical-img {
   margin-right: 2.5%;
 }
@@ -178,6 +192,7 @@ export default {
 }
 .project-text {
   font-size: 1.2rem;
+  width: 80%;
 }
 .g-image {
   margin: 2rem 0;
@@ -214,11 +229,30 @@ blockquote p {
     width: 90%;
     margin: 0;
   }
+
+  blockquote {
+    font-size: 1.2rem;
+  }
+
+  blockquote p {
+    font-size: 1.2rem;
+  }
+
+  .project-text {
+    width: 95%;
+  }
+
   .g-image {
     margin: 0.5rem 0;
   }
   .thumbnail {
     margin: 2rem 0;
+  }
+  .two-column {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .three-column {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 </style>
