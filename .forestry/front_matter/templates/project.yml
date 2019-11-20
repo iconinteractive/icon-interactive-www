@@ -241,8 +241,8 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/rare-signals.md
 - projects/panasonic-ces.md
 - projects/ef-pro-cycling.md
 - projects/dts.md
-- projects/rare-signals.md
 - projects/rocket-mortgage-nexus.md
