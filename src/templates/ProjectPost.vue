@@ -29,6 +29,7 @@
           :src="$page.post.horizontal_image_two"
           :alt="$page.post.title"
         />
+        <blockquote v-if="$page.post.pull_quote_two" v-html="$page.post.pull_quote_two" />
         <section class="two-column" v-if="$page.post.two_column_vertical_images">
           <g-image
             v-if="$page.post.two_column_vertical_images.vertical_image_one"
@@ -42,7 +43,6 @@
             :alt="$page.post.title"
           />
         </section>
-
         <section>
           <div class="project-text">
             <h2 class="label" v-html="$page.post.brief_label" />
@@ -58,7 +58,7 @@
           :src="$page.post.horizontal_image_three"
           :alt="$page.post.title"
         />
-        <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
+
         <section class="two-column" v-if="$page.post.two_column_horizontal_images.image_one">
           <g-image
             v-if="$page.post.two_column_horizontal_images.image_one"
@@ -71,8 +71,8 @@
             :alt="$page.post.title"
           />
         </section>
-        <div class="project-text" v-if="$page.post.results">
-          <h2 class="label">Results & ROI</h2>
+        <div class="project-text" v-if="$page.post.results.column_one">
+          <h2 class="label">Results</h2>
           <section class="three-column">
             <div class="roi" v-html="$page.post.results.column_one" />
             <div class="roi" v-html="$page.post.results.column_two" />
@@ -190,10 +190,8 @@ export default {
   border-left: 1px solid var(--color-highlight);
 }
 
-.roi h1 .project-info {
-  font-size: 1rem;
-  width: 90%;
-  margin: 4rem 2rem;
+.roi :nth-child(1) {
+  margin: 0;
 }
 .project-info > div {
   margin-right: 4rem;
@@ -204,7 +202,7 @@ export default {
 }
 .project-text {
   font-size: 1.2rem;
-  width: 80%;
+  width: 75%;
 }
 .g-image {
   margin: 2rem 0;
