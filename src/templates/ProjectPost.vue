@@ -29,7 +29,6 @@
           :src="$page.post.horizontal_image_two"
           :alt="$page.post.title"
         />
-
         <section class="two-column" v-if="$page.post.two_column_vertical_images">
           <g-image
             v-if="$page.post.two_column_vertical_images.vertical_image_one"
@@ -59,6 +58,7 @@
           :src="$page.post.horizontal_image_three"
           :alt="$page.post.title"
         />
+        <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
         <section class="two-column" v-if="$page.post.two_column_horizontal_images.image_one">
           <g-image
             v-if="$page.post.two_column_horizontal_images.image_one"
@@ -106,7 +106,7 @@ query ProjectPost ($path: String!) {
     solution_label
     solution
     pull_quote
-    pull_quote_2
+    pull_quote_two
     results {
       column_one
       column_two
