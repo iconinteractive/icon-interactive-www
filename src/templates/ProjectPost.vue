@@ -30,7 +30,7 @@
           :alt="$page.post.title"
         />
         <blockquote v-if="$page.post.pull_quote_two" v-html="$page.post.pull_quote_two" />
-        <section class="two-column" v-if="$page.post.two_column_vertical_images">
+        <section class="two-column" v-if="$page.post.two_column_vertical_images.vertical_image_one">
           <g-image
             v-if="$page.post.two_column_vertical_images.vertical_image_one"
             class="vertical-img"
