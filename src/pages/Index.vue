@@ -2,7 +2,7 @@
   <section>
     <Layout>
       <div class="container">
-        <Hero />
+        <Hero :copyArr="home.home_typer.type_text_list" />
         <div class="description">
           <p>{{home.home_text}}</p>
           <div class="flex-center">

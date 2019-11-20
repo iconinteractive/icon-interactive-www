@@ -25,6 +25,9 @@
 
 <script>
 export default {
+  props: {
+    copyArr: Array
+  },
   components: {
     VueTyper: () =>
       import("vue-typer")
@@ -33,18 +36,18 @@ export default {
   },
   data() {
     return {
-      copyArr: [
-        "STRATEGY",
-        "WEB",
-        "AR & VR",
-        "BRAND",
-        "SOFTWARE",
-        "IMPACT",
-        "DESIGN",
-        "TRAFFIC",
-        "RESULTS",
-        "PIZZA"
-      ]
+      // copyArr: [
+      //   "STRATEGY",
+      //   "WEB",
+      //   "AR & VR",
+      //   "BRAND",
+      //   "SOFTWARE",
+      //   "IMPACT",
+      //   "DESIGN",
+      //   "TRAFFIC",
+      //   "RESULTS",
+      //   "PIZZA"
+      // ]
     };
   },
   created() {
