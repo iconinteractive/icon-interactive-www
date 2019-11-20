@@ -5,9 +5,9 @@
   "experiential": "",
   "custom_software": "",
   "location_images": {
-    "ann_arbor": "",
-    "new_york": "",
-    "boston": "",
-    "detroit": ""
+    "ann_arbor": "https://s3.amazonaws.com/forestry.iconinteractive.com/ann-arbor-test.jpg",
+    "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/nyc-test.jpg",
+    "boston": "https://s3.amazonaws.com/forestry.iconinteractive.com/boston-test.jpg",
+    "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-test.jpg"
   }
 }
