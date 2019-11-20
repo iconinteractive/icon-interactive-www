@@ -28,11 +28,16 @@ export default {
 
 <style scoped>
 .header {
-  height: 10vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding: 1rem 0 1rem;
+  /* height: 5rem; */
   z-index: 10;
   width: 100%;
   margin-bottom: 2rem;
   background-color: var(--color-base-opacity);
+  border-bottom: 1px solid var(--color-highlight);
 }
 
 .sticky {
@@ -80,7 +85,6 @@ export default {
 .logo {
   height: 65px;
   fill: white;
-  margin-bottom: 0.25rem;
 }
 .logo:hover {
   animation: rotation 1s 1 ease-in-out;
