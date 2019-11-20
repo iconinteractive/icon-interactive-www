@@ -80,10 +80,6 @@ h3 {
   z-index: 10;
 }
 
-/* .layout {
-  padding: 2rem 0 0 0;
-} */
-
 .container {
   margin: 0;
   margin: 0 6rem;
