@@ -6,22 +6,22 @@
         <br />
         <span class="pink">DELIVERS</span>
       </h1>
-      <section class="about-text">
-        There’s an agency on every corner, but you’ll find there’s only one
-        ICON. We invent and deploy digital customer experiences and interfaces
-        that drive
-        <span
-          class="pink"
-        >performance, value, learning, & growth.</span>
+      <section class="about-text grid-two">
+        <p>
+          There’s an agency on every corner, but you’ll find there’s only one
+          ICON. We invent and deploy digital customer experiences and interfaces
+          that drive performance, value, learning, & growth.
+        </p>
         <p>
           With offices in Detroit, NYC, Ann Arbor, and Boston, our team of ICONs
           is the extended team you’ve imagined. Our relentless focus on clients
           and customers - paired with an old-fashioned work ethic and the latest
-          technologies - will redefine what’s possible. You’ve heard it all
+          technologies - will redefine what’s possible.
+          You’ve heard it all
           before? Great. Now come see it in action.
+          Strategy. Design. Experiential. Web. Software.
+          Let’s plug in, dream it up, and get it done.
         </p>
-        <p class="pink">Strategy. Design. Experiential. Web. Software.</p>
-        <p>Let’s plug in, dream it up, and get it done.</p>
       </section>
       <section>
         <label>WHAT WE DO</label>
@@ -169,7 +169,7 @@ h2 {
 }
 .about-text {
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 100%;
   margin-bottom: 5%;
   font-size: 1.2rem;
 }

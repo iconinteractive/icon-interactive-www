@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <div>
-      <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
       <div class="container">
         <div class="two-column">
           <div class="project-info">
@@ -26,6 +25,7 @@
             <div v-html="$page.post.brief" />
           </div>
         </div>
+        <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
         <g-image
           v-if="$page.post.horizontal_image_two"
           :src="$page.post.horizontal_image_two"
