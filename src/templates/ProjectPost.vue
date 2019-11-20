@@ -30,16 +30,16 @@
           :alt="$page.post.title"
         />
 
-        <section class="two-column" v-if="$page.post.vertical_image_one">
+        <section class="two-column" v-if="$page.post.two_column_vertical_images">
           <g-image
-            v-if="$page.post.vertical_image_one"
+            v-if="$page.post.two_column_vertical_images.vertical_image_one"
             class="vertical-img"
-            :src="$page.post.vertical_image_one"
+            :src="$page.post.two_column_vertical_images.vertical_image_one"
             :alt="$page.post.title"
           />
           <g-image
             class="vertical-img"
-            :src="$page.post.vertical_image_two"
+            :src="$page.post.two_column_vertical_images.vertical_image_two"
             :alt="$page.post.title"
           />
         </section>
@@ -59,6 +59,18 @@
           :src="$page.post.horizontal_image_three"
           :alt="$page.post.title"
         />
+        <section class="two-column" v-if="$page.post.two_column_horizontal_images.image_one">
+          <g-image
+            v-if="$page.post.two_column_horizontal_images.image_one"
+            :src="$page.post.two_column_horizontal_images.image_one"
+            :alt="$page.post.title"
+          />
+          <g-image
+            v-if="$page.post.two_column_horizontal_images.image_two"
+            :src="$page.post.two_column_horizontal_images.image_two"
+            :alt="$page.post.title"
+          />
+        </section>
         <div class="project-text" v-if="$page.post.results">
           <h2 class="label">Results & ROI</h2>
           <section class="three-column">
