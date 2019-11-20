@@ -79,6 +79,7 @@ query ProjectPost ($path: String!) {
      service_tag_two
      service_tag_three
     }
+    introduction
     content
     brief_label
     brief
@@ -86,10 +87,21 @@ query ProjectPost ($path: String!) {
     solution_label
     solution
     pull_quote
-    results
+    pull_quote_2
+    results {
+      column_one
+      column_two
+      column_three
+    }
     horizontal_image_two
-    vertical_image_one
-    vertical_image_two
+    two_column_vertical_images {
+      vertical_image_one
+      vertical_image_two
+    }
+    two_column_horizontal_images {
+      image_one
+      image_two
+    }
     horizontal_image_three
   }
 }
