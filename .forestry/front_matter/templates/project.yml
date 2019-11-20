@@ -18,10 +18,6 @@ fields:
     display_utc: true
   default: now
   hidden: false
-- type: file
-  name: thumbnail
-  label: Thumbnail
-  description: This is the main image for the project.
 - type: text
   name: title
   label: Title
@@ -42,6 +38,20 @@ fields:
       format: html-blocks
   label: Project URL
   description: 'Add project URL if applicable '
+- name: introduction
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Introduction
+  description: "~ introductory text required ~"
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: This is the main image for the project.
 - name: service_tags
   type: field_group
   config: {}
@@ -99,6 +109,12 @@ fields:
         path: 
     label: Service Tag Three
   label: Service Tags
+- name: horizontal_image_two
+  type: file
+  config:
+    maxSize: 250
+  label: Horizontal image two
+  description: second horizontal image
 - name: brief_label
   type: text
   config:
@@ -115,12 +131,6 @@ fields:
       format: html-blocks
   label: Brief
   description: An intro to the project brief
-- name: horizontal_image_two
-  type: file
-  config:
-    maxSize: 250
-  label: Horizontal image two
-  description: second horizontal image
 - name: solution_label
   type: text
   config:
@@ -166,6 +176,30 @@ fields:
     maxSize: 250
   label: Horizontal image three
   description: max file size is 250 mb
+- name: two_column_horizontal_images
+  type: field_group
+  config: {}
+  fields:
+  - name: image_one
+    type: file
+    config:
+      maxSize: 250
+    label: Image One
+  - name: image_two
+    type: file
+    config:
+      maxSize: 250
+    label: Image two
+  label: Two Column Horizontal images
+- name: pull_quote_2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Pull Quote 2
 - name: results
   type: textarea
   default: ''
