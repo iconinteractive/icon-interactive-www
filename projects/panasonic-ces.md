@@ -3,9 +3,11 @@ date: 2019-10-29
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.008.jpeg
 title: Panasonic CES
 client: Panasonic
-brief: Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
+brief: "<p>Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
   collections of rare tropical plants including palms, cycads, flowering trees, and
-  vines.
+  vines. Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
+  collections of rare tropical plants including palms, cycads, flowering trees, and
+  vines.</p>"
 solution: Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
   collections of rare tropical plants including palms, cycads, flowering trees, and
   vines.
@@ -22,12 +24,26 @@ display_on_home_page: true
 brief_label: Brief
 solution_label: Solution
 pull_quote: ''
-results: ''
+results:
+  column_one: ''
+  column_two: ''
+  column_three: ''
 service_tags:
   service_tag_one: experiential
   service_tag_two: design and visual content
   service_tag_three: ''
 project_url: ''
+introduction: "<h2>projection mapping</h2><p>introduction to panasonic ces projection
+  mapping. Fairchild Tropical Botanic Garden is an 83-acre botanic garden, with extensive
+  collections of rare tropical plants including:</p><ul><li><p>palms </p></li><li><p>cycads</p></li><li><p>flowering
+  trees </p></li><li><p>vines</p></li></ul>"
+two_column_vertical_images:
+  vertical_image_one: ''
+  vertical_image_two_: ''
+two_column_horizontal_images:
+  image_one: ''
+  image_two: ''
+pull_quote_2: ''
 
 ---
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/89785909?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

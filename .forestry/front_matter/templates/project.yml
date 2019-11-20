@@ -148,18 +148,25 @@ fields:
       format: html-blocks
   label: Solution
   description: A paragraph about our solution to the project brief.
-- name: vertical_image_one
-  type: file
-  config:
-    maxSize: 250
-  label: Vertical image one
-  description: vertical image one
-- name: vertical_image_two
-  type: file
-  config:
-    maxSize: 250
-  label: Vertical image two
-  description: vertical image two
+- name: two_column_vertical_images
+  type: field_group
+  config: {}
+  fields:
+  - name: vertical_image_one
+    type: file
+    config:
+      maxSize: 250
+    label: vertical image one
+    description: 'If you add one image please add the second so it looks even '
+  - name: vertical_image_two_
+    type: file
+    config:
+      maxSize: 250
+    label: 'vertical image two '
+    description: Make sure both images are the same dimensions so they are displayed
+      evenly
+  label: two column vertical images
+  description: Optional vertical images
 - name: pull_quote
   type: textarea
   default: ''
@@ -190,7 +197,7 @@ fields:
     config:
       maxSize: 250
     label: Image two
-  label: Two Column Horizontal images
+  label: Two column horizontal images
 - name: pull_quote_2
   type: textarea
   default: ''
@@ -201,18 +208,41 @@ fields:
       format: html-blocks
   label: Pull Quote 2
 - name: results
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
+  type: field_group
+  config: {}
+  fields:
+  - name: column_one
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column One
+  - name: column_two
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column Two
+  - name: column_three
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column Three
   label: Results
-  description: 'Results ROI Figures. Ex: 200+ qualified leads'
+  description: Results & ROI Stats
 pages:
-- projects/panasonic-ces.md
-- projects/rare-signals.md
-- projects/ef-pro-cycling.md
 - projects/rocket-mortgage-nexus.md
+- projects/rare-signals.md
+- projects/panasonic-ces.md
+- projects/ef-pro-cycling.md
 - projects/dts.md

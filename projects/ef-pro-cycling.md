@@ -33,16 +33,34 @@ process: The process fairchild Tropical Botanic Garden is an 83-acre (34 ha) bot
   flowering trees, and vines. It is located in the city of Coral Gables, Miami-Dade
   County, Florida, United States, just south of Miami, surrounded at the south and
   west by Matheson Hammock Park.
-horizontal_image_three: https://s3.amazonaws.com/forestry.iconinteractive.com/five.jpg
+horizontal_image_three: https://s3.amazonaws.com/forestry.iconinteractive.com/ef-02.gif
 display_on_home_page: true
 brief_label: Challenge
 solution_label: Solution
 pull_quote: ''
-results: ''
+results:
+  column_one: ''
+  column_two: ''
+  column_three: ''
 service_tags:
   service_tag_one: web and mobile
   service_tag_two: design and visual content
   service_tag_three: ''
 project_url: <p><a href="https://www.efprocycling.com/" title="https://www.efprocycling.com/">https://www.efprocycling.com/</a></p>
+introduction: "<p>While working with Education First on the website for their pro
+  cycling division, ICON Interactive produced a series of animations designed to introduce
+  the sport of cycling to newcomers in a dynamic but device-friendly way.</p><p>To
+  someone who is unfamiliar with cycling, an event like the Tour de France may appear
+  to be a fast-paced free-for-all with every rider jockeying dangerously for a chance
+  at first place. In reality, however, a bicycle race is a tightly coordinated group
+  effort in which each rider plays a strategic role in helping guide his team’s leader
+  to the finish line.</p>"
+two_column_vertical_images:
+  vertical_image_one: ''
+  vertical_image_two_: ''
+two_column_horizontal_images:
+  image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/five.jpg
+  image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/second.jpg
+pull_quote_2: ''
 
 ---
