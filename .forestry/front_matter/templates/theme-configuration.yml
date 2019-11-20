@@ -14,5 +14,14 @@ fields:
     schema:
       format: markdown
   label: Home text
+- name: home_typer
+  type: field_group
+  config: {}
+  fields:
+  - name: type_text_list
+    type: tag_list
+    default: []
+    label: type text list
+  label: home typer
 pages:
 - data/theme.json
