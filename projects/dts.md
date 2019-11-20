@@ -35,12 +35,16 @@ service_tags:
   service_tag_two: custom software
   service_tag_three: web and mobile
 project_url: ''
-introduction: "<h2>Intro statement</h2><p>Mandem intro statement tropical gardens
+introduction: "<h2>~ Intro statement ~ </h2><p>Mandem intro statement tropical gardens
   with extensive collections of rare tropical plants including palms, cycads, flowering
   trees, and vines.</p>"
 two_column_horizontal_images:
   image_one: ''
   image_two: ''
 pull_quote_2: ''
+two_column_vertical_images:
+  vertical_image_one: ''
+  vertical_image_two: ''
+pull_quote_two: ''
 
 ---

@@ -158,11 +158,11 @@ fields:
       maxSize: 250
     label: vertical image one
     description: 'If you add one image please add the second so it looks even '
-  - name: vertical_image_two_
+  - name: vertical_image_two
     type: file
     config:
       maxSize: 250
-    label: 'vertical image two '
+    label: vertical image two
     description: Make sure both images are the same dimensions so they are displayed
       evenly
   label: two column vertical images
@@ -198,7 +198,7 @@ fields:
       maxSize: 250
     label: Image two
   label: Two column horizontal images
-- name: pull_quote_2
+- name: pull_quote_two
   type: textarea
   default: ''
   config:
@@ -206,7 +206,8 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-  label: Pull Quote 2
+  label: Pull Quote Two
+  description: optional
 - name: results
   type: field_group
   config: {}
@@ -241,8 +242,8 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
-- projects/rocket-mortgage-nexus.md
-- projects/rare-signals.md
-- projects/panasonic-ces.md
-- projects/ef-pro-cycling.md
 - projects/dts.md
+- projects/ef-pro-cycling.md
+- projects/panasonic-ces.md
+- projects/rare-signals.md
+- projects/rocket-mortgage-nexus.md

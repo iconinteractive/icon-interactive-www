@@ -43,17 +43,18 @@ results:
   column_three: "<h1>100%</h1><p><strong>AUTHENTIC FAN EXPERIENCE</strong></p>"
 project_url: ""
 introduction:
-  "<h2>ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH 360
-  PROJECTION AT THE LCS 2019 TAILGATE PARTY</h2><hr><p>Doubling down on eSports, Rocket
+  "<h3>ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH 360
+  PROJECTION AT THE LCS 2019 TAILGATE PARTY</h3><hr><p>Doubling down on eSports, Rocket
   Mortgage partnered with Riot Games to bring League of Legends to Detroit as presenting
   sponsor of the LCS Summer Finals.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
   vertical_image_two_: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
+  vertical_image_two: ""
 two_column_horizontal_images:
   image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
   image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
-pull_quote_2:
+pull_quote_two:
   "<p>“To see your brand associated with something that people are so
   excited about makes you feel good that your brand is part of it. We are doing really
   amazing activations outside the arena. This giant dome with projection mapping.

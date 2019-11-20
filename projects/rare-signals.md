@@ -33,9 +33,9 @@ service_tags:
   service_tag_two: design and visual content
   service_tag_three: web and mobile
 project_url: ''
-introduction: "<p>intro to rare signals project</p><p>Fairchild Tropical Botanic Garden
-  is an 83-acre botanic garden, with extensive collections of rare tropical plants
-  including palms, cycads, flowering trees, and vines. Fairchild Tropical Botanic
+introduction: "<h3>intro to rare signals project</h3><p>Fairchild Tropical Botanic
+  Garden is an 83-acre botanic garden, with extensive collections of rare tropical
+  plants including palms, cycads, flowering trees, and vines. Fairchild Tropical Botanic
   Garden is an 83-acre botanic garden, with extensive collections of rare tropical
   plants including palms, cycads, flowering trees, and vines.</p>"
 pull_quote_2: <p>"fantastic reverb &amp; rad branding!!!" </p><p>- Jose Diaz, reverb
@@ -43,8 +43,10 @@ pull_quote_2: <p>"fantastic reverb &amp; rad branding!!!" </p><p>- Jose Diaz, re
 two_column_vertical_images:
   vertical_image_one: ''
   vertical_image_two_: ''
+  vertical_image_two: ''
 two_column_horizontal_images:
   image_one: ''
   image_two: ''
+pull_quote_two: ''
 
 ---
