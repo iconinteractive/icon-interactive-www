@@ -1,4 +1,30 @@
 ---
 label: About Page
 hide_body: true
-fields: []
+fields:
+- name: location_images
+  type: field_group
+  config: {}
+  fields:
+  - name: ann_arbor
+    type: file
+    config:
+      maxSize: 250
+    label: Ann Arbor
+  - name: new_york
+    type: file
+    config:
+      maxSize: 250
+    label: New York
+  - name: boston
+    type: file
+    config:
+      maxSize: 250
+    label: Boston
+  - name: detroit
+    type: file
+    config:
+      maxSize: 250
+    label: Detroit
+  label: Location Images
+  description: 'Make sure images are all the exact same dimensions in pixels '
