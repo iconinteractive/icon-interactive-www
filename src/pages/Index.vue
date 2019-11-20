@@ -4,10 +4,7 @@
       <div class="container">
         <Hero />
         <div class="description">
-          <p>
-            ICON is a full-service digital agency determined to change the way
-            people interact with the world. For the better.
-          </p>
+          <p>{{home.home_text}}</p>
           <div class="flex-center">
             <button class="start-button" @click="scrollDown">Get Started</button>
           </div>
@@ -43,6 +40,11 @@ export default {
   components: {
     Hero,
     ProjectsGrid
+  },
+  data() {
+    return {
+      home: require("../../data/theme.json")
+    };
   },
   methods: {
     scrollDown() {

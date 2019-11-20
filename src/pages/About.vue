@@ -24,14 +24,6 @@
         </p>
       </section>
       <section>
-        <label>WHAT WE DO</label>
-        <h2>Capabilities</h2>
-        <ul class="grid-two">
-          <li class="services" v-for="(paragraph, serviceName) in services" :key="serviceName">
-            <h3>{{ formatServiceName(serviceName) }}</h3>
-            <p>{{ paragraph }}</p>
-          </li>
-        </ul>
         <label>WHERE WE ARE</label>
         <h2>Locations</h2>
         <g-image src="~/assets/place.jpeg" alt="buildings" />
