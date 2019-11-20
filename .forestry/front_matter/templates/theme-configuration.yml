@@ -1,21 +1,21 @@
 ---
-label: Theme configuration
+label: Homepage
 hide_body: true
 fields:
-- type: text
-  name: site_name
-  label: Site name
-- type: textarea
-  name: site_description
-  label: Site description
-- name: home_text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Home text
+  - type: text
+    name: site_name
+    label: Site name
+  - type: textarea
+    name: site_description
+    label: Site description
+  - name: home_text
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Home text
 pages:
-- data/theme.json
+  - data/theme.json
