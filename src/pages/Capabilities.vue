@@ -2,8 +2,7 @@
   <Layout>
     <div class="container">
       <section>
-        <label>WHAT WE DO</label>
-        <h2>Capabilities</h2>
+        <h1 class="title">Capabilities</h1>
         <ul class="grid-two">
           <li class="services" v-for="(paragraph, serviceName) in services" :key="serviceName">
             <h3>{{ formatServiceName(serviceName) }}</h3>
@@ -21,7 +20,7 @@ import formatServiceName from "@/components/utility-funcs/formatServiceName.js";
 export default {
   data() {
     return {
-      services: require("../../data/about.json")
+      services: require("../../data/capabilities.json")
     };
   },
   methods: {

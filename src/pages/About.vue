@@ -104,7 +104,7 @@ import formatServiceName from "@/components/utility-funcs/formatServiceName.js";
 export default {
   data() {
     return {
-      services: require("../../data/about.json")
+      about: require("../../data/about.json")
     };
   },
   methods: {
