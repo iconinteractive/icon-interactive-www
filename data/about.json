@@ -1,9 +1,4 @@
 {
-  "strategy": "",
-  "design_visual_content": "",
-  "web_mobile": "",
-  "experiential": "",
-  "custom_software": "",
   "location_images": {
     "ann_arbor": "https://s3.amazonaws.com/forestry.iconinteractive.com/ann-arbor-test.jpg",
     "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/nyc-test.jpg",

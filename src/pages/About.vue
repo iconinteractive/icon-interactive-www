@@ -24,11 +24,16 @@
         </p>
       </section>
       <section>
+        <div class="img-wrapper">
+          <g-image class="ann-arbor" :src="about.location_images.ann_arbor" alt="Ann Arbor" />
+          <g-image class="new-york" :src="about.location_images.new_york" alt="New York" />
+          <g-image class="boston" :src="about.location_images.boston" alt="Ann Arbor" />
+          <g-image class="detroit" :src="about.location_images.detroit" alt="Detroit" />
+        </div>
         <label>WHERE WE ARE</label>
         <h2>Locations</h2>
-        <g-image src="~/assets/place.jpeg" alt="buildings" />
         <ul class="grid-four">
-          <li>
+          <li class="ann-arbor-link">
             <a
               href="https://www.google.com/maps/place/220+Felch+St,+Ann+Arbor,+MI+48103/@42.2865635,-83.7524387,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae173e5563cb:0x3ac7229f72eca0ff!8m2!3d42.2865635!4d-83.75025"
               target="_blank"
@@ -41,7 +46,7 @@
               </p>
             </a>
           </li>
-          <li>
+          <li class="new-york-link">
             <a
               href="https://www.google.com/maps/place/180+Varick+St,+New+York,+NY+10014/@40.7273984,-74.0073664,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598d40361245:0x984a7b0697ab5c73!8m2!3d40.7273984!4d-74.0051777"
               target="_blank"
@@ -204,6 +209,22 @@ a {
 a:hover {
   text-decoration: underline;
   transition: all 500ms ease-in;
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.img-wrapper img {
+  display: none;
+  width: 100%;
+}
+
+.img-wrapper .ann-arbor {
+  display: block;
+}
+
+.new-york-link:hover {
+  border: 1px solid greenyellow;
 }
 
 .services p {
