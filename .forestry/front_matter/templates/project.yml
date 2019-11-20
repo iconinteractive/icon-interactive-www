@@ -201,15 +201,38 @@ fields:
       format: html-blocks
   label: Pull Quote 2
 - name: results
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
+  type: field_group
+  config: {}
+  fields:
+  - name: column_one
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column One
+  - name: column_two
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column Two
+  - name: column_three
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column Three
   label: Results
-  description: 'Results ROI Figures. Ex: 200+ qualified leads'
+  description: Results & ROI Stats
 pages:
 - projects/panasonic-ces.md
 - projects/rare-signals.md
