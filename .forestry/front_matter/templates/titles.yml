@@ -1,4 +1,14 @@
 ---
 label: Titles
 hide_body: true
-fields: []
+fields:
+- name: work_page_project_grid_title
+  type: text
+  config:
+    required: false
+  label: work page project grid title
+- name: work_page_client_grid_title
+  type: text
+  config:
+    required: false
+  label: work page client grid title
