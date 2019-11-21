@@ -2,9 +2,9 @@
 label: Logo Grid
 hide_body: true
 fields:
-- name: logo_grid
+- name: logo_grid_images
   type: image_gallery
   config: {}
-  label: Logo Grid
-  description: 'upload png or svg files with a transparent background or a jpg w/
-    a #000 black background'
+  label: logo grid images
+  description: Upload png or svg files with a transparent background or jpg images
+    w a black background
