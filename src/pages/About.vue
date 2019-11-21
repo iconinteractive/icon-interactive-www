@@ -7,31 +7,18 @@
         <span class="pink">DELIVERS</span>
       </h1>
       <section class="about-text grid-two">
-        <p>
-          There’s an agency on every corner, but you’ll find there’s only one
-          ICON. We invent and deploy digital customer experiences and interfaces
-          that drive performance, value, learning, & growth.
-        </p>
-        <p>
-          With offices in Detroit, NYC, Ann Arbor, and Boston, our team of ICONs
-          is the extended team you’ve imagined. Our relentless focus on clients
-          and customers - paired with an old-fashioned work ethic and the latest
-          technologies - will redefine what’s possible.
-          You’ve heard it all
-          before? Great. Now come see it in action.
-          Strategy. Design. Experiential. Web. Software.
-          Let’s plug in, dream it up, and get it done.
-        </p>
+        <div v-html="about.about_text.left_column" />
+        <div v-html="about.about_text.right_column" />
       </section>
       <section>
+        <label>{{about.location_images.subtitle}}</label>
+        <h2>{{about.location_images.title}}</h2>
         <div class="img-wrapper">
           <g-image class="ann-arbor" :src="about.location_images.ann_arbor" alt="Ann Arbor" />
           <g-image class="new-york" :src="about.location_images.new_york" alt="New York" />
           <g-image class="boston" :src="about.location_images.boston" alt="Ann Arbor" />
           <g-image class="detroit" :src="about.location_images.detroit" alt="Detroit" />
         </div>
-        <label>WHERE WE ARE</label>
-        <h2>Locations</h2>
         <ul class="grid-four">
           <li class="ann-arbor-link">
             <a
@@ -89,37 +76,21 @@
             </a>
           </li>
         </ul>
-        <label>BE ICONIC</label>
-        <h2>Culture</h2>
+        <label>{{about.culture.subtitle}}</label>
+        <h2>{{about.culture.title}}</h2>
         <div class="grid-two">
           <div>
-            <g-image src="~/assets/hat.jpeg" alt="icon hat" />
-            <span class="small-title">More Than A Name</span>
-            <p>
-              Yes, we have our core values, our mission, and our vision. More
-              importantly, we’re building a team of ICONs that wants to embrace
-              all of this, do right by our clients, and run into the future
-              kicking a** along the way. We’re a team of talented motivated
-              individuals that simultaneously crave fun, invention, success, and
-              teamwork. We’re growing. Check us out and become an ICON. Your
-              individuality and contributions are welcome here.
-            </p>
+            <g-image :src="about.culture.left_column_image" alt="icon culture image" />
+            <span class="small-title">{{about.culture.left_column_section_title}}</span>
+            <div v-html="about.culture.left_column_text" />
           </div>
           <div>
-            <g-image src="~/assets/dog.jpeg" alt="dog" />
-            <span class="small-title">Clients, You’re Also ICONs</span>
-            <p>
-              Donny Deutsch said it well … ICONs move society forward. Exactly
-              how we like to think of our clients. We strive to capture their
-              essence. Their purpose and brand promise. We help bring these
-              things to life using design and technology. Together, we’ll move
-              society forward and we can’t wait to learn about you.
-            </p>
+            <g-image :src="about.culture.right_column_image" alt="dog" />
+            <span class="small-title">{{about.culture.right_column_section_title}}</span>
+            <div v-html="about.culture.right_column_text" />
             <br />
-            <span class="small-title">LET'S GET BUILDING</span>
-            <h2>
-              <a href="https://www.linkedin.com/company/icon-interactive">Open Roles ⟶</a>
-            </h2>
+            <span class="small-title">{{about.culture.careers_title}}</span>
+            <div class="careers-link" v-html="about.culture.careers_link" />
           </div>
         </div>
       </section>
@@ -139,8 +110,14 @@ export default {
 
 <style scoped>
 li {
+  border: 1px solid transparent;
+  border-top: 1px solid var(--color-highlight);
   margin: 0rem;
   padding-left: 0.5rem;
+}
+li:hover {
+  transition: all 500ms ease-in-out;
+  border: 1px solid var(--color-highlight);
 }
 h2 {
   margin: 2rem 0;
@@ -176,7 +153,7 @@ label {
 }
 h3 {
   width: 100%;
-  border-top: 1px solid var(--color-highlight);
+
   padding-top: 32px;
   margin-bottom: 1rem;
 }
@@ -202,14 +179,14 @@ h2 {
 img {
   margin-bottom: 1rem;
 }
-a {
+li a {
   text-decoration: none;
   transition: all 500ms ease-in;
 }
-a:hover {
-  text-decoration: underline;
+li a:hover {
   transition: all 500ms ease-in;
 }
+
 .img-wrapper {
   display: flex;
   justify-content: center;
@@ -224,7 +201,7 @@ a:hover {
 }
 
 .new-york-link:hover {
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
 }
 
 .services p {

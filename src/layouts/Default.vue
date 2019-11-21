@@ -93,10 +93,13 @@ h3 {
   opacity: 0;
 }
 a {
+  text-decoration: none;
   color: inherit;
+  transition: all 500ms ease-in-out;
 }
 
 a:hover {
+  transition: all 500ms ease-in-out;
   color: var(--color-highlight);
 }
 
