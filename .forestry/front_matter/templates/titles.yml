@@ -12,3 +12,5 @@ fields:
   config:
     required: false
   label: work page client grid title
+pages:
+- data/titles.json
