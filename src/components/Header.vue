@@ -85,9 +85,12 @@ export default {
 .logo {
   height: 65px;
   fill: white;
+  transition: all 1s ease-in-out;
 }
 .logo:hover {
-  animation: rotation 1s 1 ease-in-out;
+  /* animation: rotation 1s 1 ease-in-out; */
+  opacity: 0.5;
+  transform: translateY(10px);
 }
 @keyframes rotation {
   from {

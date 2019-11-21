@@ -14,13 +14,10 @@
         <label>{{about.location_images.subtitle}}</label>
         <h2>{{about.location_images.title}}</h2>
         <div class="img-wrapper">
-          <g-image class="ann-arbor" :src="about.location_images.ann_arbor" alt="Ann Arbor" />
-          <g-image class="new-york" :src="about.location_images.new_york" alt="New York" />
-          <g-image class="boston" :src="about.location_images.boston" alt="Ann Arbor" />
-          <g-image class="detroit" :src="about.location_images.detroit" alt="Detroit" />
+          <g-image :src="currentImg" alt="icon locations" />
         </div>
         <ul class="grid-four">
-          <li class="ann-arbor-link">
+          <li @mouseover="swapImg('annArbor')">
             <a
               href="https://www.google.com/maps/place/220+Felch+St,+Ann+Arbor,+MI+48103/@42.2865635,-83.7524387,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae173e5563cb:0x3ac7229f72eca0ff!8m2!3d42.2865635!4d-83.75025"
               target="_blank"
@@ -33,7 +30,7 @@
               </p>
             </a>
           </li>
-          <li class="new-york-link">
+          <li @mouseover="swapImg('nyc')">
             <a
               href="https://www.google.com/maps/place/180+Varick+St,+New+York,+NY+10014/@40.7273984,-74.0073664,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598d40361245:0x984a7b0697ab5c73!8m2!3d40.7273984!4d-74.0051777"
               target="_blank"
@@ -47,7 +44,7 @@
               </p>
             </a>
           </li>
-          <li>
+          <li @mouseover="swapImg('boston')">
             <a
               href="https://www.google.com/maps/place/129+Kingston+St,+Boston,+MA+02111/@42.3519084,-71.0617181,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37a787aa897a7:0x86a64b1d163a1c9f!8m2!3d42.3519045!4d-71.0595241"
               target="_blank"
@@ -61,7 +58,7 @@
               </p>
             </a>
           </li>
-          <li>
+          <li @mouseover="swapImg('detroit')">
             <a
               href="https://www.google.com/maps/place/1442+Brush+St,+Detroit,+MI+48226/@42.3366768,-83.0471208,17z/data=!3m1!4b1!4m5!3m4!1s0x883b2d2db83747e9:0x1d05b9954d24bba8!8m2!3d42.3366729!4d-83.0449268"
               target="_blank"
@@ -102,8 +99,30 @@
 export default {
   data() {
     return {
-      about: require("../../data/about.json")
+      about: require("../../data/about.json"),
+      currentImg: ""
     };
+  },
+  mounted() {
+    this.currentImg = this.about.location_images.ann_arbor;
+  },
+  methods: {
+    swapImg(city) {
+      switch (city) {
+        case "annArbor":
+          this.currentImg = this.about.location_images.ann_arbor;
+          break;
+        case "nyc":
+          this.currentImg = this.about.location_images.new_york;
+          break;
+        case "boston":
+          this.currentImg = this.about.location_images.boston;
+          break;
+        case "detroit":
+          this.currentImg = this.about.location_images.detroit;
+          break;
+      }
+    }
   }
 };
 </script>
@@ -176,6 +195,10 @@ h2 {
 .pink {
   color: var(--color-highlight);
 }
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
 img {
   margin-bottom: 1rem;
 }
@@ -185,23 +208,6 @@ li a {
 }
 li a:hover {
   transition: all 500ms ease-in;
-}
-
-.img-wrapper {
-  display: flex;
-  justify-content: center;
-}
-.img-wrapper img {
-  display: none;
-  width: 100%;
-}
-
-.img-wrapper .ann-arbor {
-  display: block;
-}
-
-.new-york-link:hover {
-  /* border: 1px solid greenyellow; */
 }
 
 .services p {

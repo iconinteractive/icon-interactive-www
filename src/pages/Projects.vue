@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 class="title">Work</h1>
+      <h1 class="title">{{titles.work_page_project_grid_title}}</h1>
       <ProjectsGrid :projects="$page.projects.edges" />
-      <h1 class="title">Clients</h1>
+      <h1 class="title">{{titles.work_page_client_grid_title}}</h1>
       <LogoGrid />
     </div>
   </Layout>
@@ -33,6 +33,11 @@ export default {
   components: {
     ProjectsGrid,
     LogoGrid
+  },
+  data() {
+    return {
+      titles: require("../../data/titles.json")
+    };
   }
 };
 </script>
