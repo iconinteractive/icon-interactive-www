@@ -74,9 +74,21 @@
         <div class="project-text" v-if="$page.post.results.column_one">
           <h2 class="label">Results</h2>
           <section class="three-column">
-            <div class="roi" v-html="$page.post.results.column_one" />
-            <div class="roi" v-html="$page.post.results.column_two" />
-            <div class="roi" v-html="$page.post.results.column_three" />
+            <div
+              class="roi"
+              v-if="$page.post.results.column_one"
+              v-html="$page.post.results.column_one"
+            />
+            <div
+              class="roi"
+              v-if="$page.post.results.column_two"
+              v-html="$page.post.results.column_two"
+            />
+            <div
+              class="roi"
+              v-if="$page.post.results.column_three"
+              v-html="$page.post.results.column_three"
+            />
           </section>
         </div>
         <div v-html="$page.post.content" class="content" />
@@ -224,10 +236,10 @@ blockquote p {
   color: var(--color-highlight);
   border-bottom: 1px solid #fff;
 }
-.content {
+/* .content {
   display: flex;
   margin: 0 auto;
-}
+} */
 
 @media (max-width: 850px) {
   .two-column {
