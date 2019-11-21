@@ -3,6 +3,24 @@
     "ann_arbor": "https://s3.amazonaws.com/forestry.iconinteractive.com/ann-arbor-test.jpg",
     "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/nyc-test.jpg",
     "boston": "https://s3.amazonaws.com/forestry.iconinteractive.com/boston-test.jpg",
-    "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-test.jpg"
+    "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-test.jpg",
+    "title": "Locations",
+    "subtitle": "WHERE WE ARE"
+  },
+  "about_text": {
+    "left_column": "<p>There’s an agency on every corner, but you’ll find there’s only one ICON. We invent and deploy digital customer experiences and interfaces that drive performance, value, learning, &amp; growth.</p>",
+    "right_column": "<p>With offices in Detroit, NYC, Ann Arbor, and Boston, our team of ICONs is the extended team you’ve imagined. Our relentless focus on clients and customers - paired with an old-fashioned work ethic and the latest technologies - will redefine what’s possible. You’ve heard it all before? Great. Now come see it in action. Strategy. Design. Experiential. Web. Software. Let’s plug in, dream it up, and get it done.</p>"
+  },
+  "culture": {
+    "title": "Culture",
+    "subtitle": "BE ICONIC",
+    "left_column_image": "https://s3.amazonaws.com/forestry.iconinteractive.com/hat.cbab2cf.b0b53a1.jpg",
+    "left_column_section_title": "More Than A Name",
+    "left_column_text": "<p>Yes, we have our core values, our mission, and our vision. More importantly, we’re building a team of ICONs that wants to embrace all of this, do right by our clients, and run into the future kicking a** along the way. We’re a team of talented motivated individuals that simultaneously crave fun, invention, success, and teamwork. We’re growing. Check us out and become an ICON. Your individuality and contributions are welcome here.</p>",
+    "right_column_image": "https://s3.amazonaws.com/forestry.iconinteractive.com/dog.7030276.e06f640.jpg",
+    "right_column_section_title": "Clients, You’re Also ICONs",
+    "right_column_text": "<p>Donny Deutsch said it well … ICONs move society forward. Exactly how we like to think of our clients. We strive to capture their essence. Their purpose and brand promise. We help bring these things to life using design and technology. Together, we’ll move society forward and we can’t wait to learn about you.</p>",
+    "careers_title": "LET'S GET BUILDING",
+    "careers_link": "<h2><a href=\"https://www.linkedin.com/company/icon-interactive\" title=\"\">Open Roles ⟶</a></h2>"
   }
 }
