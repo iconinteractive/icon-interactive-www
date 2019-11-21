@@ -40,7 +40,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      about: require("../../data/logo-grid.json")
+    };
+  }
+};
 </script>
 
 <style scoped>
@@ -51,7 +57,9 @@ export default {};
   grid-gap: 2rem;
 }
 .grid img {
-  width: 120px;
+  max-height: 120px;
+  max-width: 120px;
+  object-fit: contain;
 }
 .logo-wrap {
   display: flex;

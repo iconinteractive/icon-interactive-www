@@ -2,39 +2,42 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
-webhook_url: 
+webhook_url:
 sections:
-- type: directory
-  path: projects
-  label: Projects
-  create: documents
-  match: "**/*.md"
-  templates:
-  - project
-- type: directory
-  path: events
-  label: Events
-  create: documents
-  match: "**/*.md"
-  templates:
-  - event
-- type: document
-  path: data/capabilities.json
-  label: Capabilities
-- type: document
-  path: data/about.json
-  label: About
-- type: document
-  path: data/theme.json
-  label: Home
-upload_dir: ''
+  - type: directory
+    path: projects
+    label: Projects
+    create: documents
+    match: "**/*.md"
+    templates:
+      - project
+  - type: directory
+    path: events
+    label: Events
+    create: documents
+    match: "**/*.md"
+    templates:
+      - event
+  - type: document
+    path: data/capabilities.json
+    label: Capabilities
+  - type: document
+    path: data/logo-grid.json
+    label: Logo Grid
+  - type: document
+    path: data/about.json
+    label: About
+  - type: document
+    path: data/theme.json
+    label: Home
+upload_dir: ""
 public_path: https://s3.amazonaws.com/forestry.iconinteractive.com
 front_matter_path: " "
 use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
-  - GRAPHQL_ENDPOINT=/___graphql
+    - GRAPHQL_ENDPOINT=/___graphql
   preview_output_directory: dist
   install_dependencies_command: npm install
   preview_docker_image: node:10
