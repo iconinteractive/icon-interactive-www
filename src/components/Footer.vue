@@ -5,7 +5,7 @@
         <div class="row">
           <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo-footer" />
           <div class="column">
-            <span class="footer-text">Interested? Let's connect</span>
+            <span class="footer-text">{{footer.footer_text}}</span>
             <a href="mailto:info@iconinteractive.com">info@iconinteractive.com</a>
             <a href="tel:7347079245">734.707.9245</a>
             <span>© {{date}} ICON Interactive</span>
@@ -30,7 +30,8 @@ export default {
     return {
       logo: require("../../static/icon-logo.svg"),
       settings: require("../../data/theme.json"),
-      date: ""
+      date: "",
+      footer: require("../../data/footer.json")
     };
   },
   mounted() {

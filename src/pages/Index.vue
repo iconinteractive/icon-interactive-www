@@ -9,7 +9,9 @@
             <button class="start-button" @click="scrollDown">Get Started</button>
           </div>
         </div>
-        <ProjectsGrid id="start" :projects="$page.projects.edges" />
+        <section id="start" class="projects">
+          <ProjectsGrid :projects="$page.projects.edges" />
+        </section>
       </div>
     </Layout>
   </section>
@@ -68,6 +70,9 @@ h2 {
   border: 2px solid var(--color-highlight);
   color: var(--color-highlight);
   border-radius: 0.3rem;
+}
+.projects {
+  padding-top: 60px;
 }
 .description {
   display: grid;
