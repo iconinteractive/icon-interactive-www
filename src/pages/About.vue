@@ -132,11 +132,14 @@ li {
   border: 1px solid transparent;
   border-top: 1px solid var(--color-highlight);
   margin: 0rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
+  transition: all 500ms ease-in-out;
 }
 li:hover {
   transition: all 500ms ease-in-out;
-  border: 1px solid var(--color-highlight);
+  border-bottom: 1px solid var(--color-highlight);
+  border-left: 1px solid var(--color-highlight);
+  border-top: 1px solid transparent;
 }
 h2 {
   margin: 2rem 0;
