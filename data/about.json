@@ -8,6 +8,24 @@
     "ann_arbor": "https://s3.amazonaws.com/forestry.iconinteractive.com/ann-arbor-test.jpg",
     "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/nyc-test.jpg",
     "boston": "https://s3.amazonaws.com/forestry.iconinteractive.com/boston-test.jpg",
-    "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-test.jpg"
+    "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-test.jpg",
+    "title": "",
+    "subtitle": ""
+  },
+  "about_text": {
+    "left_column": "",
+    "right_column": ""
+  },
+  "culture": {
+    "title": "",
+    "subtitle": "",
+    "left_column_image": "",
+    "left_column_section_title": "",
+    "left_column_text": "",
+    "right_column_image": "",
+    "right_column_section_title": "",
+    "right_column_text": "",
+    "careers_title": "",
+    "careers_link": ""
   }
 }
