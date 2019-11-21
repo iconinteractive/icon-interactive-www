@@ -2,10 +2,45 @@
 label: About Page
 hide_body: true
 fields:
+- name: about_text
+  type: field_group
+  config: {}
+  fields:
+  - name: left_column
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: left column
+  - name: right_column
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: right column
+  label: About text
+  description: top of about page
 - name: location_images
   type: field_group
   config: {}
   fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+    description: Location section title
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: subtitle
   - name: ann_arbor
     type: file
     config:
@@ -28,5 +63,73 @@ fields:
     label: Detroit
   label: Location Images
   description: 'Make sure images are all the exact same dimensions in pixels '
+- name: culture
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: subtitle
+  - name: left_column_image
+    type: file
+    config:
+      maxSize: 250
+    label: left column image
+    description: ensure both column's images are the same dimension for an even layout
+  - name: left_column_section_title
+    type: text
+    config:
+      required: false
+    label: left column section title
+  - name: left_column_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: left column text
+  - name: right_column_image
+    type: file
+    config:
+      maxSize: 250
+    label: right column image
+  - name: right_column_section_title
+    type: text
+    config:
+      required: false
+    label: right column section title
+  - name: right_column_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: right column text
+  - name: careers_title
+    type: text
+    config:
+      required: false
+    label: careers title
+  - name: careers_link
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: careers link
+  label: Culture
 pages:
 - data/about.json
