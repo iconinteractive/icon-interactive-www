@@ -9,8 +9,8 @@
     "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/nyc-test.jpg",
     "boston": "https://s3.amazonaws.com/forestry.iconinteractive.com/boston-test.jpg",
     "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-test.jpg",
-    "title": "",
-    "subtitle": ""
+    "title": "Locations",
+    "subtitle": "WHERE WE ARE"
   },
   "about_text": {
     "left_column": "<p>There’s an agency on every corner, but you’ll find there’s only one ICON. We invent and deploy digital customer experiences and interfaces that drive performance, value, learning, &amp; growth.</p>",
