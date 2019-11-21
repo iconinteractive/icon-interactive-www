@@ -26,9 +26,6 @@ export default {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
 }
-/* .twoColumn {
-  grid-template-columns: repeat(2, 1fr);
-} */
 .threeColumn {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -42,7 +39,7 @@ export default {
 }
 .thumbnail {
   height: 100%;
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
   transition: all 0.15s ease;
   box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
