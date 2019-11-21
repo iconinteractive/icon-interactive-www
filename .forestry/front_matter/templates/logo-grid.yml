@@ -8,3 +8,5 @@ fields:
   label: logo grid images
   description: Upload png or svg files with a transparent background or jpg images
     w a black background
+pages:
+- data/logo-grid.json
