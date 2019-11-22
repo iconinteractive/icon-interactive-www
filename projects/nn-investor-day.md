@@ -1,9 +1,9 @@
 ---
 date: 2019-11-22
 service_tags:
-  service_tag_one: []
-  service_tag_two: []
-  service_tag_three: []
+  service_tag_one: design and visual content
+  service_tag_two: experiential
+  service_tag_three: ''
 display_on_home_page: true
 title: NN Investor Day
 client: NN, Inc.
