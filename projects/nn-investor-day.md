@@ -8,13 +8,15 @@ display_on_home_page: true
 title: NN Investor Day
 client: NN, Inc.
 project_url: ''
-introduction: "<p>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING NEW
-  INITIATIVES</p>"
+introduction: "<h4>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING NEW
+  INITIATIVES</h4><p>NN - a leading precision manufacturing holding company - wanted
+  to inform and energize their investor base to help kick off (something)</p>"
 thumbnail: ''
 horizontal_image_two: ''
-brief_label: ''
-brief: "<p>brief</p>"
-solution_label: ''
+brief_label: Challenge
+brief: "<p>Find the right mix of message, value, and impact to help ensure a successful
+  and important investor day event at NN's corporate campus.</p>"
+solution_label: Solution
 solution: "<p>ICON pulled from a wide range of internal capabilities to create a multi-faceted
   installation including animation, photography, and both traditional and drone videography.
   A 20' LED display highlighted this hard-to-forget experience.</p>"
