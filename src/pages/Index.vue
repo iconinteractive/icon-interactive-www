@@ -10,6 +10,7 @@
           </div>
         </div>
         <section id="start" class="projects">
+          <label class="pink home-label">FEATURED WORK</label>
           <ProjectsGrid :projects="$page.projects.edges" />
         </section>
       </div>
@@ -93,6 +94,10 @@ h2 {
   height: 50vh;
   border: 1px solid purple;
   margin-bottom: 20vh;
+}
+.home-label {
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .start-button {

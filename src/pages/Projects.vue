@@ -3,7 +3,6 @@
     <div class="container">
       <h1 class="title">{{titles.work_page_project_grid_title}}</h1>
       <ProjectsGrid :projects="$page.projects.edges" />
-      <h1 class="title">{{titles.work_page_client_grid_title}}</h1>
       <LogoGrid />
     </div>
   </Layout>

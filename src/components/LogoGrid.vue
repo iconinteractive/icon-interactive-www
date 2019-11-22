@@ -22,6 +22,7 @@ export default {
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   grid-gap: 2rem;
+  margin-top: 7rem;
 }
 .grid img {
   max-height: 120px;
