@@ -68,6 +68,7 @@ label {
 }
 h3 {
   width: 100%;
+  font-size: 3rem;
   border-top: 1px solid var(--color-highlight);
   padding-top: 32px;
   margin-bottom: 1rem;
