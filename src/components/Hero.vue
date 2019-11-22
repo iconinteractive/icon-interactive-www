@@ -37,7 +37,7 @@ export default {
   created() {
     console.log(
       "%c 👽 Built on gridsome & forestry. Check out our open roles on the About page",
-      "background: #000; color: #e51365; font-size:30px"
+      "background: #000; color: #e51365; font-size:30px;"
     );
   }
 };
