@@ -23,13 +23,11 @@ function formatServiceName(name) {
       }
       if (spaceIdx === idx - 1) {
         output += format[idx].toUpperCase();
-        console.log(output);
         continue;
       } else {
         output += format[idx];
       }
     }
-    console.log("yurrr");
     return output;
   }
 }

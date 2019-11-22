@@ -36,7 +36,8 @@ export default {
   },
   created() {
     console.log(
-      "👽 Built on gridsome & forestry. Curious to see how things work? Check out our open roles on the About page ;)"
+      "%c 👽 Built on gridsome & forestry. Check out our open roles on the About page",
+      "background: #000; color: #e51365; font-size:30px"
     );
   }
 };
@@ -61,7 +62,6 @@ export default {
   text-align: left;
   margin-bottom: 0;
 }
-
 .hero-title {
   font-size: 7rem;
   letter-spacing: 2px;

@@ -186,7 +186,6 @@ export default {
   grid-gap: 20px;
   margin-bottom: 4rem;
 }
-
 .vertical-img {
   margin-right: 2.5%;
 }
@@ -201,14 +200,12 @@ export default {
   border-bottom: 1px solid var(--color-highlight);
   border-left: 1px solid var(--color-highlight);
 }
-
 .roi :nth-child(1) {
   margin: 0;
 }
 .project-info > div {
   margin-right: 4rem;
 }
-
 .project-text-container {
   display: flex;
 }
@@ -223,24 +220,17 @@ export default {
 .label {
   color: var(--color-highlight);
 }
-
 blockquote {
   font-size: 2rem;
   color: var(--color-contrast);
   padding-left: 1rem;
   border-left: 1px solid var(--color-highlight);
 }
-
 blockquote p {
   font-size: 2rem;
   color: var(--color-highlight);
   border-bottom: 1px solid #fff;
 }
-/* .content {
-  display: flex;
-  margin: 0 auto;
-} */
-
 @media (max-width: 850px) {
   .two-column {
     grid-template-columns: 1fr;
@@ -251,19 +241,15 @@ blockquote p {
     width: 90%;
     margin: 0;
   }
-
   blockquote {
     font-size: 1.2rem;
   }
-
   blockquote p {
     font-size: 1.2rem;
   }
-
   .project-text {
     width: 95%;
   }
-
   .g-image {
     margin: 0.5rem 0;
   }

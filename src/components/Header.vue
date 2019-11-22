@@ -37,20 +37,17 @@ export default {
   margin-bottom: 2rem;
   background-color: var(--color-base-opacity);
 }
-
 .sticky {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   padding-top: 2rem;
 }
-
 .nav {
   display: flex;
   justify-content: center;
   transition: all 1s ease-in-out;
 }
-
 .intro {
   display: flex;
   width: 40%;
@@ -58,19 +55,9 @@ export default {
   transition: all 1s ease-in-out;
   margin-right: 40%;
 }
-
 .intro p {
   font-size: 1.2rem;
 }
-
-.show {
-  opacity: 1;
-}
-.hide {
-  opacity: 0;
-  display: none;
-}
-
 .header > .container {
   display: flex;
   align-items: center;
@@ -89,14 +76,6 @@ export default {
   opacity: 0.4;
   filter: blur(3px);
 }
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
 .nav > * {
   font-size: 1.2rem;
   font-weight: 600;
@@ -112,14 +91,12 @@ export default {
   margin-right: 0;
 }
 .nav > *:hover {
-  /* border-color: inherit; */
   color: var(--color-highlight);
   transition: all 300ms ease-in;
 }
 .nav > .active {
   color: var(--color-highlight);
 }
-
 @media (max-width: 700px) {
   .nav {
     flex-direction: column;
@@ -129,12 +106,10 @@ export default {
     width: 60%;
     margin-right: 5%;
   }
-
   .nav__link {
     margin: 0;
     text-align: right;
   }
-
   .nav__link:hover {
     text-decoration: none;
   }
