@@ -15,7 +15,9 @@ horizontal_image_two: ''
 brief_label: ''
 brief: "<p>brief</p>"
 solution_label: ''
-solution: ''
+solution: "<p>ICON pulled from a wide range of internal capabilities to create a multi-faceted
+  installation including animation, photography, and both traditional and drone videography.
+  A 20' LED display highlighted this hard-to-forget experience.</p>"
 two_column_vertical_images:
   vertical_image_one: ''
   vertical_image_two: ''
