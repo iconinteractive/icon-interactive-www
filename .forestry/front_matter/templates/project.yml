@@ -242,6 +242,7 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/nn-investor-day.md
 - projects/ef-pro-cycling.md
 - projects/rare-signals.md
 - projects/dts.md
