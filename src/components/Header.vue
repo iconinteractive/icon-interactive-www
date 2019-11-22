@@ -32,12 +32,10 @@ export default {
   position: -webkit-sticky;
   top: 0;
   padding: 1rem 0 1rem;
-  /* height: 5rem; */
   z-index: 10;
   width: 100%;
   margin-bottom: 2rem;
   background-color: var(--color-base-opacity);
-  border-bottom: 1px solid var(--color-highlight);
 }
 
 .sticky {
@@ -88,9 +86,8 @@ export default {
   transition: all 1s ease-in-out;
 }
 .logo:hover {
-  /* animation: rotation 1s 1 ease-in-out; */
-  opacity: 0.5;
-  transform: translateY(10px);
+  opacity: 0.4;
+  filter: blur(3px);
 }
 @keyframes rotation {
   from {
