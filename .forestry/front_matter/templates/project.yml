@@ -51,7 +51,8 @@ fields:
 - type: file
   name: thumbnail
   label: Thumbnail
-  description: This is the main image for the project.
+  description: REQUIRED !!!! This is the main image that will be shown in the project
+    grid.
   config:
     required: true
 - name: service_tags
