@@ -246,17 +246,9 @@ fields:
     label: Results
     description: Results & ROI Stats
 pages:
-<<<<<<< HEAD
+  - projects/nn-investor-day.md
   - projects/ef-pro-cycling.md
   - projects/rare-signals.md
   - projects/dts.md
   - projects/rocket-mortgage-nexus.md
   - projects/panasonic-ces.md
-=======
-- projects/nn-investor-day.md
-- projects/ef-pro-cycling.md
-- projects/rare-signals.md
-- projects/dts.md
-- projects/rocket-mortgage-nexus.md
-- projects/panasonic-ces.md
->>>>>>> 8ed320c513f3c468f6e503077c49f524fa66118b
