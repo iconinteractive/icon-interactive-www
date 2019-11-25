@@ -1,6 +1,6 @@
 ---
 date: 2019-10-05
-thumbnail: ''
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.004.jpeg
 title: DTS
 client: Digital Theater Systems
 brief: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
@@ -8,7 +8,7 @@ brief: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, w
   trees, and vines. It is located in the city of Coral Gables, Miami-Dade County,
   Florida, United States, just south of Miami, surrounded at the south and west by
   Matheson Hammock Park.
-horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.004.jpeg
+horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.003.jpeg
 vertical_image_one: ''
 vertical_image_two: ''
 process: Fairchild Tropical Botanic Garden is an 83-acre (34 ha) botanic garden, with
