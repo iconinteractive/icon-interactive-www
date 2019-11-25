@@ -1,7 +1,7 @@
 {
   "location_images": {
     "ann_arbor": "https://s3.amazonaws.com/forestry.iconinteractive.com/ann-arbor-test.jpg",
-    "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/nyc-test.jpg",
+    "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/ICON-nyc.jpg",
     "boston": "https://s3.amazonaws.com/forestry.iconinteractive.com/boston-test.jpg",
     "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-test.jpg",
     "title": "Locations",
