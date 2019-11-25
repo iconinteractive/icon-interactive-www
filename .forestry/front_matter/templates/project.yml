@@ -2,252 +2,253 @@
 label: Project
 hide_body: false
 fields:
-- name: display_on_home_page
-  type: boolean
-  label: Display on home page
-  description: toggles if project should be displayed on the home page :)
-  default: false
-- type: datetime
-  name: date
-  label: Date
-  config:
-    required: true
-    date_format: MM/YYYY
-    time_format: ''
-    export_format: YYYY-MM-DD
-    display_utc: true
-  default: now
-  hidden: false
-- type: text
-  name: title
-  label: Title
-  config:
-    required: true
-- name: client
-  type: text
-  config:
-    required: true
-  label: Client name
-- name: project_url
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Project URL
-  description: 'Add project URL if applicable '
-- name: introduction
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Introduction
-  description: "~ introductory text required ~"
-- type: file
-  name: thumbnail
-  label: Thumbnail
-  description: REQUIRED !!!! This is the main image that will be shown in the project
-    grid.
-  config:
-    required: true
-- name: service_tags
-  type: field_group
-  config: {}
-  fields:
-  - name: service_tag_one
-    type: select
-    default: []
+  - name: display_on_home_page
+    type: boolean
+    label: Display on home page
+    description: toggles if project should be displayed on the home page :)
+    default: false
+  - type: datetime
+    name: date
+    label: Date
     config:
-      required: false
-      options:
-      - strategy
-      - design and visual content
-      - web and mobile
-      - experiential
-      - custom software
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Service Tag One
-    description: required
-  - name: service_tag_two
-    type: select
-    default: []
+      required: true
+      date_format: MM/YYYY
+      time_format: ""
+      export_format: YYYY-MM-DD
+      display_utc: true
+    default: now
+    hidden: false
+  - type: text
+    name: title
+    label: Title
     config:
-      required: false
-      options:
-      - strategy
-      - design and visual content
-      - web and mobile
-      - experiential
-      - custom software
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Service Tag Two
-  - name: service_tag_three
-    type: select
-    default: []
+      required: true
+  - name: client
+    type: text
     config:
-      required: false
-      options:
-      - strategy
-      - design and visual content
-      - web and mobile
-      - experiential
-      - custom software
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Service Tag Three
-  label: Service Tags
-- name: horizontal_image_two
-  type: file
-  config:
-    maxSize: 250
-  label: Horizontal image two
-  description: second horizontal image
-- name: brief_label
-  type: text
-  config:
-    required: false
-  label: Brief paragraph label
-  description: 'Label for the initial paragraph. Examples: Brief, Challenge, etc.'
-- name: brief
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Brief
-  description: An intro to the project brief
-- name: solution_label
-  type: text
-  config:
-    required: false
-  label: Solution paragraph label
-  description: 'Title label for the solution paragraph. Ex: Activation, Solution,
-    etc.'
-- name: solution
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Solution
-  description: A paragraph about our solution to the project brief.
-- name: two_column_vertical_images
-  type: field_group
-  config: {}
-  fields:
-  - name: vertical_image_one
-    type: file
-    config:
-      maxSize: 250
-    label: vertical image one
-    description: 'If you add one image please add the second so it looks even '
-  - name: vertical_image_two
-    type: file
-    config:
-      maxSize: 250
-    label: vertical image two
-    description: Make sure both images are the same dimensions so they are displayed
-      evenly
-  label: two column vertical images
-  description: Optional vertical images
-- name: pull_quote
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Pull Quote
-  description: optional pull quote
-- name: horizontal_image_three
-  type: file
-  config:
-    maxSize: 250
-  label: Horizontal image three
-  description: max file size is 250 mb
-- name: two_column_horizontal_images
-  type: field_group
-  config: {}
-  fields:
-  - name: image_one
-    type: file
-    config:
-      maxSize: 250
-    label: Image One
-  - name: image_two
-    type: file
-    config:
-      maxSize: 250
-    label: Image two
-  label: Two column horizontal images
-- name: pull_quote_two
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Pull Quote Two
-  description: optional
-- name: results
-  type: field_group
-  config: {}
-  fields:
-  - name: column_one
+      required: true
+    label: Client name
+  - name: project_url
     type: textarea
-    default: ''
+    default: ""
     config:
       required: false
       wysiwyg: true
       schema:
         format: html-blocks
-    label: Column One
-  - name: column_two
+    label: Project URL
+    description: "Add project URL if applicable "
+  - name: introduction
     type: textarea
-    default: ''
+    default: ""
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Introduction
+    description: "~ introductory text required ~"
+  - type: file
+    name: thumbnail
+    label: Thumbnail
+    description:
+      REQUIRED !!!! This is the main image that will be shown in the project
+      grid.
+  - name: service_tags
+    type: field_group
+    config: {}
+    fields:
+      - name: service_tag_one
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+            - strategy
+            - design and visual content
+            - web and mobile
+            - experiential
+            - custom software
+          source:
+            type: simple
+            section:
+            file:
+            path:
+        label: Service Tag One
+        description: required
+      - name: service_tag_two
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+            - strategy
+            - design and visual content
+            - web and mobile
+            - experiential
+            - custom software
+          source:
+            type: simple
+            section:
+            file:
+            path:
+        label: Service Tag Two
+      - name: service_tag_three
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+            - strategy
+            - design and visual content
+            - web and mobile
+            - experiential
+            - custom software
+          source:
+            type: simple
+            section:
+            file:
+            path:
+        label: Service Tag Three
+    label: Service Tags
+  - name: horizontal_image_two
+    type: file
+    config:
+      maxSize: 250
+    label: Horizontal image two
+    description: second horizontal image
+  - name: brief_label
+    type: text
+    config:
+      required: false
+    label: Brief paragraph label
+    description: "Label for the initial paragraph. Examples: Brief, Challenge, etc."
+  - name: brief
+    type: textarea
+    default: ""
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Brief
+    description: An intro to the project brief
+  - name: solution_label
+    type: text
+    config:
+      required: false
+    label: Solution paragraph label
+    description:
+      "Title label for the solution paragraph. Ex: Activation, Solution,
+      etc."
+  - name: solution
+    type: textarea
+    default: ""
     config:
       required: false
       wysiwyg: true
       schema:
         format: html-blocks
-    label: Column Two
-  - name: column_three
+    label: Solution
+    description: A paragraph about our solution to the project brief.
+  - name: two_column_vertical_images
+    type: field_group
+    config: {}
+    fields:
+      - name: vertical_image_one
+        type: file
+        config:
+          maxSize: 250
+        label: vertical image one
+        description: "If you add one image please add the second so it looks even "
+      - name: vertical_image_two
+        type: file
+        config:
+          maxSize: 250
+        label: vertical image two
+        description:
+          Make sure both images are the same dimensions so they are displayed
+          evenly
+    label: two column vertical images
+    description: Optional vertical images
+  - name: pull_quote
     type: textarea
-    default: ''
+    default: ""
     config:
       required: false
       wysiwyg: true
       schema:
         format: html-blocks
-    label: Column Three
-  label: Results
-  description: Results & ROI Stats
+    label: Pull Quote
+    description: optional pull quote
+  - name: horizontal_image_three
+    type: file
+    config:
+      maxSize: 250
+    label: Horizontal image three
+    description: max file size is 250 mb
+  - name: two_column_horizontal_images
+    type: field_group
+    config: {}
+    fields:
+      - name: image_one
+        type: file
+        config:
+          maxSize: 250
+        label: Image One
+      - name: image_two
+        type: file
+        config:
+          maxSize: 250
+        label: Image two
+    label: Two column horizontal images
+  - name: pull_quote_two
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Pull Quote Two
+    description: optional
+  - name: results
+    type: field_group
+    config: {}
+    fields:
+      - name: column_one
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html-blocks
+        label: Column One
+      - name: column_two
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html-blocks
+        label: Column Two
+      - name: column_three
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html-blocks
+        label: Column Three
+    label: Results
+    description: Results & ROI Stats
 pages:
-- projects/dts.md
-- projects/nn-investor-day.md
-- projects/ef-pro-cycling.md
-- projects/rare-signals.md
-- projects/rocket-mortgage-nexus.md
-- projects/panasonic-ces.md
+  - projects/dts.md
+  - projects/nn-investor-day.md
+  - projects/ef-pro-cycling.md
+  - projects/rare-signals.md
+  - projects/rocket-mortgage-nexus.md
+  - projects/panasonic-ces.md

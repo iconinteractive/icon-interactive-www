@@ -23,13 +23,18 @@
           <div v-html="$page.post.introduction" />
         </div>
         <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
-        <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
-        <g-image
-          v-if="$page.post.horizontal_image_two"
-          :src="$page.post.horizontal_image_two"
-          :alt="$page.post.title"
-        />
-        <blockquote v-if="$page.post.pull_quote_two" v-html="$page.post.pull_quote_two" />
+
+        <section>
+          <div class="project-text">
+            <h2 class="label" v-html="$page.post.brief_label" />
+            <div v-html="$page.post.brief" />
+          </div>
+          <div class="project-text">
+            <h2 class="label" v-html="$page.post.solution_label" />
+            <div v-html="$page.post.solution" />
+          </div>
+        </section>
+
         <section class="two-column" v-if="$page.post.two_column_vertical_images.vertical_image_one">
           <g-image
             v-if="$page.post.two_column_vertical_images.vertical_image_one"
@@ -43,22 +48,12 @@
             :alt="$page.post.title"
           />
         </section>
-        <section>
-          <div class="project-text">
-            <h2 class="label" v-html="$page.post.brief_label" />
-            <div v-html="$page.post.brief" />
-          </div>
-          <div class="project-text">
-            <h2 class="label" v-html="$page.post.solution_label" />
-            <div v-html="$page.post.solution" />
-          </div>
-        </section>
+        <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
         <g-image
-          v-if="$page.post.horizontal_image_three"
-          :src="$page.post.horizontal_image_three"
+          v-if="$page.post.horizontal_image_two"
+          :src="$page.post.horizontal_image_two"
           :alt="$page.post.title"
         />
-
         <section class="two-column" v-if="$page.post.two_column_horizontal_images.image_one">
           <g-image
             v-if="$page.post.two_column_horizontal_images.image_one"
@@ -71,6 +66,13 @@
             :alt="$page.post.title"
           />
         </section>
+        <blockquote v-if="$page.post.pull_quote_two" v-html="$page.post.pull_quote_two" />
+        <g-image
+          v-if="$page.post.horizontal_image_three"
+          :src="$page.post.horizontal_image_three"
+          :alt="$page.post.title"
+        />
+
         <div class="project-text" v-if="$page.post.results.column_one">
           <h2 class="label">Results</h2>
           <section class="three-column">
