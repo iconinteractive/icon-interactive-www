@@ -11,7 +11,7 @@ project_url: ''
 introduction: "<h4>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING NEW
   INITIATIVES</h4><p>NN - a leading precision manufacturing holding company - wanted
   to inform and energize their investor base to help kick off (something)</p>"
-thumbnail: ''
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.007.jpeg
 horizontal_image_two: ''
 brief_label: Challenge
 brief: "<p>Find the right mix of message, value, and impact to help ensure a successful
