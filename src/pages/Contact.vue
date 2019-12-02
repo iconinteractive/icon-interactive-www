@@ -7,7 +7,7 @@
         <span class="pink">CONNECT</span>
       </h1>
       <article class="contact">
-        <div v-html="contact" />
+        <div v-html="contact.contact_form_paragraph" />
         <form
           class="contact-form"
           name="contact"
@@ -16,35 +16,41 @@
         >
           <div>
             <label for="name" class="label">Name</label>
-            <input type="text" name="name" />
+            <input id="name" type="text" name="name" />
           </div>
           <div>
             <label for="email" class="label">Email</label>
-            <input type="email" name="email" />
+            <input id="email" type="email" name="email" />
           </div>
           <div>
             <label for="company" class="label">Company</label>
-            <input type="company" name="company" />
+            <input id="company" type="company" name="company" />
           </div>
           <div>
             <label for="company size" class="label">Company Size</label>
             <div class="select-wrapper">
-              <select>
+              <select id="company-size">
                 <option value="1-10 employees">1-10 employees</option>
-                <option value="11-50 employees<">11-50 employees</option>
-                <option value="51-200 employees<">21-200 employees</option>
-                <option value="201-500 employees<">201-500 employees</option>
-                <option value="501-1000 employees<">501-1000 employees</option>
-                <option value="1000+ employees<">1000+ employees</option>
+                <option value="11-50 employees">11-50 employees</option>
+                <option value="51-200 employees">21-200 employees</option>
+                <option value="201-500 employees">201-500 employees</option>
+                <option value="501-1000 employees">501-1000 employees</option>
+                <option value="1000+ employees">1000+ employees</option>
               </select>
             </div>
           </div>
           <div class="message">
             <label for="message" class="label">Message</label>
-            <textarea name="message"></textarea>
+            <textarea id="message" name="message"></textarea>
           </div>
-          <div class="g-recaptcha" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
-          <input type="submit" class="button" value="Send" />
+          <div class="row">
+            <div class="g-recaptcha" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+            <div class="phone-wrapper">
+              <p class="pink-label">OR CALL</p>
+              <a class="phone" href="tel:7347079245">734.707.9245</a>
+            </div>
+          </div>
+          <input type="submit" class="button" value="Send ⟶" />
         </form>
       </article>
     </div>
@@ -89,10 +95,9 @@ p {
   margin: 0 0 4rem 0;
   padding: 0;
 }
-.sender-info {
+.row {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
 }
 .sender-info > div {
   flex: 1;
@@ -103,6 +108,24 @@ p {
 }
 .g-recaptcha {
   margin-top: 1rem;
+}
+.pink-label {
+  position: relative;
+  bottom: -8px;
+  color: var(--color-highlight);
+  background-color: var(--color-base);
+  border-bottom: 1px solid var(--color-base);
+  padding-right: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.phone-wrapper {
+  margin-left: 35%;
+}
+.phone {
+  font-family: "Archivo Black", "DM Sans", helvetica, sans-serif;
+  font-size: 2rem;
 }
 input:focus,
 select:focus,
@@ -143,9 +166,9 @@ select {
 .button {
   background: var(--color-base);
   color: var(--color-highlight);
-  border: 1px solid var(--color-highlight);
+  border: none;
   outline: none;
-  font-size: 1rem;
+  font-size: 2rem;
   padding: 0.8rem 1.6rem;
   border-radius: 0.3rem;
   margin-top: 2rem;
@@ -153,7 +176,7 @@ select {
   transition: all 300ms ease-in-out;
   font-size: 500;
   letter-spacing: 0.035em;
-  width: 302px;
+  /* width: 302px; */
 }
 .button:hover {
   background: var(--color-highlight);
@@ -178,6 +201,9 @@ select {
   }
   .contact {
     margin-left: 0%;
+  }
+  .phone-wrapper {
+    margin-left: 0;
   }
 }
 </style>

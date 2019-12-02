@@ -175,7 +175,6 @@ label {
 }
 h3 {
   width: 100%;
-
   padding-top: 32px;
   margin-bottom: 1rem;
 }
