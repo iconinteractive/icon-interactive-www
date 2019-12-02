@@ -8,7 +8,9 @@
           <button class="start-button" @click="scrollDown">↓</button>
         </div>
         <section id="start" class="projects">
-          <h1 class="title">FEATURED WORK</h1>
+          <div class="title-wrap">
+            <h1 class="title">FEATURED WORK</h1>
+          </div>
           <ProjectsGrid :projects="$page.projects.edges" />
         </section>
       </div>
@@ -62,7 +64,9 @@ export default {
 .title {
   font-size: 8.5vw;
   margin-bottom: 0;
-  justify-content: center;
+}
+.title-wrap {
+  text-align: center;
 }
 h2 {
   font-family: "DM Sans";
@@ -72,7 +76,7 @@ h2 {
   border-radius: 0.3rem;
 }
 .projects {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .description {
   display: grid;
