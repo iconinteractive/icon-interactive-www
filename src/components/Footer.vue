@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 .footer {
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 6rem 0;
 }
 .logo-footer {
@@ -100,12 +100,6 @@ a:last-of-type {
     margin-top: 2rem;
     text-align: left;
     padding: 0;
-  }
-  a {
-    font-size: 1.5rem;
-  }
-  .footer-text {
-    font-size: 1.5rem;
   }
 }
 </style>

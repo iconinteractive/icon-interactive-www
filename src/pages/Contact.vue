@@ -171,5 +171,8 @@ select {
   .sender-info > div {
     margin: 1rem 0;
   }
+  .contact {
+    margin-left: 0%;
+  }
 }
 </style>
