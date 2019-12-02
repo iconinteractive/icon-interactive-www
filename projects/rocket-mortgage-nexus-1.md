@@ -9,24 +9,14 @@ thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mor
 title: Jaguar Electrifies
 client: Jaguar Land Rover
 brief_label: Challenge
-brief: Come up with a stunning and attractive experiential concept that authentically
-  connects Rocket Mortgage with the world of eSports.  ICON delivered a “never seen
-  before” experiential activation leveraging a 40’x40’ tailgate space located in the
-  Little Caesar’s Arena Chevy Plaza in Detroit, Michigan.
+brief: "<p>Dream up and execute an attention-grabbing vehicle flash mob of sorts during
+  the San Francisco Climate Summit.</p>"
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
 solution_label: Activation
-solution: "<p>The Rocket Mortgage Nexus delivered a genuine connection between Rocket
-  Mortgage and eSport fans, providing ongoing dialogue and interactions while entertaining
-  fans in an eye-opening environment.</p><p>Our two-day experiential pop-up featured
-  multiple ways fans and the public could get closer to the eSport they love, including:</p><ul><li><p>Overhead
-  360 gameplay including exclusive team and pro player footage</p></li><li><p>Meet
-  and greets with pro 100 Thieves players – including Nadeshot and Aphromoo – provided
-  autograph and photo opportunities</p></li><li><p>Opportunities to win a 100 Thieves
-  autographed jersey</p></li><li><p>Physical takeaways and shareable digital takeaways
-  throughout the dome</p></li></ul><p>Quicken Loans is a prominent partner of <strong>100
-  Thieves</strong>, the North American organization founded by Matthew “Nadeshot”
-  Haag in 2017. <strong>Dan Gilbert</strong>, the largest shareholder in 100 Thieves,
-  is the founder of Quicken Loans.</p>"
+solution: "<p>ICON delivered on an exciting and massive activation covering three
+  major cities over two phases ... San Francisco, Los Angeles, and Miami. Full production
+  crews covered everything from location scouting, logistics, and documentation of
+  this electrifying tour.</p>"
 pull_quote: <p>"There was an awesome dome and we had provided some Rift content for
   them to be able to show. We want to make sure our fans have a great experience and
   leave saying ‘thank you for being here and thank you for creating this experience.’
@@ -39,10 +29,10 @@ results:
   column_two: "<h1>200+</h1><p><strong>QUALIFIED LEADS</strong></p>"
   column_three: "<h1>100%</h1><p><strong>AUTHENTIC FAN EXPERIENCE</strong></p>"
 project_url: ''
-introduction: "<h4>ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH 360
-  PROJECTION AT THE LCS 2019 TAILGATE PARTY</h4><p></p><p>Doubling down on eSports,
-  Rocket Mortgage partnered with Riot Games to bring League of Legends to Detroit
-  as presenting sponsor of the LCS Summer Finals.</p>"
+introduction: "<h4>ICON HELPS JAGUAR BRING THEIR FIRST FULLY ELECTRIC VEHICLE TO THE
+  PUBLIC'S ATTENTION</h4><p></p><p>Doubling down on eSports, Rocket Mortgage partnered
+  with Riot Games to bring League of Legends to Detroit as presenting sponsor of the
+  LCS Summer Finals.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
