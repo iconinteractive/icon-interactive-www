@@ -25,9 +25,9 @@ results:
   column_three: "<h1>100%</h1><p><strong>BRAND AUTHENTIC</strong></p>"
 project_url: ''
 introduction: "<h4>ICON HELPS JAGUAR BRING THEIR FIRST FULLY ELECTRIC VEHICLE TO THE
-  PUBLIC'S ATTENTION</h4><p></p><p>Doubling down on eSports, Rocket Mortgage partnered
-  with Riot Games to bring League of Legends to Detroit as presenting sponsor of the
-  LCS Summer Finals.</p>"
+  PUBLIC'S ATTENTION</h4><p></p><p>With a world-class foray into the electric vehicle
+  marketplace, Jaguar wanted to take the U.S. market by storm.  So that's what we
+  did.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar3.jpg
