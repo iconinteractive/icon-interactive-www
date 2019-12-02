@@ -47,7 +47,7 @@ export default {
 .logo-footer {
   height: 65px;
   fill: white;
-  margin: 5% 5% 5% 0;
+  margin: 10px 40px;
 }
 .grid {
   display: grid;

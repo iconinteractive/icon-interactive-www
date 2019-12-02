@@ -6,13 +6,14 @@
         <br />
         <span class="pink">CONNECT</span>
       </h1>
-      <form
-        class="contact-form"
-        name="contact"
-        action="https://www.form-data.com/_functions/submit/wn7goc9zzuok4lcb2oeu1p"
-        method="POST"
-      >
-        <div class="sender-info">
+      <article class="contact">
+        <p>Lorem ipsum tropical garden. Lorem ipsum tropical garden. Lorem ipsum tropical garden. Lorem ipsum torpical garden.</p>
+        <form
+          class="contact-form"
+          name="contact"
+          action="https://www.form-data.com/_functions/submit/wn7goc9zzuok4lcb2oeu1p"
+          method="POST"
+        >
           <div>
             <label for="name" class="label">Name</label>
             <input type="text" name="name" />
@@ -21,14 +22,31 @@
             <label for="email" class="label">Email</label>
             <input type="email" name="email" />
           </div>
-        </div>
-        <div class="message">
-          <label for="message" class="label">Message</label>
-          <textarea name="message"></textarea>
-        </div>
-        <div class="g-recaptcha" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
-        <input type="submit" class="button" value="Send" />
-      </form>
+          <div>
+            <label for="company" class="label">Company</label>
+            <input type="company" name="company" />
+          </div>
+          <div>
+            <label for="company size" class="label">Company Size</label>
+            <div class="select-wrapper">
+              <select>
+                <option value="1-10 employees">1-10 employees</option>
+                <option value="11-50 employees<">11-50 employees</option>
+                <option value="51-200 employees<">21-200 employees</option>
+                <option value="201-500 employees<">201-500 employees</option>
+                <option value="501-1000 employees<">501-1000 employees</option>
+                <option value="1000+ employees<">1000+ employees</option>
+              </select>
+            </div>
+          </div>
+          <div class="message">
+            <label for="message" class="label">Message</label>
+            <textarea name="message"></textarea>
+          </div>
+          <div class="g-recaptcha" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+          <input type="submit" class="button" value="Send" />
+        </form>
+      </article>
     </div>
   </Layout>
 </template>
@@ -48,8 +66,18 @@ export default {
 </script>
 
 <style scoped>
+p {
+  font-size: 1.2rem;
+}
+.contact {
+  margin-left: 30%;
+}
 .contact-header {
   padding: 2rem 0 4rem 0;
+}
+.label {
+  font-family: "Archivo Black", "DM Sans", helvetica;
+  font-size: 2rem;
 }
 .contact-title {
   font-size: 4rem;
@@ -72,7 +100,9 @@ export default {
   margin-top: 1rem;
 }
 input:focus,
+select:focus,
 textarea:focus {
+  outline: none;
   border-color: var(--color-highlight);
   transition: all 300ms ease-in-out;
 }
@@ -92,6 +122,18 @@ textarea {
 textarea {
   resize: none;
   height: 140px;
+}
+select {
+  display: block;
+  font-size: 1.5rem;
+  font-family: "DM Sans", Helvetica, sans-serif;
+  line-height: 1.2rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--color-base-1);
+  background-color: var(--color-base);
+  color: var(--color-contrast);
+  padding: 1rem;
 }
 .button {
   background: var(--color-base);
@@ -115,6 +157,9 @@ textarea {
 }
 .button:focus {
   border: 1px solid var(--color-contrast);
+}
+.contact div {
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 800px) {
