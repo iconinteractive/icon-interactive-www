@@ -29,7 +29,7 @@ introduction: "<h4>ICON HELPS JAGUAR BRING THEIR FIRST FULLY ELECTRIC VEHICLE TO
   with Riot Games to bring League of Legends to Detroit as presenting sponsor of the
   LCS Summer Finals.</p>"
 two_column_vertical_images:
-  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
+  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
 two_column_horizontal_images:
   image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
