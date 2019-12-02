@@ -76,9 +76,12 @@ h3:hover {
   margin: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .thumbnail {
     height: 250px;
+  }
+  .projects {
+    grid-template-columns: 1fr;
   }
   .threeColumn {
     grid-template-columns: 1fr;

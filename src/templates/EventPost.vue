@@ -64,7 +64,7 @@ export default {
 .label {
   color: var(--color-highlight);
 }
-@media (max-width: 860px) {
+@media (max-width: 800px) {
   .event-content {
     width: 95%;
   }

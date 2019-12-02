@@ -60,8 +60,9 @@ export default {
 
 <style scoped>
 .title {
-  font-size: 8vw;
+  font-size: 8.5vw;
   margin-bottom: 0;
+  justify-content: center;
 }
 h2 {
   font-family: "DM Sans";

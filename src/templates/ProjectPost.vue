@@ -233,7 +233,7 @@ blockquote p {
   color: var(--color-highlight);
   border-bottom: 1px solid #fff;
 }
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .two-column {
     grid-template-columns: 1fr;
     grid-gap: 20px;

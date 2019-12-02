@@ -218,7 +218,7 @@ li a:hover {
 .grid-two p {
   font-size: 1.2rem;
 }
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .title {
     font-size: 11vw;
   }

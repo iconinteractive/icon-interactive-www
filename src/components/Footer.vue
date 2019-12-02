@@ -85,7 +85,7 @@ a:hover {
 a:last-of-type {
   margin-bottom: 0.5rem;
 }
-@media (max-width: 720px) {
+@media (max-width: 800px) {
   .logo-footer {
     display: none;
   }

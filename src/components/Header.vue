@@ -97,7 +97,7 @@ export default {
 .nav > .active {
   color: var(--color-highlight);
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .nav {
     flex-direction: column;
     justify-items: right;

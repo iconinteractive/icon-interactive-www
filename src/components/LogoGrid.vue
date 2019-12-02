@@ -37,7 +37,7 @@ export default {
   height: 80px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
