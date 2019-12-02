@@ -20,9 +20,9 @@ solution: "<p>ICON delivered on an exciting and massive activation covering thre
 pull_quote: <p>"Extremely successful event."</p><p><strong>Jaguar Land Rover</strong></p>
 horizontal_image_three: ''
 results:
-  column_one: "<h1>1000+</h1><p><strong>HOURS OF ROCKET MORTGAGE<br>BRANDED CONTENT</strong></p>"
-  column_two: "<h1>200+</h1><p><strong>QUALIFIED LEADS</strong></p>"
-  column_three: "<h1>100%</h1><p><strong>AUTHENTIC FAN EXPERIENCE</strong></p>"
+  column_one: "<h1>3</h1><p><strong>MAJOR CITIES</strong></p>"
+  column_two: "<h1>1,000'S</h1><p><strong>OF TEST DRIVES</strong></p>"
+  column_three: "<h1>100%</h1><p><strong>BRAND AUTHENTIC</strong></p>"
 project_url: ''
 introduction: "<h4>ICON HELPS JAGUAR BRING THEIR FIRST FULLY ELECTRIC VEHICLE TO THE
   PUBLIC'S ATTENTION</h4><p></p><p>Doubling down on eSports, Rocket Mortgage partnered
@@ -32,8 +32,8 @@ two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar3.jpg
 two_column_horizontal_images:
-  image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
-  image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
+  image_one: ''
+  image_two: ''
 pull_quote_two: "<p></p>"
 
 ---
