@@ -11,3 +11,5 @@ fields:
     schema:
       format: html-blocks
   label: Contact form paragraph
+pages:
+- data/contact.json
