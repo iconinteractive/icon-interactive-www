@@ -5,7 +5,7 @@ service_tags:
   service_tag_two: ''
   service_tag_three: ''
 display_on_home_page: true
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar1.jpg
 title: Jaguar Electrifies
 client: Jaguar Land Rover
 brief_label: Challenge
