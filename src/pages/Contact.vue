@@ -7,7 +7,7 @@
         <span class="pink">CONNECT</span>
       </h1>
       <article class="contact">
-        <p>Lorem ipsum tropical garden. Lorem ipsum tropical garden. Lorem ipsum tropical garden. Lorem ipsum torpical garden.</p>
+        <div v-html="contact" />
         <form
           class="contact-form"
           name="contact"
@@ -53,6 +53,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      contact: require("../../data/contact.json")
+    };
+  },
   metaInfo: {
     script: [
       {
