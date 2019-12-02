@@ -11,6 +11,23 @@
         <div v-html="about.about_text.right_column" />
       </section>
       <section>
+        <label>{{about.culture.subtitle}}</label>
+        <h2>{{about.culture.title}}</h2>
+        <div class="grid-two">
+          <div>
+            <g-image :src="about.culture.left_column_image" alt="icon culture image" />
+            <span class="small-title">{{about.culture.left_column_section_title}}</span>
+            <div v-html="about.culture.left_column_text" />
+          </div>
+          <div>
+            <g-image :src="about.culture.right_column_image" alt="dog" />
+            <span class="small-title">{{about.culture.right_column_section_title}}</span>
+            <div v-html="about.culture.right_column_text" />
+            <br />
+            <span class="small-title">{{about.culture.careers_title}}</span>
+            <div class="careers-link" v-html="about.culture.careers_link" />
+          </div>
+        </div>
         <label>{{about.location_images.subtitle}}</label>
         <h2>{{about.location_images.title}}</h2>
         <div class="img-wrapper">
@@ -73,23 +90,6 @@
             </a>
           </li>
         </ul>
-        <label>{{about.culture.subtitle}}</label>
-        <h2>{{about.culture.title}}</h2>
-        <div class="grid-two">
-          <div>
-            <g-image :src="about.culture.left_column_image" alt="icon culture image" />
-            <span class="small-title">{{about.culture.left_column_section_title}}</span>
-            <div v-html="about.culture.left_column_text" />
-          </div>
-          <div>
-            <g-image :src="about.culture.right_column_image" alt="dog" />
-            <span class="small-title">{{about.culture.right_column_section_title}}</span>
-            <div v-html="about.culture.right_column_text" />
-            <br />
-            <span class="small-title">{{about.culture.careers_title}}</span>
-            <div class="careers-link" v-html="about.culture.careers_link" />
-          </div>
-        </div>
       </section>
     </div>
   </Layout>
@@ -189,8 +189,6 @@ h2 {
   font-size: 1.2rem;
 }
 .title {
-  font-size: 7rem;
-  letter-spacing: 2px;
   font-weight: 700;
   padding: 0;
   margin: 4rem 0 2rem;

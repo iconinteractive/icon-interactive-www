@@ -8,7 +8,7 @@
           <button class="start-button" @click="scrollDown">↓</button>
         </div>
         <section id="start" class="projects">
-          <label class="pink home-label">FEATURED WORK</label>
+          <h1 class="title">FEATURED WORK</h1>
           <ProjectsGrid :projects="$page.projects.edges" />
         </section>
       </div>
@@ -59,9 +59,9 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  margin-top: 10vh;
-  border-top: 1px solid var(--color-highlight);
+.title {
+  font-size: 8vw;
+  margin-bottom: 0;
 }
 h2 {
   font-family: "DM Sans";
@@ -119,8 +119,7 @@ h2 {
 }
 @media (max-width: 800px) {
   .start-button {
-    right: 27%;
-    bottom: 45vh;
+    justify-self: start;
   }
   .description {
     display: grid;

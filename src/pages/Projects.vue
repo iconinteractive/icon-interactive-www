@@ -1,7 +1,12 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 class="title">{{titles.work_page_project_grid_title}}</h1>
+      <h1 class="title">
+        ICON
+        <br />
+        <span class="pink">{{titles.work_page_project_grid_title}}</span>
+      </h1>
+
       <ProjectsGrid :projects="$page.projects.edges" />
       <LogoGrid />
     </div>
