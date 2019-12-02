@@ -65,19 +65,15 @@ h3 {
   margin: 1rem 0 2rem 0;
 }
 
-.title-sticky {
-  margin: 4rem 0 4rem 0;
-  padding: 0;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 1rem;
-  z-index: 10;
-}
-
 .title {
   margin: 4rem 0 4rem 0;
   padding: 0;
   z-index: 10;
+  line-height: 4.5rem;
+}
+
+.pink {
+  color: var(--color-highlight);
 }
 
 .container {
@@ -128,6 +124,7 @@ h2 {
   }
   .title {
     margin-bottom: 1rem;
+    line-height: 3.5rem;
   }
   .container {
     margin: 0 2rem;

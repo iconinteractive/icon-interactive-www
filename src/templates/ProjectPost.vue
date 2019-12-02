@@ -49,6 +49,7 @@
           />
         </section>
         <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
+        <div v-html="$page.post.content" class="content" />
         <g-image
           v-if="$page.post.horizontal_image_two"
           :src="$page.post.horizontal_image_two"
@@ -67,6 +68,7 @@
           />
         </section>
         <blockquote v-if="$page.post.pull_quote_two" v-html="$page.post.pull_quote_two" />
+
         <g-image
           v-if="$page.post.horizontal_image_three"
           :src="$page.post.horizontal_image_three"
@@ -93,7 +95,6 @@
             />
           </section>
         </div>
-        <div v-html="$page.post.content" class="content" />
       </div>
     </div>
   </Layout>
@@ -165,6 +166,7 @@ export default {
 }
 .project-title {
   font-size: 4rem;
+  line-height: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }
@@ -233,6 +235,11 @@ blockquote p {
   color: var(--color-highlight);
   border-bottom: 1px solid #fff;
 }
+
+.title {
+  line-height: 3rem;
+}
+
 @media (max-width: 800px) {
   .two-column {
     grid-template-columns: 1fr;
@@ -249,6 +256,7 @@ blockquote p {
   blockquote p {
     font-size: 1.2rem;
   }
+
   .project-text {
     width: 95%;
   }

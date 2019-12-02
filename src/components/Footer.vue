@@ -6,8 +6,7 @@
           <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo-footer" />
           <div class="column">
             <span class="footer-text">{{footer.footer_text}}</span>
-            <a href="mailto:info@iconinteractive.com">info@iconinteractive.com</a>
-            <a href="tel:7347079245">734.707.9245</a>
+            <a href="mailto:info@iconinteractive.com">Let's connect</a>
             <span>© {{date}} ICON Interactive</span>
           </div>
         </div>

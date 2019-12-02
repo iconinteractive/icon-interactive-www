@@ -1,7 +1,11 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 class="title">Connect</h1>
+      <h1 class="title">
+        LET'S
+        <br />
+        <span class="pink">CONNECT</span>
+      </h1>
       <form
         class="contact-form"
         name="contact"

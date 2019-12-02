@@ -6,7 +6,6 @@
         <br />
         <span class="pink">{{titles.work_page_project_grid_title}}</span>
       </h1>
-
       <ProjectsGrid :projects="$page.projects.edges" />
       <LogoGrid />
     </div>
