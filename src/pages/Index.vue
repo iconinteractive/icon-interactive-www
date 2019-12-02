@@ -71,7 +71,7 @@ h2 {
   border-radius: 0.3rem;
 }
 .projects {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 .description {
   display: grid;
@@ -105,7 +105,7 @@ h2 {
   z-index: 10;
   cursor: pointer;
   font-size: 2rem;
-  z-index: 100;
+  z-index: 0;
   border-radius: 0.3rem;
   width: 50px;
   height: 50px;

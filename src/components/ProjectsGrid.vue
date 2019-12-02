@@ -57,12 +57,12 @@ export default {
 }
 .thumbnail:hover + h3 {
   transition: all 1s ease-in-out;
-  background: var(--color-highlight);
+  background-color: var(--color-highlight);
   color: var(--color-contrast-1);
   opacity: 1;
 }
 h3:hover {
-  background: var(--color-highlight);
+  background-color: var(--color-highlight);
   color: var(--color-contrast-1);
   transition: all 1200ms ease-in-out;
 }
@@ -81,7 +81,7 @@ h3:hover {
   .thumbnail {
     height: 250px;
   }
-  .twoColumn {
+  .threeColumn {
     grid-template-columns: 1fr;
   }
 }

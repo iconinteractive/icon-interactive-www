@@ -36,4 +36,10 @@ export default {
 .mini-logo {
   height: 80px;
 }
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>
