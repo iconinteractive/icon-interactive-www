@@ -5,9 +5,7 @@
         <Hero :copyArr="home.home_typer.type_text_list" />
         <div class="description">
           <p>{{home.home_text}}</p>
-          <div class="flex-center">
-            <button class="start-button" @click="scrollDown">Get Started</button>
-          </div>
+          <button class="start-button" @click="scrollDown">↓</button>
         </div>
         <section id="start" class="projects">
           <label class="pink home-label">FEATURED WORK</label>
@@ -80,7 +78,7 @@ h2 {
   grid-template-columns: 2fr 1fr;
   grid-gap: 8vw;
   font-size: 1.4rem;
-  padding: 0 125px;
+  padding-left: 125px;
   width: 100%;
   height: 20vh;
   margin: 15vh 0;
@@ -103,15 +101,16 @@ h2 {
 .start-button {
   background: var(--color-base);
   color: var(--color-highlight);
-  padding: 1rem;
   border: 1px solid var(--color-highlight);
   z-index: 10;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 2rem;
   z-index: 100;
   border-radius: 0.3rem;
-  width: 200px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
+  align-items: right;
+  justify-self: end;
 }
 .start-button:hover {
   background: var(--color-highlight);
