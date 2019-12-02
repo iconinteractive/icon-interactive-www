@@ -1,0 +1,15 @@
+---
+label: contact
+hide_body: true
+fields:
+- name: contact_form_paragraph
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Contact form paragraph
+pages:
+- data/contact.json
