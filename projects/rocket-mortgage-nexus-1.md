@@ -26,8 +26,8 @@ results:
 project_url: ''
 introduction: "<h4>ICON HELPS JAGUAR BRING THEIR FIRST FULLY ELECTRIC VEHICLE TO THE
   PUBLIC'S ATTENTION</h4><p></p><p>With a world-class foray into the electric vehicle
-  marketplace, Jaguar wanted to take the U.S. market by storm.  So that's what we
-  did.</p>"
+  marketplace, Jaguar wanted to take the U.S. market by storm.  So that's just what
+  we did.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar3.jpg
