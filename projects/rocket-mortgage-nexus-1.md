@@ -11,7 +11,7 @@ client: Jaguar Land Rover
 brief_label: Challenge
 brief: "<p>Dream up and execute an attention-grabbing vehicle flash mob of sorts during
   the San Francisco Climate Summit.</p>"
-horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
+horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar4.jpg
 solution_label: Activation
 solution: "<p>ICON delivered on an exciting and massive activation covering three
   major cities over two phases ... San Francisco, Los Angeles, and Miami. Full production
