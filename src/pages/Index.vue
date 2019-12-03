@@ -62,8 +62,9 @@ export default {
 
 <style scoped>
 .title {
-  font-size: 8.5vw;
+  font-size: 7.5rem;
   margin-bottom: 0;
+  line-height: 6.5rem;
 }
 .title-wrap {
   text-align: center;
@@ -131,6 +132,11 @@ h2 {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     padding: 0;
+  }
+  .title {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 0;
   }
 }
 </style>

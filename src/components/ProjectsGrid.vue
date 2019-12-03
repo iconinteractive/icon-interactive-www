@@ -31,23 +31,24 @@ export default {
 }
 .project {
   position: relative;
-  text-align: center;
   z-index: 0;
 }
 .project-link {
   text-decoration: none;
 }
 .thumbnail {
-  height: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
   width: 100%;
   object-fit: cover;
   transition: all 0.15s ease;
+  border: 1px solid cyan;
 }
 .project-title {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
   bottom: 0.3rem;
-  left: 1rem;
+  left: 1.5rem;
   font-size: 1.5rem;
   color: var(--color-contrast-1);
   transition: all 1s ease-in-out;
@@ -60,11 +61,7 @@ export default {
   color: var(--color-contrast-1);
   opacity: 1;
 }
-h3:hover {
-  background-color: var(--color-highlight);
-  color: var(--color-contrast-1);
-  transition: all 1200ms ease-in-out;
-}
+
 .categories {
   font-size: 0.8rem;
   color: var(--color-contrast-1);

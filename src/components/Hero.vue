@@ -63,7 +63,7 @@ export default {
   margin-bottom: 0;
 }
 .hero-title {
-  font-size: 7rem;
+  font-size: 7.5rem;
   letter-spacing: 2px;
   font-weight: 700;
   padding: 0;
@@ -85,7 +85,7 @@ export default {
     margin: 10vh 0;
   }
   .hero-title {
-    font-size: 3.75rem;
+    font-size: 4rem;
     line-height: 3.5rem;
   }
 }
