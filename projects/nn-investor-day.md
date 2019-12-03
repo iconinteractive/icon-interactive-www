@@ -21,7 +21,7 @@ solution: "<p>ICON pulled from a wide range of internal capabilities to create a
   installation including animation, photography, and both traditional and drone videography.
   A 20' LED display highlighted this hard-to-forget experience.</p>"
 two_column_vertical_images:
-  vertical_image_one: ''
+  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/nn1.jpg
   vertical_image_two: ''
 pull_quote: ''
 horizontal_image_three: ''
