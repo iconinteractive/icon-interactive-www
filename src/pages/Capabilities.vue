@@ -5,7 +5,9 @@
         <h1>CAPABILITIES</h1>
         <ul class="grid-two">
           <li class="services" v-for="(paragraph, serviceName) in services" :key="serviceName">
-            <h3>{{ formatServiceName(serviceName) }}</h3>
+            <h3>
+              <g-link :to="formatUrl(serviceName)">{{ formatServiceName(serviceName) }}</g-link>
+            </h3>
             <p>{{ paragraph }}</p>
           </li>
         </ul>
@@ -16,6 +18,7 @@
 
 <script>
 import formatServiceName from "@/components/utility-funcs/formatServiceName.js";
+import formatUrl from "@/components/utility-funcs/formatUrl.js";
 
 export default {
   data() {
@@ -24,7 +27,8 @@ export default {
     };
   },
   methods: {
-    formatServiceName: formatServiceName
+    formatServiceName: formatServiceName,
+    formatUrl: formatUrl
   }
 };
 </script>

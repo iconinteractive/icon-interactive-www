@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 class="title">Experiential</h1>
+      <h1 class="title">Strategy</h1>
       <ProjectsGrid :projects="this.queryResults" />
     </div>
   </Layout>
@@ -40,7 +40,7 @@ export default {
     this.queryResults = this.queryResults.filter(({ node }) => {
       for (const tag in node.service_tags) {
         console.log(node.service_tags[tag]);
-        if (node.service_tags[tag] === "experiential") {
+        if (node.service_tags[tag] === "strategy") {
           return true;
           break;
         }
