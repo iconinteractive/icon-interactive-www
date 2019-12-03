@@ -4,7 +4,7 @@
       <div class="container">
         <div class="two-column">
           <div class="project-info">
-            <span class="label" v-html="$page.post.client">Client</span>
+            <span class="label" v-html="$page.post.client" />
             <h1 class="title" v-html="$page.post.title" />
             <div class="categories-container">
               <div class="categories">
@@ -20,18 +20,18 @@
             </div>
             <div class="url" v-if="$page.post.project_url" v-html="$page.post.project_url" />
           </div>
-          <div v-html="$page.post.introduction" />
+          <div v-if="$page.post.introduction" v-html="$page.post.introduction" />
         </div>
         <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
 
         <section>
           <div class="project-text">
-            <h2 class="label" v-html="$page.post.brief_label" />
-            <div v-html="$page.post.brief" />
+            <h2 class="label" v-if="$page.post.brief_label" v-html="$page.post.brief_label" />
+            <div v-if="$page.post.brief" v-html="$page.post.brief" />
           </div>
           <div class="project-text">
-            <h2 class="label" v-html="$page.post.solution_label" />
-            <div v-html="$page.post.solution" />
+            <h2 class="label" v-if="$page.post.solution_label" v-html="$page.post.solution_label" />
+            <div v-if="$page.post.solution" v-html="$page.post.solution" />
           </div>
         </section>
 
@@ -43,6 +43,7 @@
             :alt="$page.post.title"
           />
           <g-image
+            v-if="$page.post.two_column_vertical_images.vertical_image_two"
             class="vertical-img"
             :src="$page.post.two_column_vertical_images.vertical_image_two"
             :alt="$page.post.title"
@@ -198,6 +199,7 @@ export default {
 }
 .roi {
   display: flex;
+  width: 100%;
   flex-direction: column;
   text-align: center;
   padding: 1rem;
@@ -223,6 +225,9 @@ export default {
 }
 .label {
   color: var(--color-highlight);
+}
+.content {
+  margin-top: 20px;
 }
 blockquote {
   font-size: 2rem;
