@@ -243,8 +243,8 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
-- projects/nn-investor-day.md
 - projects/rocket-mortgage-nexus-1.md
+- projects/nn-investor-day.md
 - projects/dts.md
 - projects/ef-pro-cycling.md
 - projects/rare-signals.md
