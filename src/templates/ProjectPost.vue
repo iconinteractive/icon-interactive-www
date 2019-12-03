@@ -150,6 +150,9 @@ export default {
       title: this.$page.post.title
     };
   },
+  mounted() {
+    console.log("TAGS:", this.$page.post.service_tags);
+  },
   methods: {
     formatServiceName: formatServiceName
   }
