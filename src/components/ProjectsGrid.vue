@@ -24,7 +24,8 @@ export default {
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5px;
+  grid-template-rows: 1fr;
+  grid-gap: 15px;
 }
 .threeColumn {
   grid-template-columns: repeat(3, 1fr);
@@ -37,28 +38,28 @@ export default {
   text-decoration: none;
 }
 .thumbnail {
+  display: block;
   box-sizing: border-box;
-  min-height: 100%;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   transition: all 0.15s ease;
-  border: 1px solid cyan;
 }
 .project-title {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
-  bottom: 0.3rem;
-  left: 1.5rem;
+  bottom: 0rem;
+  left: 1rem;
   font-size: 1.5rem;
-  color: var(--color-contrast-1);
   transition: all 1s ease-in-out;
   padding: 0 0.5rem;
   opacity: 0;
-}
-.thumbnail:hover + h3 {
-  transition: all 1s ease-in-out;
   background-color: var(--color-highlight);
   color: var(--color-contrast-1);
+}
+.thumbnail:hover + .project-title {
+  transform: translate3d(20px, -10px, 0px);
+  transition: all 1s ease-in-out;
   opacity: 1;
 }
 
