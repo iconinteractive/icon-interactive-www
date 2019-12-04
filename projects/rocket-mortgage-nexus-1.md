@@ -9,25 +9,35 @@ thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar1.jpg
 title: Jaguar Electrifies
 client: Jaguar Land Rover
 brief_label: Challenge
-brief: "<p>Dream up and execute an attention-grabbing vehicle flash mob of sorts during
-  the San Francisco Climate Summit.</p>"
+brief: "<p>Dream up and execute an attention-grabbing tour that would raise awareness
+  and interest in the I-Pace.</p>"
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar4.jpg
 solution_label: Activation
-solution: "<p>ICON delivered on an exciting and massive activation covering three
-  major cities over two phases ... San Francisco, Los Angeles, and Miami. Full production
-  crews covered everything from location scouting, logistics, and documentation of
-  this electrifying tour.</p>"
+solution: <p>ICON proposed a series of Video and Photo spots that would be used both
+  internally and externally to generate a buzz around the launch. </p><p>The first
+  shoot was a vehicle convoy “flash mob” around San Francisco during the Global Climate
+  Summit that drove by several key landmarks. This took place three months before
+  the vehicle went on sale. We used this opportunity to capture hero images for their
+  marketing plans, social media, and PR/communications. </p><p>This video had a call
+  to action that drove people to sign up for the Jaguar Electrifies tour that started
+  in San Francisco a few weeks later. The tour was a full experience that featured
+  ride and drives, social sharable moments, and new technologies that were showcased
+  by Wired Magazine. </p><p>The tour stopped in San Francisco, Miami, and Los Angeles.</p><p>The
+  events were such a success, that Jaguar decided to create an abbreviated version
+  of the tour experience at a number of major Auto Shows including LA, Chicago, and
+  Washington DC. </p><p>In 2019, the I-Pace went on to win "World Car of the Year,”
+  “World Green Car of the Year,” and "World Car Design of the Year”—a clean sweep
+  from the World Car Awards (WCA)..</p>
 pull_quote: <p>"Extremely successful event."</p><p><strong>Jaguar Land Rover</strong></p>
 horizontal_image_three: ''
 results:
-  column_one: "<h1>3</h1><p><strong>MAJOR CITIES</strong></p>"
-  column_two: "<h1>1,000'S</h1><p><strong>OF TEST DRIVES</strong></p>"
-  column_three: "<h1>100%</h1><p><strong>BRAND AUTHENTIC</strong></p>"
+  column_one: "<h1>170M</h1><p><strong>IMPRESSIONS</strong></p>"
+  column_two: "<h1>7,000</h1><p><strong>TOUR ATTENDEES</strong></p>"
+  column_three: "<h1>1,000'S</h1><p><strong>OF TEST DRIVES</strong></p>"
 project_url: ''
-introduction: "<h4>ICON HELPS JAGUAR BRING THEIR FIRST FULLY ELECTRIC VEHICLE TO THE
-  PUBLIC'S ATTENTION</h4><p></p><p>With a world-class foray into the electric vehicle
-  marketplace, Jaguar wanted to take the U.S. market by storm.  So that's just what
-  we did.</p>"
+introduction: "<h4>ICON HELPS LAUNCH JAGUAR'S FIRST FULLY-ELECTRIC VEHICLE</h4><p></p><p>With
+  a world-class foray into the electric vehicle (EV) marketplace, Jaguar wanted to
+  take the U.S. market by storm. So that's just what we did.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar3.jpg
