@@ -35,7 +35,7 @@ results:
   column_two: "<h1>7,000</h1><p><strong>TOUR ATTENDEES</strong></p>"
   column_three: "<h1>1,000'S</h1><p><strong>OF TEST DRIVES</strong></p>"
 project_url: ''
-introduction: "<h4>ICON HELPS LAUNCH JAGUAR'S THEIR FIRST FULLY-ELECTRIC VEHICLE</h4><p></p><p>With
+introduction: "<h4>ICON HELPS LAUNCH JAGUAR'S FIRST FULLY-ELECTRIC VEHICLE</h4><p></p><p>With
   a world-class foray into the electric vehicle (EV) marketplace, Jaguar wanted to
   take the U.S. market by storm. So that's just what we did.</p>"
 two_column_vertical_images:
