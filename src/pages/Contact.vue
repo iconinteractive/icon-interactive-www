@@ -98,6 +98,7 @@ p {
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .sender-info > div {
   flex: 1;
@@ -121,7 +122,7 @@ p {
   letter-spacing: 0.5px;
 }
 .phone-wrapper {
-  margin-left: 35%;
+  justify-content: right;
 }
 .phone {
   font-family: "Archivo Black", "DM Sans", helvetica, sans-serif;
@@ -166,17 +167,16 @@ select {
 .button {
   background: var(--color-base);
   color: var(--color-highlight);
-  border: none;
+  border: 1px solid var(--color-highlight);
   outline: none;
   font-size: 2rem;
   padding: 0.8rem 1.6rem;
   border-radius: 0.3rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
   font-size: 500;
   letter-spacing: 0.035em;
-  /* width: 302px; */
 }
 .button:hover {
   background: var(--color-highlight);
