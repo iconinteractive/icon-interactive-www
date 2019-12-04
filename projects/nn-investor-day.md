@@ -11,7 +11,7 @@ project_url: ''
 introduction: "<h4>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING NEW
   INITIATIVES</h4><p>NN - a leading precision manufacturing holding company - wanted
   to inform and energize their investor base to help kick off (something)</p>"
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.007.jpeg
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/nn2.jpg
 horizontal_image_two: ''
 brief_label: Challenge
 brief: "<p>Find the right mix of message, value, and impact to help ensure a successful
@@ -22,7 +22,7 @@ solution: "<p>ICON pulled from a wide range of internal capabilities to create a
   A 20' LED display highlighted this hard-to-forget experience.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/nn1.jpg
-  vertical_image_two: ''
+  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/nn3.jpg
 pull_quote: ''
 horizontal_image_three: ''
 two_column_horizontal_images:
