@@ -13,8 +13,9 @@
                     class="category label"
                     v-for="(tag, index) in $page.post.service_tags"
                     :key="index"
-                    v-text="formatServiceName(tag)"
-                  />
+                  >
+                    <g-link class="tag" :to="formatUrl(tag)">{{ formatServiceName(tag) }}</g-link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -144,17 +145,17 @@ query ProjectPost ($path: String!) {
 
 <script>
 import formatServiceName from "@/components/utility-funcs/formatServiceName.js";
+import formatUrl from "@/components/utility-funcs/formatUrl.js";
+
 export default {
   metaInfo() {
     return {
       title: this.$page.post.title
     };
   },
-  mounted() {
-    console.log("TAGS:", this.$page.post.service_tags);
-  },
   methods: {
-    formatServiceName: formatServiceName
+    formatServiceName,
+    formatUrl
   }
 };
 </script>
@@ -243,9 +244,11 @@ blockquote p {
   color: var(--color-highlight);
   border-bottom: 1px solid #fff;
 }
-
 .title {
   line-height: 3rem;
+}
+.tag {
+  text-decoration: underline;
 }
 
 @media (max-width: 800px) {

@@ -39,7 +39,6 @@ export default {
     this.queryResults = this.$page.projects.edges;
     this.queryResults = this.queryResults.filter(({ node }) => {
       for (const tag in node.service_tags) {
-        console.log(node.service_tags[tag]);
         if (node.service_tags[tag] === "design and visual content") {
           return true;
           break;

@@ -27,8 +27,8 @@ export default {
     };
   },
   methods: {
-    formatServiceName: formatServiceName,
-    formatUrl: formatUrl
+    formatServiceName,
+    formatUrl
   }
 };
 </script>
