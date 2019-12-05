@@ -8,7 +8,7 @@ display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/fa1.jpg
 title: Farm Aid Website
 client: Farm Aid
-project_url: "<p>www.farmaid.org</p>"
+project_url: "<p>http://www.farmaid.org</p>"
 introduction: "<p>Intro</p>"
 horizontal_image_one: ''
 horizontal_image_two: ''
