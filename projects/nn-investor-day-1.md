@@ -22,8 +22,8 @@ solution: "<p>ICON is building a plug-and-play training platform whereby new cou
   A true win/win for students and colleges that's helping bring the real world into
   the classroom.</p>"
 two_column_vertical_images:
-  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/nn1.jpg
-  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/nn3.jpg
+  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr2.jpg
+  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/vr3.jpg
 pull_quote: ''
 horizontal_image_three: ''
 two_column_horizontal_images:
