@@ -45,5 +45,6 @@ two_column_vertical_images:
   vertical_image_one: ''
   vertical_image_two: ''
 pull_quote_two: ''
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/DTS.004.jpeg
 
 ---
