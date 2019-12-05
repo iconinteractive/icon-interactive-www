@@ -10,7 +10,7 @@ client: University
 project_url: ''
 introduction: "<h4>ICON &amp; VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h4><p>Colleges
   are increasingly interested in improving hands-on training while keeping technology
-  investment levels under control.</p>"
+  investment levels under control. VR is providing just that.</p>"
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/vr1.jpg
 horizontal_image_two: ''
 brief_label: Challenge
