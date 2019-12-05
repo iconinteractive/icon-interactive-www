@@ -6,7 +6,7 @@ service_tags:
   service_tag_three: ''
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/lol-thumb.jpg
-title: Rocket Mortgage Nexus
+title: eSports Experiential
 client: Rocket Mortage
 brief_label: Challenge
 brief: Come up with a stunning and attractive experiential concept that authentically
