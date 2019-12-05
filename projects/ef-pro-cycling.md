@@ -60,7 +60,7 @@ two_column_vertical_images:
   vertical_image_one: ''
   vertical_image_two: ''
 two_column_horizontal_images:
-  image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/five.jpg
+  image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/biking2.jpg
   image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/EF-Pro-Cycling-Mockup-1200x675.jpg
 pull_quote_two: ''
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/ef-pro2x.jpg
