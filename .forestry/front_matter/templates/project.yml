@@ -249,6 +249,7 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/icon-vr-training.md
 - projects/ef-pro-cycling.md
 - projects/nn-investor-day-1.md
 - projects/nn-investor-day.md
