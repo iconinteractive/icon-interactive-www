@@ -249,6 +249,7 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/panasonic-ces.md
 - projects/icon-vr-training.md
 - projects/dts.md
 - projects/rocket-mortgage-nexus-1.md
@@ -256,4 +257,3 @@ pages:
 - projects/nn-investor-day.md
 - projects/rare-signals.md
 - projects/rocket-mortgage-nexus.md
-- projects/panasonic-ces.md
