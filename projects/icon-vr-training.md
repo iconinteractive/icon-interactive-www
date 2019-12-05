@@ -6,7 +6,7 @@ service_tags:
   service_tag_three: ''
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/vr1.jpg
-title: ICON & VR Training
+title: VR Training In The Classroom
 client: University
 project_url: ''
 introduction: "<h4>VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h4><p>ICON puts
