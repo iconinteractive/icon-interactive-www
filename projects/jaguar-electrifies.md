@@ -12,7 +12,7 @@ project_url: ''
 introduction: "<h4>ICON HELPS LAUNCH JAGUAR'S FIRST FULLY-ELECTRIC VEHICLE</h4><p></p><p>With
   a world-class foray into the electric vehicle (EV) marketplace, Jaguar wanted to
   take the U.S. market by storm. So that's just what we did.</p>"
-horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/Kingston2219_Image1-1200x559.jpg
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar1.jpg
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar4.jpg
 brief_label: Challenge
 brief: "<p>Dream up and execute an attention-grabbing tour that would raise awareness
