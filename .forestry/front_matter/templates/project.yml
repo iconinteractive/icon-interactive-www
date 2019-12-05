@@ -249,6 +249,7 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/ef-pro-cycling.md
 - projects/rocket-mortgage-nexus.md
 - projects/nn-investor-day.md
 - projects/icon-vr-training.md
@@ -257,4 +258,3 @@ pages:
 - projects/rare-signals.md
 - projects/panasonic-ces.md
 - projects/dts.md
-- projects/ef-pro-cycling.md

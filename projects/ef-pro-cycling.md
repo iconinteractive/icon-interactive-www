@@ -2,7 +2,7 @@
 date: 2019-11-01
 year: 2019
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/ef-pro2x.jpg
-title: EF Pro Cycling
+title: EF Pro Cycling Animation
 client: Education First
 brief: "<p>Introducing the team-based nature of professional cycling to newbies and
   non-cyclists alike is what Education First sought to do through their “How to Explain
