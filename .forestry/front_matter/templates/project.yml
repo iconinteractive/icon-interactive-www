@@ -7,6 +7,11 @@ fields:
   label: Display on home page
   description: toggles if project should be displayed on the home page :)
   default: false
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: This is the preview image that will only be shown in the project grid.
+    Required!!!
 - type: datetime
   name: date
   label: Date
@@ -38,21 +43,6 @@ fields:
       format: html-blocks
   label: Project URL
   description: 'Add project URL if applicable '
-- name: introduction
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Introduction
-  description: "~ introductory text required ~"
-- type: file
-  name: thumbnail
-  label: Thumbnail
-  description: REQUIRED !!!! This is the main image that will be shown in the project
-    grid.
 - name: service_tags
   type: field_group
   config: {}
@@ -110,6 +100,22 @@ fields:
         path: 
     label: Service Tag Three
   label: Service Tags
+- name: introduction
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Introduction
+  description: "~ introductory text required ~"
+- name: horizontal_image_one
+  type: file
+  config:
+    maxSize: 250
+  label: horizontal image one
+  description: Image that appears under the introductory text
 - name: horizontal_image_two
   type: file
   config:
