@@ -23,8 +23,12 @@
           </div>
           <div v-if="$page.post.introduction" v-html="$page.post.introduction" />
         </div>
-        <g-image :src="$page.post.thumbnail" :alt="$page.post.title" class="thumbnail" />
-
+        <g-image
+          v-if="$page.post.horizontal_image_one"
+          :src="$page.post.horizontal_image_one"
+          :alt="$page.post.title"
+          class="top-image"
+        />
         <section>
           <div class="project-text">
             <h2 class="label" v-if="$page.post.brief_label" v-html="$page.post.brief_label" />
@@ -57,6 +61,7 @@
           :src="$page.post.horizontal_image_two"
           :alt="$page.post.title"
         />
+        
         <section class="two-column" v-if="$page.post.two_column_horizontal_images.image_one">
           <g-image
             v-if="$page.post.two_column_horizontal_images.image_one"
@@ -107,7 +112,6 @@ query ProjectPost ($path: String!) {
   post: projectPost (path: $path) {
     title
     date (format: "YYYY")
-    thumbnail
     client
     project_url
     service_tags {
@@ -116,6 +120,7 @@ query ProjectPost ($path: String!) {
      service_tag_three
     }
     introduction
+    horizontal_image_one
     content
     brief_label
     brief
@@ -180,7 +185,7 @@ export default {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-.thumbnail {
+.top-image {
   margin-top: 6rem;
 }
 .two-column {
@@ -274,7 +279,7 @@ blockquote p {
   .g-image {
     margin: 0.5rem 0;
   }
-  .thumbnail {
+  .top-image {
     margin: 2rem 0;
   }
   .two-column {
