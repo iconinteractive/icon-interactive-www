@@ -14,7 +14,7 @@ introduction: "<h4>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING
   they reached out to us to support their annual Investor Day conference for the second
   year in a row. This event includes a detailed presentation given in person to around
   100 people as well as a public livestream via NASDAQ.</p>"
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/nn2.jpg
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/nn-thumb.jpg
 horizontal_image_two: ''
 brief_label: Challenge
 brief: "<p>The event in 2018 marked the first time that it would be held at their
@@ -44,6 +44,7 @@ results:
   column_one: ''
   column_two: ''
   column_three: ''
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/nn2.jpg
 
 ---
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/377403847?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
