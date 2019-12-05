@@ -11,7 +11,7 @@ client: University
 project_url: ''
 introduction: "<h4>VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h4><p>ICON puts
   students on the front lines of emergency healthcare and criminal forensics.</p>"
-horizontal_image_one: ''
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/Kingston2219_Image1-1200x559.jpg
 horizontal_image_two: ''
 brief_label: ''
 brief: "<p>Leverage virtual reality (VR) to provide students with real-world hands-on
