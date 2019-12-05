@@ -5,7 +5,7 @@ service_tags:
   service_tag_two: experiential
   service_tag_three: ''
 display_on_home_page: true
-title: NN Investor Day
+title: Investor Day Activation
 client: NN, Inc.
 project_url: ''
 introduction: "<h4>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING NEW
