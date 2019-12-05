@@ -6,7 +6,7 @@ service_tags:
   service_tag_three: ''
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/fa1.jpg
-title: Website
+title: Farm Aid Website
 client: Farm Aid
 project_url: "<p>www.farmaid.org</p>"
 introduction: "<p>Intro</p>"
