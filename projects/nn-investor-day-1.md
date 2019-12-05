@@ -5,15 +5,12 @@ service_tags:
   service_tag_two: experiential
   service_tag_three: ''
 display_on_home_page: true
-title: NN Investor Day
-client: NN, Inc.
+title: ICON & VR Training
+client: University
 project_url: ''
-introduction: "<h4>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING NEW
-  INITIATIVES</h4><p>NN, Inc. is a diversified industrial manufacturer with a global
-  footprint in the medical, automotive, aerospace, and electrical markets. In 2018
-  they reached out to us to support their annual Investor Day conference for the second
-  year in a row. This event includes a detailed presentation given in person to around
-  100 people as well as a public livestream via NASDAQ.</p>"
+introduction: "<h4>ICON &amp; VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h4><p>Colleges
+  are increasingly interested in improving hands-on training while keeping technology
+  investment levels under control.</p>"
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/nn2.jpg
 horizontal_image_two: ''
 brief_label: Challenge
