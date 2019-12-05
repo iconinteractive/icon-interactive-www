@@ -9,7 +9,7 @@ thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/fa1.jpg
 title: Farm Aid Website
 client: Farm Aid
 project_url: "<p>http://www.farmaid.org</p>"
-introduction: "<p>Intro</p>"
+introduction: "<p></p>"
 horizontal_image_one: ''
 horizontal_image_two: ''
 brief_label: Challenge
@@ -17,8 +17,8 @@ brief: "<p>The challenge</p>"
 solution_label: Solution
 solution: "<p>The solution</p>"
 two_column_vertical_images:
-  vertical_image_one: ''
-  vertical_image_two: ''
+  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/fa4b.jpg
+  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/fa3b.jpg
 pull_quote: ''
 horizontal_image_three: ''
 two_column_horizontal_images:
