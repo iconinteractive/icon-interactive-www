@@ -8,26 +8,19 @@ display_on_home_page: true
 title: ICON & VR Training
 client: University
 project_url: ''
-introduction: "<h4>ICON &amp; VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h4><p>Colleges
-  are increasingly interested in improving hands-on training while keeping technology
-  investment levels under control. VR is providing just that.</p>"
+introduction: "<h4>VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h4><p>ICON puts
+  students on the front lines of emergency healthcare and criminal forensics.</p>"
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/vr1.jpg
 horizontal_image_two: ''
 brief_label: Challenge
-brief: "<p>The event in 2018 marked the first time that it would be held at their
-  new headquarters in Charlotte, NC which opened earlier that year. This state of
-  the art facility houses their Innovation Center which was debuted at Investor Day.
-  We were called in to create a series of video vignettes for their various end markets,
-  as well as an animated piece for their large 12 screen LED wall.</p>"
+brief: "<p>Leverage virtual reality (VR) to provide students with real-world hands-on
+  training opportunities previously thought impossible all within a framework that
+  allows the client to recoup large parts of capital outlay.</p>"
 solution_label: Solution
-solution: "<p>With a fairly short timeline of only a few weeks, our design team got
-  together and built a series of custom 3D animations and wove it together with the
-  company’s updated branding and existing video footage. We launched this piece on
-  the livestream to kick off the Investor Day event and then looped it on the LED
-  wall in the Innovation Center. This piece is currently used as an overview video
-  for the company and its capabilities when customers visit the Charlotte offices.
-  It will also be used on the new NN, Inc. website which we are launching in early
-  2020.</p>"
+solution: "<p>ICON is building a plug-and-play training platform whereby new coursework
+  content can be shared and costs distributed across the entire eventual user base.
+  A true win/win for students and colleges that's helping bring the real world into
+  the classroom.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/nn1.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/nn3.jpg
