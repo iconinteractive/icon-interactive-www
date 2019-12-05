@@ -6,7 +6,7 @@ service_tags:
   service_tag_three: ''
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/jag-thumb.jpg
-title: Jaguar Electrifies
+title: Jaguar I-Pace Launch
 client: Jaguar Land Rover
 project_url: ''
 introduction: "<h4>ICON HELPS LAUNCH JAGUAR'S FIRST FULLY-ELECTRIC VEHICLE</h4><p></p><p>With
