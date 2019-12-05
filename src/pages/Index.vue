@@ -62,9 +62,9 @@ export default {
 
 <style scoped>
 .title {
-  font-size: 7.5rem;
+  font-size: 5.5rem;
   margin-bottom: 0;
-  line-height: 6.5rem;
+  line-height: 5rem;
 }
 .title-wrap {
   text-align: center;
