@@ -1,9 +1,9 @@
 {
   "location_images": {
-    "ann_arbor": "https://s3.amazonaws.com/forestry.iconinteractive.com/ann-arbor-test.jpg",
-    "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/ICON-nyc.jpg",
-    "boston": "https://s3.amazonaws.com/forestry.iconinteractive.com/boston-test.jpg",
-    "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-test.jpg",
+    "ann_arbor": "https://s3.amazonaws.com/forestry.iconinteractive.com/annarbor-postcard-size.jpg",
+    "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/nyc-postcard-size.jpg",
+    "boston": "https://s3.amazonaws.com/forestry.iconinteractive.com/boston-postcard-size.jpg",
+    "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-postcard2b.jpg",
     "title": "Locations",
     "subtitle": "WHERE WE ARE"
   },
