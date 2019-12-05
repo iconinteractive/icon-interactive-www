@@ -5,7 +5,7 @@ service_tags:
   service_tag_two: experiential
   service_tag_three: ''
 display_on_home_page: true
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar1.jpg
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/jag-thumb.jpg
 title: Jaguar Electrifies
 client: Jaguar Land Rover
 project_url: ''

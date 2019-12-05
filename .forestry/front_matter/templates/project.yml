@@ -249,8 +249,8 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
-- projects/rocket-mortgage-nexus.md
 - projects/jaguar-electrifies.md
+- projects/rocket-mortgage-nexus.md
 - projects/nn-investor-day.md
 - projects/icon-vr-training.md
 - projects/rare-signals.md
