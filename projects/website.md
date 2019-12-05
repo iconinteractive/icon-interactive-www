@@ -10,7 +10,7 @@ title: Farm Aid Website
 client: Farm Aid
 project_url: "<p>http://www.farmaid.org</p>"
 introduction: "<p></p>"
-horizontal_image_one: ''
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/fa2b.jpg
 horizontal_image_two: ''
 brief_label: Challenge
 brief: "<p>The challenge</p>"
