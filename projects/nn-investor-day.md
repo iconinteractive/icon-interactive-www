@@ -8,8 +8,8 @@ display_on_home_page: true
 title: Investor Day Activation
 client: NN, Inc.
 project_url: ''
-introduction: "<h4>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING NEW
-  INITIATIVES</h4><p>NN, Inc. is a diversified industrial manufacturer with a global
+introduction: "<h3>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING NEW
+  INITIATIVES</h3><p>NN, Inc. is a diversified industrial manufacturer with a global
   footprint in the medical, automotive, aerospace, and electrical markets. In 2018
   they reached out to us to support their annual Investor Day conference for the second
   year in a row. This event includes a detailed presentation given in person to around
