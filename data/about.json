@@ -3,7 +3,7 @@
     "ann_arbor": "https://s3.amazonaws.com/forestry.iconinteractive.com/annarbor-postcard-size2.jpg",
     "new_york": "https://s3.amazonaws.com/forestry.iconinteractive.com/nyc-postcard-size.jpg",
     "boston": "https://s3.amazonaws.com/forestry.iconinteractive.com/boston-postcard-size.jpg",
-    "detroit": "",
+    "detroit": "https://s3.amazonaws.com/forestry.iconinteractive.com/detroit-postcard-size.jpg",
     "title": "Locations",
     "subtitle": "WHERE WE ARE"
   },
