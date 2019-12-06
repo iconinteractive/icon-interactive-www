@@ -5,7 +5,7 @@ service_tags:
   service_tag_two: ''
   service_tag_three: ''
 display_on_home_page: true
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/fa2b.jpg
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/kingston-thumb.jpg
 title: Space as a Vehicle for Storytelling
 client: Peabody Essex Museum / ICON
 project_url: ''
@@ -17,8 +17,8 @@ introduction: "<p>Inspired by the Peabody Essex Museum’s exhibition “Nature�
   the exhibit, ICON employed augmented and virtual reality to transport attendees
   200 years into the future. Their destination: New Boston, a version of the city
   now partially submerged as a result of rising sea levels.</p>"
-horizontal_image_one: ''
-horizontal_image_two: ''
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/Kingston2219_Image1-1200x559.jpg
+horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/kingston-identities.jpg
 brief_label: Storytelling Through Tech
 brief: "<p>At Kingston 2219, attendees could switch between present and future Boston
   instantaneously. Upon arrival in the present-day loft, each guest received an ID
@@ -53,8 +53,8 @@ pull_quote: "<p><em>We’ve mapped and measured our loft on Kingston Street in C
   We can use it to raise questions and tell stories.</em></p>"
 horizontal_image_three: ''
 two_column_horizontal_images:
-  image_one: ''
-  image_two: ''
+  image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/kingston3b.jpg
+  image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/kingston4b.jpg
 pull_quote_two: ''
 results:
   column_one: ''
