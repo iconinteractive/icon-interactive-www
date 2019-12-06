@@ -39,8 +39,8 @@ results:
   column_two: "<h1>200+</h1><p><strong>QUALIFIED LEADS</strong></p>"
   column_three: "<h1>100%</h1><p><strong>AUTHENTIC FAN EXPERIENCE</strong></p>"
 project_url: ''
-introduction: "<h4>ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH 360
-  PROJECTION AT THE LCS 2019 TAILGATE PARTY</h4><p></p><p>Doubling down on eSports,
+introduction: "<h3>ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH 360
+  PROJECTION AT THE LCS 2019 TAILGATE PARTY</h3><p></p><p>Doubling down on eSports,
   Rocket Mortgage partnered with Riot Games to bring League of Legends to Detroit
   as presenting sponsor of the LCS Summer Finals.</p>"
 two_column_vertical_images:

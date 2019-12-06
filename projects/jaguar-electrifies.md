@@ -9,7 +9,7 @@ thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/jag-thumb.jpg
 title: Jaguar I-Pace Launch
 client: Jaguar Land Rover
 project_url: ''
-introduction: "<h4>ICON HELPS LAUNCH JAGUAR'S FIRST FULLY-ELECTRIC VEHICLE</h4><p></p><p>With
+introduction: "<h3>ICON HELPS LAUNCH JAGUAR'S FIRST FULLY-ELECTRIC VEHICLE</h3><p></p><p>With
   a world-class foray into the electric vehicle (EV) marketplace, Jaguar wanted to
   take the U.S. market by storm. So that's just what we did.</p>"
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar1.jpg
