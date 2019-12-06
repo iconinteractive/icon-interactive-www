@@ -14,3 +14,8 @@ At the exhibit, ICON employed augmented and virtual reality to transport attende
 At Kingston 2219, attendees could switch between present and future Boston instantaneously. Upon arrival in the present-day loft, each guest received an ID card that, when scanned, revealed their unique New Bostonian identity—complete with a custom profile image and short biography. If two guests scanned their cards at once, they also learned how their future personas interacted with each other.
 
 ![](https://s3.amazonaws.com/forestry.iconinteractive.com/Kingston2219_Image1-1200x559.jpg)
+
+However, much like writing a good book, the backbone of this speculative fantasy experience was also grounded in extensive research. A weather gauge on the future-loft’s windows pinned the daily high at 108 degrees, signifying that it wasn’t just the tides that had risen over time. Back in the present, guests’ profiles demonstrated how the fictional citizens of New Boston used real methods to adapt to their urban seascape. Popular occupations circa 2219 included hydroculture—the growing of plants through nutrient-rich solvents instead of soil—and water taxi driving.
+
+STORYTELLING THROUGH SPACE
+Beneath its layers of stories and fun “cyberpunk” aesthetic, the Kingston 2219 event also served to encourage viewers to think about how today’s burgeoning technologies have changed the way people experience the spaces around them. When guests put on their VR headsets for the first time and saw the loft instantly change before their eyes, it created a powerful moment that stuck with them long after the event had ended.
