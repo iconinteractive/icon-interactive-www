@@ -5,15 +5,15 @@ service_tags:
   service_tag_two: ''
   service_tag_three: ''
 display_on_home_page: true
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
-title: Rocket Mortgage Nexus
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/lol-thumb.jpg
+title: eSports Experiential
 client: Rocket Mortage
 brief_label: Challenge
 brief: Come up with a stunning and attractive experiential concept that authentically
   connects Rocket Mortgage with the world of eSports.  ICON delivered a “never seen
   before” experiential activation leveraging a 40’x40’ tailgate space located in the
   Little Caesar’s Arena Chevy Plaza in Detroit, Michigan.
-horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
+horizontal_image_two: ''
 solution_label: Activation
 solution: "<p>The Rocket Mortgage Nexus delivered a genuine connection between Rocket
   Mortgage and eSport fans, providing ongoing dialogue and interactions while entertaining
@@ -54,7 +54,7 @@ pull_quote_two: "<p>“To see your brand associated with something that people a
   amazing activations outside the arena. This giant dome with projection mapping.
   We are getting great feedback and it makes me excited to be a part of it.”</p><p><strong>Casey
   Hurbis, CMO, Rocket Mortgage</strong></p>"
-horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
 
 ---
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=0&width=850" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>

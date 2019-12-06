@@ -1,10 +1,10 @@
 ---
-date: 2019-05-17
-title: Detroit Office Opening!
+date: 2019-11-07
+title: Detroit Office Opening
 author: Nichlas W. Andersen
----
 
-We're excited to announce the opening of our new office in DETROIT! Please join us in celebrating our new space- light hors d'oeuvres, cocktails and experiential demos included.
+---
+We're excited to announce the opening of our new office in DE-TROIT! Join us in celebrating our new space- light hors d'oeuvres, cocktails, and experiential demos included.
 
 Thursday, November 7th
 6 - 9 pm
