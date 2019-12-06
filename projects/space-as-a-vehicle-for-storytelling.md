@@ -6,7 +6,7 @@ service_tags:
   service_tag_three: ''
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/kingston-thumb.jpg
-title: Space as a Vehicle for Storytelling
+title: VR As A Vehicle For Storytelling
 client: Peabody Essex Museum / ICON
 project_url: ''
 introduction: "<p>Inspired by the Peabody Essex Museum’s exhibition “Nature’s Nation,”
