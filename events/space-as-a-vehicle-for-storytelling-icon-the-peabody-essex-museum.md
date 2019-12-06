@@ -21,3 +21,5 @@ However, much like writing a good book, the backbone of this speculative fantasy
 
 STORYTELLING THROUGH SPACE
 Beneath its layers of stories and fun “cyberpunk” aesthetic, the Kingston 2219 event also served to encourage viewers to think about how today’s burgeoning technologies have changed the way people experience the spaces around them. When guests put on their VR headsets for the first time and saw the loft instantly change before their eyes, it created a powerful moment that stuck with them long after the event had ended.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/377403847?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
