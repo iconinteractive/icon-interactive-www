@@ -233,5 +233,8 @@ li a:hover {
     margin-left: 0;
     max-width: 90%;
   }
+  .img-wrapper {
+    display: none;
+  }
 }
 </style>

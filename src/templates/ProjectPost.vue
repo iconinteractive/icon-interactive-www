@@ -61,7 +61,7 @@
           :src="$page.post.horizontal_image_two"
           :alt="$page.post.title"
         />
-        
+
         <section class="two-column" v-if="$page.post.two_column_horizontal_images.image_one">
           <g-image
             v-if="$page.post.two_column_horizontal_images.image_one"
@@ -205,6 +205,7 @@ export default {
 }
 .url {
   font-size: 1.2rem;
+  text-decoration: underline;
 }
 .roi {
   display: flex;

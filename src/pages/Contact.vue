@@ -24,34 +24,25 @@
           </div>
           <div>
             <label for="company" class="label">Company</label>
-            <input id="company" type="company" name="company" />
+            <input id="company" type="text" name="company" />
           </div>
           <div>
-            <label for="company size" class="label">Company Size</label>
-            <div class="select-wrapper">
-              <select id="company-size">
-                <option value="1-10 employees">1-10 employees</option>
-                <option value="11-50 employees">11-50 employees</option>
-                <option value="51-200 employees">21-200 employees</option>
-                <option value="201-500 employees">201-500 employees</option>
-                <option value="501-1000 employees">501-1000 employees</option>
-                <option value="1000+ employees">1000+ employees</option>
-              </select>
-            </div>
+            <label for="phone" class="label">Phone</label>
+            <input id="phone" type="text" name="phone" />
           </div>
           <div class="message">
             <label for="message" class="label">Message</label>
             <textarea id="message" name="message"></textarea>
           </div>
-          <div class="row">
-            <div class="g-recaptcha" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
-            <div class="phone-wrapper">
-              <p class="pink-label">OR CALL</p>
-              <a class="phone" href="tel:7347079245">734.707.9245</a>
-            </div>
-          </div>
+          <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
           <input type="submit" class="button" value="Send ⟶" />
         </form>
+        <div class="row">
+          <div class="phone-wrapper">
+            <p class="pink-label">OR CALL</p>
+            <a class="phone" href="tel:7347079245">734.707.9245</a>
+          </div>
+        </div>
       </article>
     </div>
   </Layout>
@@ -63,15 +54,6 @@ export default {
     return {
       contact: require("../../data/contact.json")
     };
-  },
-  metaInfo: {
-    script: [
-      {
-        src: "https://www.google.com/recaptcha/api.js",
-        async: true,
-        defer: true
-      }
-    ]
   }
 };
 </script>
@@ -80,8 +62,11 @@ export default {
 p {
   font-size: 1.2rem;
 }
+.honey {
+  display: none;
+}
 .contact {
-  margin-left: 30%;
+  margin-right: 30%;
 }
 .contact-header {
   padding: 2rem 0 4rem 0;
@@ -107,9 +92,6 @@ p {
 .sender-info > div:last-of-type {
   margin: 0;
 }
-.g-recaptcha {
-  margin-top: 1rem;
-}
 .pink-label {
   position: relative;
   bottom: -8px;
@@ -122,7 +104,7 @@ p {
   letter-spacing: 0.5px;
 }
 .phone-wrapper {
-  justify-content: right;
+  margin-top: 2rem;
 }
 .phone {
   font-family: "Archivo Black", "DM Sans", helvetica, sans-serif;

@@ -3,7 +3,6 @@
     <div class="container">
       <div class="grid">
         <div class="row">
-          <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo-footer" />
           <div class="column">
             <span class="footer-text">{{footer.footer_text}}</span>
             <a href="mailto:info@iconinteractive.com">Let's connect</a>
@@ -43,11 +42,6 @@ export default {
 .footer {
   font-size: 1rem;
   padding: 6rem 0;
-}
-.logo-footer {
-  height: 65px;
-  fill: white;
-  margin: 10px 40px;
 }
 .grid {
   display: grid;
