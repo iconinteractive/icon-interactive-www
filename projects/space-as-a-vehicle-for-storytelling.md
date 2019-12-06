@@ -5,7 +5,7 @@ service_tags:
   service_tag_two: ''
   service_tag_three: ''
 display_on_home_page: true
-thumbnail: ''
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/fa2b.jpg
 title: Space as a Vehicle for Storytelling
 client: Peabody Essex Museum / ICON
 project_url: ''
