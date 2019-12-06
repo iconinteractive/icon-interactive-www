@@ -53,8 +53,8 @@ pull_quote: "<p><em>We’ve mapped and measured our loft on Kingston Street in C
   We can use it to raise questions and tell stories.</em></p>"
 horizontal_image_three: ''
 two_column_horizontal_images:
-  image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/kingston3b.jpg
-  image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/kingston4b.jpg
+  image_one: ''
+  image_two: ''
 pull_quote_two: ''
 results:
   column_one: ''
