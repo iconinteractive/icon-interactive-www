@@ -59,7 +59,11 @@ h1 {
   margin: 0 0 2rem 0;
   padding-top: 1rem;
 }
-h3 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Archivo Black", "DM Sans", sans-serif;
   font-size: 1.5rem;
   margin: 1rem 0 2rem 0;
