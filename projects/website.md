@@ -8,7 +8,7 @@ display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/fa1.jpg
 title: Farm Aid Website
 client: Farm Aid
-project_url: "<p>http://www.farmaid.org</p>"
+project_url: <p><a href="http://www.farmaid.org" title="">http://www.farmaid.org</a></p>
 introduction: "<h3>ICON IS PROUD TO PROMOTE THIS MUSIC WITH A MISSION MOVEMENT</h3><p>Farm
   Aid has been raising awareness and funds for family farms well before it was cool
   ... since 1985. As a long-time client, we're excited to continue do our part.</p>"
