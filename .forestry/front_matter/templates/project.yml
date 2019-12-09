@@ -2,6 +2,11 @@
 label: Project
 hide_body: false
 fields:
+- name: display_on_site
+  type: boolean
+  label: Display on site
+  default: true
+  description: toggle to save project info but have it not displayed on the site
 - name: display_on_home_page
   type: boolean
   label: Display on home page
