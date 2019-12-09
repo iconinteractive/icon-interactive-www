@@ -18,5 +18,6 @@ fields:
     export_format: YYYY-MM-DD
   default: now
 pages:
+- events/forbes-30-under-30-activation.md
 - events/building-ann-arbor-s-tech-community.md
 - events/space-as-a-vehicle-for-storytelling-icon-the-peabody-essex-museum.md
