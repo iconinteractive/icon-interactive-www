@@ -35,7 +35,7 @@
           :alt="$page.post.horiz_image_one_alt"
           class="top-image"
         />
-        <section>
+        <section class="body-text">
           <div class="project-text">
             <h2 class="label" v-if="$page.post.brief_label" v-html="$page.post.brief_label" />
             <div v-if="$page.post.brief" v-html="$page.post.brief" />
@@ -251,6 +251,9 @@ export default {
 }
 .content {
   margin-top: 20px;
+}
+.body-text {
+  margin: 6rem 0;
 }
 blockquote {
   font-size: 2rem;

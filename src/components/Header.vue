@@ -37,12 +37,6 @@ export default {
   margin-bottom: 2rem;
   background-color: var(--color-base-opacity);
 }
-.sticky {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  padding-top: 2rem;
-}
 .nav {
   display: flex;
   justify-content: center;
@@ -98,6 +92,9 @@ export default {
   color: var(--color-highlight);
 }
 @media (max-width: 800px) {
+  .header {
+    position: relative;
+  }
   .nav {
     flex-direction: column;
     justify-items: right;

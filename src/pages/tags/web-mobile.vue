@@ -9,7 +9,7 @@
 
 <page-query>
 query TagPosts {
-	projects: allProjectPost {
+	projects: allProjectPost (filter: {display_on_site: {eq: true}}) {
     edges {
       node {
         id
