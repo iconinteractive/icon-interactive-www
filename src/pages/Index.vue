@@ -94,11 +94,6 @@ h2 {
   margin: 0;
 }
 
-.above-fold {
-  height: 50vh;
-  border: 1px solid purple;
-  margin-bottom: 20vh;
-}
 .home-label {
   letter-spacing: 2px;
   font-weight: bold;

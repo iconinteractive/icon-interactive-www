@@ -19,7 +19,11 @@
                 </ul>
               </div>
             </div>
-            <div class="url" v-if="$page.post.project_url" v-html="$page.post.project_url" />
+            <a
+              class="url"
+              v-if="$page.post.project_url"
+              href="$page.post.project_url"
+            >{{$page.post.project_url}}</a>
           </div>
           <div v-if="$page.post.introduction" v-html="$page.post.introduction" />
         </div>
