@@ -41,5 +41,6 @@ results:
 horiz_image_one_alt: ''
 horiz_image_two_alt: ''
 horizontal_image_three_alt: ''
+display_on_site: true
 
 ---
