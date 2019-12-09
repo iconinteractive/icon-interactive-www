@@ -25,15 +25,23 @@ solution: "<p>ICON is building a plug-and-play training platform whereby new cou
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/vr3.jpg
+  vertical_image_one_alt: ''
+  vertical_image_two_alt: ''
 pull_quote: ''
 horizontal_image_three: ''
 two_column_horizontal_images:
   image_one: ''
   image_two: ''
+  two_col_horiz_img_one_alt: ''
+  two_col_horiz_img_two_alt: ''
 pull_quote_two: ''
 results:
   column_one: ''
   column_two: ''
   column_three: ''
+display_on_site: true
+horiz_image_one_alt: ''
+horiz_image_two_alt: ''
+horizontal_image_three_alt: ''
 
 ---

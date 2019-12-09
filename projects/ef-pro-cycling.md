@@ -71,5 +71,6 @@ horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/ef-p
 horiz_image_one_alt: ef pro cycling bikers
 horiz_image_two_alt: cycling animation
 horizontal_image_three_alt: ''
+display_on_site: true
 
 ---

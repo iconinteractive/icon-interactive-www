@@ -47,6 +47,8 @@ solution: "<p>Beneath its layers of stories and fun “cyberpunk” aesthetic, t
 two_column_vertical_images:
   vertical_image_one: ''
   vertical_image_two: ''
+  vertical_image_one_alt: ''
+  vertical_image_two_alt: ''
 pull_quote: "<p><em>We’ve mapped and measured our loft on Kingston Street in Chinatown
   so that we can think about the future of spaces and spatial digital experience.
   We can skin and reskin in virtual reality, augmented reality, and through projections.
@@ -55,11 +57,17 @@ horizontal_image_three: ''
 two_column_horizontal_images:
   image_one: ''
   image_two: ''
+  two_col_horiz_img_one_alt: ''
+  two_col_horiz_img_two_alt: ''
 pull_quote_two: ''
 results:
   column_one: ''
   column_two: ''
   column_three: ''
+display_on_site: true
+horiz_image_one_alt: ''
+horiz_image_two_alt: ''
+horizontal_image_three_alt: ''
 
 ---
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/328275226?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

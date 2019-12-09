@@ -29,15 +29,23 @@ solution: "<p>ICON developed and maintains a ground-up custom application to suc
 two_column_vertical_images:
   vertical_image_one: ''
   vertical_image_two: ''
+  vertical_image_one_alt: ''
+  vertical_image_two_alt: ''
 pull_quote: ''
 horizontal_image_three: ''
 two_column_horizontal_images:
   image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge2.jpg
   image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge1.jpg
+  two_col_horiz_img_one_alt: ''
+  two_col_horiz_img_two_alt: ''
 pull_quote_two: ''
 results:
   column_one: ''
   column_two: ''
   column_three: ''
+horiz_image_one_alt: ''
+horiz_image_two_alt: ''
+horizontal_image_three_alt: ''
+display_on_site: true
 
 ---
