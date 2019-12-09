@@ -32,7 +32,7 @@ export default {
   font-weight: 400;
 }
 .latest-events {
-  max-width: 70%;
+  max-width: 100%;
   margin: 1rem 0;
 }
 .latest-events > .container {
@@ -43,7 +43,7 @@ export default {
 .event {
   flex: 0 0 100%;
   display: block;
-  padding: 0.5rem;
+  padding: 0rem;
   transition: all 300ms ease;
   text-decoration: none;
   border: 1px solid var(--color-base);

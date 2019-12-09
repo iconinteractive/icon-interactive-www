@@ -58,7 +58,7 @@ export default {
   color: var(--color-contrast-1);
 }
 .thumbnail:hover + .project-title {
-  transform: translate3d(20px, -10px, 0px);
+  transform: translate3d(10px, -10px, 0px);
   transition: all 1s ease-in-out;
   opacity: 1;
 }

@@ -97,21 +97,17 @@ a {
   color: inherit;
   transition: all 500ms ease-in-out;
 }
-
 a:hover {
   transition: all 500ms ease-in-out;
   color: var(--color-highlight);
 }
-
 img {
   max-width: 100%;
 }
-
 .text-container {
   width: 70%;
   font-size: 1rem;
 }
-
 .label {
   display: block;
   font-weight: 500;
@@ -121,10 +117,9 @@ h2 {
   font-family: "Archivo Black", "DM Sans", sans-serif;
   font-size: 2rem;
 }
-
 @media (max-width: 800px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .title {
     margin-bottom: 1rem;

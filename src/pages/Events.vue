@@ -41,7 +41,8 @@ export default {};
 
 <style scoped>
 .container.event {
-  max-width: 720px;
+  max-width: 100%;
+  margin-left: 0;
 }
 .event-header {
   font-size: 2rem;

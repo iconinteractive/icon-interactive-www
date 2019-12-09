@@ -23,15 +23,13 @@
             <g-image :src="about.culture.right_column_image" alt="dog" />
             <span class="small-title">{{about.culture.right_column_section_title}}</span>
             <div v-html="about.culture.right_column_text" />
-            <br />
-            <span class="small-title">{{about.culture.careers_title}}</span>
             <div class="careers-link" v-html="about.culture.careers_link" />
           </div>
         </div>
         <label>{{about.location_images.subtitle}}</label>
         <h2>{{about.location_images.title}}</h2>
         <div class="img-wrapper">
-          <g-image :src="currentImg" alt="icon locations" />
+          <g-image class="location-imgs" :src="currentImg" alt="icon locations" />
         </div>
         <ul class="grid-four">
           <li @mouseover="swapImg('annArbor')">
@@ -209,14 +207,16 @@ li a {
 li a:hover {
   transition: all 500ms ease-in;
 }
-
 .services p {
   font-size: 1.2rem;
 }
-
 .grid-two p {
   font-size: 1.2rem;
 }
+.location-imgs {
+  max-width: 60%;
+}
+
 @media (max-width: 800px) {
   .title {
     font-size: 11vw;
