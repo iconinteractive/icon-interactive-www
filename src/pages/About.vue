@@ -214,7 +214,7 @@ li a:hover {
   font-size: 1.2rem;
 }
 .location-imgs {
-  max-width: 60%;
+  width: 100%;
 }
 
 @media (max-width: 800px) {

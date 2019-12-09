@@ -96,7 +96,7 @@ a:last-of-type {
     padding: 0;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 100px) {
   .footer {
     width: 55%;
   }
