@@ -2,7 +2,7 @@
   <Layout>
     <div>
       <div class="container">
-        <div class="two-column">
+        <div class="two-column introduction">
           <div class="project-info">
             <span class="label" v-html="$page.post.client" />
             <h1 class="title" v-html="$page.post.title" />
@@ -199,7 +199,10 @@ export default {
   margin-bottom: 1rem;
 }
 .top-image {
-  margin-top: 6rem;
+  margin-top: 2rem;
+}
+.introduction {
+  margin: 6rem 0;
 }
 .two-column {
   display: grid;
