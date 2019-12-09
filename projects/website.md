@@ -23,7 +23,7 @@ solution: "<p>This site gets the job done. Beautifully responsive, fully functio
   us all proud.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/FarmaidPanelsSmall1.jpg
-  vertical_image_two: ''
+  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/FarmaidPanelsSmall2.jpg
 pull_quote: ''
 horizontal_image_three: ''
 two_column_horizontal_images:
