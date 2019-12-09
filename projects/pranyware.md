@@ -15,9 +15,9 @@ introduction: "<h3>PROPRIETARY WORLD-CLASS MEDIA MANAGEMENT SITES </h3><p>ICON i
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge3.jpg
 horizontal_image_two: ''
 brief_label: Challenge
-brief: "<p>When it comes to developing product content, few industries approach automotive.
-  Their need for content availability, accessibility, and administration presents
-  an exciting mission-critical challenge.   </p>"
+brief: "<p>When it comes to developing new product content, few industries match the
+  prolific nature of automotive. Their need for content availability, accessibility,
+  and administrative control presents an exciting mission-critical challenge.</p>"
 solution_label: Solution
 solution: "<p>ICON developed and maintains a ground-up custom application to successfully
   deliver on these business requirements.  Press release content, images, video, and
