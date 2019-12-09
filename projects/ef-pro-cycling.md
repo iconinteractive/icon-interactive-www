@@ -47,7 +47,7 @@ service_tags:
   service_tag_one: web and mobile
   service_tag_two: design and visual content
   service_tag_three: ''
-project_url: <p><a href="https://www.efprocycling.com/" title="https://www.efprocycling.com/">https://www.efprocycling.com/</a></p>
+project_url: https://www.efprocycling.com
 introduction: "<p>ANIMATING FOR MOBILE FIRST</p><p>While working with Education First
   on the website for their pro cycling division, ICON Interactive produced a series
   of animations designed to introduce the sport of cycling to newcomers in a dynamic
@@ -59,10 +59,17 @@ introduction: "<p>ANIMATING FOR MOBILE FIRST</p><p>While working with Education 
 two_column_vertical_images:
   vertical_image_one: ''
   vertical_image_two: ''
+  vertical_image_one_alt: ''
+  vertical_image_two_alt: ''
 two_column_horizontal_images:
   image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/biking2.jpg
   image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/EF-Pro-Cycling-Mockup-1200x675.jpg
+  two_col_horiz_img_one_alt: ''
+  two_col_horiz_img_two_alt: ''
 pull_quote_two: ''
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/ef-pro2x.jpg
+horiz_image_one_alt: ef pro cycling bikers
+horiz_image_two_alt: cycling animation
+horizontal_image_three_alt: ''
 
 ---
