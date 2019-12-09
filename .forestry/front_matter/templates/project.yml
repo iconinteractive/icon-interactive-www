@@ -284,6 +284,7 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/rare-signals.md
 - projects/jaguar-electrifies.md
 - projects/nn-investor-day.md
 - projects/rocket-mortgage-nexus.md
@@ -292,4 +293,3 @@ pages:
 - projects/pranyware.md
 - projects/space-as-a-vehicle-for-storytelling.md
 - projects/icon-vr-training.md
-- projects/rare-signals.md

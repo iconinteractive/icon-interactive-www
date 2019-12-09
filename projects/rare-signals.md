@@ -43,10 +43,17 @@ pull_quote_2: <p>"fantastic reverb &amp; rad branding!!!" </p><p>- Jose Diaz, re
 two_column_vertical_images:
   vertical_image_one: ''
   vertical_image_two: ''
+  vertical_image_one_alt: ''
+  vertical_image_two_alt: ''
 two_column_horizontal_images:
   image_one: ''
   image_two: ''
+  two_col_horiz_img_one_alt: ''
+  two_col_horiz_img_two_alt: ''
 pull_quote_two: ''
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/RareSignals.009.jpeg
+horiz_image_one_alt: ''
+horiz_image_two_alt: ''
+horizontal_image_three_alt: ''
 
 ---
