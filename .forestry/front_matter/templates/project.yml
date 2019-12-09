@@ -38,7 +38,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: html-blocks
   label: Project URL
@@ -116,12 +116,22 @@ fields:
     maxSize: 250
   label: horizontal image one
   description: Image that appears under the introductory text
+- name: horiz_image_one_alt
+  type: text
+  config:
+    required: false
+  label: horizontal image one alt
 - name: horizontal_image_two
   type: file
   config:
     maxSize: 250
   label: Horizontal image two
   description: second horizontal image
+- name: horiz_image_two_alt
+  type: text
+  config:
+    required: false
+  label: Horizontal image two alt
 - name: brief_label
   type: text
   config:
@@ -165,6 +175,11 @@ fields:
       maxSize: 250
     label: vertical image one
     description: 'If you add one image please add the second so it looks even '
+  - name: vertical_image_one_alt
+    type: text
+    config:
+      required: false
+    label: vertical image one alt
   - name: vertical_image_two
     type: file
     config:
@@ -172,6 +187,11 @@ fields:
     label: vertical image two
     description: Make sure both images are the same dimensions so they are displayed
       evenly
+  - name: vertical_image_two_alt
+    type: text
+    config:
+      required: false
+    label: vertical image two alt
   label: two column vertical images
   description: Optional vertical images
 - name: pull_quote
@@ -190,6 +210,11 @@ fields:
     maxSize: 250
   label: Horizontal image three
   description: max file size is 250 mb
+- name: horizontal_image_three_alt
+  type: text
+  config:
+    required: false
+  label: Horizontal image three alt
 - name: two_column_horizontal_images
   type: field_group
   config: {}
@@ -199,11 +224,21 @@ fields:
     config:
       maxSize: 250
     label: Image One
+  - name: two_col_horiz_img_one_alt
+    type: text
+    config:
+      required: false
+    label: Image one alt
   - name: image_two
     type: file
     config:
       maxSize: 250
     label: Image two
+  - name: two_col_horiz_img_two_alt
+    type: text
+    config:
+      required: false
+    label: Image two alt
   label: Two column horizontal images
 - name: pull_quote_two
   type: textarea
