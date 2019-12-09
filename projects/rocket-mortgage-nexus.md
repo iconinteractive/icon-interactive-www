@@ -46,15 +46,22 @@ introduction: "<h3>ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
+  vertical_image_one_alt: ''
+  vertical_image_two_alt: ''
 two_column_horizontal_images:
   image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
   image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
+  two_col_horiz_img_one_alt: ''
+  two_col_horiz_img_two_alt: ''
 pull_quote_two: "<p>“To see your brand associated with something that people are so
   excited about makes you feel good that your brand is part of it. We are doing really
   amazing activations outside the arena. This giant dome with projection mapping.
   We are getting great feedback and it makes me excited to be a part of it.”</p><p><strong>Casey
   Hurbis, CMO, Rocket Mortgage</strong></p>"
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
+horiz_image_one_alt: ''
+horiz_image_two_alt: ''
+horizontal_image_three_alt: ''
 
 ---
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=0&width=850" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
