@@ -10,8 +10,8 @@ title: PRAnyware
 client: OEMs
 project_url: ''
 introduction: "<p>Intro text</p>"
-horizontal_image_one: ''
-horizontal_image_two: ''
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge3.jpg
+horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge2.jpg
 brief_label: ''
 brief: "<p>Brief goes here.</p>"
 solution_label: ''

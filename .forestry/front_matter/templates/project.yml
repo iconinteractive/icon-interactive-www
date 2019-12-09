@@ -249,9 +249,9 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/pranyware.md
 - projects/website.md
 - projects/space-as-a-vehicle-for-storytelling.md
-- projects/pranyware.md
 - projects/nn-investor-day.md
 - projects/icon-vr-training.md
 - projects/rocket-mortgage-nexus.md
