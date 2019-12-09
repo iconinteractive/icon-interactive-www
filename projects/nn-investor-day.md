@@ -34,17 +34,24 @@ solution: "<p>With a fairly short timeline of only a few weeks, our design team 
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/nn1.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/nn3.jpg
+  vertical_image_one_alt: ''
+  vertical_image_two_alt: ''
 pull_quote: ''
 horizontal_image_three: ''
 two_column_horizontal_images:
   image_one: ''
   image_two: ''
+  two_col_horiz_img_one_alt: ''
+  two_col_horiz_img_two_alt: ''
 pull_quote_two: ''
 results:
   column_one: ''
   column_two: ''
   column_three: ''
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/nn2.jpg
+horiz_image_one_alt: ''
+horiz_image_two_alt: ''
+horizontal_image_three_alt: ''
 
 ---
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/377403847?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
