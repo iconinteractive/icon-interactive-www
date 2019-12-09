@@ -13,7 +13,7 @@ introduction: "<h3>PROPRIETARY WORLD-CLASS MEDIA MANAGEMENT SITES </h3><p>ICON i
   proud to provide a custom content management solution for a portfolio of the world's
   leading automotive manufacturers.</p>"
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge3.jpg
-horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge2.jpg
+horizontal_image_two: ''
 brief_label: Challenge
 brief: "<p>When it comes to developing product content, few industries approach automotive.
   Their need for content availability, accessibility, and administration presents
@@ -32,8 +32,8 @@ two_column_vertical_images:
 pull_quote: ''
 horizontal_image_three: ''
 two_column_horizontal_images:
-  image_one: ''
-  image_two: ''
+  image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge2.jpg
+  image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywarePanelLarge1.jpg
 pull_quote_two: ''
 results:
   column_one: ''
