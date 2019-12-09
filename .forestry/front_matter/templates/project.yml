@@ -249,6 +249,7 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/ef-pro-cycling.md
 - projects/pranyware.md
 - projects/website.md
 - projects/space-as-a-vehicle-for-storytelling.md
@@ -256,5 +257,4 @@ pages:
 - projects/icon-vr-training.md
 - projects/rocket-mortgage-nexus.md
 - projects/jaguar-electrifies.md
-- projects/ef-pro-cycling.md
 - projects/rare-signals.md
