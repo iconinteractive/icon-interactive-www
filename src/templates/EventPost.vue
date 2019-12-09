@@ -4,8 +4,7 @@
       <h1 v-html="$page.post.title" class="title" />
       <div class="event-meta">
         <div class="event-date">
-          <span class="label">Date</span>
-          <div v-text="$page.post.date" />
+          <div class="pink" v-text="$page.post.date" />
         </div>
       </div>
       <EventContent class="event-content" :content="$page.post.content" />

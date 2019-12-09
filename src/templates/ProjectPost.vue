@@ -22,7 +22,9 @@
             <a
               class="url"
               v-if="$page.post.project_url"
-              href="$page.post.project_url"
+              :href="$page.post.project_url"
+              target="_blank"
+              rel="noopener noreferrer"
             >{{$page.post.project_url}}</a>
           </div>
           <div v-if="$page.post.introduction" v-html="$page.post.introduction" />
@@ -30,7 +32,7 @@
         <g-image
           v-if="$page.post.horizontal_image_one"
           :src="$page.post.horizontal_image_one"
-          :alt="$page.post.title"
+          :alt="$page.post.horiz_image_one_alt"
           class="top-image"
         />
         <section>
@@ -49,13 +51,13 @@
             v-if="$page.post.two_column_vertical_images.vertical_image_one"
             class="vertical-img"
             :src="$page.post.two_column_vertical_images.vertical_image_one"
-            :alt="$page.post.title"
+            :alt="$page.post.two_column_vertical_images.vertical_image_one_alt"
           />
           <g-image
             v-if="$page.post.two_column_vertical_images.vertical_image_two"
             class="vertical-img"
             :src="$page.post.two_column_vertical_images.vertical_image_two"
-            :alt="$page.post.title"
+            :alt="$page.post.two_column_vertical_images.vertical_image_two_alt"
           />
         </section>
         <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
@@ -63,19 +65,19 @@
         <g-image
           v-if="$page.post.horizontal_image_two"
           :src="$page.post.horizontal_image_two"
-          :alt="$page.post.title"
+          :alt="$page.post.horiz_image_two_alt"
         />
 
         <section class="two-column" v-if="$page.post.two_column_horizontal_images.image_one">
           <g-image
             v-if="$page.post.two_column_horizontal_images.image_one"
             :src="$page.post.two_column_horizontal_images.image_one"
-            :alt="$page.post.title"
+            :alt="$page.post.two_column_horizontal_images.two_col_horiz_img_one_alt"
           />
           <g-image
             v-if="$page.post.two_column_horizontal_images.image_two"
             :src="$page.post.two_column_horizontal_images.image_two"
-            :alt="$page.post.title"
+            :alt="$page.post.two_column_horizontal_images.two_col_horiz_img_two_alt"
           />
         </section>
         <blockquote v-if="$page.post.pull_quote_two" v-html="$page.post.pull_quote_two" />
@@ -83,7 +85,7 @@
         <g-image
           v-if="$page.post.horizontal_image_three"
           :src="$page.post.horizontal_image_three"
-          :alt="$page.post.title"
+          :alt="$page.post.horizontal_image_three_alt"
         />
 
         <div class="project-text" v-if="$page.post.results.column_one">
@@ -125,6 +127,7 @@ query ProjectPost ($path: String!) {
     }
     introduction
     horizontal_image_one
+    horiz_image_one_alt
     content
     brief_label
     brief
@@ -139,15 +142,21 @@ query ProjectPost ($path: String!) {
       column_three
     }
     horizontal_image_two
+    horiz_image_two_alt
     two_column_vertical_images {
       vertical_image_one
+      vertical_image_one_alt
       vertical_image_two
+      vertical_image_two_alt
     }
     two_column_horizontal_images {
       image_one
+      two_col_horiz_img_one_alt
       image_two
+      two_col_horiz_img_two_alt
     }
     horizontal_image_three
+    horizontal_image_three_alt
   }
 }
 </page-query>

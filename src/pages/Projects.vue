@@ -14,7 +14,7 @@
 
 <page-query>
 query Posts {
-	projects: allProjectPost {
+	projects: allProjectPost (filter: {display_on_site: {eq: true}}) {
     edges {
       node {
         id
@@ -26,6 +26,7 @@ query Posts {
     }
   }
 }
+
 </page-query>
 
 <script>

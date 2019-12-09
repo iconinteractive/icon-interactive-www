@@ -20,7 +20,7 @@
 
 <page-query>
 query Posts {
-	projects: allProjectPost (filter: {display_on_home_page: {eq: true}}){
+	projects: allProjectPost (filter: {display_on_home_page: {eq: true}, display_on_site: {eq: true}}) {
     edges{
       node {
         id
@@ -29,6 +29,7 @@ query Posts {
         thumbnail
         path
         display_on_home_page
+        display_on_site
       }
     }
   }
