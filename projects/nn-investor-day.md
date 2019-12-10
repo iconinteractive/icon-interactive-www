@@ -14,7 +14,7 @@ introduction: "<h3>ICON CREATES THE ONSITE BUZZ CLIENT NEEDS TO SUPPORT EXCITING
   they reached out to us to support their annual Investor Day conference for the second
   year in a row. This event includes a detailed presentation given in person to around
   100 people as well as a public livestream via NASDAQ.</p>"
-thumbnail: ''
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/nn-thumb.jpg
 horizontal_image_two: ''
 brief_label: Challenge
 brief: "<p>The event in 2018 marked the first time that it would be held at their

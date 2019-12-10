@@ -289,8 +289,8 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
-- projects/branded-data-visualization.md
 - projects/nn-investor-day.md
+- projects/branded-data-visualization.md
 - projects/pranyware.md
 - projects/rocket-mortgage-nexus.md
 - projects/icon-vr-training.md
