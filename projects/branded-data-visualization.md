@@ -68,7 +68,7 @@ two_column_horizontal_images:
 pull_quote_two: ''
 results:
   column_one: ""
-  column_two: ""
+  column_two:
   column_three: ''
 
 ---

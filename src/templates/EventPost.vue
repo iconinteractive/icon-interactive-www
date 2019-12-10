@@ -38,6 +38,10 @@ export default {
 </script>
 
 <style scoped>
+a {
+  text-decoration: underline;
+  color: var(--color-highlight)
+}
 .event-content {
   width: 60%;
 }

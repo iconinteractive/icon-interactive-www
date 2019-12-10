@@ -93,7 +93,7 @@ h6 {
   opacity: 0;
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
   transition: all 500ms ease-in-out;
 }
