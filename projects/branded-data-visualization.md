@@ -6,7 +6,7 @@ service_tags:
   service_tag_two: design and visual content
   service_tag_three: ''
 display_on_home_page: false
-thumbnail: ''
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/PRAnywareThumb.jpg
 title: Branded Data Visualization
 client: Genesis
 project_url: ''
