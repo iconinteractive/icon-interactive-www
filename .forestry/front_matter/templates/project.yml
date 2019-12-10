@@ -289,10 +289,10 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
+- projects/pranyware.md
 - projects/nn-investor-day.md
 - projects/rocket-mortgage-nexus.md
 - projects/icon-vr-training.md
-- projects/pranyware.md
 - projects/farm-aid-website.md
 - projects/rare-signals.md
 - projects/space-as-a-vehicle-for-storytelling.md
