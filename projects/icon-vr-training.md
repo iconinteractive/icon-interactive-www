@@ -14,14 +14,21 @@ introduction: "<h3>VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h3><p>ICON p
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr1.jpg
 horizontal_image_two: ''
 brief_label: Challenge
-brief: "<p>Leverage virtual reality (VR) to provide students with real-world hands-on
-  training opportunities previously thought impossible, all within a framework that
-  allows the client to recoup large parts of capital outlay.</p>"
+brief: "<p>Leverage virtual reality (VR) to provide Concordia University students
+  with real-world hands-on training opportunities via immersive technology, all within
+  a framework that allows the university to recoup large parts of capital outlay.</p>"
 solution_label: Solution
-solution: "<p>ICON is building a plug-and-play training platform whereby new coursework
-  content can be shared - and costs distributed - across the entire eventual user
-  base. A true win/win for students and colleges that's literally changing the landscape
-  of classroom learning.</p>"
+solution: "<p>ICON is building a VR training platform whereby students involved in
+  high stress procedures can practice and apply required knowledge and skills in a
+  low stakes environment. <br><br>Organizations can speed up the learning process
+  by creating virtual environments that are representative of actual workplaces without
+  the costs of deploying students to a physical space. AR/VR training simulations
+  can be far more cost effective and can minimize costly and potentially life threatening
+  mistakes, all while promoting learning through discovery and experience.<br><br>At
+  Concordia, students are using VR training to simulate emergent healthcare scenarios
+  and crime scene investigations, logging critical hours “doing” the work of professionals
+  in the field.<br><br>A true win/win for students and colleges that's literally changing
+  the landscape of professional learning.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/vr3.jpg
