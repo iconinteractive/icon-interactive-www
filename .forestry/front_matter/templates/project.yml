@@ -289,12 +289,13 @@ fields:
   label: Results
   description: Results & ROI Stats
 pages:
-- projects/rocket-mortgage-nexus.md
-- projects/nn-investor-day.md
-- projects/icon-vr-training.md
+- projects/ef-pro-cycling.md
+- projects/space-as-a-vehicle-for-storytelling.md
+- projects/rare-signals.md
 - projects/pranyware.md
 - projects/farm-aid-website.md
-- projects/rare-signals.md
-- projects/space-as-a-vehicle-for-storytelling.md
+- projects/branded-data-visualization.md
+- projects/nn-investor-day.md
 - projects/jaguar-electrifies.md
-- projects/ef-pro-cycling.md
+- projects/icon-vr-training.md
+- projects/rocket-mortgage-nexus.md
