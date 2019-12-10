@@ -33,7 +33,7 @@ solution: "<p>With a fairly short timeline of only a few weeks, our design team 
   2020.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/nn1.jpg
-  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/nn3.jpg
+  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/NNIllustration.jpg
   vertical_image_one_alt: ''
   vertical_image_two_alt: ''
 pull_quote: ''
