@@ -5,7 +5,7 @@ service_tags:
   service_tag_two: ''
   service_tag_three: ''
 display_on_home_page: true
-thumbnail: ''
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/prthumb.jpg
 title: PR Anyware
 client: OEMs
 project_url: ''
