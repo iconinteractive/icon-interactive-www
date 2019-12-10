@@ -48,7 +48,7 @@ results:
   column_one: ''
   column_two: ''
   column_three: ''
-horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/NN-banner.jpg
+horizontal_image_one: ''
 horiz_image_one_alt: ''
 horiz_image_two_alt: ''
 horizontal_image_three_alt: ''
