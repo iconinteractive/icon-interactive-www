@@ -1,22 +1,15 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <div class="grid">
-        <div class="row">
-          <div class="column">
-            <span class="footer-text">{{footer.footer_text}}</span>
-            <a href="mailto:info@iconinteractive.com">Let's connect</a>
-            <span>© {{date}} ICON Interactive</span>
-          </div>
-        </div>
-        <div class="column">
-          <ul>
-            <li>Ann Arbor</li>
-            <li>Boston</li>
-            <li>Detroit</li>
-            <li>New York</li>
-          </ul>
-        </div>
+      <div class="column">
+        <g-link to="/contact">Let's connect</g-link>
+        <ul>
+          <li>Ann Arbor</li>
+          <li>Boston</li>
+          <li>Detroit</li>
+          <li>New York</li>
+        </ul>
+        <span>© {{date}} ICON Interactive</span>
       </div>
     </div>
   </footer>
@@ -43,28 +36,20 @@ export default {
   font-size: 1rem;
   padding: 6rem 0;
 }
-.grid {
-  display: grid;
-  grid-template-columns: 6fr 2fr;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-}
 .column {
   display: flex;
   flex-direction: column;
 }
 ul {
   list-style: none;
-  text-align: right;
-  font-size: 1.2rem;
-  margin: 0;
+  text-align: left;
+  font-size: 1.4rem;
+  margin: 0 0 1rem;
+  padding: 0;
 }
 .footer-text {
   font-weight: normal;
   margin: 0;
-  font-size: 2rem;
 }
 a {
   font-size: 2rem;
@@ -79,26 +64,5 @@ a:last-of-type {
   margin-bottom: 0.5rem;
 }
 @media (max-width: 800px) {
-  .logo-footer {
-    display: none;
-  }
-  .row {
-    flex-direction: column;
-    align-content: left;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  ul {
-    margin-top: 2rem;
-    text-align: left;
-    padding: 0;
-  }
-}
-@media (min-width: 1400px) {
-  .footer {
-    width: 55%;
-  }
 }
 </style>

@@ -38,9 +38,11 @@
           <input type="submit" class="button" value="Send ⟶" />
         </form>
         <div class="row">
-          <div class="phone-wrapper">
-            <p class="pink-label">OR CALL</p>
-            <a class="phone" href="tel:7347079245">734.707.9245</a>
+          <div class="contact-wrapper">
+            <p class="pink-label">CALL</p>
+            <a class="link" href="tel:7347079245">734.707.9245</a>
+            <p class="pink-label">EMAIL</p>
+            <a class="link" href="mailto:info@iconinteractive.com">info@iconinteractive.com</a>
           </div>
         </div>
       </article>
@@ -103,10 +105,10 @@ p {
   font-weight: bold;
   letter-spacing: 0.5px;
 }
-.phone-wrapper {
+.contact-wrapper {
   margin-top: 2rem;
 }
-.phone {
+.link {
   font-family: "Archivo Black", "DM Sans", helvetica, sans-serif;
   font-size: 2rem;
 }
@@ -173,19 +175,11 @@ select {
 }
 
 @media (max-width: 800px) {
-  .sender-info {
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-  .sender-info > div {
-    margin: 1rem 0;
-  }
   .contact {
-    margin-left: 0%;
+    margin: 0;
   }
-  .phone-wrapper {
-    margin-left: 0;
+  .link {
+    font-size: 1.75rem;
   }
 }
 </style>
