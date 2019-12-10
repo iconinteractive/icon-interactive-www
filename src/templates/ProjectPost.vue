@@ -256,13 +256,14 @@ export default {
   margin-top: 20px;
 }
 .body-text {
-  margin: 6rem 0;
+  margin: 6.5rem 0;
 }
 blockquote {
   font-size: 2rem;
   color: var(--color-contrast);
   padding-left: 1rem;
   border-left: 1px solid var(--color-highlight);
+  margin: 6.5rem 0;
 }
 blockquote p {
   font-size: 2rem;
