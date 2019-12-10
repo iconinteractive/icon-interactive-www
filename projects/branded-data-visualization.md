@@ -67,8 +67,8 @@ two_column_horizontal_images:
   two_col_horiz_img_two_alt: ''
 pull_quote_two: ''
 results:
-  column_one: "<p></p>"
-  column_two: "<p></p>"
+  column_one: ""
+  column_two: ""
   column_three: ''
 
 ---
