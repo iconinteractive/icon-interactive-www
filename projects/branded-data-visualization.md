@@ -61,7 +61,9 @@ two_column_vertical_images:
   vertical_image_one_alt: ''
   vertical_image_two: ''
   vertical_image_two_alt: ''
-pull_quote: ''
+pull_quote: "<p><em>Every iteration of the Genesis Performance Lab has seen tremendous
+  results and has driven engagement with the Genesis brand in a way that is truly
+  one-of-a-kind.</em></p>"
 horizontal_image_three: ''
 horizontal_image_three_alt: ''
 two_column_horizontal_images:
