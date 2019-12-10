@@ -5,6 +5,7 @@ service_tags:
   service_tag_two: ""
   service_tag_three: ""
 display_on_home_page: true
+display_on_site: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/lol-thumb.jpg
 title: eSports Experiential
 client: Rocket Mortage
