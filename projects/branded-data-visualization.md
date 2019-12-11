@@ -18,7 +18,7 @@ introduction: "<h3>Genesis Performance Lab - Driving Engagement On and Off the G
   while instilling an emotional connection with the brand and its luxury automobiles.</p>"
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis2.jpg
 horiz_image_one_alt: ''
-horizontal_image_two: ''
+horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis1.jpg
 horiz_image_two_alt: ''
 brief_label: Building Brand Awareness
 brief: "<p>The first iteration of the Genesis Performance Lab saw its launch at the
