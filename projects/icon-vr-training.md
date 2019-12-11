@@ -7,15 +7,15 @@ service_tags:
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/vr-thumb.jpg
 title: VR Training In The Classroom
-client: Concordia College
+client: Local University
 project_url: ''
 introduction: "<h3>VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h3><p>ICON puts
   students on the front lines of emergency healthcare and criminal forensics.</p>"
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr-large.jpg
 horizontal_image_two: ''
 brief_label: Challenge
-brief: "<p>Leverage virtual reality (VR) to provide Concordia University students
-  with real-world hands-on training opportunities via immersive technology, all within
+brief: "<p>Leverage virtual reality (VR) to provide local university students with
+  real-world hands-on training opportunities via immersive technology, all within
   a framework that allows the university to recoup large parts of capital outlay.</p>"
 solution_label: Solution
 solution: "<p>ICON is building a VR training platform whereby students involved in
@@ -25,10 +25,10 @@ solution: "<p>ICON is building a VR training platform whereby students involved 
   the costs of deploying students to a physical space. AR/VR training simulations
   can be far more cost effective and can minimize costly and potentially life threatening
   mistakes, all while promoting learning through discovery and experience.<br><br>At
-  Concordia, students are using VR training to simulate emergent healthcare scenarios
-  and crime scene investigations, logging critical hours “doing” the work of professionals
-  in the field.<br><br>A true win/win for students and colleges that's literally changing
-  the landscape of professional learning.</p>"
+  one ICON university client, students are using VR training to simulate emergent
+  healthcare scenarios and crime scene investigations, logging critical hours “doing”
+  the work of professionals in the field.<br><br>A true win/win for students and colleges
+  that's literally changing the landscape of professional learning.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/vr3.jpg
