@@ -12,7 +12,6 @@
         class="event-post"
       >
         <div class="container event">
-          <label class="pink">{{item.node.date}}</label>
           <h2 class="event-title">{{ item.node.title }}</h2>
         </div>
       </g-link>

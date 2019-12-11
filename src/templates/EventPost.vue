@@ -2,11 +2,6 @@
   <Layout>
     <div class="container">
       <h1 v-html="$page.post.title" class="title" />
-      <div class="event-meta">
-        <div class="event-date">
-          <div class="pink" v-text="$page.post.date" />
-        </div>
-      </div>
       <EventContent class="event-content" :content="$page.post.content" />
     </div>
   </Layout>
@@ -16,7 +11,7 @@
 query EventPost ($path: String!) {
   post: eventPost (path: $path) {
     title
-    date (format: "MMMM D YYYY")
+    date (format: "YYYY")
     content
   }
 }
@@ -43,15 +38,15 @@ a {
   color: var(--color-highlight)
 }
 .event-content {
-  width: 60%;
+  width: 75%;
 }
 .event-header {
   padding: 2rem 0 4rem 0;
 }
-.event-title {
-  font-size: 4rem;
+.title {
   margin: 0 0 4rem 0;
   padding: 0;
+  line-height: 5.25rem;
 }
 .event-meta {
   display: flex;
@@ -71,5 +66,8 @@ a {
   .event-content {
     width: 95%;
   }
+  .title {
+  line-height: 3rem;
+}
 }
 </style>
