@@ -5,13 +5,13 @@ service_tags:
   service_tag_two: ''
   service_tag_three: ''
 display_on_home_page: true
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/vr1.jpg
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/vr-thumb.jpg
 title: VR Training In The Classroom
 client: Concordia College
 project_url: ''
 introduction: "<h3>VR PROVIDING NEW FRONTIERS FOR STUDENT TRAINING</h3><p>ICON puts
   students on the front lines of emergency healthcare and criminal forensics.</p>"
-horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr1.jpg
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr-large.jpg
 horizontal_image_two: ''
 brief_label: Challenge
 brief: "<p>Leverage virtual reality (VR) to provide Concordia University students
