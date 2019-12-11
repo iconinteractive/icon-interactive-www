@@ -28,6 +28,7 @@ query Posts {
         title
         thumbnail
         path
+        client
         display_on_home_page
         display_on_site
       }

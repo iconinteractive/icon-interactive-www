@@ -20,8 +20,10 @@ query Posts {
         id
         date (format: "YYYY")
         title
+        client
         thumbnail
         path
+        display_on_site
       }
     }
   }

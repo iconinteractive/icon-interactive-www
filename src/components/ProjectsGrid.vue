@@ -3,7 +3,10 @@
     <div class="project" v-for="item in projects" :key="item.node.id">
       <g-link :to="item.node.path" class="project-link">
         <g-image :src="item.node.thumbnail" :alt="item.node.title" class="thumbnail" />
-        <h3 class="project-title">{{ item.node.title }}</h3>
+        <div class="project-title">
+          <span class="client">{{item.node.client}}</span>
+          <h3>{{ item.node.title }}</h3>
+        </div>
       </g-link>
     </div>
   </div>
@@ -52,15 +55,30 @@ export default {
   left: 1rem;
   font-size: 1.5rem;
   transition: all 1s ease-in-out;
-  padding: 0 0.5rem;
+  padding: 0 0.25rem;
   opacity: 0;
-  background-color: var(--color-highlight);
+  /* background-color: rgba(0, 0, 0, 0.75);  */
+  background-size: auto;
   color: var(--color-contrast-1);
 }
+.project-title h3 {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.75);
+}
 .thumbnail:hover + .project-title {
-  transform: translate3d(10px, -10px, 0px);
+  transform: translate3d(5px, -5px, 0px);
   transition: all 1s ease-in-out;
   opacity: 1;
+}
+
+.client {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  /* border-bottom: 1px solid var(--color-highlight); */
+  color: var(--color-highlight);
 }
 
 .categories {
