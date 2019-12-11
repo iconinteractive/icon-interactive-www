@@ -6,8 +6,8 @@ service_tags:
   service_tag_three: ''
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/prthumb.jpg
-title: PR Anyware
-client: OEMs
+title: Custom Platform Development
+client: PR Anyware
 project_url: ''
 introduction: "<h3>PROPRIETARY WORLD-CLASS MEDIA MANAGEMENT SITES </h3><p>ICON is
   proud to provide a custom content management solution for a portfolio of the world's
