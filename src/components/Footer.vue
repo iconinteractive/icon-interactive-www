@@ -7,8 +7,8 @@
         </g-link>
         <p class="copyright">© {{date}} ICON Interactive</p>
       </div>
-      <ul class="grid">
-        <li :class="{hide: this.$route.path.includes('/about')}">
+      <ul :class="{hide: this.$route.path.includes('/about')}">
+        <li>
           <a
             href="https://www.google.com/maps/place/220+Felch+St,+Ann+Arbor,+MI+48103/@42.2865635,-83.7524387,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae173e5563cb:0x3ac7229f72eca0ff!8m2!3d42.2865635!4d-83.75025"
             target="_blank"
@@ -17,11 +17,11 @@
             <h3 class="city">Ann Arbor</h3>
             <p class="address">
               220 Felch St
-              <br />Ann Arbor, MI 48103
+              <br />Ann Arbor, MI
             </p>
           </a>
         </li>
-        <li :class="{hide: this.$route.path.includes('/about')}">
+        <li>
           <a
             href="https://www.google.com/maps/place/180+Varick+St,+New+York,+NY+10014/@40.7273984,-74.0073664,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598d40361245:0x984a7b0697ab5c73!8m2!3d40.7273984!4d-74.0051777"
             target="_blank"
@@ -31,11 +31,11 @@
             <p class="address">
               180 Varick St
               <br />Suite 912
-              <br />New York, NY 10014
+              <br />New York, NY
             </p>
           </a>
         </li>
-        <li :class="{hide: this.$route.path.includes('/about')}">
+        <li>
           <a
             href="https://www.google.com/maps/place/129+Kingston+St,+Boston,+MA+02111/@42.3519084,-71.0617181,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37a787aa897a7:0x86a64b1d163a1c9f!8m2!3d42.3519045!4d-71.0595241"
             target="_blank"
@@ -45,11 +45,11 @@
             <p class="address">
               129 Kingston St
               <br />Floor 2
-              <br />Boston, MA 02111
+              <br />Boston, MA
             </p>
           </a>
         </li>
-        <li :class="{hide: this.$route.path.includes('/about')}">
+        <li>
           <a
             href="https://www.google.com/maps/place/1442+Brush+St,+Detroit,+MI+48226/@42.3366768,-83.0471208,17z/data=!3m1!4b1!4m5!3m4!1s0x883b2d2db83747e9:0x1d05b9954d24bba8!8m2!3d42.3366729!4d-83.0449268"
             target="_blank"
@@ -59,7 +59,7 @@
             <p class="address">
               1442 Brush St
               <br />Floor 3
-              <br />Detroit, MI 48226
+              <br />Detroit, MI
             </p>
           </a>
         </li>
@@ -103,19 +103,27 @@ a {
   text-decoration: underline;
 }
 .city {
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
 }
 ul {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
-  text-align: left;
-  margin: 0 0 1rem;
+  margin-top: 0;
+  width: 80%;
+}
+li {
+  margin-right: 2rem;
+}
+li:nth-child(3) {
+  margin-right: 1rem;
+}
+li:last-of-type {
+  margin-right: 0;
 }
 li p {
   font-size: 1rem;
 }
-/* li {
-  text-align: center;
-} */
 h3 {
   font-size: 1.5rem;
   color: var(--color-contrast);
@@ -131,6 +139,7 @@ h3:hover {
   transition: all 1s ease-in-out;
   color: var(--color-highlight);
   text-align: left;
+  margin: 0 auto;
 }
 .city:hover + .address {
   opacity: 1;
@@ -147,8 +156,8 @@ h3:hover {
 .connect-wrap {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  margin: 1% 10% 0 0;
+  width: 20%;
+  margin: 0 10% 0 0;
 }
 .connect {
   font-family: "DM Sans";
@@ -156,14 +165,6 @@ h3:hover {
   font-weight: normal;
   color: var(--color-highlight);
   margin: 0;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
-  list-style: none;
-  padding: 0.25rem;
-  width: 60%;
 }
 .hide {
   display: none;
@@ -173,9 +174,16 @@ h3:hover {
     font-size: 1rem;
     padding: 4rem 0 1rem;
   }
-  .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 0rem;
+  .container {
+    flex-direction: column;
+  }
+  ul {
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+  .connect-wrap {
+    width: 100%;
   }
   .address {
     display: none;
