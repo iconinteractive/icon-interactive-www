@@ -1,13 +1,13 @@
 <template>
   <footer class="footer">
     <div class="container">
+      <div class="connect-wrap">
+        <g-link to="/contact">
+          <h3 class="connect">Let's connect</h3>
+        </g-link>
+        <p class="copyright">© {{date}} ICON Interactive</p>
+      </div>
       <ul class="grid">
-        <li>
-          <g-link to="/contact">
-            <h3 class="connect">Let's connect</h3>
-          </g-link>
-          <p class="copyright">© {{date}} ICON Interactive</p>
-        </li>
         <li :class="{hide: this.$route.path.includes('/about')}">
           <a
             href="https://www.google.com/maps/place/220+Felch+St,+Ann+Arbor,+MI+48103/@42.2865635,-83.7524387,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae173e5563cb:0x3ac7229f72eca0ff!8m2!3d42.2865635!4d-83.75025"
@@ -89,6 +89,9 @@ export default {
   font-size: 1rem;
   padding: 10rem 0 1rem;
 }
+.container {
+  display: flex;
+}
 a {
   font-size: 2rem;
   text-decoration: none;
@@ -105,13 +108,14 @@ a {
 ul {
   list-style: none;
   text-align: left;
-
   margin: 0 0 1rem;
-  padding: 0.5rem;
 }
 li p {
   font-size: 1rem;
 }
+/* li {
+  text-align: center;
+} */
 h3 {
   font-size: 1.5rem;
   color: var(--color-contrast);
@@ -126,6 +130,7 @@ h3:hover {
   opacity: 0;
   transition: all 1s ease-in-out;
   color: var(--color-highlight);
+  text-align: left;
 }
 .city:hover + .address {
   opacity: 1;
@@ -137,24 +142,28 @@ h3:hover {
 }
 .copyright {
   font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.connect-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 1% 10% 0 0;
 }
 .connect {
   font-family: "DM Sans";
   font-size: 1.5rem;
   font-weight: normal;
   color: var(--color-highlight);
+  margin: 0;
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
   list-style: none;
-  padding: 0;
-  width: 100%;
-}
-
-a:last-of-type {
-  margin-bottom: 0.5rem;
+  padding: 0.25rem;
+  width: 60%;
 }
 .hide {
   display: none;
