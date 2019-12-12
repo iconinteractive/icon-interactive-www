@@ -2,10 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="connect-wrap">
-        <g-link
-          to="/connect"
-          :class="{ hide: this.$route.path.includes('/connect') }"
-        >
+        <g-link to="/connect" :class="{ hide: this.$route.path.includes('/connect') }">
           <h3 class="connect">Let's connect</h3>
         </g-link>
         <p class="copyright">© {{ date }} ICON Interactive</p>
@@ -33,7 +30,8 @@
             <h3 class="city">New York</h3>
             <p class="address">
               180 Varick St
-              <br />Suite 912 <br />New York, NY
+              <br />Suite 912
+              <br />New York, NY
             </p>
           </a>
         </li>
@@ -46,7 +44,8 @@
             <h3 class="city">Boston</h3>
             <p class="address">
               129 Kingston St
-              <br />Floor 2 <br />Boston, MA
+              <br />Floor 2
+              <br />Boston, MA
             </p>
           </a>
         </li>
@@ -59,7 +58,8 @@
             <h3 class="city">Detroit</h3>
             <p class="address">
               1442 Brush St
-              <br />Floor 3 <br />Detroit, MI
+              <br />Floor 3
+              <br />Detroit, MI
             </p>
           </a>
         </li>
@@ -165,6 +165,7 @@ h3:hover {
   font-weight: normal;
   color: var(--color-highlight);
   margin: 0;
+  letter-spacing: 0;
 }
 .hide {
   display: none;
