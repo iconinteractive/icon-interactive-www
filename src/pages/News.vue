@@ -51,7 +51,7 @@ export default {};
 }
 .event-post {
   display: block;
-  padding: 1rem 0;
+  padding: 3rem 0;
   text-decoration: none;
   transition: background 0.5s ease;
 }
@@ -78,12 +78,12 @@ export default {};
   color: var(--color-highlight);
 }
 
-@media (min-width: 800px) {
-  .event-post {
-    padding: 3rem 0;
-  }
+@media (max-width: 800px) {
   .event-post:hover > * {
     transform: none;
+  }
+  .event-post {
+    padding: 3rem 0;
   }
 }
 </style>
