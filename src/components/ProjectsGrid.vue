@@ -64,9 +64,14 @@ export default {
 .project-title h3 {
   margin-bottom: 1rem;
   padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 .thumbnail:hover + .project-title {
+  transform: translate3d(5px, -5px, 0px);
+  transition: all 1s ease-in-out;
+  opacity: 1;
+}
+.project-title:hover {
   transform: translate3d(5px, -5px, 0px);
   transition: all 1s ease-in-out;
   opacity: 1;
