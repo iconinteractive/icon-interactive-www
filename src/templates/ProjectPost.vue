@@ -294,8 +294,8 @@ blockquote p {
     font-size: 1.2rem;
   }
   .title {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
   .project-text {
     width: 95%;
