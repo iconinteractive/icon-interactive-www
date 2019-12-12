@@ -102,6 +102,8 @@ h2 {
 }
 
 .start-button {
+  -webkit-appearance: none;
+  appearance: none;
   background: var(--color-base);
   color: var(--color-highlight);
   border: 1px solid var(--color-highlight);
@@ -112,7 +114,6 @@ h2 {
   border-radius: 0.3rem;
   width: 50px;
   height: 50px;
-  align-items: right;
   justify-self: end;
 }
 .start-button:hover {
@@ -124,6 +125,11 @@ h2 {
   .start-button {
     justify-self: start;
     margin-top: 2rem;
+    padding: 0rem;
+  }
+  .start-button:hover {
+    background: var(--color-base);
+    color: var(--color-highlight);
   }
   .description {
     display: grid;
