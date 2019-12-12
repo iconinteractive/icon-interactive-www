@@ -31,7 +31,14 @@
               }}
             </span>
             <div v-html="about.culture.right_column_text" />
-            <div class="careers-link" v-html="about.culture.careers_link" />
+            <a
+              href="https://www.linkedin.com/company/icon-interactive"
+              target="_blank"
+              rel="noreferrer"
+              class="careers-link"
+            >
+              <h2>Open Roles ⟶</h2>
+            </a>
           </div>
         </div>
         <label>{{ about.location_images.subtitle }}</label>
