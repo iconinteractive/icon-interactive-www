@@ -293,7 +293,10 @@ blockquote p {
   blockquote p {
     font-size: 1.2rem;
   }
-
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
   .project-text {
     width: 95%;
   }

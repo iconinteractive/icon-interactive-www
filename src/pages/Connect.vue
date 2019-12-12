@@ -148,7 +148,7 @@ select {
   color: var(--color-contrast);
   padding: 1rem;
 }
-.button {
+input[type="submit"].button {
   background: var(--color-base);
   color: var(--color-highlight);
   border: 1px solid var(--color-highlight);

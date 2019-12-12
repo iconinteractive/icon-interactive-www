@@ -130,9 +130,9 @@ h2 {
     font-size: 2rem;
   }
   .title {
-    font-size: 3rem;
+    font-size: 2.75rem;
     margin-bottom: 1rem;
-    line-height: 3rem;
+    line-height: 2.75rem;
   }
   .container {
     margin: 0 2rem;

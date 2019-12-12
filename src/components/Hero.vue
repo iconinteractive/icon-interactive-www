@@ -82,11 +82,11 @@ export default {
 @media (max-width: 800px) {
   .hero {
     padding-left: 0;
-    margin: 10vh 0;
+    margin: 2rem 0;
   }
   .hero-title {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
   }
 }
 </style>

@@ -130,6 +130,7 @@ h2 {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     padding: 0;
+    margin: 8vh 0;
   }
   .title {
     font-size: 3rem;

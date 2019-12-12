@@ -84,7 +84,7 @@ export default {};
   }
 }
 
-@media (min-width: 860px) {
+@media (min-width: 800px) {
   .event-post {
     padding: 3rem 0;
   }
