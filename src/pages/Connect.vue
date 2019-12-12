@@ -6,45 +6,53 @@
         <br />
         <span class="pink">CONNECT</span>
       </h1>
-      <article class="contact">
-        <div v-html="contact.contact_form_paragraph" />
-        <form
-          class="contact-form"
-          name="contact"
-          action="https://www.form-data.com/_functions/submit/wn7goc9zzuok4lcb2oeu1p"
-          method="POST"
-        >
-          <div>
-            <label for="name" class="label">Name</label>
-            <input id="name" type="text" name="name" />
-          </div>
-          <div>
-            <label for="email" class="label">Email</label>
-            <input id="email" type="email" name="email" />
-          </div>
-          <div>
-            <label for="company" class="label">Company</label>
-            <input id="company" type="text" name="company" />
-          </div>
-          <div>
-            <label for="phone" class="label">Phone</label>
-            <input id="phone" type="text" name="phone" />
-          </div>
-          <div class="message">
-            <label for="message" class="label">Message</label>
-            <textarea id="message" name="message"></textarea>
-          </div>
-          <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
-          <input type="submit" class="button" value="Send ⟶" />
-        </form>
-        <div class="row">
-          <div class="contact-wrapper">
-            <p class="pink-label">CALL</p>
-            <a class="link" href="tel:7347079245">734.707.9245</a>
-            <p class="pink-label">EMAIL</p>
-            <a class="link" href="mailto:info@iconinteractive.com">info@iconinteractive.com</a>
-          </div>
-        </div>
+      <article class="contact row">
+        <section>
+          <div v-html="contact.contact_form_paragraph" />
+          <form
+            class="contact-form"
+            name="contact"
+            action="https://www.form-data.com/_functions/submit/wn7goc9zzuok4lcb2oeu1p"
+            method="POST"
+          >
+            <div>
+              <label for="name" class="label">Name</label>
+              <input id="name" type="text" name="name" />
+            </div>
+            <div>
+              <label for="email" class="label">Email</label>
+              <input id="email" type="email" name="email" />
+            </div>
+            <div>
+              <label for="company" class="label">Company</label>
+              <input id="company" type="text" name="company" />
+            </div>
+            <div>
+              <label for="phone" class="label">Phone</label>
+              <input id="phone" type="text" name="phone" />
+            </div>
+            <div class="message">
+              <label for="message" class="label">Message</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <input
+              type="text"
+              name="xx_password"
+              class="honey"
+              tabindex="-1"
+              autocomplete="off"
+            />
+            <input type="submit" class="button" value="Send ⟶" />
+          </form>
+        </section>
+        <section class="contact-wrapper">
+          <p class="pink-label">CALL</p>
+          <a class="link" href="tel:7347079245">734.707.9245</a>
+          <p class="pink-label">EMAIL</p>
+          <a class="link" href="mailto:info@iconinteractive.com"
+            >info@iconinteractive.com</a
+          >
+        </section>
       </article>
     </div>
   </Layout>
@@ -68,7 +76,8 @@ p {
   display: none;
 }
 .contact {
-  margin-right: 30%;
+  margin-right: 0%;
+  width: 100%;
 }
 .contact-header {
   padding: 2rem 0 4rem 0;
@@ -84,8 +93,7 @@ p {
 }
 .row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
 }
 .sender-info > div {
   flex: 1;
@@ -106,11 +114,11 @@ p {
   letter-spacing: 0.5px;
 }
 .contact-wrapper {
-  margin-top: 2rem;
+  margin: 0 0 0 3rem;
 }
 .link {
   font-family: "Archivo Black", "DM Sans", helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 input:focus,
 select:focus,
@@ -172,6 +180,16 @@ select {
 }
 .contact div {
   margin-bottom: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-wrapper {
+    margin: 2rem 0 0;
+  }
 }
 
 @media (max-width: 800px) {

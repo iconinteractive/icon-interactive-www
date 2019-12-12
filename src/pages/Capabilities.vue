@@ -2,11 +2,17 @@
   <Layout>
     <div class="container">
       <section>
-        <h1>CAPABILITIES</h1>
+        <h1 class="title">CAPABILITIES</h1>
         <ul class="grid-two">
-          <li class="services" v-for="(paragraph, serviceName) in services" :key="serviceName">
+          <li
+            class="services"
+            v-for="(paragraph, serviceName) in services"
+            :key="serviceName"
+          >
             <h3>
-              <g-link :to="formatUrl(serviceName)">{{ formatServiceName(serviceName) }}</g-link>
+              <g-link :to="formatUrl(serviceName)">{{
+                formatServiceName(serviceName)
+              }}</g-link>
             </h3>
             <p>{{ paragraph }}</p>
           </li>
@@ -87,7 +93,6 @@ h2 {
   font-size: 1.2rem;
 }
 .title {
-  font-size: 7rem;
   letter-spacing: 2px;
   font-weight: 700;
   padding: 0;

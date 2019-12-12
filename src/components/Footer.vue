@@ -2,12 +2,15 @@
   <footer class="footer">
     <div class="container">
       <div class="connect-wrap">
-        <g-link to="/contact">
+        <g-link
+          to="/connect"
+          :class="{ hide: this.$route.path.includes('/connect') }"
+        >
           <h3 class="connect">Let's connect</h3>
         </g-link>
-        <p class="copyright">© {{date}} ICON Interactive</p>
+        <p class="copyright">© {{ date }} ICON Interactive</p>
       </div>
-      <ul :class="{hide: this.$route.path.includes('/about')}">
+      <ul :class="{ hide: this.$route.path.includes('/about') }">
         <li>
           <a
             href="https://www.google.com/maps/place/220+Felch+St,+Ann+Arbor,+MI+48103/@42.2865635,-83.7524387,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae173e5563cb:0x3ac7229f72eca0ff!8m2!3d42.2865635!4d-83.75025"
@@ -30,8 +33,7 @@
             <h3 class="city">New York</h3>
             <p class="address">
               180 Varick St
-              <br />Suite 912
-              <br />New York, NY
+              <br />Suite 912 <br />New York, NY
             </p>
           </a>
         </li>
@@ -44,8 +46,7 @@
             <h3 class="city">Boston</h3>
             <p class="address">
               129 Kingston St
-              <br />Floor 2
-              <br />Boston, MA
+              <br />Floor 2 <br />Boston, MA
             </p>
           </a>
         </li>
@@ -58,8 +59,7 @@
             <h3 class="city">Detroit</h3>
             <p class="address">
               1442 Brush St
-              <br />Floor 3
-              <br />Detroit, MI
+              <br />Floor 3 <br />Detroit, MI
             </p>
           </a>
         </li>
@@ -169,7 +169,7 @@ h3:hover {
 .hide {
   display: none;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .footer {
     font-size: 1rem;
     padding: 4rem 0 1rem;

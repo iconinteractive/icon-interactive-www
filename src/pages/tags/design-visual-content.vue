@@ -15,6 +15,7 @@ query TagPosts {
         id
         date (format: "YYYY")
         title
+        client
         thumbnail
         path
         service_tags { 
@@ -53,5 +54,3 @@ export default {
   }
 };
 </script>
-
-

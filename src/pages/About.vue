@@ -11,25 +11,36 @@
         <div v-html="about.about_text.right_column" />
       </section>
       <section>
-        <label>{{about.culture.subtitle}}</label>
-        <h2>{{about.culture.title}}</h2>
+        <label>{{ about.culture.subtitle }}</label>
+        <h2>{{ about.culture.title }}</h2>
         <div class="grid-two">
           <div>
-            <g-image :src="about.culture.left_column_image" alt="icon culture image" />
-            <span class="small-title">{{about.culture.left_column_section_title}}</span>
+            <g-image
+              :src="about.culture.left_column_image"
+              alt="icon culture image"
+            />
+            <span class="small-title">{{
+              about.culture.left_column_section_title
+            }}</span>
             <div v-html="about.culture.left_column_text" />
           </div>
           <div>
             <g-image :src="about.culture.right_column_image" alt="dog" />
-            <span class="small-title">{{about.culture.right_column_section_title}}</span>
+            <span class="small-title">{{
+              about.culture.right_column_section_title
+            }}</span>
             <div v-html="about.culture.right_column_text" />
             <div class="careers-link" v-html="about.culture.careers_link" />
           </div>
         </div>
-        <label>{{about.location_images.subtitle}}</label>
-        <h2>{{about.location_images.title}}</h2>
+        <label>{{ about.location_images.subtitle }}</label>
+        <h2>{{ about.location_images.title }}</h2>
         <div class="img-wrapper">
-          <g-image class="location-imgs" :src="currentImg" alt="icon locations" />
+          <g-image
+            class="location-imgs"
+            :src="currentImg"
+            alt="icon locations"
+          />
         </div>
         <ul class="grid-four">
           <li @mouseover="swapImg('annArbor')">
@@ -54,8 +65,7 @@
               <h3>New York</h3>
               <p>
                 180 Varick St
-                <br />Suite 912
-                <br />New York, NY 1004
+                <br />Suite 912 <br />New York, NY 1004
               </p>
             </a>
           </li>
@@ -68,8 +78,7 @@
               <h3>Boston</h3>
               <p>
                 129 Kingston St
-                <br />Floor 2
-                <br />Boston, MA 02111
+                <br />Floor 2 <br />Boston, MA 02111
               </p>
             </a>
           </li>
@@ -82,8 +91,7 @@
               <h3>Detroit</h3>
               <p>
                 1442 Brush St
-                <br />Floor 3
-                <br />Detroit, MI 48226
+                <br />Floor 3 <br />Detroit, MI 48226
               </p>
             </a>
           </li>
@@ -135,9 +143,9 @@ li {
 }
 li:hover {
   transition: all 500ms ease-in-out;
-  border-bottom: 1px solid var(--color-highlight);
   border-left: 1px solid var(--color-highlight);
   border-top: 1px solid transparent;
+  text-decoration: underline;
 }
 h2 {
   margin: 2rem 0;
@@ -219,7 +227,7 @@ li a:hover {
 
 @media (max-width: 800px) {
   .title {
-    font-size: 11vw;
+    font-size: 4rem;
   }
   .grid-four {
     display: grid;

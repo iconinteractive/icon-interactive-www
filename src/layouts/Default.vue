@@ -20,7 +20,6 @@ export default {
 };
 </script>
 
-
 <style>
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black|DM+Sans&display=swap");
 
@@ -67,6 +66,7 @@ h6 {
   font-family: "Archivo Black", "DM Sans", sans-serif;
   font-size: 1.5rem;
   margin: 1rem 0 2rem 0;
+  letter-spacing: 1px;
 }
 
 .title {
@@ -74,6 +74,7 @@ h6 {
   padding: 0;
   z-index: 10;
   line-height: 4.5rem;
+  letter-spacing: 2px;
 }
 
 .pink {
@@ -116,6 +117,7 @@ img {
 h2 {
   font-family: "Archivo Black", "DM Sans", sans-serif;
   font-size: 2rem;
+  letter-spacing: 1px;
 }
 @media (max-width: 800px) {
   h1 {
