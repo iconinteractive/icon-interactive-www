@@ -123,9 +123,16 @@ h2 {
   h1 {
     font-size: 3rem;
   }
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 2rem;
+  }
   .title {
+    font-size: 3rem;
     margin-bottom: 1rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
   }
   .container {
     margin: 0 2rem;

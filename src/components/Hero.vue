@@ -85,8 +85,8 @@ export default {
     margin: 10vh 0;
   }
   .hero-title {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }
 </style>

@@ -123,6 +123,7 @@ h2 {
 @media (max-width: 800px) {
   .start-button {
     justify-self: start;
+    margin-top: 2rem;
   }
   .description {
     display: grid;
@@ -131,9 +132,12 @@ h2 {
     padding: 0;
   }
   .title {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3rem;
     margin-bottom: 0;
+  }
+  .title-wrap {
+    text-align: left;
   }
 }
 </style>

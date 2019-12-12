@@ -4,15 +4,13 @@
       <section>
         <h1 class="title">CAPABILITIES</h1>
         <ul class="grid-two">
-          <li
-            class="services"
-            v-for="(paragraph, serviceName) in services"
-            :key="serviceName"
-          >
+          <li class="services" v-for="(paragraph, serviceName) in services" :key="serviceName">
             <h3>
-              <g-link :to="formatUrl(serviceName)">{{
+              <g-link :to="formatUrl(serviceName)">
+                {{
                 formatServiceName(serviceName)
-              }}</g-link>
+                }}
+              </g-link>
             </h3>
             <p>{{ paragraph }}</p>
           </li>
@@ -117,12 +115,9 @@ a:hover {
   font-size: 1.2rem;
 }
 
-.grid-two p {
-  font-size: 1.2rem;
-}
 @media (max-width: 800px) {
   .title {
-    font-size: 11vw;
+    font-size: 2rem;
   }
   .grid-four {
     display: grid;
@@ -132,9 +127,14 @@ a:hover {
   .grid-two {
     grid-template-columns: 1fr;
   }
-  .about-text {
-    margin-left: 0;
-    max-width: 90%;
+  .services {
+    width: 90%;
+  }
+  .services p {
+    font-size: 1rem;
+  }
+  .services h3 {
+    font-size: 2.5rem;
   }
 }
 </style>

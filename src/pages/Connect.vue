@@ -35,13 +35,7 @@
               <label for="message" class="label">Message</label>
               <textarea id="message" name="message"></textarea>
             </div>
-            <input
-              type="text"
-              name="xx_password"
-              class="honey"
-              tabindex="-1"
-              autocomplete="off"
-            />
+            <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
             <input type="submit" class="button" value="Send ⟶" />
           </form>
         </section>
@@ -49,9 +43,7 @@
           <p class="pink-label">CALL</p>
           <a class="link" href="tel:7347079245">734.707.9245</a>
           <p class="pink-label">EMAIL</p>
-          <a class="link" href="mailto:info@iconinteractive.com"
-            >info@iconinteractive.com</a
-          >
+          <a class="link" href="mailto:info@iconinteractive.com">info@iconinteractive.com</a>
         </section>
       </article>
     </div>
@@ -197,7 +189,11 @@ select {
     margin: 0;
   }
   .link {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
+  }
+  .button:hover {
+    background: var(--color-base);
+    color: var(--color-highlight);
   }
 }
 </style>
