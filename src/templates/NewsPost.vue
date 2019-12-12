@@ -8,8 +8,8 @@
 </template>
 
 <page-query>
-query EventPost ($path: String!) {
-  post: eventPost (path: $path) {
+query NewsPost ($path: String!) {
+  post: newsPost (path: $path) {
     title
     date (format: "YYYY")
     content
@@ -35,7 +35,7 @@ export default {
 <style scoped>
 a {
   text-decoration: underline;
-  color: var(--color-highlight)
+  color: var(--color-highlight);
 }
 .event-content {
   width: 75%;
@@ -67,7 +67,7 @@ a {
     width: 95%;
   }
   .title {
-  line-height: 3rem;
-}
+    line-height: 3rem;
+  }
 }
 </style>

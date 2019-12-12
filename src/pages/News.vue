@@ -20,8 +20,8 @@
 </template>
 
 <page-query>
-query Event {
-	posts: allEventPost {
+query News {
+	posts: allNewsPost {
     edges {
       node {
         id

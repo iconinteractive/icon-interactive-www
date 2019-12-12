@@ -7,7 +7,7 @@
       <nav class="nav">
         <g-link class="nav__link" to="/projects">Work</g-link>
         <g-link class="nav__link" to="/capabilities">Capabilities</g-link>
-        <g-link class="nav__link" to="/events">News</g-link>
+        <g-link class="nav__link" to="/news">News</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
         <g-link class="nav__link" to="/contact">Connect</g-link>
       </nav>

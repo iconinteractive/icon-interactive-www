@@ -24,8 +24,8 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "events/**/*.md",
-        typeName: "EventPost",
+        path: "news/**/*.md",
+        typeName: "NewsPost",
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: "_blank",
@@ -34,9 +34,11 @@ module.exports = {
       }
     },
     {
-      use: "@gridsome/plugin-google-analytics",
+      use: "gridsome-plugin-gtm",
       options: {
-        id: "UA-154293059-1"
+        id: "GTM-M48WS4P",
+        enabled: true,
+        debug: true
       }
     }
   ],

@@ -1,0 +1,25 @@
+---
+label: News
+hide_body: false
+fields:
+  - type: text
+    name: title
+    label: Title
+    config:
+      required: true
+  - type: datetime
+    name: date
+    label: Date
+    config:
+      required: true
+      display_utc: true
+      date_format: YYYY-MM-DD
+      time_format: ""
+      export_format: YYYY-MM-DD
+    default: now
+pages:
+  - news/icon-celebrates-20-years.md
+  - news/space-as-a-vehicle-for-storytelling-icon-the-peabody-essex-museum.md
+  - news/building-ann-arbor-s-tech-community.md
+  - news/rock-and-roll-hall-of-fame-dmb-s-time.md
+  - news/forbes-30-under-30-activation.md
