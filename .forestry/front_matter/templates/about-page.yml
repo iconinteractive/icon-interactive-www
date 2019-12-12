@@ -121,15 +121,6 @@ fields:
     config:
       required: false
     label: careers title
-  - name: careers_link
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: careers link
   label: Culture
 pages:
 - data/about.json
