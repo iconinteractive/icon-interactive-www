@@ -78,15 +78,12 @@ export default {};
   color: var(--color-highlight);
 }
 
-@media (min-width: 560px) {
-  .event-post {
-    padding: 1rem 0;
-  }
-}
-
 @media (min-width: 800px) {
   .event-post {
     padding: 3rem 0;
+  }
+  .event-post:hover > * {
+    transform: none;
   }
 }
 </style>
