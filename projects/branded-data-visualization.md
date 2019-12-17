@@ -51,9 +51,9 @@ solution: "<p>The ICON team delivered a fleet of solutions:</p><ul><li><p>A cine
   guests’ interest in the Genesis brand. The Lab provides an excellent way for the
   client team to discover potential customers among tournament participants.</p>"
 two_column_vertical_images:
-  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis3.jpg
+  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis-square1.jpg
   vertical_image_one_alt: ''
-  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis4.jpg
+  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis-square2.jpg
   vertical_image_two_alt: ''
 pull_quote: "<p><em>Every iteration of the Genesis Performance Lab has seen tremendous
   results and has driven engagement with the Genesis brand in a way that is truly
