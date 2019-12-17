@@ -6,7 +6,7 @@ service_tags:
   service_tag_two: design and visual content
   service_tag_three: ''
 display_on_home_page: false
-thumbnail: ''
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis-thumb.jpg
 title: Branded Data Visualization
 client: Genesis
 project_url: ''
@@ -16,7 +16,7 @@ introduction: "<h3>Genesis Performance Lab - Driving Engagement On and Off the G
   the Lab merges the tradition of golf with the latest in sport tracking and mobile
   app technology, helping Genesis discover potential customers among tournament guests
   while instilling an emotional connection with the brand and its luxury automobiles.</p>"
-horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis2.jpg
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis-hero1.jpg
 horiz_image_one_alt: ''
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis1.jpg
 horiz_image_two_alt: ''
