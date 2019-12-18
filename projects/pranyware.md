@@ -21,7 +21,7 @@ brief: "<p>When it comes to developing new product content, few industries match
 solution_label: Solution
 solution: "<p>ICON developed and maintains a ground-up custom application to successfully
   deliver on these business requirements. Press release content, images, video, and
-  downloads all flawlessly delivered to the awaiting global media ... while analytics
+  downloads are all flawlessly delivered to the awaiting global media ... while analytics
   and insights are provided to our valued clients. Direct content management and ICON-assisted
   content management are both available along with 24/7 support for those special
   requests. Content packaging is streamlined by an application designed for maximum
