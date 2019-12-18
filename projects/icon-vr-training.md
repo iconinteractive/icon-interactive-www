@@ -23,12 +23,12 @@ solution: "<p>ICON is building a VR training platform whereby students involved 
   low stakes environment. <br><br>Organizations can speed up the learning process
   by creating virtual environments that are representative of actual workplaces without
   the costs of deploying students to a physical space. AR/VR training simulations
-  can be far more cost effective and can minimize costly and potentially life threatening
-  mistakes, all while promoting learning through discovery and experience.<br><br>At
-  one ICON university client, students are using VR training to simulate emergent
-  healthcare scenarios and crime scene investigations, logging critical hours “doing”
-  the work of professionals in the field.<br><br>A true win/win for students and colleges
-  that's literally changing the landscape of professional learning.</p>"
+  can be far more cost effective and can minimize potentially life threatening mistakes,
+  all while promoting learning through discovery and experience.<br><br>At one ICON
+  university client, students are using VR training to simulate emergent healthcare
+  scenarios and crime scene investigations, logging critical hours “doing” the work
+  of professionals in the field.<br><br>A true win/win for students and colleges that's
+  literally changing the landscape of professional learning.</p>"
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/vr3.jpg
