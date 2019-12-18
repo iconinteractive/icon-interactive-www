@@ -13,7 +13,7 @@ Rob Cleveland, CEO, founded ICON Interactive in 1996, at the beginning of the ag
 
 Then, just four years after the business’ inception, the Internet Bubble burst, threatening everything ICON depended on to stay afloat. While times were tough, ICON did stay in business. Technology continued to evolve and clients started needing more and more assistance with all of the elements in the digital spectrum and beyond. And so, ICON began expanding its services to accommodate those needs.
 
-We added added offices in Boston and New York, in 2008, growing our team further and expanding our capabilities.
+We added offices in Boston and New York, in 2008, growing our team further and expanding our capabilities.
 
 “This allowed us to expand, and brought really wonderful people to our team. We expanded our geographic location, but more important, we expanded who we are,” Cleveland said.
 
