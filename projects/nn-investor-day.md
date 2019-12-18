@@ -18,9 +18,9 @@ thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/nn-thumb.jpg
 horizontal_image_two: ''
 brief_label: Challenge
 brief: "<p>The event in 2018 marked the first time that it would be held at their
-  new headquarters in Charlotte, NC which opened earlier that year. This state of
-  the art facility houses their Innovation Center which was debuted at Investor Day.
-  We were called in to create a series of video vignettes for their various end markets,
+  new headquarters in Charlotte, NC which opened earlier that year. This state-of-the-art
+  facility houses their Innovation Center which was introduced at Investor Day. We
+  were called in to create a series of video vignettes for their various end markets,
   as well as an animated piece for their large 12 screen LED wall.</p>"
 solution_label: Solution
 solution: "<p>With a fairly short timeline of only a few weeks, our design team got
