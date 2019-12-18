@@ -11,7 +11,7 @@ client: Farm Aid
 project_url: http://www.farmaid.org
 introduction: "<h3>ICON IS PROUD TO PROMOTE THIS MUSIC WITH A MISSION MOVEMENT</h3><p>Farm
   Aid has been raising awareness and funds for family farms well before it was cool
-  ... since 1985. As a long-time client, we're excited to continue do our part.</p>"
+  ... since 1985. We're excited to continue do our part for this long-term client.</p>"
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/FarmaidPanelsLarge1.jpg
 horizontal_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/FarmaidPanelsLarge2.jpg
 brief_label: Challenge
