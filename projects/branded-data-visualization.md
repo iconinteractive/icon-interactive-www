@@ -70,5 +70,8 @@ results:
   column_one: ''
   column_two: ''
   column_three: ''
+facebook_360_mobile:
+  mobile_image: ''
+  link: ''
 
 ---

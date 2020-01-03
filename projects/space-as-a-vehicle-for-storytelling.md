@@ -68,6 +68,9 @@ display_on_site: true
 horiz_image_one_alt: ''
 horiz_image_two_alt: ''
 horizontal_image_three_alt: ''
+facebook_360_mobile:
+  mobile_image: ''
+  link: ''
 
 ---
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/328275226?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
