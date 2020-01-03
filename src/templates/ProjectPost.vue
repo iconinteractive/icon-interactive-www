@@ -62,7 +62,7 @@
         </section>
         <blockquote v-if="$page.post.pull_quote" v-html="$page.post.pull_quote" />
 
-        <div v-if="this.isMobile() && $page.post.facebook_360_mobile.link" class="content">
+        <div v-if="this.mobileCheck && $page.post.facebook_360_mobile.link" class="content">
           <a :href="$page.post.facebook_360_mobile.link">
             <g-image :src="$page.post.facebook_360_mobile.mobile_image" alt="facebook 360 image" />
           </a>
