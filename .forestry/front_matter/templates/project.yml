@@ -288,6 +288,24 @@ fields:
     label: Column Three
   label: Results
   description: Results & ROI Stats
+- name: facebook_360_mobile
+  type: field_group
+  config: {}
+  fields:
+  - name: mobile_image
+    type: file
+    config:
+      maxSize: 250
+    label: mobile image
+    description: Image for mobile browsers
+  - name: link
+    type: text
+    config:
+      required: false
+    label: link
+    description: Add the facebook 360 URL for mobile browsers
+  label: Facebook 360 mobile
+  description: Fill out when embedding facebook 360
 pages:
 - projects/branded-data-visualization.md
 - projects/ef-pro-cycling.md
