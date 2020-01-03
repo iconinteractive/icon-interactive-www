@@ -64,7 +64,9 @@
 
         <div v-if="this.mobileCheck && $page.post.facebook_360_mobile.link" class="content">
           <a :href="$page.post.facebook_360_mobile.link">
-            <g-image :src="$page.post.facebook_360_mobile.mobile_image" alt="facebook 360 image" />
+            <g-image :src="$page.post.facebook_360_mobile.mobile_image" 
+            class="mobile-img"
+            alt="facebook 360 image" />
           </a>
         </div>
         <div v-else v-html="$page.post.content" class="content" />
@@ -234,6 +236,9 @@ export default {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   grid-template-rows: auto;
+}
+.mobile-img {
+  margin-bottom: 5rem;
 }
 .three-column {
   display: grid;
