@@ -72,5 +72,8 @@ horiz_image_one_alt: ef pro cycling bikers
 horiz_image_two_alt: cycling animation
 horizontal_image_three_alt: ''
 display_on_site: true
+facebook_360_mobile:
+  mobile_image: ''
+  link: ''
 
 ---
