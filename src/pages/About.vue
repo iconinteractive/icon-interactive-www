@@ -32,7 +32,7 @@
             </span>
             <div v-html="about.culture.right_column_text" />
             <a
-              href="https://www.linkedin.com/company/icon-interactive"
+              href="https://www.ziprecruiter.com/c/Icon-Interactive/Jobs"
               target="_blank"
               rel="noreferrer"
               class="careers-link"
