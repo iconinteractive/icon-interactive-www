@@ -19,6 +19,7 @@ fields:
   default: now
 pages:
 - news/building-ann-arbor-s-tech-community.md
+- news/ces-2020-happening-now.md
 - news/forbes-30-under-30-activation.md
 - news/icon-celebrates-20-years.md
 - news/rock-and-roll-hall-of-fame-dmb-s-time.md
