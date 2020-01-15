@@ -2,13 +2,15 @@
 label: PDF
 hide_body: true
 fields:
-  - type: text
-    name: title
-    label: Title
-    config:
-      required: true
-  - name: pdf_url
-    type: text
-    config:
-      required: false
-    label: PDF Url
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- name: pdf_url
+  type: text
+  config:
+    required: false
+  label: PDF Url
+pages:
+- pdf/icon-interactive-vr-training-whitepaper.md
