@@ -2,6 +2,11 @@
 label: PDF
 hide_body: true
 fields:
+  - type: text
+    name: title
+    label: Title
+    config:
+      required: true
   - name: pdf_url
     type: text
     config:
