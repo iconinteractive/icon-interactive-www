@@ -1,0 +1,9 @@
+---
+label: PDF
+hide_body: true
+fields:
+  - name: pdf_url
+    type: text
+    config:
+      required: false
+    label: PDF Url
