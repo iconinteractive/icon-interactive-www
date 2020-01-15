@@ -18,7 +18,7 @@ brief: "<p>Leverage virtual reality (VR) to provide local university students wi
   real-world hands-on training opportunities via immersive technology, all within
   a framework that allows the university to recoup large parts of capital outlay.</p>"
 solution_label: Solution
-solution: "<p>ICON is building a VR training platform whereby students involved in
+solution: <p>ICON is building a VR training platform whereby students involved in
   high stress procedures can practice and apply required knowledge and skills in a
   low stakes environment. <br><br>Organizations can speed up the learning process
   by creating virtual environments that are representative of actual workplaces without
@@ -28,7 +28,9 @@ solution: "<p>ICON is building a VR training platform whereby students involved 
   university client, students are using VR training to simulate emergent healthcare
   scenarios and crime scene investigations, logging critical hours “doing” the work
   of professionals in the field.<br><br>A true win/win for students and colleges that's
-  literally changing the landscape of professional learning.</p>"
+  literally changing the landscape of professional learning.</p><p>For more info,
+  download <a href="https://s3.amazonaws.com/forestry.iconinteractive.com/icon-interactive-vr-training-whitepaper.pdf"
+  title="">ICON's VR Training Whitepaper</a></p>
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/vr2.jpg
   vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/vr3.jpg
@@ -53,4 +55,5 @@ horizontal_image_three_alt: ''
 facebook_360_mobile:
   mobile_image: ''
   link: ''
+
 ---
