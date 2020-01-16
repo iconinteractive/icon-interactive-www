@@ -7,7 +7,7 @@
         <a
           :href="$page.post.pdf_url"
           @click.prevent="false"
-        >Link to PDF - To Download Hold this link and select Download Linked File</a>
+        >Download by holding this link and selecting Download Linked File</a>
       </div>
       <article v-else>
         <div class="dl-wrap">
@@ -76,5 +76,8 @@ a {
   height: 90vh;
 }
 @media (max-width: 800px) {
+  h1 {
+    font-size: 1.5rem;
+  }
 }
 </style>
