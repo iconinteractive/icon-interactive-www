@@ -10,7 +10,6 @@
     "@gridsome/remark-prismjs": "0.1.0",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
-    "axios": "^0.19.1",
     "gridsome": "^0.6.7",
     "gridsome-plugin-gtm": "^0.1.1",
     "vue-instant-pdf-viewer": "^1.0.2",
