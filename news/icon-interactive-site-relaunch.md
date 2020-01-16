@@ -47,8 +47,6 @@ New ICON site:
 
 Thanks for reading! If you're curious to learn more about the JAMstack here's an excellent [whitepaper](https://www.netlify.com/pdf/netlify-whitepaper.pdf) from Netlify.
 
-### Links:
-
-[https://iconinteractive.com/](https://iconinteractive.com/)
+### Repo:
 
 [https://github.com/iconinteractive/icon-interactive-www](https://github.com/iconinteractive/icon-interactive-www)
