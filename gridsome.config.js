@@ -34,6 +34,18 @@ module.exports = {
       }
     },
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "pdf/**/*.md",
+        typeName: "PdfPost",
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    {
       use: "gridsome-plugin-gtm",
       options: {
         id: "GTM-M48WS4P",

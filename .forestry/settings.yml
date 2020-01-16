@@ -18,6 +18,13 @@ sections:
   match: "**/*.md"
   templates:
   - news
+- type: directory
+  path: pdf
+  label: PDF
+  create: documents
+  match: "**/*.md"
+  templates:
+  - pdf
 - type: document
   path: data/capabilities.json
   label: Capabilities
