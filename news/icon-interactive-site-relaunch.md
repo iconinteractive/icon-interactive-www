@@ -43,7 +43,7 @@ Previous ICON site:
 
 New ICON site:
 
-![](https://s3.amazonaws.com/forestry.iconinteractive.com/Screen_Shot_2020-01-15_at_11.36.35_AM.png)
+![](https://s3.amazonaws.com/forestry.iconinteractive.com/Screen_Shot_2020-01-15_at_11.36.35_AM222.png)
 
 Thanks for reading! If you're curious to learn more about the JAMstack here's an excellent [whitepaper](https://www.netlify.com/pdf/netlify-whitepaper.pdf) from Netlify.
 
