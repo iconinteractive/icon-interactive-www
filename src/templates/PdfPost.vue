@@ -58,7 +58,7 @@ export default {
       }
     }
   },
-  created() {
+  mounted() {
     this.isMobile();
   }
 };
