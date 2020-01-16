@@ -5,7 +5,7 @@ title: ICON Interactive Site Relaunch
 ---
 ICON Interactive is a digital agency that's been around for over 20 years so we've seen the crest of various waves of technology. While approaching our site relaunch we wanted to focus on developing a performant site that would showcase our work in a clear, concise manner while also prioritizing performance and the content management experience in the process. We've done just that, so we wanted to share how we did it.
 
-![](https://s3.amazonaws.com/forestry.iconinteractive.com/Screen_Shot_2020-01-15_at_12.05.33_PM (1).png)
+![](https://s3.amazonaws.com/forestry.iconinteractive.com/Screen_Shot_2020-01-15_at_12.05.33.png)
 
 ### Make It Fast
 
