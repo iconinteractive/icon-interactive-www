@@ -5,8 +5,6 @@ title: ICON Interactive Site Relaunch
 ---
 ICON Interactive is a digital agency that's been around for over 20 years so we've seen the crest of various waves of technology. While approaching our site relaunch we wanted to focus on developing a performant site that would showcase our work in a clear, concise manner while also prioritizing performance and the content management experience in the process. We've done just that, so we wanted to share how we did it.
 
-![](https://s3.amazonaws.com/forestry.iconinteractive.com/Screen_Shot_2020-01-15_at_12.05.33.png)
-
 ### Make It Fast
 
 We opted to go with a site built around the [JAMstack](https://jamstack.org/), which is a modular & performant approach to building websites. It centers around the idea of server-side rendering the site's pages which are then served as code-split payloads with pre-rendered HTML through a CDN. One can also integrate a mesh of services via APIs & framework plugins. This approach removes the need to directly manage web servers that host the site and makes for a performant & secure user experience.
