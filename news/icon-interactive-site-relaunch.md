@@ -39,7 +39,7 @@ Our previous site was built on Wordpress and suffered from image bloat which imp
 
 Previous ICON site:
 
-![](https://s3.amazonaws.com/forestry.iconinteractive.com/Screen_Shot_2019-12-05_at_1.54.03_PM.png)
+![](https://s3.amazonaws.com/forestry.iconinteractive.com/before.png)
 
 New ICON site:
 
