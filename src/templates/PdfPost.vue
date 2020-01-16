@@ -6,7 +6,7 @@
         <a
           :href="$page.post.pdf_url"
           :download="`${$page.post.title}.pdf`"
-          @click.prevent="downloadItem($page.post.pdf_url, $page.post.title)"
+          @click.prevent="false"
         >Download: Right click here & select Save Link As</a>
       </div>
       <section class="pdf-wrap">
@@ -38,19 +38,19 @@ export default {
     };
   },
   methods: {
-    downloadItem(url, label) {
-      axios
-        .get(url, { responseType: "blob" })
-        .then(({ data }) => {
-          const blob = new Blob([data], { type: "application/pdf" });
-          const link = document.createElement("a");
-          link.href = URL.createObjectURL(blob);
-          link.download = label;
-          link.click();
-          URL.revokeObjectURL(link.href);
-        })
-        .catch(error => console.error(error));
-    }
+    // downloadItem(url, label) {
+    //   axios
+    //     .get(url, { responseType: "blob" })
+    //     .then(({ data }) => {
+    //       const blob = new Blob([data], { type: "application/pdf" });
+    //       const link = document.createElement("a");
+    //       link.href = URL.createObjectURL(blob);
+    //       link.download = label;
+    //       link.click();
+    //       URL.revokeObjectURL(link.href);
+    //     })
+    //     .catch(error => console.error(error));
+    // }
   }
 };
 </script>
