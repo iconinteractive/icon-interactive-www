@@ -9,6 +9,11 @@
           @click.prevent="false"
         >Download: Right click here & select Save Link As</a>
       </div>
+      <div v-if="mobileCheck">
+        <p>Mobile browsers don't support embedded pdfs yet</p>
+        <a :href="$page.post.pdf_url">Download Here</a>
+      </div>
+
       <section class="pdf-wrap">
         <object :data="$page.post.pdf_url" type="application/pdf" width="100%" height="100%">
           <embed :src="$page.post.pdf_url" type="application/pdf" width="100%" height="100%" />
@@ -28,8 +33,6 @@ query PdfPost ($path: String!) {
 </page-query>
 
 <script>
-import axios from "axios";
-
 export default {
   components: {},
   metaInfo() {
@@ -37,20 +40,22 @@ export default {
       title: this.$page.post.title
     };
   },
+  data() {
+    return {
+      mobileCheck: false
+    };
+  },
   methods: {
-    // downloadItem(url, label) {
-    //   axios
-    //     .get(url, { responseType: "blob" })
-    //     .then(({ data }) => {
-    //       const blob = new Blob([data], { type: "application/pdf" });
-    //       const link = document.createElement("a");
-    //       link.href = URL.createObjectURL(blob);
-    //       link.download = label;
-    //       link.click();
-    //       URL.revokeObjectURL(link.href);
-    //     })
-    //     .catch(error => console.error(error));
-    // }
+    isMobile() {
+      if (process.isClient) {
+        this.mobileCheck =
+          typeof window.orientation !== "undefined" ||
+          navigator.userAgent.indexOf("IEMobile") !== -1;
+      }
+    }
+  },
+  created() {
+    this.isMobile();
   }
 };
 </script>
