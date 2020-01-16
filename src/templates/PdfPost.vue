@@ -1,24 +1,25 @@
 <template>
   <Layout>
     <div class="container">
-      <h1>{{ $page.post.title }}</h1>
-      <div class="dl-wrap">
-        <a
-          :href="$page.post.pdf_url"
-          :download="`${$page.post.title}.pdf`"
-          @click.prevent="false"
-        >Download: Right click here & select Save Link As</a>
-      </div>
       <div v-if="mobileCheck">
         <p>Mobile browsers don't support embedded pdfs yet</p>
-        <a :href="$page.post.pdf_url">Download Here</a>
+        <a :href="$page.post.pdf_url">Download:Hold this link & select Download Linked File</a>
       </div>
-
-      <section class="pdf-wrap">
-        <object :data="$page.post.pdf_url" type="application/pdf" width="100%" height="100%">
-          <embed :src="$page.post.pdf_url" type="application/pdf" width="100%" height="100%" />
-        </object>
-      </section>
+      <article v-else>
+        <h1>{{ $page.post.title }}</h1>
+        <div class="dl-wrap">
+          <a
+            :href="$page.post.pdf_url"
+            :download="`${$page.post.title}.pdf`"
+            @click.prevent="false"
+          >Download: Right click here & select Save Link As</a>
+        </div>
+        <section class="pdf-wrap">
+          <object :data="$page.post.pdf_url" type="application/pdf" width="100%" height="100%">
+            <embed :src="$page.post.pdf_url" type="application/pdf" width="100%" height="100%" />
+          </object>
+        </section>
+      </article>
     </div>
   </Layout>
 </template>
