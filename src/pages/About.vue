@@ -31,14 +31,9 @@
               }}
             </span>
             <div v-html="about.culture.right_column_text" />
-            <a
-              href="https://www.ziprecruiter.com/c/Icon-Interactive/Jobs"
-              target="_blank"
-              rel="noreferrer"
-              class="careers-link"
-            >
+            <g-link class="careers-link" to="/careers">
               <h2>Open Roles ⟶</h2>
-            </a>
+            </g-link>
           </div>
         </div>
         <label>{{ about.location_images.subtitle }}</label>
