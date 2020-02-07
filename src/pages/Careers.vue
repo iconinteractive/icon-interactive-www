@@ -12,7 +12,7 @@ let htmlEl = null;
 export default {
   mounted() {
     if (process.isClient) {
-      insertSnippet();
+      this.insertSnippet();
       // let elem = document.createElement("script");
       // elem.type = "text/javascript";
       // elem.src =
