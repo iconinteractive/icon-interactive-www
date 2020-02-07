@@ -2,9 +2,7 @@
   <Layout>
     <section class="container">
       <h1>Careers</h1>
-      <ClientOnly>
-        <div class="career-wrap"></div>
-      </ClientOnly>
+      <div ref="snippet_container"></div>
     </section>
   </Layout>
 </template>
