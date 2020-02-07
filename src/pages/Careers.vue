@@ -2,15 +2,16 @@
   <Layout>
     <section class="container">
       <h1>Careers</h1>
-      <div class="career-wrap"></div>
+      <ClientOnly>
+        <div class="career-wrap"></div>
+      </ClientOnly>
     </section>
   </Layout>
 </template>
 
 <script>
-let htmlEl = null;
 export default {
-  created() {
+  mounted() {
     if (process.isClient) {
       let elem = document.createElement("script");
       elem.type = "text/javascript";
