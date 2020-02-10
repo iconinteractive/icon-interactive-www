@@ -34,9 +34,6 @@ export default {
   color: #fff !important;
   border-radius: 1%;
 }
-#gnewtonJobDescriptionText > b:first-of-type {
-  font-size: 35px;
-}
 .career-content {
   width: 75%;
 }
