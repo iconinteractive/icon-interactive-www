@@ -65,7 +65,7 @@ h5,
 h6 {
   font-family: "Archivo Black", "DM Sans", sans-serif;
   font-size: 1.5rem;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0;
   letter-spacing: 1px;
 }
 

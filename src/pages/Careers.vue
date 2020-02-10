@@ -1,7 +1,11 @@
 <template>
   <Layout>
     <section class="container">
-      <h1>Careers</h1>
+      <h1 class="title">
+        ICON
+        <br />
+        <span class="pink">CAREERS</span>
+      </h1>
       <div ref="snippet_container"></div>
     </section>
   </Layout>
@@ -23,3 +27,14 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.gnewtonBlueBtn {
+  background-color: rgb(229, 19, 101);
+  color: #fff;
+  border-radius: 1%;
+}
+#gnewtonJobDescriptionText > b:first-of-type {
+  font-size: 35px;
+}
+</style>
