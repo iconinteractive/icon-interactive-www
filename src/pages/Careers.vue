@@ -30,8 +30,8 @@ export default {
 
 <style scoped>
 .gnewtonBlueBtn {
-  background-color: rgb(229, 19, 101);
-  color: #fff;
+  background-color: rgb(229, 19, 101) !important;
+  color: #fff !important;
   border-radius: 1%;
 }
 #gnewtonJobDescriptionText > b:first-of-type {
@@ -39,5 +39,8 @@ export default {
 }
 .career-content {
   width: 75%;
+}
+#gnewtonGeneric > td > div {
+  text-align: left;
 }
 </style>
