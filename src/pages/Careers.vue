@@ -6,7 +6,7 @@
         <br />
         <span class="pink">CAREERS</span>
       </h1>
-      <div ref="snippet_container"></div>
+      <div class="career-content" ref="snippet_container"></div>
     </section>
   </Layout>
 </template>
@@ -36,5 +36,8 @@ export default {
 }
 #gnewtonJobDescriptionText > b:first-of-type {
   font-size: 35px;
+}
+.career-content {
+  width: 75%;
 }
 </style>
