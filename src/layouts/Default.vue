@@ -1,5 +1,5 @@
 <template>
-  <div class="layout" id="container">
+  <div class="layout" id="snippet">
     <Header />
     <transition name="fade" appear>
       <slot />
@@ -35,8 +35,7 @@ export default {
           "koi-3QNJMV52A0.marketingautomation.services/client/ss.js?ver=2.3.1";
         var scr = document.getElementsByTagName("script")[0];
         scr.parentNode.insertBefore(ss, scr);
-        const wrap = document.querySelector("#container");
-        wrap.appendChild(scr);
+        document.getElementsByTagName("head")[0].appendChild(scr);
       })();
     }
   }
