@@ -1,13 +1,11 @@
 ---
-label: Redirects
-hide_body: false
+label: Footer
+hide_body: true
 fields:
-- name: redirects
+- name: redirect
   type: textarea
-  default: ''
   config:
     required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Redirects
+  label: redirect
+pages:
+- static/netlify.toml
