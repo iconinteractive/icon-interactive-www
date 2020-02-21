@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div class="layout" id="container">
     <Header />
     <transition name="fade" appear>
       <slot />
@@ -16,6 +16,29 @@ export default {
   components: {
     Header,
     Footer
+  },
+  mounted() {
+    if (process.isClient) {
+      var _ss = _ss || [];
+      _ss.push([
+        "_setDomain",
+        "https://koi-3QNJMV52A0.marketingautomation.services/net"
+      ]);
+      _ss.push(["_setAccount", "KOI-44WYQOU4KI"]);
+      _ss.push(["_trackPageView"]);
+      (function() {
+        var ss = document.createElement("script");
+        ss.type = "text/javascript";
+        ss.async = true;
+        ss.src =
+          ("https:" == document.location.protocol ? "https://" : "http://") +
+          "koi-3QNJMV52A0.marketingautomation.services/client/ss.js?ver=2.3.1";
+        var scr = document.getElementsByTagName("script")[0];
+        scr.parentNode.insertBefore(ss, scr);
+        const wrap = document.querySelector("#container");
+        wrap.appendChild(scr);
+      })();
+    }
   }
 };
 </script>

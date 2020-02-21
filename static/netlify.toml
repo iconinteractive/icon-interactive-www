@@ -1,4 +1,3 @@
-redirect = "testing one two"
 [[redirects]]
 from = "/blog"
 to = "/projects"
