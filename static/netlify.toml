@@ -4,3 +4,19 @@ to = "/projects"
 [[redirects]]
 from = "/blog"
 to = "/projects"
+[[redirects]]
+from = "/blog/*"
+to = "/projects"
+[[redirects]]
+from = "/rocket-mortgage-league-of-legends-360-degree-fan-dome/"
+to = "/projects"
+[[redirects]]
+from = "/space-as-a-vehicle-for-storytelling"
+to = "/projects"
+[[redirects]]
+from = "/elevating-brand-awareness-through-data-visualization"
+to = "/projects"
+[[redirects]]
+from = "/contact"
+to = "/connect"
+
