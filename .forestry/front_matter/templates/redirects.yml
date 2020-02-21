@@ -1,0 +1,13 @@
+---
+label: Redirects
+hide_body: false
+fields:
+- name: redirects
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Redirects
