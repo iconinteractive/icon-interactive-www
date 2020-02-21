@@ -46,6 +46,9 @@ sections:
 - type: document
   path: data/titles.json
   label: Titles
+- type: document
+  path: static/netlify.toml
+  label: Redirects
 upload_dir: ''
 public_path: https://s3.amazonaws.com/forestry.iconinteractive.com
 front_matter_path: " "
