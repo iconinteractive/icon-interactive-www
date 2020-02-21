@@ -1,15 +1,16 @@
+redirect = "testing one two"
 [[redirects]]
-  from = "/blog"
-  to = "/projects"
+from = "/blog"
+to = "/projects"
 [[redirects]]
-  from = ""
-  to = ""
+from = ""
+to = ""
 [[redirects]]
-  from = ""
-  to = ""
+from = ""
+to = ""
 [[redirects]]
-  from = ""
-  to = ""
+from = ""
+to = ""
 [[redirects]]
-  from = ""
-  to = ""
+from = ""
+to = ""
