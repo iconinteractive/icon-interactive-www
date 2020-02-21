@@ -2,10 +2,23 @@
 label: Footer
 hide_body: true
 fields:
-- name: redirect
-  type: textarea
+- name: redirects
+  type: field_group_list
+  fields:
+  - name: from
+    type: text
+    config:
+      required: false
+    label: from
+  - name: to
+    type: text
+    config:
+      required: false
+    label: to
   config:
-    required: false
-  label: redirect
+    min: 
+    max: 
+    labelField: 
+  label: redirects
 pages:
 - static/netlify.toml
