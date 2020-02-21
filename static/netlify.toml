@@ -1,15 +1,6 @@
 [[redirects]]
-from = "/blog"
+from = "/category/*"
 to = "/projects"
 [[redirects]]
-from = ""
-to = ""
-[[redirects]]
-from = ""
-to = ""
-[[redirects]]
-from = ""
-to = ""
-[[redirects]]
-from = ""
-to = ""
+from = "/blog"
+to = "/projects"
