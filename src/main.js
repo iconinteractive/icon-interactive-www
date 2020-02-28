@@ -6,7 +6,7 @@ export default function(Vue, { head }) {
 
   head.script.push({
     type: "text/javascript",
-    content: `var _ss = _ss || [];
+    innerHTML: `var _ss = _ss || [];
     _ss.push(['_setDomain', 'https://koi-3QNJMV52A0.marketingautomation.services/net']);
     _ss.push(['_setAccount', 'KOI-44WYQOU4KI']);
     _ss.push(['_trackPageView']);
@@ -17,6 +17,6 @@ export default function(Vue, { head }) {
     var scr = document.getElementsByTagName('script')[0];
     scr.parentNode.insertBefore(ss, scr);
 })();`,
-    __dangerouslyDisableSanitizers: ["content"]
+    __dangerouslyDisableSanitizers: ["innerHTML"]
   });
 }
