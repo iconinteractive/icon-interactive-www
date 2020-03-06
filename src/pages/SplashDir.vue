@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container">
-      <h1 class="title">Documents</h1>
+      <h1 class="title">Splash Pages</h1>
       <g-link
         :to="item.node.path"
         v-for="item in $page.posts.edges"
@@ -17,8 +17,8 @@
 </template>
 
 <page-query>
-query Pdf {
-	posts: allPdfPost {
+query Splash {
+	posts: allSplashPage {
     edges {
       node {
         id

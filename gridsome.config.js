@@ -36,20 +36,8 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "pdf/**/*.md",
-        typeName: "PdfPost",
-        resolveAbsolutePaths: true,
-        remark: {
-          externalLinksTarget: "_blank",
-          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
-        }
-      }
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "landing/**/*.md",
-        typeName: "LandingPage",
+        path: "splash/**/*.md",
+        typeName: "SplashPage",
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: "_blank",

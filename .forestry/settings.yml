@@ -19,12 +19,12 @@ sections:
   templates:
   - news
 - type: directory
-  path: pdf
-  label: PDF
+  path: splash
+  label: Splash Pages
   create: documents
   match: "**/*.md"
   templates:
-  - pdf
+  - splash
 - type: document
   path: data/capabilities.json
   label: Capabilities

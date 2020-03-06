@@ -1,0 +1,11 @@
+---
+label: SplashPage
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+pages:
+
