@@ -19,5 +19,5 @@ You can add whatever content you want here
   }
 </style>
 <div style="color:red;">this is red</div>
-<div class="textblue">this is red</div>
+<div class="textblue">this is blue</div>
 after list... 
