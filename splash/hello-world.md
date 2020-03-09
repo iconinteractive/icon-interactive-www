@@ -13,5 +13,11 @@ You can add whatever content you want here
 * list item one
 * list item two
 * list item three
+<style>
+.textblue{
+  color:blue;
+  }
+</style>
 <div style="color:red;">this is red</div>
+<div class="textblue">this is red</div>
 after list... 
