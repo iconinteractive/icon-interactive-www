@@ -13,5 +13,5 @@ You can add whatever content you want here
 * list item one
 * list item two
 * list item three
-test1
-    <div style="color:#fff">test </div>
+after list
+    <div style="color:red">test </div>
