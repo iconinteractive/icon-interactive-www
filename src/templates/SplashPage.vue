@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
+  <Layout>
+    <div class="container">
       <div v-html="$page.post.content" />
-  </div>
+    </div>
+  </Layout>
 </template>
 
 <page-query>
