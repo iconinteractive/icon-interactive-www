@@ -37,11 +37,11 @@ The site is being built from an open source [Github](https://github.com/iconinte
 
 Our previous site was built on Wordpress and suffered from image bloat which impacted the performance. We're incredibly pleased with the massive jump in performance, accessibility, & SEO from utilizing a JAMstack architecture.
 
-Previous ICON site:
+Previous ICON site
 
 ![](https://s3.amazonaws.com/forestry.iconinteractive.com/before.png)
 
-New ICON site:
+New ICON site
 
 ![](https://s3.amazonaws.com/forestry.iconinteractive.com/Screen_Shot_2020-01-15_at_11.36.35_AM222.png)
 
