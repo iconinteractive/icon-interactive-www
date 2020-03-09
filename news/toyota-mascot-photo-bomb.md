@@ -9,6 +9,6 @@ In partnership with Kroenke Sports & Entertainment and the Denver Hometown Toyot
 
 Guests are enticed to jump into the vehicle to check out the latest vehicle features, with the opportunity to take a selfie with their friends. As the timer counts down, the mascot pops into the driver’s seat using AR technology and provides an unexpected memorable experience for everyone in the vehicle. Guests are then emailed a gif of themselves and the mascot to share across social media channels.
 
-<img src="https://s3.amazonaws.com/forestry.iconinteractive.com/nuggest.gif" alt="Mascot Photobomb">
+<img src="https://s3.amazonaws.com/forestry.iconinteractive.com/nuggets.gif" alt="Mascot Photobomb">
 
 Those who post to Twitter using the hashtag #toyotamascotphotobomb will also be featured in the digital display at the Pepsi Center.
