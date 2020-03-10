@@ -6,7 +6,7 @@ service_tags:
   service_tag_two: custom software
   service_tag_three: ''
 display_on_home_page: false
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/vr-thumb.jpg
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/Thumb_Michelob.jpg
 title: Michelob Marathon
 client: Anheuser-Busch InBev SA/NV
 project_url: ''
