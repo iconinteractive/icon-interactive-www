@@ -63,6 +63,21 @@
             </p>
           </a>
         </li>
+        <li>
+          <a
+            href="https://www.google.com/maps/place/12+Browning+St,+South+Brisbane+QLD+4101,+Australia/@-27.4784248,153.0116033,17z/data=!3m1!4b1!4m5!3m4!1s0x6b9150a0ba86145d:0xdf8b5967b7943aa3!8m2!3d-27.4784248!4d153.013792"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 class="city">Brisbane</h3>
+            <p class="address">
+              Brisbane City 
+              <br />
+              QLD 4101
+              <br />Australia
+            </p>
+          </a>
+        </li>
       </ul>
     </div>
   </footer>
