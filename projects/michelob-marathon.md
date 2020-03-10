@@ -30,7 +30,7 @@ solution: "<p>An end-to-end web experience where users generated running playlis
   adherence to local alcohol advertising laws across markets, and to support separate
   but simultaneous ad campaigns.</p>"
 two_column_vertical_images:
-  vertical_image_one: ''
+  vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/mic-ultra-box2.png
   vertical_image_one_alt: ''
   vertical_image_two: ''
   vertical_image_two_alt: ''
