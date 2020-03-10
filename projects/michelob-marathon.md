@@ -32,7 +32,7 @@ solution: "<p>An end-to-end web experience where users generated running playlis
 two_column_vertical_images:
   vertical_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/mic-ultra-box2.png
   vertical_image_one_alt: ''
-  vertical_image_two: ''
+  vertical_image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/mic-ultra-box1.png
   vertical_image_two_alt: ''
 pull_quote: ''
 horizontal_image_three: ''
