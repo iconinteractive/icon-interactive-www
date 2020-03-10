@@ -45,8 +45,7 @@ two_column_vertical_images:
 pull_quote: "<p>Hydric’s expertise and insights enabled the development cycle to move
   along swiftly and smoothly. Because of this positive and successful experience,
   we’ve also entrusted Hydric to deliver the enhancements to our iOS product roadmap,
-  as well as to commence work on the Android version of the app. - <strong>Jonathan
-  Fishman - Senior Director, MTVU Digital at Viacom</strong></p>"
+  as well as to commence work on the Android version of the app.</p>"
 horizontal_image_three: ''
 horizontal_image_three_alt: ''
 two_column_horizontal_images:
