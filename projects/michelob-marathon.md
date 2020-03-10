@@ -15,7 +15,7 @@ introduction: "<p>Michelob Ultra is a global beer brand synonymous with living w
   streaming intelligence and audience reach to target runners in two key markets,
   the United Kingdom and Mexico. As a Spotify Global Preferred Partner, Hydric were
   enlisted to bring this collaboration to life.</p>"
-horizontal_image_one: ''
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/mic-light-banner.jpg
 horiz_image_one_alt: ''
 horizontal_image_two: ''
 horiz_image_two_alt: ''
