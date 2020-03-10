@@ -1,11 +1,11 @@
 ---
-display_on_site: false
+display_on_site: true
 date: 2020-03-10
 service_tags:
   service_tag_one: web and mobile
   service_tag_two: custom software
   service_tag_three: ''
-display_on_home_page: false
+display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/Thumb_Michelob.jpg
 title: Michelob Marathon
 client: Anheuser-Busch InBev SA/NV
