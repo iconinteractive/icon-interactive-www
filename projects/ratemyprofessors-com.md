@@ -16,7 +16,7 @@ introduction: "<p>Rate My Professors is the highest trafficked online and mobile
   for selecting their professors. The platform allows college and university students
   to assign ratings to professors and campuses of American, Canadian, and United Kingdom
   institutions.</p>"
-horizontal_image_one: ''
+horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/rate-prof-banner-1.png
 horiz_image_one_alt: ''
 horizontal_image_two: ''
 horiz_image_two_alt: ''
