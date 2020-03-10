@@ -1,12 +1,12 @@
 ---
-display_on_site: false
+display_on_site: true
 date: 2020-03-10
 service_tags:
   service_tag_one: web and mobile
   service_tag_two: ''
   service_tag_three: ''
-display_on_home_page: false
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/prthumb.jpg
+display_on_home_page: true
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/Thumb_Rate.jpg
 title: Rate My Professors
 client: Viacom
 project_url: ''
