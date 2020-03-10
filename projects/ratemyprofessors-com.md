@@ -7,7 +7,7 @@ service_tags:
   service_tag_three: ''
 display_on_home_page: false
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/prthumb.jpg
-title: RateMyProfessors.com
+title: Rate My Professors
 client: Viacom
 project_url: ''
 introduction: "<p>Rate My Professors is the highest trafficked online and mobile destination
