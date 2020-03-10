@@ -23,7 +23,7 @@ brief_label: Goal
 brief: "<p>To create an engaging, web-based experience where users could generate
   unique and customizable running playlists by leveraging the Spotify API, designed
   in accordance with the Michelob Ultra brand guidelines.</p>"
-solution_label: ''
+solution_label: Solution
 solution: "<p>An end-to-end web experience where users generated running playlists
   tailored to their Spotify listening history, running pace and duration, and local
   weather conditions. Localized versions of the website were also developed to ensure
