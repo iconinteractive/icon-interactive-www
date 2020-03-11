@@ -9,4 +9,5 @@ fields:
     required: true
 pages:
 - splash/hello-world.md
+- splash/test-root-file.md
 - splash/vr-training.md
