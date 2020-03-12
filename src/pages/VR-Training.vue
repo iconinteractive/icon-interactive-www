@@ -24,7 +24,6 @@
           </div>          
         </div>
 
-
         <div class="vr-section-2">
           <div class="container">
             <i class="line-title white"></i>
@@ -61,7 +60,6 @@
               />
               </li>
             </ul>            
-
           </div>          
         </div>  
         <div class="vr-section-5 vr-greylight">
