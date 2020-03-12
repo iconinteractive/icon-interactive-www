@@ -357,7 +357,10 @@
     min-height: 85vh;
   }
   .vr-section-1 h2{
-    text-shadow: 2px 2px var(--color-highlight)
+    text-shadow: 2px 2px var(--color-highlight);
+  }
+  .vr-section-1 p{
+    text-shadow: 2px 2px var(--color-highlight);
   }
   .vr-section-2{
 

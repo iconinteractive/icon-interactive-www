@@ -92,18 +92,15 @@
     padding: 0 3rem;
     display: flex;
   }
-
   .modal-header {
     border-bottom: 1px solid rgba(255,255,255,.3);
     color: white;
     justify-content: space-between;
   }
-
   .modal-footer {
     border-top: 1px solid #eeeeee;
     justify-content: flex-end;
   }
-
   .modal-body {
     position: relative;
     padding: 20px 10px;
