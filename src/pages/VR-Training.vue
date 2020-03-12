@@ -245,7 +245,7 @@
                     Once you’ve worked out any issues and completed an effective pilot program with measurable results, you’re ready to scale theadvantages of a VR training program across your organization.
                   </li>
                 </ul> 
-                <ul class="grid-two2">
+                <ul class="grid-two2 reverse">
                   <li class="bg_pink">
                   <b>4. Measure Results</b><br>
                   Measuring effectiveness is also a critical step. You need to determine which results to measure and how to measure them. This is an important step before scaling, because the last thing you want to do is scale your problems.
@@ -337,6 +337,9 @@ export default {
     padding: 5em 0;
     min-height: 85vh;
   }
+  .vr-section-1 h2{
+    text-shadow: 2px 2px var(--color-highlight)
+  }
   .vr-section-2{
 
     color: rgb(255, 255, 255);
@@ -396,6 +399,7 @@ export default {
     list-style: none;
     padding: 0;
     margin: 0;
+    
   }
   .grid-two2 {
     display: grid;
@@ -404,14 +408,17 @@ export default {
     list-style: none;
     padding: 0;
     margin: 0;
+   
   }    
   .grid-three2 li{
     padding: 2em;
     color: white;
+     background-size: cover;
   }
   .grid-two2 li{
     padding: 1em;
-    color: white;    
+    color: white; 
+    background-size: cover;   
   }
   .line-title{
     height: 8px;
@@ -435,4 +442,33 @@ export default {
   p{
     margin-bottom: 1.3em;
   }
+@media (max-width: 800px) {
+  .grid-two{
+    grid-template-columns: 1fr;
+  }
+  .grid-three{
+    grid-template-columns: 1fr;
+  }  
+  .grid-two2{
+    grid-template-columns: 1fr;
+    
+  }
+  .grid-two2 li{
+    padding: 5em 2em;
+    width: 100%;
+  }
+  .grid-two2.reverse{
+    flex-flow: wrap-reverse;
+    display: flex;
+  }
+  
+  .grid-three2{
+    grid-template-columns: 1fr;
+    
+  } 
+  .grid-three2 li{
+    width: 100%;
+    padding: 5em 2em;
+  } 
+}  
 </style>
