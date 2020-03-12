@@ -64,7 +64,7 @@
 
           </div>          
         </div>  
-        <div class="vr-section-5 vr-white">
+        <div class="vr-section-5 vr-greylight">
           <div class="container">
             <ul class="grid-two">
               <li>
@@ -102,7 +102,7 @@
             </ul>              
           </div>          
         </div>  
-        <div class="vr-section-7 vr-white">
+        <div class="vr-section-7 vr-greylight">
           <div class="container">
             <ul class="grid-two">
               <li>
@@ -141,7 +141,7 @@
             </ul>              
           </div>          
         </div> 
-        <div class="vr-section-9 vr-white">
+        <div class="vr-section-9 vr-greylight">
           <div class="container">
             <i class="line-title bicolor"></i>
             <h2>Skills Suited For VR Training</h2>
@@ -233,7 +233,7 @@
             </ul>            
           </div>          
         </div>
-        <div class="vr-section-13 vr-white">
+        <div class="vr-section-13 vr-greylight">
           <div class="container">
             <i class="line-title bicolor"></i>
             <h2>Next Steps</h2>
@@ -281,10 +281,10 @@
             </ul>
           </div>
         </div>
-        <div class="vr-section-15 vr-white">
+        <div class="vr-section-15 vr-greylight nopadding">
           <div class="container">
             <ul class="grid-two">
-              <li>
+              <li class="padding-inner">
               <i class="line-title bicolor"></i>
               <h2>How We Can Help</h2>
               <h3 class="pink">ICON brings together the best of design and technology to create engaging virtual, augmented and mixed reality experiences.</h3>
@@ -318,6 +318,12 @@ export default {
 </script>
 
 <style scoped>
+  ul{
+    margin: 0;
+  }
+  ul li img{
+    display: block;
+  }
   .pink{
     color: var(--color-highlight);
   }
@@ -353,11 +359,21 @@ export default {
   .vr-section-12{
     padding: 5em 0; 
   }
+  .nopadding{
+    padding: 0!important;
+  }
+  .padding-inner{
+    padding: 5em 0;
+  }
   .vr-white{
     background-color:rgba(255,255,255,1);
     color: rgb(0, 0, 0);
     padding: 5em 0;
-    border-bottom: 10px solid #ddd;  
+  }
+  .vr-greylight{
+    background-color:#fcfcfc;
+    color: rgb(0, 0, 0);
+    padding: 5em 0;    
   }
   .grid-two {
     display: grid;
