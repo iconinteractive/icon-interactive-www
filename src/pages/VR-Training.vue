@@ -1,6 +1,7 @@
 <template>
   <Layout>
       <section>
+        
         <div class="vr-section-1">
           <div class="container">
             <ul class="grid-two">
@@ -296,23 +297,43 @@
               </li>
             </ul>
           </div>          
-        </div>          
-      </section>
-
-
-      <section class="vr-section-11">
-        <div class="container">
-        </div>          
-      </section>      
-
-
+        </div>    
+        <div id="app">
+            <a 
+            href="#contact-us" 
+            class="float-btb" 
+            @click="showModal"
+            >Contact Us</a>
+            <modal
+              v-show="isModalVisible"
+              @close="closeModal"
+            />
+        </div>
+      </section> 
   </Layout>
 </template>
 
 <script>
-export default {
-
-};
+  import modal  from "@/components/Modal.vue";
+  export default {
+    name: 'app',
+    components: {
+      modal,
+    },
+    data () {
+      return {
+        isModalVisible: false,
+      };
+    },
+    methods: {
+      showModal() {
+        this.isModalVisible = true;
+      },
+      closeModal() {
+        this.isModalVisible = false;
+      }
+    },
+  };
 </script>
 
 <style scoped>
@@ -439,6 +460,16 @@ export default {
   }
   p{
     margin-bottom: 1.3em;
+  }
+  .float-btb{
+    position: fixed;
+    padding: 10px 20px;
+    background-color:var(--color-highlight);
+    color: white;
+    top: 40%;
+    right: 0;
+    border:2px solid white;
+    text-decoration: none;
   }
 @media (max-width: 800px) {
   .grid-two{
