@@ -49,8 +49,6 @@ export default {
   },
   methods: {
     onErased(string) {
-      console.log(string, this.digiProd, this.mobileApps);
-
       if (string === this.copyArr[0]) {
         this.digiProd = !this.digiProd;
       }
@@ -83,14 +81,13 @@ export default {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  height: 100%;
-  /* height: 45vmin; */
+  height: 50vh;
   width: 80%;
   text-align: left;
   margin-bottom: 0;
 }
 .hero-title {
-  font-size: 15vmin;
+  font-size: 7rem;
   letter-spacing: 2px;
   font-weight: 700;
   padding: 0;
@@ -98,16 +95,16 @@ export default {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  line-height: 15vmin;
-  border: 1px solid cyan;
-  width: 102%;
-  /* transform: all 200ms ease-out; */
+  line-height: 7.5rem;
+  width: 700px;
+  height: 80%;
+  transform: all 500ms ease-out;
 }
 .hero-title.digi-prod {
-  width: 101%;
+  width: 720px;
 }
 .hero-title.mobile-apps {
-  width: 92%;
+  width: 650px;
 }
 .pink {
   color: var(--color-highlight);
@@ -115,38 +112,40 @@ export default {
   -ms-hyphens: auto;
   hyphens: auto;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .hero {
+    height: 40vh;
     padding-left: 0;
     margin: 2rem 0;
-    width: 100%;
   }
   .hero-title {
-    font-size: 11vmin;
-    line-height: 11vmin;
+    font-size: 5rem;
+    line-height: 5rem;
+    width: 520px;
   }
   .hero-title.digi-prod {
-    width: 78%;
+    width: 97%;
   }
   .hero-title.mobile-apps {
-    width: 70%;
+    width: 88%;
   }
 }
 @media (max-width: 500px) {
   .hero {
+    height: 25vh;
     padding-left: 0;
     margin: 2rem 0;
-    width: 100%;
   }
   .hero-title {
-    font-size: 11vmin;
-    line-height: 11vmin;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 310px;
   }
   .hero-title.digi-prod {
-    width: 90%;
+    width: 315px;
   }
   .hero-title.mobile-apps {
-    width: 80%;
+    width: 295px;
   }
 }
 </style>
