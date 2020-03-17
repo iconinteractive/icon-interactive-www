@@ -81,7 +81,7 @@ export default {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  height: 50vh;
+  height: 45vh;
   width: 80%;
   text-align: left;
   margin-bottom: 0;
@@ -95,7 +95,7 @@ export default {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  line-height: 7.5rem;
+  line-height: 6.75rem;
   width: 700px;
   height: 80%;
   transform: all 500ms ease-out;
