@@ -89,7 +89,7 @@ h2 {
   padding-left: 125px;
   width: 100%;
   height: 20vh;
-  margin: 15vh 0;
+  margin: 13% 0;
 }
 
 .description p {
