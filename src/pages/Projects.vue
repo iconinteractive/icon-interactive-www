@@ -7,7 +7,12 @@
         <span class="pink">{{titles.work_page_project_grid_title}}</span>
       </h1>
       <ProjectsGrid :projects="$page.projects.edges" />
-      <LogoGrid />
+      <LogoGridProjects />
+      <div class="see-more-container">
+        <g-link class="see-more pink" to="/clients">
+          <h3>See More</h3>
+        </g-link>
+      </div>
     </div>
   </Layout>
 </template>
@@ -33,12 +38,12 @@ query Posts {
 
 <script>
 import ProjectsGrid from "@/components/ProjectsGrid";
-import LogoGrid from "@/components/LogoGrid";
+import LogoGridProjects from "@/components/LogoGridProjects";
 
 export default {
   components: {
     ProjectsGrid,
-    LogoGrid
+    LogoGridProjects
   },
   data() {
     return {
@@ -47,5 +52,21 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.see-more-container {
+  display: flex;
+  justify-content: center;
+}
+.see-more {
+  text-decoration: none;
+  font-weight: normal;
+}
+.see-more:hover {
+  text-decoration: underline;
+}
+</style>
+
+
 
 
