@@ -29,6 +29,11 @@ query Posts {
         thumbnail
         path
         display_on_site
+        service_tags {
+          service_tag_one
+          service_tag_two
+          service_tag_three
+        }
       }
     }
   }

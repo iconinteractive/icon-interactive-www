@@ -7,18 +7,31 @@
           <span class="client">{{item.node.client}}</span>
           <h3>{{ item.node.title }}</h3>
         </div>
+        <div class="project-label">
+          <g-link
+            v-for="(tag, index) in item.node.service_tags"
+            :key="index"
+            :to="formatUrl(tag)"
+          >{{ formatServiceName(tag) }}</g-link>
+        </div>
       </g-link>
     </div>
   </div>
 </template>
 
 <script>
+import formatServiceName from "@/components/utility-funcs/formatServiceName.js";
+import formatUrl from "@/components/utility-funcs/formatUrl.js";
 export default {
   props: {
     projects: {
       type: Array,
       required: true
     }
+  },
+  methods: {
+    formatServiceName,
+    formatUrl
   }
 };
 </script>
@@ -42,37 +55,61 @@ export default {
 }
 .thumbnail {
   display: block;
+  position: relative;
+  right: 0;
   box-sizing: border-box;
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: all 0.15s ease;
+  transition: all 1s ease;
 }
 .project-title {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
   bottom: 0rem;
-  left: 1rem;
+  left: 0rem;
   font-size: 1.5rem;
   transition: all 1s ease-in-out;
   padding: 0 0.25rem;
+  width: 35%;
   opacity: 0;
   /* background-color: rgba(0, 0, 0, 0.75);  */
   background-size: auto;
   color: var(--color-contrast-1);
 }
+.project-label {
+  font-family: "DM Sans", helvetica, sans-serif;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  font-size: 1rem;
+  transition: all 1s ease-in-out;
+  padding: 0 0.25rem;
+  display: flex;
+  justify-content: space-around;
+  /* opacity: 0; */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: auto;
+  color: var(--color-contrast-1);
+}
+
 .project-title h3 {
   margin-bottom: 1rem;
-  padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.85);
+  /* padding: 0.5rem; */
+  /* background-color: rgba(0, 0, 0, 0.85); */
 }
 .thumbnail:hover + .project-title {
-  transform: translate3d(5px, -5px, 0px);
   transition: all 1s ease-in-out;
   opacity: 1;
 }
+
+.thumbnail:hover {
+  transform: translateX(-20px);
+  width: 60%;
+  margin-left: 40%;
+}
 .project-title:hover {
-  transform: translate3d(5px, -5px, 0px);
+  /* transform: translate3d(5px, -5px, 0px); */
   transition: all 1s ease-in-out;
   opacity: 1;
 }
