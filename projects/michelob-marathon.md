@@ -1,19 +1,19 @@
 ---
-display_on_site: false
+display_on_site: true
 date: 2020-03-10
 service_tags:
   service_tag_one: web and mobile
   service_tag_two: custom software
   service_tag_three: ''
-display_on_home_page: false
-thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/vr-thumb.jpg
+display_on_home_page: true
+thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/Thumb_Michelob.jpg
 title: Michelob Marathon
 client: Anheuser-Busch InBev SA/NV
 project_url: ''
 introduction: "<p>Michelob Ultra is a global beer brand synonymous with living well.
   As part of their global launch campaign, Michelob Ultra sought to utilize Spotify’s
   streaming intelligence and audience reach to target runners in two key markets,
-  the United Kingdom and Mexico. As a Spotify Global Preferred Partner, Hydric were
+  the United Kingdom and Mexico. As a Spotify Global Preferred Partner, Hydric was
   enlisted to bring this collaboration to life.</p>"
 horizontal_image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/mic-light-banner.jpg
 horiz_image_one_alt: ''

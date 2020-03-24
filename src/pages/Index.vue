@@ -89,7 +89,7 @@ h2 {
   padding-left: 125px;
   width: 100%;
   height: 20vh;
-  margin: 15vh 0;
+  margin: 13% 0;
 }
 
 .description p {
@@ -121,7 +121,7 @@ h2 {
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .start-button {
     justify-self: start;
     margin-top: 2rem;
@@ -137,6 +137,7 @@ h2 {
     grid-gap: 10px;
     padding: 0;
     margin: 8vh 0;
+    font-size: 1.2rem;
   }
   .title {
     font-size: 3rem;
