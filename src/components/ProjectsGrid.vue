@@ -79,8 +79,6 @@ export default {
   width: 50%;
   opacity: 0;
   z-index: -1;
-  /* background-color: rgba(0, 0, 0, 0.75);  */
-  background-size: auto;
   color: var(--color-contrast-1);
 }
 .project-label {
@@ -94,9 +92,9 @@ export default {
 }
 
 .project-label > a {
-  margin-right: 2rem;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.25rem;
+  margin-right: 2rem;
 }
 
 .project-title h3 {
