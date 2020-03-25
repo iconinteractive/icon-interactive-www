@@ -9,8 +9,7 @@
         </div>
         <div class="project-label">
           <g-link
-            v-for="(tag, index) in item.node.service_tags"
-            v-if="tag"
+            v-for="(tag, index) in tagFilter(item.node.service_tags)"
             :key="index"
             :to="formatUrl(tag)"
           >{{ formatServiceName(tag) }}</g-link>
@@ -32,7 +31,10 @@ export default {
   },
   methods: {
     formatServiceName,
-    formatUrl
+    formatUrl,
+    tagFilter(tags) {
+      return Object.values(tags).filter(tag => tag);
+    }
   }
 };
 </script>
