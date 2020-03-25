@@ -9,7 +9,7 @@
       <ProjectsGrid :projects="$page.projects.edges" />
       <LogoGridProjects />
       <div class="see-more-container">
-        <g-link class="see-more pink" to="/clients">
+        <g-link class="see-more" to="/clients">
           <h3>See More</h3>
         </g-link>
       </div>
@@ -62,10 +62,11 @@ export default {
 .see-more-container {
   display: flex;
   justify-content: center;
+  padding: 68px 0 250px;
 }
 .see-more {
-  text-decoration: none;
   font-weight: normal;
+  color: #fff;
 }
 .see-more:hover {
   text-decoration: underline;

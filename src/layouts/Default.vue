@@ -95,7 +95,7 @@ h6 {
 }
 a {
   text-decoration: underline;
-  color: inherit;
+  color: #fff;
   transition: all 500ms ease-in-out;
 }
 a:hover {

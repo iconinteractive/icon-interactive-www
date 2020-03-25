@@ -145,8 +145,6 @@ li {
 }
 li:hover {
   transition: all 500ms ease-in-out;
-  border-left: 1px solid var(--color-highlight);
-  border-top: 1px solid transparent;
   text-decoration: underline;
 }
 h2 {
@@ -215,7 +213,11 @@ li a {
   transition: all 500ms ease-in;
 }
 li a:hover {
+  text-decoration: underline;
   transition: all 500ms ease-in;
+}
+li a > p {
+  text-decoration: none;
 }
 .services p {
   font-size: 1.2rem;

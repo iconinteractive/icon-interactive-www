@@ -146,7 +146,6 @@ h3 {
   transition: all 1s ease-in-out;
 }
 h3:hover {
-  color: var(--color-contrast);
   transition: all 1s ease-in-out;
   text-decoration: underline;
 }

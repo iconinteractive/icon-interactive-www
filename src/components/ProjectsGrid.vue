@@ -10,6 +10,7 @@
         <div class="project-label">
           <g-link
             v-for="(tag, index) in item.node.service_tags"
+            v-if="tag"
             :key="index"
             :to="formatUrl(tag)"
           >{{ formatServiceName(tag) }}</g-link>
@@ -48,6 +49,8 @@ export default {
 }
 .project {
   position: relative;
+  height: 100%;
+  width: 100%;
   z-index: 0;
 }
 .project-link {
@@ -58,21 +61,22 @@ export default {
   position: relative;
   right: 0;
   box-sizing: border-box;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: all 1s ease;
+  transition: all 1s ease-out;
 }
 .project-title {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
-  bottom: 0rem;
+  top: 10%;
   left: 0rem;
   font-size: 1.5rem;
   transition: all 1s ease-in-out;
   padding: 0 0.25rem;
-  width: 35%;
+  width: 50%;
   opacity: 0;
+  z-index: -1;
   /* background-color: rgba(0, 0, 0, 0.75);  */
   background-size: auto;
   color: var(--color-contrast-1);
@@ -80,51 +84,50 @@ export default {
 .project-label {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
-  bottom: 0rem;
-  left: 0rem;
+  bottom: 5%;
+  left: 2%;
   font-size: 1rem;
   transition: all 1s ease-in-out;
-  padding: 0 0.25rem;
-  display: flex;
-  justify-content: space-around;
-  /* opacity: 0; */
-  background-color: rgba(0, 0, 0, 0.5);
-  background-size: auto;
   color: var(--color-contrast-1);
+}
+
+.project-label > a {
+  margin-right: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.25rem;
 }
 
 .project-title h3 {
   margin-bottom: 1rem;
-  /* padding: 0.5rem; */
-  /* background-color: rgba(0, 0, 0, 0.85); */
 }
-.thumbnail:hover + .project-title {
+.project:hover .project-title {
   transition: all 1s ease-in-out;
   opacity: 1;
 }
 
-.thumbnail:hover {
-  transform: translateX(-20px);
-  width: 60%;
-  margin-left: 40%;
+.project:hover .thumbnail {
+  height: 100%;
+  width: 40%;
+  margin-left: 60%;
+}
+.project:hover .thumbnail {
+  width: 40%;
+  margin-left: 60%;
 }
 .project-title:hover {
-  /* transform: translate3d(5px, -5px, 0px); */
-  transition: all 1s ease-in-out;
+  transition: all 500ms ease-in-out;
   opacity: 1;
 }
 
 .client {
   font-size: 1.2rem;
-  padding: 0.5rem;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.75);
-  /* border-bottom: 1px solid var(--color-highlight); */
   color: var(--color-highlight);
 }
 
 .categories {
   font-size: 0.8rem;
+  padding: 0.5rem;
   color: var(--color-contrast-1);
 }
 .category {
