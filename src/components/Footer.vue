@@ -99,6 +99,7 @@ export default {
 };
 </script>
 
+
 <style scoped>
 .footer {
   font-size: 1rem;
