@@ -1,20 +1,20 @@
 <template>
   <div class="projects" :class="{threeColumn: $route.path === '/projects'}">
     <div class="project" v-for="item in projects" :key="item.node.id">
-      <g-link :to="item.node.path" class="project-link">
+      <a :href="item.node.path" class="project-link">
         <g-image :src="item.node.thumbnail" :alt="item.node.title" class="thumbnail" />
         <div class="project-title">
           <span class="client">{{item.node.client}}</span>
           <h3>{{ item.node.title }}</h3>
         </div>
         <div class="project-label">
-          <g-link
+          <a
             v-for="(tag, index) in tagFilter(item.node.service_tags)"
             :key="index"
-            :to="formatUrl(tag)"
-          >{{ formatServiceName(tag) }}</g-link>
+            :href="formatUrl(tag)"
+          >{{ formatServiceName(tag) }}</a>
         </div>
-      </g-link>
+      </a>
     </div>
   </div>
 </template>
@@ -95,6 +95,7 @@ export default {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.25rem;
   margin-right: 2rem;
+  z-index: 1;
 }
 
 .project-title h3 {
