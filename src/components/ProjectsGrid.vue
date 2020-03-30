@@ -75,7 +75,6 @@ export default {
   position: absolute;
   top: 10%;
   left: 0rem;
-  font-size: 1.2rem;
   transition: all 500ms ease;
   padding: 0;
   width: 60%;
@@ -83,6 +82,7 @@ export default {
   z-index: -1;
   color: var(--color-contrast-1);
 }
+
 .project-label {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
@@ -93,6 +93,7 @@ export default {
   background: transparent;
   display: flex;
   flex-direction: column;
+  transition: all 500ms ease;
 }
 
 .category-wrap {
@@ -105,15 +106,20 @@ export default {
 }
 
 .category-wrap a {
+  transition: all 500ms ease;
   text-decoration: none;
 }
 .category-wrap a:hover {
+  transition: all 500ms ease;
   text-decoration: underline;
 }
 
 .project-title h3 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
+}
+.threeColumn .project-title h3 {
+  font-size: 1.7rem;
 }
 .project:hover .project-title {
   transition: all 500ms ease;
@@ -123,17 +129,29 @@ export default {
 .project:hover .project-label {
   transition: all 500ms ease;
   bottom: 8px;
-  left: 8px;
 }
 
-.project:hover .thumbnail {
+.threeColumn .project:hover .thumbnail {
   transition: all 500ms ease;
   width: 30%;
   margin-left: 70%;
 }
+
+.project:hover .thumbnail {
+  transition: all 500ms ease;
+  width: 40%;
+  margin-left: 60%;
+}
 .project-title:hover {
   transition: all 500ms ease;
   opacity: 1;
+}
+
+.project:hover .category-wrap a {
+  transition: all 500ms ease;
+}
+.project .category-wrap a {
+  transition: all 500ms ease;
 }
 
 .client {
@@ -142,7 +160,7 @@ export default {
   color: var(--color-highlight);
 }
 
-.categories {
+/* .categories {
   transition: all 500ms ease;
   font-size: 0.8rem;
   padding: 0.5rem 8px;
@@ -153,7 +171,7 @@ export default {
 }
 .category:last-of-type {
   margin: 0;
-}
+} */
 
 @media (max-width: 800px) {
   .thumbnail {
