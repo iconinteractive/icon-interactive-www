@@ -8,11 +8,13 @@
           <h3>{{ item.node.title }}</h3>
         </div>
         <div class="project-label">
-          <a
+          <div
+            class="category-wrap"
             v-for="(tag, index) in tagFilter(item.node.service_tags)"
             :key="index"
-            :href="formatUrl(tag)"
-          >{{ formatServiceName(tag) }}</a>
+          >
+            <a :href="formatUrl(tag)">{{ formatServiceName(tag) }}</a>
+          </div>
         </div>
       </a>
     </div>
@@ -66,17 +68,17 @@ export default {
   min-height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: all 1s ease-out;
+  transition: all 500ms ease;
 }
 .project-title {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
   top: 10%;
   left: 0rem;
-  font-size: 1.5rem;
-  transition: all 1s ease-in-out;
-  padding: 0 0.25rem;
-  width: 50%;
+  font-size: 1.2rem;
+  transition: all 500ms ease;
+  padding: 0;
+  width: 60%;
   opacity: 0;
   z-index: -1;
   color: var(--color-contrast-1);
@@ -84,51 +86,66 @@ export default {
 .project-label {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
-  bottom: 5%;
-  left: 2%;
+  bottom: 0;
+  left: 0;
   font-size: 1rem;
-  transition: all 1s ease-in-out;
   color: var(--color-contrast-1);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
 }
 
-.project-label > a {
+.category-wrap {
+  transition: all 500ms ease;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0.25rem;
-  margin-right: 2rem;
+  padding: 0.25rem 8px;
   z-index: 1;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.category-wrap a {
+  text-decoration: none;
+}
+.category-wrap a:hover {
+  text-decoration: underline;
 }
 
 .project-title h3 {
+  font-size: 2.2rem;
   margin-bottom: 1rem;
 }
 .project:hover .project-title {
-  transition: all 1s ease-in-out;
+  transition: all 500ms ease;
   opacity: 1;
+  left: 8px;
+}
+.project:hover .project-label {
+  transition: all 500ms ease;
+  bottom: 8px;
+  left: 8px;
 }
 
 .project:hover .thumbnail {
-  height: 100%;
-  width: 40%;
-  margin-left: 60%;
-}
-.project:hover .thumbnail {
-  width: 40%;
-  margin-left: 60%;
+  transition: all 500ms ease;
+  width: 30%;
+  margin-left: 70%;
 }
 .project-title:hover {
-  transition: all 500ms ease-in-out;
+  transition: all 500ms ease;
   opacity: 1;
 }
 
 .client {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0;
   color: var(--color-highlight);
 }
 
 .categories {
+  transition: all 500ms ease;
   font-size: 0.8rem;
-  padding: 0.5rem;
+  padding: 0.5rem 8px;
   color: var(--color-contrast-1);
 }
 .category {

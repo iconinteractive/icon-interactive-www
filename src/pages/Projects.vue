@@ -70,6 +70,7 @@ export default {
 }
 .see-more:hover {
   text-decoration: underline;
+  color: var(--color-highlight);
 }
 </style>
 
