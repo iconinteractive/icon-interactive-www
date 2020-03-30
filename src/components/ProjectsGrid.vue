@@ -179,7 +179,7 @@ export default {
   margin: 0;
 } */
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .thumbnail {
     height: 250px;
   }
