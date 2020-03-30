@@ -99,7 +99,7 @@ export default {
 .category-wrap {
   transition: all 500ms ease;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0.25rem 8px;
+  padding: 5px 8px;
   z-index: 1;
   text-decoration: none;
   width: fit-content;
@@ -124,17 +124,22 @@ export default {
 .project:hover .project-title {
   transition: all 500ms ease;
   opacity: 1;
-  left: 8px;
+  left: 16px;
 }
 .project:hover .project-label {
   transition: all 500ms ease;
   bottom: 8px;
+  left: 8px;
 }
 
 .threeColumn .project:hover .thumbnail {
   transition: all 500ms ease;
   width: 30%;
   margin-left: 70%;
+}
+
+.threeColumn .project-title {
+  width: 65%;
 }
 
 .project:hover .thumbnail {
