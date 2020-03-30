@@ -73,7 +73,7 @@ export default {
 .project-title {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 0rem;
   transition: all 500ms ease;
   padding: 0;
@@ -119,7 +119,7 @@ export default {
   margin-bottom: 1rem;
 }
 .threeColumn .project-title h3 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .project:hover .project-title {
   transition: all 500ms ease;
@@ -140,6 +140,7 @@ export default {
 
 .threeColumn .project-title {
   width: 65%;
+  top: 0%;
 }
 
 .project:hover .thumbnail {
