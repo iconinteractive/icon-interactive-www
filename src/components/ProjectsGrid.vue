@@ -145,8 +145,8 @@ export default {
 
 .project:hover .thumbnail {
   transition: all 500ms ease;
-  width: 39%;
-  margin-left: 61%;
+  width: 37%;
+  margin-left: 63%;
 }
 .project-title:hover {
   transition: all 500ms ease;
