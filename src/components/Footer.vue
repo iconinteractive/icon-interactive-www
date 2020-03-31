@@ -71,9 +71,8 @@
           >
             <h3 class="city">Brisbane</h3>
             <p class="address">
-              Brisbane City 
-              <br />
-              QLD 4101
+              Brisbane City
+              <br />QLD 4101
               <br />Australia
             </p>
           </a>
@@ -148,6 +147,7 @@ h3 {
 h3:hover {
   transition: all 1s ease-in-out;
   text-decoration: underline;
+  color: var(--color-highlight);
 }
 .address {
   opacity: 0;

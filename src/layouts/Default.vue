@@ -94,11 +94,12 @@ h6 {
   opacity: 0;
 }
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #fff;
   transition: all 500ms ease-in-out;
 }
 a:hover {
+  text-decoration: underline;
   transition: all 500ms ease-in-out;
   color: var(--color-highlight);
 }

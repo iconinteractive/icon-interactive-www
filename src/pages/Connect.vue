@@ -164,7 +164,7 @@ input[type="submit"].button {
   font-size: 500;
   letter-spacing: 0.035em;
 }
-.button:hover {
+input[type="submit"].button:hover {
   background: var(--color-highlight);
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;

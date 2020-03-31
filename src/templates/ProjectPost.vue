@@ -64,13 +64,15 @@
 
         <div v-if="this.mobileCheck && $page.post.facebook_360_mobile.link" class="content">
           <a :href="$page.post.facebook_360_mobile.link">
-            <g-image :src="$page.post.facebook_360_mobile.mobile_image" 
-            class="mobile-img"
-            alt="facebook 360 image" />
+            <g-image
+              :src="$page.post.facebook_360_mobile.mobile_image"
+              class="mobile-img"
+              alt="facebook 360 image"
+            />
           </a>
         </div>
         <div v-else v-html="$page.post.content" class="content" />
-        
+
         <g-image
           v-if="$page.post.horizontal_image_two"
           :src="$page.post.horizontal_image_two"
@@ -187,20 +189,22 @@ export default {
   },
   data() {
     return {
-      mobileCheck: false,
-    }
+      mobileCheck: false
+    };
   },
   methods: {
     formatServiceName,
     formatUrl,
     isMobile() {
       if (process.isClient) {
-      this.mobileCheck = (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        this.mobileCheck =
+          typeof window.orientation !== "undefined" ||
+          navigator.userAgent.indexOf("IEMobile") !== -1;
       }
     }
   },
-  created(){
-    this.isMobile()
+  created() {
+    this.isMobile();
   }
 };
 </script>
@@ -302,9 +306,6 @@ blockquote p {
 }
 .title {
   line-height: 3rem;
-}
-.tag {
-  text-decoration: underline;
 }
 
 @media (max-width: 800px) {

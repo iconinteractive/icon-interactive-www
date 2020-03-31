@@ -66,7 +66,6 @@ export default {
   right: 0;
   box-sizing: border-box;
   min-height: 100%;
-  /* height: 300px; */
   width: 100%;
   object-fit: cover;
   transition: all 500ms ease;
@@ -141,7 +140,7 @@ export default {
 
 .threeColumn .project-title {
   width: 65%;
-  top: 0%;
+  top: 10%;
 }
 
 .project:hover .thumbnail {
@@ -167,7 +166,13 @@ export default {
   color: var(--color-highlight);
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1400px) {
+  .threeColumn {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+@media (max-width: 1200px) {
   .thumbnail {
     opacity: 0.5;
     height: 250px;
@@ -176,9 +181,19 @@ export default {
     background-color: transparent;
   }
   .project-title {
+    margin-top: 1%;
     opacity: 1;
     left: 8px;
     z-index: 2;
+    width: 80%;
+  }
+  .threeColumn .project:hover .thumbnail {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .threeColumn .project-title {
+    width: 65%;
+    top: 0%;
   }
   .project-title h3 {
     font-size: 1.75rem;
