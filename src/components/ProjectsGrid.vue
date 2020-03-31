@@ -66,6 +66,7 @@ export default {
   right: 0;
   box-sizing: border-box;
   min-height: 100%;
+  /* height: 300px; */
   width: 100%;
   object-fit: cover;
   transition: all 500ms ease;
@@ -74,7 +75,7 @@ export default {
   font-family: "DM Sans", helvetica, sans-serif;
   position: absolute;
   top: 12%;
-  left: 0rem;
+  left: 0;
   transition: all 500ms ease;
   padding: 0;
   width: 60%;
@@ -166,22 +167,36 @@ export default {
   color: var(--color-highlight);
 }
 
-/* .categories {
-  transition: all 500ms ease;
-  font-size: 0.8rem;
-  padding: 0.5rem 8px;
-  color: var(--color-contrast-1);
-}
-.category {
-  margin-right: 0.8rem;
-}
-.category:last-of-type {
-  margin: 0;
-} */
-
 @media (max-width: 1000px) {
   .thumbnail {
+    opacity: 0.5;
     height: 250px;
+  }
+  .category-wrap {
+    background-color: transparent;
+  }
+  .project-title {
+    opacity: 1;
+    left: 8px;
+    z-index: 2;
+  }
+  .project-title h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  .project .project-title {
+    transition: all 500ms ease;
+    opacity: 1;
+    left: 16px;
+  }
+  .project .project-label {
+    transition: all 500ms ease;
+    bottom: 8px;
+    left: 8px;
+  }
+  .project:hover .thumbnail {
+    width: 100%;
+    margin-left: 0%;
   }
   .projects {
     grid-template-columns: 1fr;
