@@ -143,10 +143,10 @@ export default {
     width: 310px;
   }
   .hero-title.digi-prod {
-    width: 300px;
+    width: 305px;
   }
   .hero-title.mobile-apps {
-    width: 280px;
+    width: 285px;
   }
 }
 </style>
