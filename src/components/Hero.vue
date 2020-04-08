@@ -137,13 +137,12 @@ export default {
     margin: 1rem 0 3rem;
   }
   .hero-title {
-    border: 1px solid cyan;
     font-size: 43px;
     line-height: 43px;
     width: 310px;
   }
   .hero-title.digi-prod {
-    width: 300px;
+    width: 302px;
   }
   .hero-title.mobile-apps {
     width: 275px;
