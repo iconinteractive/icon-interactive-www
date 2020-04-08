@@ -177,6 +177,9 @@ export default {
     opacity: 0.5;
     height: 250px;
   }
+  .client {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
   .category-wrap {
     background-color: transparent;
   }
