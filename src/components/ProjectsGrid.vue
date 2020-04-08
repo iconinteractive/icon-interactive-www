@@ -216,6 +216,9 @@ export default {
   .projects {
     grid-template-columns: 1fr;
   }
+  .project {
+    max-height: 300px;
+  }
   .threeColumn {
     grid-template-columns: 1fr;
   }
