@@ -96,6 +96,9 @@ export default {
     position: relative;
     margin-bottom: 0;
   }
+  .nav > * {
+    font-size: 1rem;
+  }
   .nav {
     flex-direction: column;
     justify-items: right;

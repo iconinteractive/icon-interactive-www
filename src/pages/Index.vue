@@ -129,7 +129,7 @@ h2 {
 @media (max-width: 900px) {
   .start-button {
     justify-self: start;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     padding: 0rem;
   }
   .start-button:hover {
