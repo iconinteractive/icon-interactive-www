@@ -129,7 +129,7 @@ h2 {
 @media (max-width: 900px) {
   .start-button {
     justify-self: start;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     padding: 0rem;
   }
   .start-button:hover {
@@ -141,7 +141,7 @@ h2 {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     padding: 0;
-    margin: 8vh 0;
+    margin: 14% 0;
     font-size: 1.2rem;
   }
   .title {

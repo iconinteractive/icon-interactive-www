@@ -2,11 +2,7 @@
   <header class="header">
     <div class="container">
       <g-link :to="{ name: 'home' }" class="home-link">
-        <img
-          src="../../static/icon-logo.svg"
-          :alt="settings.site_name"
-          class="logo"
-        />
+        <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />
       </g-link>
       <nav class="nav">
         <g-link class="nav__link" to="/projects">Work</g-link>
@@ -98,6 +94,10 @@ export default {
 @media (max-width: 800px) {
   .header {
     position: relative;
+    margin-bottom: 0;
+  }
+  .nav > * {
+    font-size: 1rem;
   }
   .nav {
     flex-direction: column;

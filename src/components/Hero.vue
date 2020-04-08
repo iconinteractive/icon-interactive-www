@@ -132,20 +132,20 @@ export default {
 }
 @media (max-width: 500px) {
   .hero {
-    height: 25vh;
+    height: 22vh;
     padding-left: 0;
-    margin: 2rem 0;
+    margin: 1rem 0 3rem;
   }
   .hero-title {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 43px;
+    line-height: 43px;
     width: 310px;
   }
   .hero-title.digi-prod {
-    width: 315px;
+    width: 302px;
   }
   .hero-title.mobile-apps {
-    width: 295px;
+    width: 275px;
   }
 }
 </style>

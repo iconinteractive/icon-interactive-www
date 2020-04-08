@@ -177,11 +177,15 @@ export default {
     opacity: 0.5;
     height: 250px;
   }
+  .client {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
   .category-wrap {
     background-color: transparent;
   }
   .project-title {
-    margin-top: 1%;
+    top: 10%;
+    margin-top: 0%;
     opacity: 1;
     left: 8px;
     z-index: 2;
@@ -215,6 +219,9 @@ export default {
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+  .project {
+    max-height: 300px;
   }
   .threeColumn {
     grid-template-columns: 1fr;
