@@ -184,7 +184,8 @@ export default {
     background-color: transparent;
   }
   .project-title {
-    margin-top: 1%;
+    top: 10%;
+    margin-top: 0%;
     opacity: 1;
     left: 8px;
     z-index: 2;
