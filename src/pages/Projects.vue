@@ -62,7 +62,7 @@ export default {
 .see-more-container {
   display: flex;
   justify-content: center;
-  padding: 68px 0 250px;
+  padding: 68px 0 100px;
 }
 .see-more {
   font-weight: normal;
