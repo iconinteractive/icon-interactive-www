@@ -27,7 +27,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  grid-gap: 2rem;
+  grid-gap: 3rem;
   margin-top: 7rem;
 }
 .grid img {
@@ -50,9 +50,10 @@ export default {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
   }
   .grid img {
     max-height: 80px;
