@@ -21,12 +21,12 @@ export default {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  grid-gap: 2rem;
+  grid-gap: 4rem;
   margin-top: 7rem;
 }
 .grid img {
-  max-height: 100px;
-  max-width: 180px;
+  max-height: 80px;
+  max-width: 120px;
   object-fit: contain;
 }
 .logo-wrap {
@@ -38,15 +38,21 @@ export default {
   height: 80px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+  .grid img {
+    max-height: 80px;
+    max-width: 160px;
+    object-fit: contain;
   }
 }
 </style>

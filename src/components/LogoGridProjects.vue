@@ -27,12 +27,12 @@ export default {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  grid-gap: 3rem;
+  grid-gap: 4rem;
   margin-top: 7rem;
 }
 .grid img {
-  max-height: 100px;
-  max-width: 180px;
+  max-height: 80px;
+  max-width: 120px;
   object-fit: contain;
 }
 .logo-wrap {
