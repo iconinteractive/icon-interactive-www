@@ -25,16 +25,23 @@ export default {
   margin-top: 7rem;
 }
 .grid img {
-  max-height: 120px;
-  max-width: 120px;
+  max-height: 100px;
+  max-width: 180px;
   object-fit: contain;
 }
 .logo-wrap {
   display: flex;
   align-self: center;
+  justify-content: center;
 }
 .mini-logo {
   height: 80px;
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 800px) {
