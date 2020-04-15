@@ -15,8 +15,8 @@ export default {
   },
   computed: {
     smallGrid() {
-      // return this.logoGrid.logo_grid_images.slice(0, 8);
-      return this.logoGrid.logo_grid_images;
+      return this.logoGrid.logo_grid_images.slice(0, 12);
+      // return this.logoGrid.logo_grid_images;
     }
   }
 };
