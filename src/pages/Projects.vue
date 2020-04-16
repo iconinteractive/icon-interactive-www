@@ -9,7 +9,7 @@
       <ProjectsGrid :projects="$page.projects.edges" />
       <LogoGridProjects />
       <div class="see-more-container">
-        <g-link class="see-more" to="/clients">
+        <g-link class="see-more" to="/clients/">
           <h3>See More</h3>
         </g-link>
       </div>
