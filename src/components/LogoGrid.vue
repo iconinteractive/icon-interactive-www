@@ -1,6 +1,6 @@
 <template>
   <section class="grid">
-    <div class="logo-wrap" v-for="(imageUrl, idx) in logoGrid.logo_grid_images" :key="idx">
+    <div class="logo-wrap" v-for="(imageUrl, idx) in computedGrid" :key="idx">
       <g-image :src="imageUrl" alt="client logo" />
     </div>
   </section>
@@ -12,6 +12,15 @@ export default {
     return {
       logoGrid: require("../../data/logo-grid.json")
     };
+  },
+  computed: {
+    computedGrid() {
+      if (this.$route.path !== "/clients") {
+        return this.logoGrid.logo_grid_images.slice(0, 12);
+      } else {
+        return this.logoGrid.logo_grid_images;
+      }
+    }
   }
 };
 </script>
@@ -32,27 +41,28 @@ export default {
 }
 .grid div:nth-child(1) img {
   max-height: 28px;
-  object-fit: contain;
 }
 .grid div:nth-child(3) img {
   max-width: 160px;
   object-fit: contain;
 }
+.grid div:nth-child(4) img {
+  max-width: 110px;
+}
 .grid div:nth-child(9) img {
   max-height: 50px;
-  object-fit: contain;
 }
 .grid div:nth-child(13) img {
   height: 50px;
-  object-fit: contain;
 }
 .grid div:nth-child(14) img {
   max-width: 190px;
-  object-fit: contain;
+}
+.grid div:nth-child(22) img {
+  max-height: 80px;
 }
 .grid div:nth-child(24) img {
   max-height: 80px;
-  object-fit: contain;
 }
 
 .logo-wrap {

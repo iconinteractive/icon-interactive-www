@@ -7,7 +7,7 @@
         <span class="pink">{{titles.work_page_project_grid_title}}</span>
       </h1>
       <ProjectsGrid :projects="$page.projects.edges" />
-      <LogoGridProjects />
+      <LogoGrid />
       <div class="see-more-container">
         <a class="see-more" href="/clients">
           <h3>See More</h3>
@@ -43,12 +43,12 @@ query Posts {
 
 <script>
 import ProjectsGrid from "@/components/ProjectsGrid";
-import LogoGridProjects from "@/components/LogoGridProjects";
+import LogoGrid from "@/components/LogoGrid";
 
 export default {
   components: {
     ProjectsGrid,
-    LogoGridProjects
+    LogoGrid
   },
   data() {
     return {
