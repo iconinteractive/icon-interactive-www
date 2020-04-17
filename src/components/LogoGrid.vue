@@ -15,10 +15,10 @@ export default {
   },
   computed: {
     computedGrid() {
-      if (this.$route.path !== "/clients") {
-        return this.logoGrid.logo_grid_images.slice(0, 12);
-      } else {
+      if (this.$route.path === "/clients" || this.$route.path === "/clients/") {
         return this.logoGrid.logo_grid_images;
+      } else {
+        return this.logoGrid.logo_grid_images.slice(0, 12);
       }
     }
   }
