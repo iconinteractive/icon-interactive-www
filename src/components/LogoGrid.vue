@@ -20,15 +20,41 @@ export default {
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 70px;
   justify-items: center;
   grid-gap: 4rem;
   margin-top: 7rem;
 }
 .grid img {
-  max-height: 80px;
-  max-width: 120px;
+  max-height: 65px;
+  max-width: 130px;
   object-fit: contain;
 }
+.grid div:nth-child(1) img {
+  max-height: 28px;
+  object-fit: contain;
+}
+.grid div:nth-child(3) img {
+  max-width: 160px;
+  object-fit: contain;
+}
+.grid div:nth-child(9) img {
+  max-height: 50px;
+  object-fit: contain;
+}
+.grid div:nth-child(13) img {
+  height: 50px;
+  object-fit: contain;
+}
+.grid div:nth-child(14) img {
+  max-width: 190px;
+  object-fit: contain;
+}
+.grid div:nth-child(24) img {
+  max-height: 80px;
+  object-fit: contain;
+}
+
 .logo-wrap {
   display: flex;
   align-self: center;
