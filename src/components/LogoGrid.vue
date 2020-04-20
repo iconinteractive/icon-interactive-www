@@ -104,10 +104,11 @@ export default {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
   }
-  .grid img {
-    max-height: 80px;
-    max-width: 160px;
-    object-fit: contain;
+}
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
   }
 }
 </style>
