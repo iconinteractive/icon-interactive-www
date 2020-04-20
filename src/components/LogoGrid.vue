@@ -39,28 +39,47 @@ export default {
   max-width: 130px;
   object-fit: contain;
 }
+/* amgen */
 .grid div:nth-child(1) img {
   max-height: 28px;
 }
+/* aptiv */
 .grid div:nth-child(3) img {
   max-width: 160px;
-  object-fit: contain;
 }
+/* audi*/
 .grid div:nth-child(4) img {
   max-width: 110px;
 }
+/* gatorade */
 .grid div:nth-child(9) img {
   max-height: 50px;
 }
+/* jlo */
+.grid div:nth-child(11) img {
+  max-height: 58px;
+}
+/* mtv */
 .grid div:nth-child(13) img {
   height: 50px;
 }
+/* nw mutual */
 .grid div:nth-child(14) img {
   max-width: 190px;
 }
+/* pem museum */
+.grid div:nth-child(17) img {
+  max-width: 114px;
+}
+/* toyota */
 .grid div:nth-child(22) img {
   max-height: 80px;
 }
+/* village green */
+.grid div:nth-child(23) img {
+  max-width: 145px;
+}
+/* univ of michigan */
 .grid div:nth-child(24) img {
   max-height: 80px;
 }
