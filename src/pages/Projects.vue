@@ -7,6 +7,7 @@
         <span class="pink">{{titles.work_page_project_grid_title}}</span>
       </h1>
       <ProjectsGrid :projects="$page.projects.edges" />
+      <div class="fill" />
       <LogoGrid />
       <div class="see-more-container">
         <a class="see-more" href="/clients">
@@ -71,6 +72,10 @@ export default {
 .see-more:hover {
   text-decoration: underline;
   color: var(--color-highlight);
+}
+.fill {
+  height: 6rem;
+  width: 100%;
 }
 </style>
 
