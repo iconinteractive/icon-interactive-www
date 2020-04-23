@@ -1,9 +1,5 @@
 <template>
-  <nav class="mobile-nav-wrap" :class="{ active: menuOn }">
-    <!-- <section class="mobile-x">
-      <hr />
-      <hr />
-    </section>-->
+  <nav class="mobile-nav-wrap" :class="{ active: menuOn }" v-cloak>
     <section class="menu">
       <g-link class="nav__link" to="/projects">Work</g-link>
       <g-link class="nav__link" to="/capabilities">Capabilities</g-link>
@@ -35,9 +31,9 @@ export default {
   right: 0;
   background-color: var(--color-highlight);
   width: 75%;
-  height: 100vh;
+  height: 120vh;
   margin: 0;
-  opacity: 0;
+  z-index: -100;
 }
 .menu {
   display: flex;
@@ -60,6 +56,8 @@ export default {
 }
 .active {
   transform: translateX(0);
-  opacity: 1;
+}
+[v-cloak] {
+  display: none;
 }
 </style>
