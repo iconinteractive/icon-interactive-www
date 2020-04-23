@@ -82,6 +82,7 @@ export default {
 }
 .logo {
   height: 50px;
+  width: auto;
   fill: white;
   transition: all 1s ease-in-out;
 }
@@ -145,26 +146,25 @@ export default {
     display: block;
     transform: all 500ms ease-in-out;
   }
-  .mobile hr {
-    border: 1px solid white;
-    transition: all 500ms ease-in-out;
-  }
-  .mobile-burger.mobile-x {
-    color: white;
-    margin-left: 80%;
-    transition: all 500ms ease-in-out;
+  .mobile-burger hr {
+    transition: all 500ms ease;
   }
   .mobile-x hr:first-child {
-    top: 0;
     border: 1px solid white;
     transform: rotate(45deg);
-    transition: all 500ms ease-in-out;
   }
   .mobile-x hr:nth-child(2) {
     transform: rotate(-45deg);
     border: 1px solid white;
-    transform-origin: 1px -5px;
-    transition: all 500ms ease-in-out;
+    margin-bottom: 20px;
+    position: relative;
+    top: -12px;
+  }
+  .mobile-burger.mobile-x {
+    position: fixed;
+    right: 30px;
+    color: white;
+    margin-left: 80%;
   }
 }
 </style>
