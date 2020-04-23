@@ -37,6 +37,7 @@ export default {
   width: 75%;
   height: 100vh;
   margin: 0;
+  opacity: 0;
 }
 .menu {
   display: flex;
@@ -59,5 +60,6 @@ export default {
 }
 .active {
   transform: translateX(0);
+  opacity: 1;
 }
 </style>
