@@ -96,11 +96,11 @@ h6 {
 a {
   text-decoration: none;
   color: #fff;
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 a:hover {
   text-decoration: underline;
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
   color: var(--color-highlight);
 }
 img {

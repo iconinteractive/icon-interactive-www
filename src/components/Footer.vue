@@ -3,9 +3,7 @@
     <div class="container">
       <section class="connect-row">
         <img src="../../static/icon-logo.svg" alt="icon logo" class="logo" />
-        <g-link to="/connect" :class="{ hide: this.$route.path.includes('/connect') }">
-          <h3 class="connect">Let's connect</h3>
-        </g-link>
+        <h3 class="connect">Let's connect</h3>
       </section>
       <section class="connect-wrap">
         <ul :class="{ hide: this.$route.path.includes('/about') }">
@@ -66,21 +64,21 @@ export default {
 .container {
   display: flex;
   justify-content: space-between;
-  padding-top: 5rem;
+  padding-top: 3rem;
   border-top: 1px solid rgba(53, 53, 53, 0.7);
 }
-.connect:hover {
-  color: var(--color-highlight);
-  transition: all 1s ease-in;
-  text-decoration: underline;
-}
-.city {
+a .city {
   margin: 0;
+  font-size: 1.2rem;
+  transition: all 300ms ease-in-out;
+}
+a .city:hover {
+  color: var(--color-highlight);
+  transition: all 300ms ease-in-out;
 }
 .logo {
   height: 40px;
   fill: white;
-  transition: all 1s ease-in-out;
 }
 ul {
   display: flex;
@@ -97,33 +95,12 @@ li {
 li:last-of-type {
   margin-right: 0;
 }
-h3 {
-  font-size: 1.2rem;
-  color: var(--color-contrast);
-  transition: all 1s ease-in-out;
-}
-h3:hover {
-  transition: all 1s ease-in-out;
-  text-decoration: underline;
-  color: var(--color-highlight);
-}
-.address {
-  opacity: 0;
-  transition: all 1s ease-in-out;
-  color: var(--color-highlight);
-  text-align: left;
-  margin: 0 auto;
-}
-.city:hover + .address {
-  opacity: 1;
-  transition: all 1s ease-in-out;
-}
 .footer-text {
   font-weight: normal;
   margin: 0;
 }
 .copyright {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin-top: 0.5rem;
   text-align: right;
 }
@@ -137,6 +114,13 @@ h3:hover {
   align-items: center;
   height: 100%;
 }
+.connect-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
 .connect {
   font-family: "DM Sans";
   font-size: 1.5rem;
@@ -145,28 +129,46 @@ h3:hover {
   margin: 0 0 0 2rem;
   letter-spacing: 0;
   width: 100%;
+  white-space: nowrap;
 }
-.hide {
-  display: none;
-}
-@media (max-width: 1000px) {
+
+@media (max-width: 1200px) {
   .footer {
     font-size: 1rem;
     padding: 4rem 0 1rem;
   }
   .container {
+    padding-top: 2rem;
     flex-direction: column;
   }
   ul {
     flex-direction: column;
     padding-left: 0;
-    margin-top: 1rem;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .connect {
+    margin: 1.5rem 0;
+  }
+  .copyright {
+    text-align: left;
   }
   .connect-wrap {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
-  .address {
-    display: none;
+  .connect-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+  }
+  li {
+    margin: 0.75rem 0;
+  }
+  li:first-child {
+    margin-top: 0;
   }
 }
 </style>
