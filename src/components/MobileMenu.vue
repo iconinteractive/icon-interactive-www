@@ -1,5 +1,5 @@
 <template>
-  <nav class="mobile-nav-wrap" :class="{ active: menuOn }" v-cloak>
+  <nav class="mobile-nav-wrap" :class="{ active: menuOn }">
     <section class="menu">
       <g-link class="nav__link" to="/projects">Work</g-link>
       <g-link class="nav__link" to="/capabilities">Capabilities</g-link>
@@ -56,8 +56,5 @@ export default {
 }
 .active {
   transform: translateX(0);
-}
-[v-cloak] {
-  display: none;
 }
 </style>

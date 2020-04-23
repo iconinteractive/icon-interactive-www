@@ -38,7 +38,6 @@ export default {
   },
   methods: {
     menuToggle() {
-      console.log(this.menuOn);
       this.menuOn = !this.menuOn;
     }
   }
