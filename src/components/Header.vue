@@ -11,17 +11,36 @@
         <g-link class="nav__link" to="/about">About</g-link>
         <g-link class="nav__link" to="/connect">Connect</g-link>
       </nav>
+
+      <MobileMenu :menuOn="menuOn" :close="menuToggle" />
+
+      <section class="mobile-burger" :class="{'mobile-x': menuOn}" @click="menuToggle">
+        <hr />
+        <hr />
+      </section>
     </div>
   </header>
 </template>
 
 <script>
+import MobileMenu from "./MobileMenu";
+
 export default {
+  components: {
+    MobileMenu
+  },
   data() {
     return {
       logo: require("../../static/icon-logo.svg"),
-      settings: require("../../data/theme.json")
+      settings: require("../../data/theme.json"),
+      menuOn: false
     };
+  },
+  methods: {
+    menuToggle() {
+      console.log(this.menuOn);
+      this.menuOn = !this.menuOn;
+    }
   }
 };
 </script>
@@ -62,7 +81,7 @@ export default {
   text-decoration: none;
 }
 .logo {
-  height: 65px;
+  height: 50px;
   fill: white;
   transition: all 1s ease-in-out;
 }
@@ -71,7 +90,7 @@ export default {
   filter: blur(3px);
 }
 .nav > * {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   margin-top: 4px;
@@ -91,6 +110,9 @@ export default {
 .nav > .active {
   color: var(--color-highlight);
 }
+.mobile-burger {
+  display: none;
+}
 @media (max-width: 800px) {
   .header {
     position: relative;
@@ -102,6 +124,7 @@ export default {
   .nav {
     flex-direction: column;
     justify-items: right;
+    display: none;
   }
   .intro {
     width: 60%;
@@ -116,6 +139,32 @@ export default {
   }
   .intro p {
     font-size: 1rem;
+  }
+  .mobile-burger {
+    width: 40px;
+    display: block;
+    transform: all 500ms ease-in-out;
+  }
+  .mobile hr {
+    border: 1px solid white;
+    transition: all 500ms ease-in-out;
+  }
+  .mobile-burger.mobile-x {
+    color: white;
+    margin-left: 80%;
+    transition: all 500ms ease-in-out;
+  }
+  .mobile-x hr:first-child {
+    top: 0;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    transition: all 500ms ease-in-out;
+  }
+  .mobile-x hr:nth-child(2) {
+    transform: rotate(-45deg);
+    border: 1px solid white;
+    transform-origin: 1px -5px;
+    transition: all 500ms ease-in-out;
   }
 }
 </style>

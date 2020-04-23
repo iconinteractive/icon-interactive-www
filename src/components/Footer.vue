@@ -77,7 +77,7 @@ a .city:hover {
   transition: all 300ms ease-in-out;
 }
 .logo {
-  height: 40px;
+  height: 50px;
   fill: white;
 }
 ul {
