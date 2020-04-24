@@ -1,5 +1,5 @@
 <template>
-  <nav class="mobile-nav-wrap" :class="{ active: menuOn }">
+  <nav class="mobile-nav-wrap">
     <section class="menu">
       <g-link class="nav__link" to="/projects">Work</g-link>
       <g-link class="nav__link" to="/capabilities">Capabilities</g-link>
@@ -24,7 +24,6 @@ export default {
 
 <style scoped>
 .mobile-nav-wrap {
-  transform: translateX(+100%);
   transition: all 500ms ease-in-out;
   position: fixed;
   top: 0;
@@ -53,8 +52,5 @@ export default {
 .menu a:last-child {
   display: flex;
   justify-content: center;
-}
-.active {
-  transform: translateX(0);
 }
 </style>

@@ -11,8 +11,9 @@
         <g-link class="nav__link" to="/about">About</g-link>
         <g-link class="nav__link" to="/connect">Connect</g-link>
       </nav>
-
-      <MobileMenu :menuOn="menuOn" :close="menuToggle" />
+      <transition name="slide">
+        <MobileMenu v-if="menuOn" :menuOn="menuOn" :close="menuToggle" />
+      </transition>
 
       <section class="mobile-burger" :class="{'mobile-x': menuOn}" @click="menuToggle">
         <hr />
@@ -112,6 +113,21 @@ export default {
 }
 .mobile-burger {
   display: none;
+}
+
+.slide-enter-active {
+  animation: slide-in 0.5s;
+}
+.slide-leave-active {
+  animation: slide-in 0.5s reverse;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(+120%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 @media (max-width: 800px) {
   .header {
