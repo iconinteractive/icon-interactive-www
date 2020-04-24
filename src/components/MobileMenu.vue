@@ -54,4 +54,7 @@ export default {
   display: flex;
   justify-content: center;
 }
+.nav__link {
+  color: #fff;
+}
 </style>

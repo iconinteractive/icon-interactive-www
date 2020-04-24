@@ -178,8 +178,10 @@ export default {
   .mobile-burger.mobile-x {
     position: fixed;
     right: 30px;
+    top: 44px;
     color: white;
     margin-left: 80%;
+    z-index: 1;
   }
 }
 </style>

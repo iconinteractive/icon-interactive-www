@@ -3,7 +3,9 @@
     <div class="container">
       <section class="connect-row">
         <img src="../../static/icon-logo.svg" alt="icon logo" class="logo" />
-        <h3 class="connect">Let's connect</h3>
+        <g-link to="/connect">
+          <h3 class="connect">Let's connect</h3>
+        </g-link>
       </section>
       <section class="connect-wrap">
         <ul :class="{ hide: this.$route.path.includes('/about') }">
@@ -24,12 +26,12 @@
           </li>
           <li>
             <g-link to="/connect">
-              <h3 class="city">New York</h3>
+              <h3 class="city">Detroit</h3>
             </g-link>
           </li>
           <li>
             <g-link to="/connect">
-              <h3 class="city">Detroit</h3>
+              <h3 class="city">New York</h3>
             </g-link>
           </li>
         </ul>
@@ -59,7 +61,7 @@ export default {
 <style scoped>
 .footer {
   font-size: 1rem;
-  padding: 2.5rem 0;
+  padding: 2.5rem 0 4rem;
 }
 .container {
   display: flex;
@@ -69,7 +71,8 @@ export default {
 }
 a .city {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  font-weight: normal;
   transition: all 300ms ease-in-out;
 }
 a .city:hover {
@@ -85,7 +88,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  margin-top: 0;
+  margin: 0;
   width: 100%;
   height: 40px;
 }
@@ -123,7 +126,7 @@ li:last-of-type {
 
 .connect {
   font-family: "DM Sans";
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: normal;
   color: var(--color-highlight);
   margin: 0 0 0 2rem;
