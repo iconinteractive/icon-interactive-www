@@ -14,7 +14,6 @@
       <transition name="slide">
         <MobileMenu v-if="menuOn" :close="menuToggle" />
       </transition>
-
       <section class="mobile-burger" :class="{'mobile-x': menuOn}" @click="menuToggle">
         <hr />
         <hr />
