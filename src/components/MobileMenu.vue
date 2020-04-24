@@ -45,7 +45,7 @@ export default {
 }
 .logo {
   width: 45px;
-  margin-top: 25%;
+  margin-top: 23%;
 }
 .menu a {
   margin: 1rem;
