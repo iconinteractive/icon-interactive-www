@@ -50,7 +50,7 @@ export default {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  padding: 2rem 0 1rem;
+  padding: 2rem 0;
   z-index: 10;
   width: 100%;
   margin-bottom: 2rem;
