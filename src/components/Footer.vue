@@ -59,7 +59,7 @@ export default {
 <style scoped>
 .footer {
   font-size: 1rem;
-  padding: 5rem 0 1rem;
+  padding: 2.5rem 0;
 }
 .container {
   display: flex;
@@ -69,7 +69,7 @@ export default {
 }
 a .city {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   transition: all 300ms ease-in-out;
 }
 a .city:hover {
@@ -77,7 +77,7 @@ a .city:hover {
   transition: all 300ms ease-in-out;
 }
 .logo {
-  height: 50px;
+  height: 35px;
   fill: white;
 }
 ul {
@@ -100,7 +100,7 @@ li:last-of-type {
   margin: 0;
 }
 .copyright {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   margin-top: 0.5rem;
   text-align: right;
 }
@@ -123,7 +123,7 @@ li:last-of-type {
 
 .connect {
   font-family: "DM Sans";
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: normal;
   color: var(--color-highlight);
   margin: 0 0 0 2rem;

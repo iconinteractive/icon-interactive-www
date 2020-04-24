@@ -12,7 +12,7 @@
         <g-link class="nav__link" to="/connect">Connect</g-link>
       </nav>
       <transition name="slide">
-        <MobileMenu v-if="menuOn" :menuOn="menuOn" :close="menuToggle" />
+        <MobileMenu v-if="menuOn" :close="menuToggle" />
       </transition>
 
       <section class="mobile-burger" :class="{'mobile-x': menuOn}" @click="menuToggle">
@@ -50,7 +50,7 @@ export default {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  padding: 1rem 0 1rem;
+  padding: 2rem 0 1rem;
   z-index: 10;
   width: 100%;
   margin-bottom: 2rem;
@@ -81,7 +81,7 @@ export default {
   text-decoration: none;
 }
 .logo {
-  height: 50px;
+  height: 45px;
   width: auto;
   fill: white;
   transition: all 1s ease-in-out;
@@ -91,7 +91,7 @@ export default {
   filter: blur(3px);
 }
 .nav > * {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   margin-top: 4px;

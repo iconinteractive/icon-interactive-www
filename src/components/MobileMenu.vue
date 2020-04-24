@@ -39,11 +39,12 @@ export default {
   flex-direction: column;
   width: 80%;
   font-family: "Archivo Black";
+  font-size: 1.5rem;
   text-transform: uppercase;
-  margin: 20% 10%;
+  margin: 40% 10%;
 }
 .logo {
-  width: 50px;
+  width: 45px;
   margin-top: 40%;
 }
 .menu a {
