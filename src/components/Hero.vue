@@ -130,7 +130,7 @@ export default {
     width: 530px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .hero {
     height: 22vh;
     padding-left: 0;
@@ -140,12 +140,13 @@ export default {
     font-size: 43px;
     line-height: 43px;
     width: 310px;
+    border: 1px solid cyan;
   }
   .hero-title.digi-prod {
-    width: 302px;
+    width: 290px;
   }
   .hero-title.mobile-apps {
-    width: 275px;
+    width: 260px;
   }
 }
 </style>
