@@ -158,10 +158,9 @@ export default {
   .mobile-burger {
     width: 40px;
     display: block;
-    transform: all 500ms ease-in-out;
   }
   .mobile-burger hr {
-    transition: all 500ms ease;
+    transition: all 150ms ease;
   }
   .mobile-x hr:first-child {
     border: 1px solid white;
@@ -170,7 +169,7 @@ export default {
   .mobile-x hr:nth-child(2) {
     transform: rotate(-45deg);
     border: 1px solid white;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     position: relative;
     top: -12px;
   }
@@ -181,6 +180,7 @@ export default {
     color: white;
     margin-left: 80%;
     z-index: 1;
+    transition: all 700ms ease-in;
   }
 }
 </style>

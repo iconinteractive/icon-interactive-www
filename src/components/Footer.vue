@@ -103,8 +103,8 @@ li:last-of-type {
   margin: 0;
 }
 .copyright {
-  font-size: 0.85rem;
-  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  margin-top: 1.25rem;
   text-align: right;
 }
 .connect-wrap {
@@ -126,7 +126,7 @@ li:last-of-type {
 
 .connect {
   font-family: "DM Sans";
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: normal;
   color: var(--color-highlight);
   margin: 0 0 0 2rem;
