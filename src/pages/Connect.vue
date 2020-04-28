@@ -278,11 +278,11 @@ h3 {
     margin: 2rem 0 0;
   }
   .grid-two {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
   .contact {
     margin: 0;
   }
@@ -295,6 +295,9 @@ h3 {
   .button:hover {
     background: var(--color-base);
     color: var(--color-highlight);
+  }
+  .grid-two {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 600px) {
