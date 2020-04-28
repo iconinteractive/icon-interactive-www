@@ -68,8 +68,7 @@
                 <h3>Boston</h3>
               </a>
               <p class="address">
-                129 Kingston St
-                <br />Floor 2
+                129 Kingston St, Floor 2
                 <br />Boston, MA 02111
               </p>
             </div>
@@ -82,8 +81,7 @@
                 <h3>Brisbane</h3>
               </a>
               <p class="address">
-                The Precinct, Unit S5
-                <br />12 Browning Street
+                12 Browning St, Unit S5
                 <br />West End QLD 4101
               </p>
             </div>
@@ -96,8 +94,7 @@
                 <h3>Detroit</h3>
               </a>
               <p class="address">
-                1442 Brush St
-                <br />Floor 3
+                1442 Brush St, Floor 3
                 <br />Detroit, MI 48226
               </p>
             </div>
@@ -110,8 +107,7 @@
                 <h3>New York</h3>
               </a>
               <p class="address">
-                180 Varick St
-                <br />Suite 912
+                180 Varick St, Suite 912
                 <br />New York, NY 10014
               </p>
             </div>
@@ -178,7 +174,7 @@ p {
   letter-spacing: 0.5px;
 }
 .contact-wrapper {
-  margin: 0 0 0 3rem;
+  margin: 0 0 0 8rem;
 }
 .link {
   font-family: "Archivo Black", "DM Sans", helvetica, sans-serif;
@@ -263,7 +259,7 @@ h3 {
   margin-bottom: 0;
 }
 
-@media (min-width: 1490px) {
+@media (min-width: 1610px) {
   .grid-two {
     grid-template-columns: repeat(2, 1fr);
   }
