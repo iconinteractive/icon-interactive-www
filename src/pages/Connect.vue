@@ -81,7 +81,7 @@
                 <h3>Brisbane</h3>
               </a>
               <p class="address">
-                12 Browning St, Unit S5
+                S5, 12 Browning St
                 <br />West End QLD 4101
               </p>
             </div>
@@ -172,6 +172,10 @@ p {
   font-size: 1rem;
   font-weight: bold;
   letter-spacing: 0.5px;
+  margin-top: 3rem;
+}
+.pink-label:first-child {
+  margin-top: 0;
 }
 .contact-wrapper {
   margin: 0 0 0 8rem;
@@ -243,6 +247,9 @@ input[type="submit"].button:hover {
 .contact div {
   margin-bottom: 2rem;
 }
+.grid-two div {
+  margin-bottom: 1rem;
+}
 .address {
   margin: 0;
 }
@@ -252,7 +259,7 @@ h3 {
 .grid-two {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: 3rem;
+  grid-column-gap: 2rem;
   grid-row-gap: 0;
 }
 .locations {
