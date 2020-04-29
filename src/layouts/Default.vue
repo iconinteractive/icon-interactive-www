@@ -32,7 +32,7 @@ export default {
 body {
   --color-base: rgb(0, 0, 0);
   --color-base-1: rgb(43, 43, 43);
-  --color-base-opacity: rgb(0, 0, 0, 0.9);
+  --color-base-opacity: rgb(0, 0, 0, 0.75);
   --color-contrast: rgb(255, 255, 255);
   --color-contrast-1: rgb(243, 243, 243);
   --color-highlight: #e51365;
@@ -96,11 +96,11 @@ h6 {
 a {
   text-decoration: none;
   color: #fff;
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 a:hover {
   text-decoration: underline;
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
   color: var(--color-highlight);
 }
 img {
