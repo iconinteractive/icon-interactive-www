@@ -2,12 +2,12 @@
 label: Logo Grid
 hide_body: true
 fields:
-  - name: logo_grid_images
-    type: image_gallery
-    config: {}
-    label: logo grid images
-    description:
-      Please update this portion of the site in tandem with a developer since there's css involved that modulates the size of each logo. Upload png or svg files with a transparent background or jpg images
-      w a black background
+- name: logo_grid_images
+  type: image_gallery
+  config: {}
+  label: logo grid images
+  description: Please update this portion of the site in tandem with a developer since
+    there's css involved that modulates the size of each logo. Upload png or svg files
+    with a transparent background or jpg images w a black background
 pages:
-  - data/logo-grid.json
+- data/logo-grid.json
