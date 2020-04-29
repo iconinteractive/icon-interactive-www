@@ -1,4 +1,7 @@
 [[redirects]]
+from = "/mixed-reality"
+to = "/capabilities"
+[[redirects]]
 from = "/category/*"
 to = "/projects"
 [[redirects]]
@@ -19,4 +22,3 @@ to = "/projects"
 [[redirects]]
 from = "/contact"
 to = "/connect"
-
