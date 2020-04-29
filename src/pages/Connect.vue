@@ -8,7 +8,7 @@
       </h1>
       <article class="contact row">
         <section>
-          <div v-html="contact.contact_form_paragraph" />
+          <div class="intro-info" v-html="contact.contact_form_paragraph" />
           <form
             class="contact-form"
             name="contact"
@@ -175,7 +175,7 @@ p {
   margin-top: 3rem;
 }
 .pink-label:first-child {
-  margin-top: 0;
+  margin-top: 15px;
 }
 .contact-wrapper {
   margin: 0 0 0 8rem;
@@ -265,6 +265,11 @@ h3 {
 .locations {
   margin-bottom: 0;
 }
+
+/* .intro-info {
+  margin-top: 0;
+  border: 1px solid pink;
+} */
 
 @media (min-width: 1610px) {
   .grid-two {
