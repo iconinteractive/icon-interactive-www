@@ -1,4 +1,13 @@
 ---
 label: Project Blocks
 hide_body: true
-fields: []
+fields:
+- name: project_blocks
+  type: blocks
+  label: Project Blocks
+  template_types:
+  - quote
+  - full-width-image
+  config:
+    min: 
+    max: 
