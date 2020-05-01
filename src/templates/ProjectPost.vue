@@ -134,7 +134,6 @@ query ProjectPost ($path: String!) {
     service_tags {
      service_tag_one
      service_tag_two
-     service_tag_three
     }
     introduction
     horizontal_image_one
