@@ -1,22 +1,13 @@
 ---
 label: Project Blocks
-hide_body: false
+hide_body: true
 fields:
-- name: quote
-  type: textarea
-  default: "\"Example quote\" \n\n\\- Client S"
+- name: project_blocks
+  type: blocks
+  label: Project Blocks
+  template_types:
+  - quote
+  - full-width-image
   config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Quote
-  description: Large full-width pull quote
-- name: full_width_image
-  type: file
-  config:
-    maxSize: 64
-  label: Full width image
-  description: Please compress your images to optimize for the web. If image editing
-    software isn't available to you drop the image into <a href="https://squoosh.app/"
-    title="https://squoosh.app/" target="_blank">https://squoosh.app/</a> before uploading.
+    min: 
+    max: 

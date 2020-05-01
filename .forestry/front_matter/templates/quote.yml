@@ -1,0 +1,13 @@
+---
+label: Quote
+hide_body: true
+fields:
+- name: quote
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: quote
