@@ -11,3 +11,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- work/Rate My Professors/ratemyprofessors.md
