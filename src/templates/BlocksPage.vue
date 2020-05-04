@@ -20,7 +20,6 @@ query BlocksPage ($path: String!) {
   post: blocksPage (path: $path) {
    project_blocks {
     template
-    quote
     } 
   }
 }
