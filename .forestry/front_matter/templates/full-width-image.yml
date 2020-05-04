@@ -1,12 +1,13 @@
 ---
-label: full width image
+label: Full width image
 hide_body: true
 fields:
-- name: full_width_image
-  type: file
-  config:
-    maxSize: 64
-  label: full width image
-  description: Please optimize your image for the web before uploading. If image editing
-    software isn't available use <a href="https://squoosh.app/" title="https://squoosh.app/"
-    target="_blank">https://squoosh.app/</a>
+  - name: full_width_image
+    type: file
+    config:
+      maxSize: 64
+    label: data
+    description:
+      Please optimize your image for the web before uploading. If image editing
+      software isn't available use <a href="https://squoosh.app/" title="https://squoosh.app/"
+      target="_blank">https://squoosh.app/</a>
