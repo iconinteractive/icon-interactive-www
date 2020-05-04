@@ -26,12 +26,12 @@ query BlocksPage ($path: String!) {
 </page-query>
 
 <script>
-import full_width_image from "../components/FullWidthImage";
+import HeroImage from "../components/HeroImage";
 import quote from "../components/Quote";
 
 export default {
   components: {
-    full_width_image,
+    HeroImage,
     quote
   }
   // metaInfo() {
