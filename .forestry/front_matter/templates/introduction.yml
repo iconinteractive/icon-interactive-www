@@ -2,17 +2,23 @@
 label: Introduction
 hide_body: true
 fields:
-- name: client
-  type: text
-  config:
-    required: false
-  label: client
-- name: intro_paragraph
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Intro paragraph
+- name: data
+  type: field_group
+  config: {}
+  fields:
+  - name: client
+    type: text
+    config:
+      required: false
+    label: client
+  - name: intro_paragraph
+    type: text
+    config:
+      required: false
+    label: intro paragraph
+  - name: project_url
+    type: text
+    config:
+      required: false
+    label: Project url
+  label: data
