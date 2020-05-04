@@ -9,7 +9,7 @@ sections:
   label: Work
   create: documents
   match: "**/*.md"
-  new_doc_ext: app
+  new_doc_ext: md
   templates:
   - project-blocks
 - type: directory
