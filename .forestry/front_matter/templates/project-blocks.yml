@@ -2,12 +2,17 @@
 label: Project Blocks
 hide_body: false
 fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
 - name: project_blocks
   type: blocks
   label: Project Blocks
   template_types:
   - quote
-  - full-width-image
+  - image
   config:
     min: 
     max: 
