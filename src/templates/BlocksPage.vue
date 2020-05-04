@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <div class="container">
-      <h1>Blocks Page</h1>
+      <h1>{{ $page.post.title }}</h1>
       <div v-html="$page.post.content" />
-      <Introduction />
+      <Introduction :client="$page.post.client" />
       <p>{{ $page.post }}</p>
       <component
         v-for="(item, idx) in $page.post.project_blocks"
@@ -19,6 +19,7 @@
 query BlocksPage ($path: String!) {
   post: blocksPage (path: $path) {
     title
+    client
     project_blocks {
       template
     } 
@@ -28,12 +29,12 @@ query BlocksPage ($path: String!) {
 
 <script>
 import Introduction from "../components/Introduction";
-import HeroImage from "../components/HeroImage";
+import heroimage from "../components/HeroImage";
 import quote from "../components/Quote";
 
 export default {
   components: {
-    HeroImage,
+    heroimage,
     quote,
     Introduction
   },

@@ -9,9 +9,9 @@ fields:
       required: true
   - name: display_on_site
     type: boolean
-    label: Display on site
+    label: Publish
     default: true
-    description: toggle to save project info but have it not displayed on the site
+    description: toggle on to publish to site, off to save as draft
   - name: display_on_home_page
     type: boolean
     label: Display on home page
@@ -34,11 +34,6 @@ fields:
       display_utc: true
     default: now
     hidden: false
-  - type: text
-    name: title
-    label: Title
-    config:
-      required: true
   - name: client
     type: text
     config:
