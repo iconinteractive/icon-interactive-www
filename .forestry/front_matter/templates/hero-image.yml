@@ -10,3 +10,8 @@ fields:
   description: Please optimize your image for the web before uploading. If image editing
     software isn't available use <a href="https://squoosh.app/" title="https://squoosh.app/"
     target="_blank">https://squoosh.app/</a>
+- name: text_overlay
+  type: text
+  config:
+    required: false
+  label: text overlay
