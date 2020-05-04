@@ -1,4 +1,18 @@
 ---
 label: Introduction
 hide_body: true
-fields: []
+fields:
+- name: client
+  type: text
+  config:
+    required: false
+  label: client
+- name: intro_paragraph
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Intro paragraph
