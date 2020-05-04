@@ -48,7 +48,7 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         path: "work/**/*.md",
-        typeName: "Quote",
+        typeName: "BlocksPage",
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: "_blank",
@@ -56,18 +56,30 @@ module.exports = {
         }
       }
     },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "work/**/*.md",
-        typeName: "Image",
-        resolveAbsolutePaths: true,
-        remark: {
-          externalLinksTarget: "_blank",
-          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
-        }
-      }
-    },
+    // {
+    //   use: "@gridsome/source-filesystem",
+    //   options: {
+    //     path: "work/**/*.md",
+    //     typeName: "Quote",
+    //     resolveAbsolutePaths: true,
+    //     remark: {
+    //       externalLinksTarget: "_blank",
+    //       externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+    //     }
+    //   }
+    // },
+    // {
+    //   use: "@gridsome/source-filesystem",
+    //   options: {
+    //     path: "work/**/*.md",
+    //     typeName: "Image",
+    //     resolveAbsolutePaths: true,
+    //     remark: {
+    //       externalLinksTarget: "_blank",
+    //       externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+    //     }
+    //   }
+    // },
     {
       use: "gridsome-plugin-gtm",
       options: {
