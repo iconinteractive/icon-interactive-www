@@ -2,19 +2,20 @@
 label: Project Blocks
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: Title
-    config:
-      required: true
-  - name: project_blocks
-    type: blocks
-    label: Project Blocks
-    template_types:
-      - quote
-      - HeroImage
-    config:
-      min:
-      max:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- name: project_blocks
+  type: blocks
+  label: Project Blocks
+  template_types:
+  - quote
+  - HeroImage
+  - introduction
+  config:
+    min: 
+    max: 
 pages:
-  - work/example.md
+- work/example.md
