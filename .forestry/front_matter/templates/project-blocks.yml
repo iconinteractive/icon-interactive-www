@@ -12,7 +12,7 @@ fields:
   label: Project Blocks
   template_types:
   - quote
-  - full_width_image
+  - hero-image
   config:
     min: 
     max: 
