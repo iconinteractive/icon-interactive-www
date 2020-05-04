@@ -7,10 +7,11 @@ sections:
 - type: directory
   path: work
   label: Work
-  create: all
+  create: documents
   match: "**/*.md"
   new_doc_ext: md
   templates:
+  - project
   - project-blocks
 - type: directory
   path: projects
