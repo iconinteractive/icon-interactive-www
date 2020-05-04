@@ -3,8 +3,8 @@
     <div class="container">
       <h1>Blocks Page</h1>
       <div v-html="$page.post.content" />
-      <h1>{{ $page.post.project_blocks}}</h1>
-      <p>{{ $page.post}}</p>
+      <Introduction />
+      <p>{{ $page.post }}</p>
       <component
         v-for="(item, idx) in $page.post.project_blocks"
         v-bind:is="item.template"
@@ -18,27 +18,30 @@
 <page-query>
 query BlocksPage ($path: String!) {
   post: blocksPage (path: $path) {
-   project_blocks {
-    template
+    title
+    project_blocks {
+      template
     } 
   }
 }
 </page-query>
 
 <script>
+import Introduction from "../components/Introduction";
 import HeroImage from "../components/HeroImage";
 import quote from "../components/Quote";
 
 export default {
   components: {
     HeroImage,
-    quote
+    quote,
+    Introduction
+  },
+  metaInfo() {
+    return {
+      title: this.$page.post.title
+    };
   }
-  // metaInfo() {
-  //   return {
-  //     title: this.$page.post.title
-  //   };
-  // }
 };
 </script>
 
