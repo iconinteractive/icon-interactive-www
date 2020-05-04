@@ -45,6 +45,30 @@ module.exports = {
       }
     },
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "work/**/*.md",
+        typeName: "Quote",
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "work/**/*.md",
+        typeName: "Image",
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    {
       use: "gridsome-plugin-gtm",
       options: {
         id: "GTM-M48WS4P",

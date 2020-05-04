@@ -7,7 +7,7 @@ fields:
   label: Project Blocks
   template_types:
   - quote
-  - full-width-image
+  - image
   config:
     min: 
     max: 
