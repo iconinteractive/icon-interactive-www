@@ -2,111 +2,111 @@
 label: Project Blocks
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: Title
-    config:
-      required: true
-  - name: display_on_site
-    type: boolean
-    label: Publish
-    default: true
-    description: toggle on to publish to site, off to save as draft
-  - name: display_on_home_page
-    type: boolean
-    label: Display on home page
-    description: toggles if project should be displayed on the home page :)
-    default: false
-  - type: file
-    name: thumbnail
-    label: Thumbnail
-    description: This is the preview image that will only be shown in the project grid.
-    config:
-      required: true
-  - type: datetime
-    name: date
-    label: Date
-    config:
-      required: true
-      date_format: MM/YYYY
-      time_format: ""
-      export_format: YYYY-MM-DD
-      display_utc: true
-    default: now
-    hidden: false
-  - name: client
-    type: text
-    config:
-      required: true
-    label: Client name
-  - name: project_url
-    type: textarea
-    default: ""
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- name: display_on_site
+  type: boolean
+  label: Publish
+  default: true
+  description: toggle on to publish to site, off to save as draft
+- name: display_on_home_page
+  type: boolean
+  label: Display on home page
+  description: toggles if project should be displayed on the home page :)
+  default: false
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: This is the preview image that will only be shown in the project grid.
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+    date_format: MM/YYYY
+    time_format: ''
+    export_format: YYYY-MM-DD
+    display_utc: true
+  default: now
+  hidden: false
+- name: client
+  type: text
+  config:
+    required: true
+  label: Client name
+- name: project_url
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: html-blocks
+  label: Project URL
+  description: 'Add project URL if applicable '
+- name: service_tags
+  type: field_group
+  config: {}
+  fields:
+  - name: service_tag_one
+    type: select
+    default: []
     config:
       required: false
-      wysiwyg: false
-      schema:
-        format: html-blocks
-    label: Project URL
-    description: "Add project URL if applicable "
-  - name: service_tags
-    type: field_group
-    config: {}
-    fields:
-      - name: service_tag_one
-        type: select
-        default: []
-        config:
-          required: false
-          options:
-            - strategy
-            - design and visual content
-            - web and mobile
-            - experiential
-            - custom software
-          source:
-            type: simple
-            section:
-            file:
-            path:
-        label: Service Tag One
-        description: required
-      - name: service_tag_two
-        type: select
-        default: []
-        config:
-          required: false
-          options:
-            - strategy
-            - design and visual content
-            - web and mobile
-            - experiential
-            - custom software
-          source:
-            type: simple
-            section:
-            file:
-            path:
-        label: Service Tag Two
-    label: Service Tags
-  - name: introduction
-    type: textarea
-    default: ""
+      options:
+      - strategy
+      - design and visual content
+      - web and mobile
+      - experiential
+      - custom software
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Service Tag One
+    description: required
+  - name: service_tag_two
+    type: select
+    default: []
     config:
-      required: true
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Introduction
-    description: "~ introductory text required ~"
-  - name: project_blocks
-    type: blocks
-    label: Project Blocks
-    template_types:
-      - quote
-      - heroimage
-    config:
-      min:
-      max:
+      required: false
+      options:
+      - strategy
+      - design and visual content
+      - web and mobile
+      - experiential
+      - custom software
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Service Tag Two
+  label: Service Tags
+- name: introduction
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Introduction
+  description: "~ introductory text required ~"
+- name: project_blocks
+  type: blocks
+  label: Project Blocks
+  template_types:
+  - quote
+  - heroimage
+  config:
+    min: 
+    max: 
 pages:
-  - work/example.md
+- work/test.md
