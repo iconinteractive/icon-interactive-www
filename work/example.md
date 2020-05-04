@@ -1,10 +1,5 @@
 ---
 project_blocks:
-- template: introduction
-  data:
-    client: example
-    intro_paragraph: hey this is an intro
-    project_url: www.test.com
 - template: quote
   quote: ''
 - template: HeroImage
@@ -13,5 +8,15 @@ project_blocks:
 - template: quote
   quote: ''
 title: example
+date: 2020-05-01
+client: 'client '
+project_url: ''
+service_tags:
+  service_tag_one: design and visual content
+  service_tag_two: experiential
+introduction: "<p>heyyyyooo </p>"
+display_on_site: false
+display_on_home_page: false
+thumbnail: ''
 
 ---
