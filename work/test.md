@@ -9,7 +9,7 @@ display_on_home_page: false
 thumbnail: ''
 client: example client
 project_url: http://www.iconinteractive.com/
-introduction: "<p>aaayoooo</p>"
+introduction: "<p></p>"
 project_blocks:
 - template: quote
   quote: ''
@@ -22,6 +22,8 @@ project_blocks:
   FullWidthImage: ''
 - template: quote
   quote: ''
+  Quote: ''
+- template: quote
   Quote: ''
 
 ---
