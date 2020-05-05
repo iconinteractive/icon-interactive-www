@@ -13,10 +13,11 @@ introduction: "<p>aaayoooo</p>"
 project_blocks:
 - template: quote
   quote: ''
-  Quote: |-
-    “To see your brand associated with something that people are so excited about makes you feel good that your brand is part of it. We are doing really amazing activations outside the arena. This giant dome with projection mapping. We are getting great feedback and it makes me excited to be a part of it.”
-
-    **Casey Hurbis, CMO, Rocket Mortgage**
+  Quote: "<p>“To see your brand associated with something that people are so excited
+    about makes you feel good that your brand is part of it. We are doing really amazing
+    activations outside the arena. This giant dome with projection mapping. We are
+    getting great feedback and it makes me excited to be a part of it.” </p><p><strong>Casey
+    Hurbis, CMO, Rocket Mortgage</strong></p>"
 - template: full-width-image
   FullWidthImage: ''
 - template: quote
