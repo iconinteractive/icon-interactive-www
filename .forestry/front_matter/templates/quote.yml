@@ -2,7 +2,7 @@
 label: Quote
 hide_body: true
 fields:
-- name: quote
+- name: Quote
   type: textarea
   default: ''
   config:
