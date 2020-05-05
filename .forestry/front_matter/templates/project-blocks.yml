@@ -104,7 +104,7 @@ fields:
   label: Project Blocks
   template_types:
   - quote
-  - HeroImage
+  - full-width-image
   config:
     min: 
     max: 
