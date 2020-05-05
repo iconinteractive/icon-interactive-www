@@ -9,6 +9,7 @@
         v-for="(item, idx) in $page.post.project_blocks"
         v-bind:is="item.template"
         :key="idx"
+        :quote="$page.post.project_blocks.quote"
       ></component>
     </div>
   </Layout>
@@ -22,6 +23,7 @@ query BlocksPage ($path: String!) {
     client
     project_blocks {
       template
+      quote
     } 
   }
 }
@@ -29,14 +31,14 @@ query BlocksPage ($path: String!) {
 
 <script>
 import Introduction from "../components/Introduction";
-import heroimage from "../components/HeroImage";
-import quote from "../components/Quote";
+import FullWidthImage from "../components/FullWidthImage";
+import Quote from "../components/Quote";
 
 export default {
   components: {
-    heroimage,
-    quote,
-    Introduction
+    Introduction,
+    FullWidthImage,
+    Quote
   },
   metaInfo() {
     return {

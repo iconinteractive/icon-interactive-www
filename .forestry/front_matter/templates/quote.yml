@@ -2,12 +2,12 @@
 label: Quote
 hide_body: true
 fields:
-- name: Quote
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Quote
+  - name: Quote
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Quote
