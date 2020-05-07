@@ -2,14 +2,13 @@
   <Layout>
     <div class="container">
       <h1>{{ $page.post.title }}</h1>
-      <div v-html="$page.post.content" />
       <Introduction :client="$page.post.client" />
       <p>{{ $page.post }}</p>
       <component
         v-for="(item, idx) in $page.post.project_blocks"
         v-bind:is="item.template"
         :key="idx"
-        :quote="$page.post.project_blocks.quote"
+        :quote="item.Quote"
       ></component>
     </div>
   </Layout>
@@ -23,7 +22,7 @@ query BlocksPage ($path: String!) {
     client
     project_blocks {
       template
-      quote
+      Quote
     } 
   }
 }
