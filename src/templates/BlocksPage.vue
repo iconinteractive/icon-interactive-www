@@ -9,6 +9,8 @@
         v-bind:is="item.template"
         :key="idx"
         :quote="item.Quote"
+        :fullWidthSrc="item.FullWidthImageSrc"
+        :fullWidthAltText="item.FullWidthImageAltText"
       ></component>
     </div>
   </Layout>
@@ -23,6 +25,8 @@ query BlocksPage ($path: String!) {
     project_blocks {
       template
       Quote
+      FullWidthImageSrc
+      FullWidthImgAltText
     } 
   }
 }
@@ -30,13 +34,13 @@ query BlocksPage ($path: String!) {
 
 <script>
 import Introduction from "../components/Introduction";
-import FullWidthImage from "../components/FullWidthImage";
+import fullwidthimage from "../components/FullWidthImage";
 import Quote from "../components/Quote";
 
 export default {
   components: {
     Introduction,
-    FullWidthImage,
+    fullwidthimage,
     Quote
   },
   metaInfo() {
