@@ -1,0 +1,37 @@
+---
+label: Results
+hide_body: false
+fields:
+- name: results
+  type: field_group
+  config: {}
+  fields:
+  - name: column_one
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column One
+  - name: column_two
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column Two
+  - name: column_three
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column Three
+  label: Results
+  description: Results & ROI Stats
