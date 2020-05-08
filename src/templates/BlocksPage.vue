@@ -5,6 +5,13 @@
       <div v-html="$page.post.content" />
       <h1>{{ $page.post.project_blocks}}</h1>
     </div>
+    <component
+        v-for="(item, idx) in $page.post.project_blocks"
+        v-bind:is="item.template"
+        :key="idx"
+        :quote="item.Quote"
+        :column_one="item.column_one"
+      ></component>
   </Layout>
 </template>
 
@@ -23,7 +30,9 @@ query BlocksPage ($path: String!) {
 
 <script>
 export default {
-  components: {}
+  components: {
+    Results
+  }
   // metaInfo() {
   //   return {
   //     title: this.$page.post.title
