@@ -11,6 +11,8 @@
         :key="idx"
         :quote="item.Quote"
         :column_one="item.column_one"
+        :column_two="item.column_two"
+        :column_three="item.column_three"
       ></component>
   </Layout>
 </template>
