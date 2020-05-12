@@ -105,6 +105,8 @@ fields:
   template_types:
   - quote
   - fullwidthimage
+  - vimeo
+  - results
   config:
     min: 
     max: 
