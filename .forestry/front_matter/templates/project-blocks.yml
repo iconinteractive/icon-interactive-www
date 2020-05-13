@@ -22,9 +22,16 @@ fields:
         label: Project URL
       - name: title
         type: text
-        label: Title
+        label: URL Title
         config:
           required: true
+        description: Title for url. If you input Michelob Marathon it will render as iconinteractive.com/work/michelob-marathon
+      - name: page_title
+        type: text
+        label: Page Title
+        config:
+          required: true
+        description: Page title to appear as large type at the top of project page. Ex - VR As A Vehicle For Storytelling
       - name: display_on_site
         type: boolean
         label: Publish
