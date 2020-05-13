@@ -23,8 +23,8 @@ project_blocks:
   Quote: "<p>“To see your brand associated with something that people are so excited
     about makes you feel good that your brand is part of it. We are doing really amazing
     activations outside the arena. This giant dome with projection mapping. We are
-    getting great feedback and it makes me excited to be a part of it.”</p><p><strong>Casey
-    Hurbis, CMO, Rocket Mortgage</strong></p>"
+    getting great feedback and it makes me excited to be a part of it.”</p><p><em>Casey
+    Hurbis, CMO, Rocket Mortgage</em></p>"
 - template: vimeo
   vimeo_video_id: "328275226"
 - template: results
@@ -37,8 +37,8 @@ project_blocks:
     to be able to show. We want to make sure our fans have a great experience and
     leave saying ‘thank you for being here and thank you for creating this experience.’
     We got that. And they told us… this is the best fan day activation we have seen
-    in Chevy Plaza in a long time."</p><p><strong>Matt Archambault, Head of NA Partnerships
-    for Riot Games</strong></p>
+    in Chevy Plaza in a long time."</p><p><em>Matt Archambault, Head of NA Partnerships
+    for Riot Games</em></p>
 - template: fullwidthimage
   FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.007.jpeg
   FullWidthImgAltText: panasonic car with visuals
