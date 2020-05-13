@@ -42,5 +42,15 @@ project_blocks:
 - template: fullwidthimage
   FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.007.jpeg
   FullWidthImgAltText: panasonic car with visuals
+- template: textblock
+  text_block: "<h2>Background</h2><p><strong><em>Lorem ipsum</em></strong>, or lipsum
+    as it is sometimes known, is dummy text used in laying out print, graphic or web
+    designs. The passage is attributed to an unknown typesetter in the 15th century
+    who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
+    for use in a type specimen boo</p><h2>Goal</h2><p><strong><em>Lorem ipsum</em></strong>,
+    or lipsum as it is sometimes known, is dummy text used in laying out print, graphic
+    or web designs. The passage is attributed to an unknown typesetter in the 15th
+    century who is thought to have scrambled parts of Cicero's De Finibus Bonorum
+    et Malorum for use in a type specimen boo</p>"
 
 ---
