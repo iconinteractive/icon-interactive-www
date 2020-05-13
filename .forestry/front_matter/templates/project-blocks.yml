@@ -153,18 +153,18 @@ fields:
                 label: Service Tag Two
             label: Service Tags
         label: Intro
-      - name: project_blocks
-        type: blocks
-        label: Project Blocks
-        template_types:
-          - quote
-          - fullwidthimage
-          - vimeo
-          - results
-        config:
-          required: true
-          wysiwyg: true
-          schema:
-            format: markdown
+  - name: project_blocks
+    type: blocks
+    label: Project Blocks
+    template_types:
+      - quote
+      - fullwidthimage
+      - vimeo
+      - results
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
 pages:
   - work/test.md
