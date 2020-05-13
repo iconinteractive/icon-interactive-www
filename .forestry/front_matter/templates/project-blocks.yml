@@ -57,6 +57,8 @@ fields:
     config:
       required: false
     label: Project URL
+    description: 'If this is a web project and you''d like to link to the site in
+      the intro add the link here. '
   - name: client_logo
     type: file
     config:
