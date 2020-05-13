@@ -117,8 +117,9 @@ fields:
   type: blocks
   label: Project Blocks
   template_types:
-  - quote
+  - textblock
   - fullwidthimage
+  - quote
   - vimeo
   - results
   config:
