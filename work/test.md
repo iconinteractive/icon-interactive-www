@@ -16,6 +16,7 @@ intro:
     fermentum, sit amet rutrum odio hendrerit. Etiam laoreet nulla et diam sollicitudin
     molestie. Donec ornare odio sit amet nisl dapibus ultricies. Curabitur dignissim
     tincidunt tellus, porttitor pretium purus. Quisque volutpat id purus dapibus tempus.
+  client_logo: https://s3.amazonaws.com/forestry.iconinteractive.com/Bose.png
 title: test
 project_blocks:
 - template: quote
