@@ -6,20 +6,11 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: intro_paragraph
-    type: textarea
-    default: ''
-    config:
-      required: true
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: intro paragraph
-  - name: project_url
+  - name: client
     type: text
     config:
-      required: false
-    label: Project URL
+      required: true
+    label: Client name
   - name: title
     type: text
     label: Title
@@ -53,11 +44,11 @@ fields:
       display_utc: true
     default: now
     hidden: false
-  - name: client
+  - name: project_url
     type: text
     config:
-      required: true
-    label: Client name
+      required: false
+    label: Project URL
   - name: service_tags
     type: field_group
     config: {}
@@ -98,6 +89,15 @@ fields:
           path: 
       label: Service Tag Two
     label: Service Tags
+  - name: intro_paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: intro paragraph
   label: Intro
 - name: project_blocks
   type: blocks
