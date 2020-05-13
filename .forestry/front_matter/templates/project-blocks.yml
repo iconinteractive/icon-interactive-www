@@ -57,6 +57,11 @@ fields:
     config:
       required: false
     label: Project URL
+  - name: client_logo
+    type: file
+    config:
+      maxSize: 64
+    label: Client Logo
   - name: intro_paragraph
     type: textarea
     default: ''
@@ -106,6 +111,7 @@ fields:
           path: 
           label: Service Tag Two
       label: Service Tags
+    label: Service Tags
   label: Intro
 - name: project_blocks
   type: blocks
