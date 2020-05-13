@@ -1,4 +1,13 @@
 ---
 label: TextBlock
 hide_body: true
-fields: []
+fields:
+- name: text_block
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: text block
