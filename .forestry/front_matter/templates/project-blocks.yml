@@ -152,7 +152,7 @@ fields:
                     path:
                 label: Service Tag Two
             label: Service Tags
-        label: Intro
+    label: Intro
   - name: project_blocks
     type: blocks
     label: Project Blocks
