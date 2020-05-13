@@ -21,7 +21,6 @@
 query BlocksPage ($path: String!) {
   post: blocksPage (path: $path) {
     title
-    client
     project_blocks {
       template
       Quote
