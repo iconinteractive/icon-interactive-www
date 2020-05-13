@@ -28,5 +28,10 @@ project_blocks:
   Quote: ''
 - template: vimeo
   vimeo_video_id: "328275226"
+- template: results
+  results:
+    column_one: "<h1>1000+</h1><p><strong>HOURS OF ROCKET MORTGAGE<br>BRANDED CONTENT</strong></p>"
+    column_two: "<h1>200+</h1><p><strong>QUALIFIED LEADS</strong></p>"
+    column_three: "<h1>100%</h1><p><strong>AUTHENTIC FAN EXPERIENCE</strong></p>"
 
 ---
