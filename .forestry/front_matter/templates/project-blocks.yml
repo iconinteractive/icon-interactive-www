@@ -1,37 +1,21 @@
 ---
 label: Project Blocks
-hide_body: true
+hide_body: false
 fields:
   - name: intro
     type: field_group
     config: {}
     fields:
-      - name: intro_paragraph
-        type: textarea
-        default: ""
-        config:
-          required: true
-          wysiwyg: true
-          schema:
-            format: markdown
-        label: intro paragraph
-      - name: project_url
+      - name: client
         type: text
         config:
-          required: false
-        label: Project URL
+          required: true
+        label: Client name
       - name: title
         type: text
-        label: URL Title
+        label: Title
         config:
           required: true
-        description: Title for url. If you input Michelob Marathon it will render as iconinteractive.com/work/michelob-marathon
-      - name: page_title
-        type: text
-        label: Page Title
-        config:
-          required: true
-        description: Page title to appear as large type at the top of project page. Ex - VR As A Vehicle For Storytelling
       - name: display_on_site
         type: boolean
         label: Publish
@@ -45,7 +29,9 @@ fields:
       - type: file
         name: thumbnail
         label: Thumbnail
-        description: This is the preview image that will only be shown in the project grid.
+        description:
+          This is the preview image that will only be shown in the project
+          grid.
         config:
           required: true
       - type: datetime
@@ -59,62 +45,126 @@ fields:
           display_utc: true
         default: now
         hidden: false
-      - name: client
+      - name: project_url
         type: text
         config:
-          required: true
-        label: Client name
+          required: false
+        label: Project URL
       - name: service_tags
         type: field_group
         config: {}
         fields:
-          - name: service_tag_one
-            type: select
-            default: []
+          - name: intro_paragraph
+            type: textarea
+            default: ""
+            config:
+              required: true
+              wysiwyg: true
+              schema:
+                format: markdown
+            label: intro paragraph
+          - name: project_url
+            type: text
             config:
               required: false
-              options:
-                - strategy
-                - design and visual content
-                - web and mobile
-                - experiential
-                - custom software
-              source:
-                type: simple
-                section:
-                file:
-                path:
-            label: Service Tag One
-            description: required
-          - name: service_tag_two
-            type: select
-            default: []
+            label: Project URL
+          - name: title
+            type: text
+            label: URL Title
             config:
-              required: false
-              options:
-                - strategy
-                - design and visual content
-                - web and mobile
-                - experiential
-                - custom software
-              source:
-                type: simple
-                section:
-                file:
-                path:
-            label: Service Tag Two
-        label: Service Tags
-    label: Intro
-  - name: project_blocks
-    type: blocks
-    label: Project Blocks
-    template_types:
-      - quote
-      - fullwidthimage
-      - vimeo
-      - results
-    config:
-      min:
-      max:
+              required: true
+            description: Title for url. If you input Michelob Marathon it will render as iconinteractive.com/work/michelob-marathon
+          - name: page_title
+            type: text
+            label: Page Title
+            config:
+              required: true
+            description: Page title to appear as large type at the top of project page. Ex - VR As A Vehicle For Storytelling
+          - name: display_on_site
+            type: boolean
+            label: Publish
+            default: true
+            description: toggle on to publish to site, off to save as draft
+          - name: display_on_home_page
+            type: boolean
+            label: Display on home page
+            description: toggles if project should be displayed on the home page :)
+            default: false
+          - type: file
+            name: thumbnail
+            label: Thumbnail
+            description: This is the preview image that will only be shown in the project grid.
+            config:
+              required: true
+          - type: datetime
+            name: date
+            label: Date
+            config:
+              required: true
+              date_format: MM/YYYY
+              time_format: ""
+              export_format: YYYY-MM-DD
+              display_utc: true
+            default: now
+            hidden: false
+          - name: client
+            type: text
+            config:
+              required: true
+            label: Client name
+          - name: service_tags
+            type: field_group
+            config: {}
+            fields:
+              - name: service_tag_one
+                type: select
+                default: []
+                config:
+                  required: false
+                  options:
+                    - strategy
+                    - design and visual content
+                    - web and mobile
+                    - experiential
+                    - custom software
+                  source:
+                    type: simple
+                    section:
+                    file:
+                    path:
+                label: Service Tag One
+                description: required
+              - name: service_tag_two
+                type: select
+                default: []
+                config:
+                  required: false
+                  options:
+                    - strategy
+                    - design and visual content
+                    - web and mobile
+                    - experiential
+                    - custom software
+                  source:
+                    type: simple
+                    section:
+                    file:
+                    path:
+                label: Service Tag Two
+            label: Service Tags
+        label: Intro
+      - name: project_blocks
+        type: blocks
+        label: Project Blocks
+        template_types:
+          - quote
+          - fullwidthimage
+          - vimeo
+          - results
+        config:
+          required: true
+          wysiwyg: true
+          schema:
+            format: markdown
 pages:
   - work/test.md

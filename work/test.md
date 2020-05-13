@@ -1,6 +1,6 @@
 ---
 display_on_site: true
-date: 2020-05-04
+date: '2020-05-04'
 service_tags:
   service_tag_one: web and mobile
   service_tag_two: strategy
@@ -33,5 +33,17 @@ project_blocks:
     column_one: "<h1>1000+</h1><p><strong>HOURS OF ROCKET MORTGAGE<br>BRANDED CONTENT</strong></p>"
     column_two: "<h1>200+</h1><p><strong>QUALIFIED LEADS</strong></p>"
     column_three: "<h1>100%</h1><p><strong>AUTHENTIC FAN EXPERIENCE</strong></p>"
+intro:
+  intro_paragraph: intro paragraph
+  project_url: ''
+  title: title
+  display_on_site: false
+  display_on_home_page: false
+  thumbnail: ''
+  date: 2020-04-01
+  client: Client Name
+  service_tags:
+    service_tag_one: ''
+    service_tag_two: ''
 
 ---
