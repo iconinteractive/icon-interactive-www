@@ -39,5 +39,8 @@ project_blocks:
     We got that. And they told us… this is the best fan day activation we have seen
     in Chevy Plaza in a long time."</p><p><strong>Matt Archambault, Head of NA Partnerships
     for Riot Games</strong></p>
+- template: fullwidthimage
+  FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/Panasonic.007.jpeg
+  FullWidthImgAltText: panasonic car with visuals
 
 ---
