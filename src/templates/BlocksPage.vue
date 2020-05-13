@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <div class="container">
-      <h1>{{ $page.post.title }}</h1>
-      <Introduction :client="$page.post.client" />
-      <p>{{ $page.post }}</p>
+      <!-- <h1>{{ $page.post.title }}</h1> -->
+      <!-- <Introduction :client="$page.post.client" /> -->
+      <!-- <p>{{ $page.post }}</p> -->
       <component
         v-for="(item, idx) in $page.post.project_blocks"
         v-bind:is="item.template"
