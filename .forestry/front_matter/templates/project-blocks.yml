@@ -52,6 +52,11 @@ fields:
       schema:
         format: markdown
     label: intro paragraph
+  - name: project_url
+    type: text
+    config:
+      required: false
+    label: Project URL
   label: Intro
 - name: service_tags
   type: field_group
