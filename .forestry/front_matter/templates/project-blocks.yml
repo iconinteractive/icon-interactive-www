@@ -2,16 +2,16 @@
 label: Project Blocks
 hide_body: false
 fields:
+  - name: title
+    type: text
+    label: URL Title
+    config:
+      required: true
+    description: Title for url. If you input Michelob Marathon it will render as iconinteractive.com/work/michelob-marathon
   - name: intro
     type: field_group
     config: {}
     fields:
-      - name: title
-        type: text
-        label: URL Title
-        config:
-          required: true
-        description: Title for url. If you input Michelob Marathon it will render as iconinteractive.com/work/michelob-marathon
       - name: page_title
         type: text
         label: Page Title
