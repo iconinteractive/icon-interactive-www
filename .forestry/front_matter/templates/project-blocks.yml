@@ -120,3 +120,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- work/test.md
