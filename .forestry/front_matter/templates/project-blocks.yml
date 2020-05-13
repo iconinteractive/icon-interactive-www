@@ -95,8 +95,8 @@ fields:
                 section:
                 file:
                 path:
-              label: Service Tag Two
-            label: Service Tags
+            label: Service Tag Two
+        label: Service Tags
     label: Intro
   - name: project_blocks
     type: blocks
