@@ -12,6 +12,7 @@
         :fullWidthSrc="item.FullWidthImageSrc"
         :fullWidthAltText="item.FullWidthImageAltText"
         :vimeo_video_id="item.vimeo_video_id"
+        :column_one="item.results"
       ></component>
     </div>
   </Layout>
@@ -28,7 +29,7 @@ query BlocksPage ($path: String!) {
       FullWidthImageSrc
       FullWidthImgAltText
       vimeo_video_id
-      column_one
+      results{column_one, column_two, column_three}
     } 
   }
 }
