@@ -15,15 +15,12 @@ export default {
 
 <style scoped>
 blockquote {
-  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
   color: var(--color-contrast);
   padding-left: 1rem;
-  border-left: 1px solid var(--color-highlight);
   margin: 6.5rem 0;
-}
-blockquote p {
-  font-size: 2rem;
-  color: var(--color-highlight);
-  border-bottom: 1px solid #fff;
+  width: 80%;
 }
 </style>

@@ -2,29 +2,28 @@
 label: Project Blocks
 hide_body: false
 fields:
+- name: title
+  type: text
+  label: URL Title
+  config:
+    required: true
+  description: Title for url. If you input Michelob Marathon it will render as iconinteractive.com/work/michelob-marathon
 - name: intro
   type: field_group
   config: {}
   fields:
-  - name: intro_paragraph
-    type: textarea
-    default: ''
+  - name: page_title
+    type: text
+    label: Page Title
     config:
       required: true
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: intro paragraph
-  - name: project_url
+    description: Page title to appear as large type at the top of project page. Ex
+      - VR As A Vehicle For Storytelling
+  - name: client
     type: text
-    config:
-      required: false
-    label: Project URL
-  - name: title
-    type: text
-    label: Title
     config:
       required: true
+    label: Client name
   - name: display_on_site
     type: boolean
     label: Publish
@@ -53,11 +52,27 @@ fields:
       display_utc: true
     default: now
     hidden: false
-  - name: client
+  - name: project_url
     type: text
     config:
+      required: false
+    label: Project URL
+    description: 'If this is a web project and you''d like to link to the site in
+      the intro add the link here. '
+  - name: client_logo
+    type: file
+    config:
+      maxSize: 64
+    label: Client Logo
+  - name: intro_paragraph
+    type: textarea
+    default: ''
+    config:
       required: true
-    label: Client name
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: intro paragraph
   - name: service_tags
     type: field_group
     config: {}
@@ -103,12 +118,15 @@ fields:
   type: blocks
   label: Project Blocks
   template_types:
-  - quote
+  - textblock
   - fullwidthimage
+  - quote
   - vimeo
   - results
   config:
-    min: 
-    max: 
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - work/test.md
