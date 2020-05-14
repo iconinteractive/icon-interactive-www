@@ -11,6 +11,7 @@
         :quote="item.Quote"
         :fullWidthSrc="item.FullWidthImageSrc"
         :fullWidthAltText="item.FullWidthImageAltText"
+        :vimeo_video_id="item.vimeo_video_id"
       ></component>
     </div>
   </Layout>
@@ -27,6 +28,8 @@ query BlocksPage ($path: String!) {
       Quote
       FullWidthImageSrc
       FullWidthImgAltText
+      vimeo_video_id
+      column_one
     } 
   }
 }
@@ -36,12 +39,16 @@ query BlocksPage ($path: String!) {
 import Introduction from "../components/Introduction";
 import fullwidthimage from "../components/FullWidthImage";
 import Quote from "../components/Quote";
+import Vimeo from "../components/Vimeo";
+import Results from "../components/Results";
 
 export default {
   components: {
     Introduction,
     fullwidthimage,
-    Quote
+    Quote,
+    Vimeo,
+    Results
   },
   metaInfo() {
     return {
