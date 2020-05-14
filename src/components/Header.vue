@@ -46,8 +46,8 @@ export default {
 
 <style scoped>
 .header {
-  position: sticky;
-  position: -webkit-sticky;
+  /* position: sticky;
+  position: -webkit-sticky; */
   top: 0;
   padding: 2rem 0;
   z-index: 10;

@@ -1,18 +1,37 @@
 <template>
-  <section>
-    <h1>TextBlock</h1>
-    <g-image :src="fullWidthSrc" :alt="fullWidthAltText" class="full-image" />
+  <section class="text-wrap">
+    <div class="text-block" v-html="textblock" />
   </section>
 </template>
 
 <script>
 export default {
-  props: ["fullWidthSrc", "fullWidthAltText"]
+  props: ["textblock"]
 };
 </script>
 
-<style scoped>
-.full-image {
-  margin: 1rem;
+<style>
+.text-wrap {
+  display: flex;
+  justify-content: center;
+}
+.text-block {
+  width: 50%;
+  font-size: 1.2rem;
+}
+.text-block h1,
+.text-block h2,
+.text-block h3,
+.text-block h4,
+.text-block h5,
+.text-block h6 {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  color: var(--color-highlight);
+  font-size: 1.5rem;
+  margin: 1rem 0 0;
+}
+.text-block p {
+  margin: 0;
+  margin: 0.5rem 0 2rem;
 }
 </style>

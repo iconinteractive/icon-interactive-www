@@ -1,9 +1,6 @@
 <template>
   <Layout>
     <div class="container">
-      <!-- <h1>{{ $page.post.title }}</h1> -->
-      <!-- <Introduction :client="$page.post.client" /> -->
-      <!-- <p>{{ $page.post }}</p> -->
       <component
         v-for="(item, idx) in $page.post.project_blocks"
         v-bind:is="item.template"
@@ -11,6 +8,7 @@
         :quote="item.Quote"
         :fullWidthSrc="item.FullWidthImageSrc"
         :fullWidthAltText="item.FullWidthImageAltText"
+        :textblock="item.text_block"
       ></component>
     </div>
   </Layout>
@@ -26,6 +24,7 @@ query BlocksPage ($path: String!) {
       Quote
       FullWidthImageSrc
       FullWidthImgAltText
+      text_block
     } 
   }
 }
@@ -35,12 +34,14 @@ query BlocksPage ($path: String!) {
 import Introduction from "../components/Introduction";
 import fullwidthimage from "../components/FullWidthImage";
 import Quote from "../components/Quote";
+import textblock from "../components/TextBlock";
 
 export default {
   components: {
     Introduction,
     fullwidthimage,
-    Quote
+    Quote,
+    textblock
   },
   metaInfo() {
     return {
