@@ -15,15 +15,6 @@
         :column_one="item.results"
       ></component>
     </div>
-    <component
-        v-for="(item, idx) in $page.post.project_blocks"
-        v-bind:is="item.template"
-        :key="idx"
-        :quote="item.Quote"
-        :column_one="item.column_one"
-        :column_two="item.column_two"
-        :column_three="item.column_three"
-      ></component>
   </Layout>
 </template>
 

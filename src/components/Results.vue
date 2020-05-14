@@ -1,9 +1,9 @@
 <template>
   <section>
     <h1>Results</h1>
-    <div class="results" v-html="column_one"></div>
-    <div class="results" v-html="column_two"></div>
-    <div class="results" v-html="column_three"></div>
+    <div class="results column_one" v-html="column_one"></div>
+    <div class="results column_two" v-html="column_two"></div>
+    <div class="results column_three" v-html="column_three"></div>
   </section>
 </template>
 

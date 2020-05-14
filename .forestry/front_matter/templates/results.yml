@@ -1,8 +1,5 @@
 ---
 label: Results
-<<<<<<< HEAD
-hide_body: false
-=======
 hide_body: true
 fields:
 - name: results
