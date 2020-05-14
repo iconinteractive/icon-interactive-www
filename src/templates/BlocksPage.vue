@@ -9,7 +9,7 @@
         :fullWidthSrc="item.FullWidthImageSrc"
         :fullWidthAltText="item.FullWidthImageAltText"
         :vimeo_video_id="item.vimeo_video_id"
-        :column_one="item.results"
+        :resultsObj="item.results"
         :textblock="item.text_block"
       ></component>
     </div>
