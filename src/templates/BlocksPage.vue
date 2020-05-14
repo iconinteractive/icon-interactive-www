@@ -1,9 +1,6 @@
 <template>
   <Layout>
     <div class="container">
-      <!-- <h1>{{ $page.post.title }}</h1> -->
-      <!-- <Introduction :client="$page.post.client" /> -->
-      <!-- <p>{{ $page.post }}</p> -->
       <component
         v-for="(item, idx) in $page.post.project_blocks"
         v-bind:is="item.template"
@@ -13,6 +10,7 @@
         :fullWidthAltText="item.FullWidthImageAltText"
         :vimeo_video_id="item.vimeo_video_id"
         :column_one="item.results"
+        :textblock="item.text_block"
       ></component>
     </div>
   </Layout>
@@ -30,6 +28,7 @@ query BlocksPage ($path: String!) {
       FullWidthImgAltText
       vimeo_video_id
       results{column_one, column_two, column_three}
+      text_block
     } 
   }
 }
@@ -41,6 +40,7 @@ import fullwidthimage from "../components/FullWidthImage";
 import Quote from "../components/Quote";
 import Vimeo from "../components/Vimeo";
 import Results from "../components/Results";
+import textblock from "../components/TextBlock";
 
 export default {
   components: {
@@ -49,7 +49,8 @@ export default {
     fullwidthimage,
     Quote,
     Vimeo,
-    Results
+    Results,
+    textblock
   },
   metaInfo() {
     return {

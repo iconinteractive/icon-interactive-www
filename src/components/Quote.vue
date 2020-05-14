@@ -1,6 +1,5 @@
 <template>
   <section>
-    <h1>Quote</h1>
     <blockquote v-html="quote" />
   </section>
 </template>
