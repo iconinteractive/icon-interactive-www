@@ -1,13 +1,13 @@
 ---
 date: 2019-12-05
 service_tags:
-  service_tag_one: strategy
-  service_tag_two: experiential
+  service_tag_one: design and visual content
+  service_tag_two: ''
   service_tag_three: ''
 display_on_home_page: true
 thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/jag-thumb.jpg
 title: Jaguar I-Pace Launch
-client: Jaguar Land Rover
+client: Jaguar
 project_url: ''
 introduction: "<h3>ICON HELPS LAUNCH JAGUAR'S FIRST FULLY-ELECTRIC VEHICLE</h3><p></p><p>With
   a world-class foray into the electric vehicle (EV) marketplace, Jaguar wanted to

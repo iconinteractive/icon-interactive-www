@@ -87,6 +87,24 @@ fields:
         file: 
         path: 
     label: Service Tag Two
+  - name: service_tag_three
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - strategy
+      - design and visual content
+      - web and mobile
+      - experiential
+      - custom software
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Service Tag Three
+  label: Service Tags
 - name: introduction
   type: textarea
   default: ''

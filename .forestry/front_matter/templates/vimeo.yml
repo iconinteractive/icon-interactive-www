@@ -1,0 +1,9 @@
+---
+label: Vimeo
+hide_body: true
+fields:
+- name: vimeo_video_id
+  type: text
+  config:
+    required: true
+  label: Vimeo Video ID

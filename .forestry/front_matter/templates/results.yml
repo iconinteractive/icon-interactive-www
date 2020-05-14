@@ -1,6 +1,9 @@
 ---
 label: Results
+<<<<<<< HEAD
 hide_body: false
+=======
+hide_body: true
 fields:
 - name: results
   type: field_group
@@ -34,4 +37,4 @@ fields:
         format: html-blocks
     label: Column Three
   label: Results
-  description: Results & ROI Stats
+  description: Results &amp; ROI Stats

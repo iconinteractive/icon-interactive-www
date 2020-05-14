@@ -1,8 +1,8 @@
 ---
-label: Quote
+label: TextBlock
 hide_body: true
 fields:
-- name: Quote
+- name: text_block
   type: textarea
   default: ''
   config:
@@ -10,4 +10,4 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-  label: Quote
+  label: text block
