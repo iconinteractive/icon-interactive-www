@@ -9,6 +9,7 @@
         :fullWidthSrc="item.FullWidthImageSrc"
         :fullWidthAltText="item.FullWidthImageAltText"
         :textblock="item.text_block"
+        :twoColImages="item.images"
       ></component>
     </div>
   </Layout>
@@ -25,6 +26,9 @@ query BlocksPage ($path: String!) {
       FullWidthImageSrc
       FullWidthImgAltText
       text_block
+      images {
+        image_one, image_one_alt_text, image_two, image_two_alt_text
+      }
     } 
   }
 }
@@ -35,13 +39,15 @@ import Introduction from "../components/Introduction";
 import fullwidthimage from "../components/FullWidthImage";
 import Quote from "../components/Quote";
 import textblock from "../components/TextBlock";
+import twoColumnImages from "../components/twoColumnImages";
 
 export default {
   components: {
     Introduction,
     fullwidthimage,
     Quote,
-    textblock
+    textblock,
+    twoColumnImages
   },
   metaInfo() {
     return {
