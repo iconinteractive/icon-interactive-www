@@ -22,4 +22,9 @@ blockquote {
   margin: 6.5rem 0;
   width: 80%;
 }
+@media (max-width: 800px) {
+  blockquote {
+    width: 90%;
+  }
+}
 </style>

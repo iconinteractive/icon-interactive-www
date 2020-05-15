@@ -31,7 +31,11 @@ export default {
   margin: 1rem 0 0;
 }
 .text-block p {
-  margin: 0;
   margin: 0.5rem 0 2rem;
+}
+@media (max-width: 800px) {
+  .text-block {
+    width: 90%;
+  }
 }
 </style>
