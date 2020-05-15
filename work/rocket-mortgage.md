@@ -38,6 +38,12 @@ project_blocks:
     the North American organization founded by Matthew “Nadeshot” Haag in 2017. <strong>Dan
     Gilbert</strong>, the largest shareholder in 100 Thieves, is the founder of Quicken
     Loans.</p>
+- template: two-column-images
+  images:
+    image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_left.jpg
+    image_one_alt_text: two guests checking phone at the event
+    image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_tall_right.jpg
+    image_two_alt_text: guest taking picture of event
 - template: quote
   Quote: <p>"There was an awesome dome and we had provided some Rift content for them
     to be able to show. We want to make sure our fans have a great experience and
@@ -51,10 +57,5 @@ project_blocks:
     activations outside the arena. This giant dome with projection mapping. We are
     getting great feedback and it makes me excited to be a part of it.”</p><p><em>Casey
     Hurbis, CMO, Rocket Mortgage</em></p>"
-- template: results
-  results:
-    column_one: "<h1>1000+</h1><p>HOURS OF ROCKET MORTGAGE<br>BRANDED CONTENT</p>"
-    column_two: "<h1>200+</h1><p>QUALIFIED LEADS</p>"
-    column_three: "<h1>100%</h1><p>AUTHENTIC FAN EXPERIENCE</p>"
 
 ---

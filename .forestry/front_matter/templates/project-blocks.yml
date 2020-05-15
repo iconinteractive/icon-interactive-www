@@ -120,6 +120,7 @@ fields:
   template_types:
   - textblock
   - fullwidthimage
+  - two-column-images
   - quote
   - vimeo
   - results
