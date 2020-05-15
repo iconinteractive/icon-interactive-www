@@ -2,29 +2,29 @@
 label: Two Column Images
 hide_body: true
 fields:
-  - name: images
-    type: field_group
-    config: {}
-    fields:
-      - name: image_one
-        type: file
-        config:
-          maxSize: 64
-        label: image one
-      - name: image_one_alt_text
-        type: text
-        config:
-          required: false
-        label: image one alt text
-        description: "Alternative text for image for SEO / Accessibility"
-      - name: image_two
-        type: file
-        config:
-          maxSize: 64
-        label: image two
-      - name: image_two_alt_text
-        type: text
-        config:
-          required: false
-        label: image two alt text
-    label: Images
+- name: images
+  type: field_group
+  config: {}
+  fields:
+  - name: image_one
+    type: file
+    config:
+      maxSize: 64
+    label: image one
+  - name: image_one_alt_text
+    type: text
+    config:
+      required: false
+    label: image one alt text
+    description: Alternative text for image for SEO / Accessibility
+  - name: image_two
+    type: file
+    config:
+      maxSize: 64
+    label: image two
+  - name: image_two_alt_text
+    type: text
+    config:
+      required: false
+    label: image two alt text
+  label: Images
