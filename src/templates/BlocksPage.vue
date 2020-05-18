@@ -11,6 +11,7 @@
         :vimeo_video_id="item.vimeo_video_id"
         :resultsObj="item.results"
         :textblock="item.text_block"
+        :twoColImages="item.images"
       ></component>
     </div>
   </Layout>
@@ -27,8 +28,11 @@ query BlocksPage ($path: String!) {
       FullWidthImageSrc
       FullWidthImgAltText
       vimeo_video_id
-      results{column_one, column_two, column_three}
+      results { column_one, column_two, column_three }
       text_block
+      images {
+        image_one, image_one_alt_text, image_two, image_two_alt_text
+      }
     } 
   }
 }
@@ -41,16 +45,16 @@ import Quote from "../components/Quote";
 import Vimeo from "../components/Vimeo";
 import Results from "../components/Results";
 import textblock from "../components/TextBlock";
+import twoColumnImages from "../components/twoColumnImages";
 
 export default {
   components: {
-
     Introduction,
     fullwidthimage,
     Quote,
     Vimeo,
     Results,
-    textblock
+    twoColumnImages
   },
   metaInfo() {
     return {

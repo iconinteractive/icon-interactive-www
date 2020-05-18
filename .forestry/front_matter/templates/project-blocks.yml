@@ -120,6 +120,7 @@ fields:
   template_types:
   - textblock
   - fullwidthimage
+  - twoColumnImages
   - quote
   - vimeo
   - results
@@ -129,4 +130,5 @@ fields:
     schema:
       format: markdown
 pages:
+- work/rocket-mortgage.md
 - work/test.md
