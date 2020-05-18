@@ -11,9 +11,9 @@ intro:
   thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/lol-thumb.jpg
   project_url: ""
   client_logo: https://s3.amazonaws.com/forestry.iconinteractive.com/RocketMortgage.png
-  intro_paragraph:
+  intro_paragraph: <h2>Challenge</h2>
 title: Rocket Mortgage
-project_blocks: <h2>Hey</h2>
+project_blocks:
   - template: fullwidthimage
     FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
     FullWidthImgAltText: crowd gathering outside dome
