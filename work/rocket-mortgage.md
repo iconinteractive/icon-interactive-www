@@ -15,7 +15,7 @@ intro:
     ### ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH 360 PROJECTION AT THE LCS 2019 TAILGATE PARTY
 
     Doubling down on eSports, Rocket Mortgage partnered with Riot Games to bring League of Legends to Detroit as presenting sponsor of the LCS Summer Finals.
-title: rocket mortgage
+title: Rocket Mortgage
 project_blocks:
 - template: fullwidthimage
   FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
