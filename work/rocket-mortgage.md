@@ -51,17 +51,20 @@ project_blocks:
     We got that. And they told us… this is the best fan day activation we have seen
     in Chevy Plaza in a long time."</p><p><em>Matt Archambault, Head of NA Partnerships
     for Riot Games</em></p>
-- template: quote
-  Quote: "<p>“To see your brand associated with something that people are so excited
-    about makes you feel good that your brand is part of it. We are doing really amazing
-    activations outside the arena. This giant dome with projection mapping. We are
-    getting great feedback and it makes me excited to be a part of it.”</p><p><em>Casey
-    Hurbis, CMO, Rocket Mortgage</em></p>"
+- template: facebook360
+  facebook_360:
+    facebook_360_src_url: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&show_text=false&width=734&appId=192530658855251&height=415
 - template: twoColumnImages
   images:
     image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_left.jpg
     image_one_alt_text: crowd at activation with sky dome above
     image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg
     image_two_alt_text: panorama photo of dome
+- template: quote
+  Quote: "<p>“To see your brand associated with something that people are so excited
+    about makes you feel good that your brand is part of it. We are doing really amazing
+    activations outside the arena. This giant dome with projection mapping. We are
+    getting great feedback and it makes me excited to be a part of it.”</p><p><em>Casey
+    Hurbis, CMO, Rocket Mortgage</em></p>"
 
 ---
