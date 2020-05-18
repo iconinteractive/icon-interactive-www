@@ -7,7 +7,7 @@ intro:
     service_tag_two: ''
   page_title: eSports Experiential
   client: Rocket Mortgage
-  display_on_home_page: false
+  display_on_home_page: true
   thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/lol-thumb.jpg
   project_url: ''
   client_logo: https://s3.amazonaws.com/forestry.iconinteractive.com/RocketMortgage.png
