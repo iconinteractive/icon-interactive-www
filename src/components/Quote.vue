@@ -12,7 +12,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 blockquote {
   display: flex;
   flex-direction: column;
@@ -21,6 +21,15 @@ blockquote {
   padding-left: 1rem;
   margin: 6.5rem 0;
   width: 80%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+blockquote p > em {
+  color: var(--color-highlight);
+  font-size: 1.1rem;
+}
+blockquote p {
+  margin-top: 0;
 }
 @media (max-width: 800px) {
   blockquote {

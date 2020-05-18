@@ -2,20 +2,20 @@
   <section class="results">
     <h1>Results</h1>
     <div class="three-column">
-	    <div class="roi" v-html="resultsObj.column_one"></div>
-	    <div class="roi" v-html="resultsObj.column_two"></div>
-	    <div class="roi" v-html="resultsObj.column_three"></div>
-	</div>
+      <div class="roi" v-html="resultsObj.column_one"></div>
+      <div class="roi" v-html="resultsObj.column_two"></div>
+      <div class="roi" v-html="resultsObj.column_three"></div>
+    </div>
   </section>
 </template>
 
 <script>
 export default {
-  props: ["column_one", "column_two", "column_three", "resultsObj"]
+  props: ["resultsObj"]
 };
 </script>
 
-<style scoped>
+<style>
 .results {
   margin: 1rem;
 }
@@ -30,10 +30,29 @@ export default {
   display: flex;
   width: 100%;
   flex-direction: column;
-  text-align: center;
+  align-content: center;
+  text-align: left;
   padding: 1rem;
 }
 .roi :nth-child(1) {
   margin: 0;
+}
+.roi > h1,
+.roi > h2,
+.roi > h3,
+.roi > h4,
+.roi > h5,
+.roi > h6 {
+  font-family: "DM Sans", sans-serif;
+}
+.roi > p {
+  color: var(--color-contrast);
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .three-column {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 </style>

@@ -26,6 +26,7 @@ export default {
 .text-block h5,
 .text-block h6 {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-weight: normal;
   color: var(--color-highlight);
   font-size: 1.5rem;
   margin: 1rem 0 0;

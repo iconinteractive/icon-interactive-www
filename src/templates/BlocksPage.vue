@@ -12,6 +12,7 @@
         :resultsObj="item.results"
         :textblock="item.text_block"
         :twoColImages="item.images"
+        :facebook360block="item.facebook_360"
       ></component>
     </div>
   </Layout>
@@ -33,6 +34,7 @@ query BlocksPage ($path: String!) {
       images {
         image_one, image_one_alt_text, image_two, image_two_alt_text
       }
+      facebook_360 { facebook_360_src_url }
     } 
   }
 }
@@ -46,6 +48,7 @@ import Vimeo from "../components/Vimeo";
 import Results from "../components/Results";
 import textblock from "../components/TextBlock";
 import twoColumnImages from "../components/twoColumnImages";
+import Facebook360 from "../components/Facebook360";
 
 export default {
   components: {
@@ -54,7 +57,9 @@ export default {
     Quote,
     Vimeo,
     Results,
-    twoColumnImages
+    textblock,
+    twoColumnImages,
+    Facebook360
   },
   metaInfo() {
     return {
