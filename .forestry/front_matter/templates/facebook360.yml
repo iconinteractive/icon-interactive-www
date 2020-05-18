@@ -1,4 +1,22 @@
 ---
 label: Facebook360
 hide_body: true
-fields: []
+fields:
+- name: facebook_360
+  type: field_group
+  config: {}
+  fields:
+  - name: facebook_360_src_url
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: facebook 360 src url
+    description: 'Add src attribute from facebook 360 iframe embed code here. Do not
+      include quotes. It will look like this: <a href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&amp;show_text=false&amp;width=734&amp;appId=192530658855251&amp;height=415"
+      title="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&amp;show_text=false&amp;width=734&amp;appId=192530658855251&amp;height=415"
+      target="_blank">https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ficoninteractive%2Fvideos%2F841727376222383%2F&amp;show_text=false&amp;width=734&amp;appId=192530658855251&amp;height=415</a>'
+  label: facebook 360
