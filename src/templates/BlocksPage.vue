@@ -1,20 +1,23 @@
 <template>
   <Layout>
-    <div class="container">
-      <component
-        v-for="(item, idx) in $page.post.project_blocks"
-        v-bind:is="item.template"
-        :key="idx"
-        :quote="item.Quote"
-        :fullWidthSrc="item.FullWidthImageSrc"
-        :fullWidthAltText="item.FullWidthImageAltText"
-        :vimeo_video_id="item.vimeo_video_id"
-        :resultsObj="item.results"
-        :textblock="item.text_block"
-        :twoColImages="item.images"
-        :facebook360block="item.facebook_360"
-      ></component>
-    </div>
+    <section>
+      <Introduction :intro="$page.post.intro" />
+      <div class="container">
+        <component
+          v-for="(item, idx) in $page.post.project_blocks"
+          v-bind:is="item.template"
+          :key="idx"
+          :quote="item.Quote"
+          :fullWidthSrc="item.FullWidthImageSrc"
+          :fullWidthAltText="item.FullWidthImageAltText"
+          :vimeo_video_id="item.vimeo_video_id"
+          :resultsObj="item.results"
+          :textblock="item.text_block"
+          :twoColImages="item.images"
+          :facebook360block="item.facebook_360"
+        ></component>
+      </div>
+    </section>
   </Layout>
 </template>
 
@@ -23,6 +26,18 @@
 query BlocksPage ($path: String!) {
   post: blocksPage (path: $path) {
     title
+    intro {
+      display_on_site, 
+      date,
+      service_tags { service_tag_one, service_tag_two },
+      page_title,
+      client,
+      display_on_home_page,
+      thumbnail,
+      project_url,
+      client_logo,
+      intro_paragraph
+    }
     project_blocks {
       template
       Quote
