@@ -113,6 +113,32 @@ fields:
           path: 
       label: Service Tag Two
     label: Service Tags
+  - name: page_colors
+    type: field_group
+    config: {}
+    fields:
+    - name: background
+      type: color
+      label: Background
+      config:
+        required: false
+        color_format: Hex
+    - name: text
+      type: color
+      label: Text
+      config:
+        required: false
+        color_format: Hex
+      description: Main color of body text on project page
+    - name: highlight
+      type: color
+      label: Highlight
+      config:
+        required: false
+        color_format: Hex
+      description: highlight color for headlines etc.
+    label: Page Colors
+    description: Verify all color selections with design before modifying.
   label: Intro
 - name: project_blocks
   type: blocks
