@@ -138,7 +138,6 @@ fields:
         color_format: Hex
       description: highlight color for headlines etc.
     label: Page Colors
-    description: Verify all color selections with design before modifying.
   label: Intro
 - name: project_blocks
   type: blocks
