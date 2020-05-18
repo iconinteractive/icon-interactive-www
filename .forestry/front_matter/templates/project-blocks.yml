@@ -124,6 +124,7 @@ fields:
   - quote
   - vimeo
   - results
+  - facebook360
   config:
     required: true
     wysiwyg: true
