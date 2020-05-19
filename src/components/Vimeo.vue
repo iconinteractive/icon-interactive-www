@@ -1,10 +1,9 @@
 <template>
   <section>
-    <h1>Video</h1>
-    <div class="vimeo" style="padding:56.25% 0 0 0;position:relative;">
+    <div class="vimeo">
       <iframe
         :src="videoSource"
-        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+        class="full-width"
         frameborder="0"
         allow="autoplay; fullscreen"
         allowfullscreen
@@ -27,5 +26,14 @@ export default {
 <style scoped>
 .vimeo {
   margin: 1rem;
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+.full-width {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>

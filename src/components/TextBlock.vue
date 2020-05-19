@@ -14,6 +14,7 @@ export default {
 .text-wrap {
   display: flex;
   justify-content: center;
+  margin: 3rem 0;
 }
 .text-block {
   width: 50%;

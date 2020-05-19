@@ -22,7 +22,6 @@ export default {
 .three-column {
   display: flex;
   justify-content: space-around;
-  border: 1px solid red;
 }
 .roi {
   color: var(--color-highlight);

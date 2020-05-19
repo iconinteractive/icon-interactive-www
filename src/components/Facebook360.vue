@@ -1,14 +1,15 @@
 <template>
   <section>
-    <div v-if="isMobile" class="embed" style="padding:56.25% 0 0 0;position:relative;">
+    <div v-if="isMobile" class="embed">
       <iframe
         :src="facebook360block.facebook_360_src_url"
-        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+        class="full-width"
         scrolling="no"
         frameborder="0"
         allowtransparency="true"
         allow="encrypted-media"
         allowfullscreen="true"
+        title="facebook 360 video"
       ></iframe>
     </div>
   </section>
@@ -51,5 +52,14 @@ export default {
 <style>
 .embed {
   margin: 1rem;
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+.full-width {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :style="style">
     <section>
       <div class="container">
         <Introduction :intro="$page.post.intro" />
@@ -37,7 +37,8 @@ query BlocksPage ($path: String!) {
       project_url,
       client_logo,
       intro_paragraph
-      
+      page_colors { background, text, highlight }
+      background_hero_image
     }
     project_blocks {
       template
@@ -76,6 +77,11 @@ export default {
     textblock,
     twoColumnImages,
     Facebook360
+  },
+  computed: {
+    style() {
+      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight};`;
+    }
   },
   metaInfo() {
     return {

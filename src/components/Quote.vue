@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="quote-block">
     <blockquote v-html="quote" />
   </section>
 </template>
@@ -13,6 +13,10 @@ export default {
 </script>
 
 <style>
+.quote-block {
+  display: flex;
+  justify-content: center;
+}
 blockquote {
   display: flex;
   flex-direction: column;
@@ -20,7 +24,7 @@ blockquote {
   color: var(--color-contrast);
   padding-left: 1rem;
   margin: 6.5rem 0;
-  width: 80%;
+  width: 70%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
