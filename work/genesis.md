@@ -20,7 +20,7 @@ intro:
   page_colors:
     background: ''
     text: ''
-    highlight: ''
+    highlight: "#A36B4F"
 title: Genesis
 project_blocks:
 - template: textblock
