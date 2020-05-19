@@ -21,6 +21,7 @@ intro:
     background: ''
     text: ''
     highlight: "#A36B4F"
+  background_hero_image: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis-header-v2@2x.jpg
 title: Genesis
 project_blocks:
 - template: textblock
