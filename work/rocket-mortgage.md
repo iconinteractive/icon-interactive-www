@@ -19,6 +19,7 @@ intro:
     background: ''
     text: ''
     highlight: ''
+  background_hero_image: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
 title: Rocket Mortgage
 project_blocks:
 - template: textblock

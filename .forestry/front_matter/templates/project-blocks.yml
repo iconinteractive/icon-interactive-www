@@ -138,6 +138,11 @@ fields:
         color_format: Hex
       description: highlight color for headlines etc.
     label: Page Colors
+  - name: background_hero_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Hero Image
   label: Intro
 - name: project_blocks
   type: blocks
