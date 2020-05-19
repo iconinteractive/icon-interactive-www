@@ -156,5 +156,6 @@ fields:
     schema:
       format: markdown
 pages:
+- work/genesis.md
 - work/rocket-mortgage.md
 - work/test.md
