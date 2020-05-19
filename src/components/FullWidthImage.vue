@@ -1,6 +1,5 @@
 <template>
   <section>
-    <h1>Img</h1>
     <g-image :src="fullWidthSrc" :alt="fullWidthAltText" class="full-image" />
   </section>
 </template>

@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <section>
-      <Introduction :intro="$page.post.intro" />
       <div class="container">
+        <Introduction :intro="$page.post.intro" />
         <component
           v-for="(item, idx) in $page.post.project_blocks"
           v-bind:is="item.template"
@@ -37,6 +37,7 @@ query BlocksPage ($path: String!) {
       project_url,
       client_logo,
       intro_paragraph
+      
     }
     project_blocks {
       template

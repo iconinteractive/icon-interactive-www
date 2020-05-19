@@ -53,7 +53,7 @@ export default {
   z-index: 10;
   width: 100%;
   margin-bottom: 2rem;
-  background-color: var(--color-base-opacity);
+  background: transparent;
 }
 .nav {
   display: flex;

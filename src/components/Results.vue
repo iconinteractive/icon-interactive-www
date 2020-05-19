@@ -1,6 +1,5 @@
 <template>
   <section class="results">
-    <h1>Results</h1>
     <div class="three-column">
       <div class="roi" v-html="resultsObj.column_one"></div>
       <div class="roi" v-html="resultsObj.column_two"></div>
@@ -17,18 +16,17 @@ export default {
 
 <style>
 .results {
-  margin: 1rem;
+  margin: 1rem 10%;
+  width: 80%;
 }
 .three-column {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
 }
 .roi {
   color: var(--color-highlight);
   display: flex;
-  width: 100%;
   flex-direction: column;
   align-content: center;
   text-align: left;

@@ -22,7 +22,12 @@
         >{{ intro.project_url }}</a>
       </div>
       <div v-html="intro.intro_paragraph" />
+      <img :src="intro.client_logo" />
     </div>
+    <img
+      src="https://s3.amazonaws.com/forestry.iconinteractive.com/genesis-header-v2@2x.jpg"
+      class="background"
+    />
   </section>
 </template>
 
@@ -40,4 +45,16 @@ export default {
 </script>
 
 <style scoped>
+.introduction {
+  border: 1px solid cyan;
+}
+.background {
+  position: absolute;
+  top: -95px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -2;
+  opacity: 0.4;
+}
 </style>
