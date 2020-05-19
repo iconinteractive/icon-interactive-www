@@ -87,13 +87,30 @@ export default {
 .client-logo {
   width: 150px;
 }
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
   .introduction {
     width: 90%;
-    height: ;
   }
   .intro-container {
     height: auto;
+  }
+  .background {
+    position: static;
+    opacity: 1;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 800px) {
+  .introduction {
+    width: 90%;
+  }
+  .intro-container {
+    height: auto;
+  }
+  .background {
+    position: static;
+    opacity: 1;
+    margin: 2rem 0;
   }
 }
 </style>

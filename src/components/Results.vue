@@ -49,7 +49,7 @@ export default {
 
 @media (max-width: 800px) {
   .three-column {
-    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
   }
 }
 </style>
