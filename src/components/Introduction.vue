@@ -21,7 +21,7 @@
       </div>
       <div class="paragraph-block" v-html="intro.intro_paragraph" />
     </div>
-    <img v-if="intro.client_logo" class="logo" :src="intro.client_logo" alt="client logo" />
+    <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
     <img v-if="intro.background_hero_image" :src="intro.background_hero_image" class="background" />
   </section>
 </template>
@@ -68,7 +68,7 @@ export default {
 .category.highlight a {
   color: var(--color-highlight);
 }
-ul {
+.categories ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -84,7 +84,7 @@ ul {
   line-height: 3rem;
   margin: 1rem 0 0;
 }
-.logo {
+.client-logo {
   width: 150px;
 }
 </style>
