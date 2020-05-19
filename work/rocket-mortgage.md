@@ -19,9 +19,12 @@ intro:
     background: ''
     text: ''
     highlight: ''
-  background_hero_image: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
+  background_hero_image: ''
 title: Rocket Mortgage
 project_blocks:
+- template: fullwidthimage
+  FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_outside.jpg
+  FullWidthImgAltText: crowd outside event
 - template: textblock
   text_block: <h2>Challenge</h2><p>Come up with a stunning and attractive experiential
     concept that authentically connects Rocket Mortgage with the world of eSports.
