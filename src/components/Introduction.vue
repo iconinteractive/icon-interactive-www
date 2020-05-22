@@ -87,9 +87,9 @@ export default {
 .client-logo {
   width: 150px;
 }
-@media (max-width: 1300px) {
+/* @media (max-width: 1300px) {
   .introduction {
-    width: 90%;
+    width: 60%;
   }
   .intro-container {
     height: auto;
@@ -99,7 +99,7 @@ export default {
     opacity: 1;
     margin: 2rem 0;
   }
-}
+} */
 @media (max-width: 800px) {
   .introduction {
     width: 90%;

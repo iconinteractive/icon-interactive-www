@@ -30,6 +30,7 @@ export default {
   align-content: center;
   text-align: left;
   padding: 1rem;
+  font-weight: normal;
 }
 .roi :nth-child(1) {
   margin: 0;
