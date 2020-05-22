@@ -19,10 +19,10 @@
           rel="noopener noreferrer"
         >{{ intro.project_url }}</a>
       </div>
+      <img v-if="intro.background_hero_image" :src="intro.background_hero_image" class="background" />
       <div class="paragraph-block" v-html="intro.intro_paragraph" />
     </div>
     <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
-    <img v-if="intro.background_hero_image" :src="intro.background_hero_image" class="background" />
   </section>
 </template>
 
