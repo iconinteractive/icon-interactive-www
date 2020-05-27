@@ -7,38 +7,7 @@
         <span class="pink">CONNECT</span>
       </h1>
       <article class="contact row">
-        <section>
-          <div class="intro-info" v-html="contact.contact_form_paragraph" />
-          <form
-            class="contact-form"
-            name="contact"
-            action="https://www.form-data.com/_functions/submit/wn7goc9zzuok4lcb2oeu1p"
-            method="POST"
-          >
-            <div>
-              <label for="name" class="label">Name</label>
-              <input id="name" type="text" name="name" />
-            </div>
-            <div>
-              <label for="email" class="label">Email</label>
-              <input id="email" type="email" name="email" />
-            </div>
-            <div>
-              <label for="company" class="label">Company</label>
-              <input id="company" type="text" name="company" />
-            </div>
-            <div>
-              <label for="phone" class="label">Phone</label>
-              <input id="phone" type="text" name="phone" />
-            </div>
-            <div class="message">
-              <label for="message" class="label">Message</label>
-              <textarea id="message" name="message"></textarea>
-            </div>
-            <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
-            <input type="submit" class="button" value="Send ⟶" />
-          </form>
-        </section>
+        <ContactForm />
         <section class="contact-wrapper">
           <p class="pink-label">CALL</p>
           <a class="link" href="tel:7347079245">734.707.9245</a>
@@ -119,7 +88,12 @@
 </template>
 
 <script>
+import ContactForm from "../components/ContactForm";
+
 export default {
+  components: {
+    ContactForm
+  },
   data() {
     return {
       contact: require("../../data/contact.json")

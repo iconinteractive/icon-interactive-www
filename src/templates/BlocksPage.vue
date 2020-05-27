@@ -16,6 +16,7 @@
           :twoColImages="item.images"
           :facebook360block="item.facebook_360"
         ></component>
+        <ContactForm />
       </div>
     </section>
   </Layout>
@@ -66,6 +67,7 @@ import Results from "../components/Results";
 import textblock from "../components/TextBlock";
 import twoColumnImages from "../components/twoColumnImages";
 import Facebook360 from "../components/Facebook360";
+import ContactForm from "../components/ContactForm";
 
 export default {
   components: {
@@ -76,7 +78,8 @@ export default {
     Results,
     textblock,
     twoColumnImages,
-    Facebook360
+    Facebook360,
+    ContactForm
   },
   computed: {
     style() {
