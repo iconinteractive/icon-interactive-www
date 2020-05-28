@@ -116,7 +116,6 @@ export default {
 @media (min-width: 2000px) {
   .intro-container {
     margin: 10rem 0 30rem;
-    border: 1px solid cyan;
   }
 }
 </style>
