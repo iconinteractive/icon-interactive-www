@@ -16,7 +16,9 @@
           :twoColImages="item.images"
           :facebook360block="item.facebook_360"
         ></component>
-        <ContactForm />
+        <section class="contact-wrapper">
+          <ContactForm />
+        </section>
       </div>
     </section>
   </Layout>
@@ -98,6 +100,14 @@ export default {
 a {
   text-decoration: underline;
   color: var(--color-highlight);
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(53, 53, 53, 0.7);
+}
+.contact-wrapper > section:first-of-type {
+  width: 70%;
 }
 @media (max-width: 800px) {
   h1 {

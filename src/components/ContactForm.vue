@@ -15,7 +15,7 @@
       </div>
       <textarea class="message" name="message" placeholder="Message"></textarea>
       <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
-      <input type="submit" class="button" value="Send ⟶" />
+      <input type="submit" class="button" value="SUBMIT" />
     </form>
   </section>
 </template>
@@ -31,8 +31,8 @@ export default {
 </script>
 
 <style scoped>
-p {
-  font-size: 1.2rem;
+.intro-info {
+  font-size: 1.5rem;
 }
 .honey {
   display: none;
@@ -116,6 +116,7 @@ textarea {
   resize: none;
   height: 50px;
   margin-bottom: 2rem;
+  border-bottom: 1px solid var(--color-contrast);
 }
 textarea:focus {
   height: 150px;
@@ -125,21 +126,21 @@ input[type="submit"].button {
   -webkit-appearance: none;
   appearance: none;
   background: var(--color-base);
-  color: var(--color-highlight);
-  border: 1px solid var(--color-highlight);
+  color: var(--color-contrast);
+  border: 1px solid var(--color-contrast);
   outline: none;
-  font-size: 2rem;
+  font-size: 1.1rem;
   padding: 0.8rem 1.6rem;
   border-radius: 0.3rem;
   margin-top: 0rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
-  font-size: 500;
   letter-spacing: 0.035em;
+  width: 30%;
 }
 input[type="submit"].button:hover {
-  background: var(--color-highlight);
-  color: var(--color-contrast);
+  border: 1px solid var(--color-highlight);
+  color: var(--color-highlight);
   transition: all 300ms ease-in-out;
 }
 .button:focus {
