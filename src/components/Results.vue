@@ -41,6 +41,9 @@ export default {
 .roi > h5,
 .roi > h6 {
   font-family: "DM Sans", sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .roi > p {
   color: var(--color-contrast);

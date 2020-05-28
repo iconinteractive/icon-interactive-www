@@ -21,16 +21,19 @@ blockquote {
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
+  line-height: 2rem;
   color: var(--color-contrast);
   padding-left: 1rem;
-  margin: 6.5rem 0;
+  margin: 8.5rem 0;
   width: 70%;
+  max-width: 800px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 blockquote p > em {
   color: var(--color-highlight);
   font-size: 1.1rem;
+  line-height: 1.6rem;
 }
 blockquote p {
   margin-top: 0;

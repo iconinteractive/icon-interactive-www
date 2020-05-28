@@ -46,12 +46,15 @@ export default {
 
 <style>
 .intro-container {
-  height: 60vh;
+  margin: 0 0 10rem;
 }
 .introduction {
   margin: 0 0 2rem;
   width: 55%;
   border-bottom: 1px solid var(--color-highlight);
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  max-width: 700px;
 }
 .background {
   position: absolute;
@@ -73,44 +76,47 @@ export default {
   padding: 0;
   display: flex;
 }
+.category {
+  font-size: 1rem;
+}
 .category:nth-child(2) {
   margin-left: 2rem;
 }
 .paragraph-block {
   margin: 2rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
 }
 .title {
   font-size: 2.75rem;
-  line-height: 3rem;
+  line-height: 3.25rem;
   margin: 1rem 0 0;
 }
 .client-logo {
   width: 150px;
 }
-/* @media (max-width: 1300px) {
-  .introduction {
-    width: 60%;
-  }
-  .intro-container {
-    height: auto;
-  }
-  .background {
-    position: static;
-    opacity: 1;
-    margin: 2rem 0;
-  }
-} */
 @media (max-width: 800px) {
   .introduction {
     width: 90%;
   }
-  .intro-container {
-    height: auto;
-  }
   .background {
     position: static;
     opacity: 1;
     margin: 2rem 0;
+  }
+  .client-logo {
+    display: none;
+  }
+}
+@media (min-width: 1500px) {
+  .intro-container {
+    margin: 0 0 30rem;
+  }
+}
+@media (min-width: 2000px) {
+  .intro-container {
+    margin: 10rem 0 30rem;
+    border: 1px solid cyan;
   }
 }
 </style>

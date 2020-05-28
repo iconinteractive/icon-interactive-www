@@ -14,11 +14,13 @@ export default {
 .text-wrap {
   display: flex;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 .text-block {
   width: 50%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  max-width: 700px;
 }
 .text-block h1,
 .text-block h2,
@@ -29,7 +31,7 @@ export default {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: var(--color-highlight);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 1rem 0 0;
 }
 .text-block p {
