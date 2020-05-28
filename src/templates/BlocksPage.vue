@@ -105,6 +105,7 @@ a {
   display: flex;
   justify-content: center;
   border-top: 1px solid rgba(53, 53, 53, 0.7);
+  padding: 2rem 0;
 }
 .contact-wrapper > section:first-of-type {
   width: 70%;

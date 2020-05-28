@@ -130,13 +130,14 @@ input[type="submit"].button {
   border: 1px solid var(--color-contrast);
   outline: none;
   font-size: 1.1rem;
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem 1rem;
   border-radius: 0.3rem;
   margin-top: 0rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
   letter-spacing: 0.035em;
-  width: 30%;
+  max-width: 100px;
+  text-align: left;
 }
 input[type="submit"].button:hover {
   border: 1px solid var(--color-highlight);
