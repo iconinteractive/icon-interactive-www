@@ -106,9 +106,6 @@ export default {
 p {
   font-size: 1.2rem;
 }
-.honey {
-  display: none;
-}
 .contact {
   margin-right: 0%;
   width: 100%;
@@ -128,13 +125,6 @@ p {
 .row {
   display: flex;
   flex-direction: row;
-}
-.sender-info > div {
-  flex: 1;
-  margin-right: 4rem;
-}
-.sender-info > div:last-of-type {
-  margin: 0;
 }
 .pink-label {
   position: relative;
@@ -158,66 +148,6 @@ p {
   font-family: "Archivo Black", "DM Sans", helvetica, sans-serif;
   font-size: 1.75rem;
 }
-input:focus,
-select:focus,
-textarea:focus {
-  outline: none;
-  border-color: var(--color-highlight);
-  transition: all 300ms ease-in-out;
-}
-input,
-textarea {
-  font-family: "DM Sans", sans-serif;
-  background: transparent;
-  border: 1px solid var(--color-base-1);
-  transition: all 300ms ease-in-out;
-  outline: none;
-  border-radius: 0.3rem;
-  padding: 0.8rem 1rem;
-  color: inherit;
-  font-size: 1.5rem;
-  width: 100%;
-}
-textarea {
-  resize: none;
-  height: 140px;
-}
-select {
-  display: block;
-  font-size: 1.5rem;
-  font-family: "DM Sans", Helvetica, sans-serif;
-  line-height: 1.2rem;
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid var(--color-base-1);
-  background-color: var(--color-base);
-  color: var(--color-contrast);
-  padding: 1rem;
-}
-input[type="submit"].button {
-  -webkit-appearance: none;
-  appearance: none;
-  background: var(--color-base);
-  color: var(--color-highlight);
-  border: 1px solid var(--color-highlight);
-  outline: none;
-  font-size: 2rem;
-  padding: 0.8rem 1.6rem;
-  border-radius: 0.3rem;
-  margin-top: 0rem;
-  cursor: pointer;
-  transition: all 300ms ease-in-out;
-  font-size: 500;
-  letter-spacing: 0.035em;
-}
-input[type="submit"].button:hover {
-  background: var(--color-highlight);
-  color: var(--color-contrast);
-  transition: all 300ms ease-in-out;
-}
-.button:focus {
-  border: 1px solid var(--color-contrast);
-}
 .contact div {
   margin-bottom: 2rem;
 }
@@ -239,11 +169,6 @@ h3 {
 .locations {
   margin-bottom: 0;
 }
-
-/* .intro-info {
-  margin-top: 0;
-  border: 1px solid pink;
-} */
 
 @media (min-width: 1610px) {
   .grid-two {

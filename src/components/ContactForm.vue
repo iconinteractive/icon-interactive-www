@@ -59,6 +59,9 @@ p {
 .two-column > input {
   width: 50%;
 }
+.two-column > input:first-child {
+  margin-right: 2rem;
+}
 .sender-info > div {
   flex: 1;
   margin-right: 4rem;
@@ -105,24 +108,18 @@ textarea {
   outline: none;
   padding: 0.8rem 1rem;
   color: inherit;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   width: 100%;
+  margin: 1rem 0 0.5rem;
 }
 textarea {
   resize: none;
-  height: 140px;
+  height: 50px;
+  margin-bottom: 2rem;
 }
-select {
-  display: block;
-  font-size: 1.5rem;
-  font-family: "DM Sans", Helvetica, sans-serif;
-  line-height: 1.2rem;
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid var(--color-base-1);
-  background-color: var(--color-base);
-  color: var(--color-contrast);
-  padding: 1rem;
+textarea:focus {
+  height: 150px;
+  transition: height 500ms ease-out;
 }
 input[type="submit"].button {
   -webkit-appearance: none;
@@ -147,9 +144,6 @@ input[type="submit"].button:hover {
 }
 .button:focus {
   border: 1px solid var(--color-contrast);
-}
-.contact div {
-  margin-bottom: 2rem;
 }
 .grid-two div {
   margin-bottom: 1rem;
