@@ -108,7 +108,7 @@ a {
   padding: 2rem 0;
 }
 .contact-wrapper > section:first-of-type {
-  width: 70%;
+  max-width: 800px;
 }
 @media (max-width: 800px) {
   h1 {

@@ -1,8 +1,7 @@
 <template>
-  <section>
+  <section class="contact-form">
     <div class="intro-info" v-html="contact.contact_form_paragraph" />
     <form
-      class="contact-form"
       name="contact"
       action="https://www.form-data.com/_functions/submit/wn7goc9zzuok4lcb2oeu1p"
       method="POST"
@@ -11,7 +10,7 @@
       <input id="email" type="email" name="email" placeholder="Email" />
       <div class="two-column">
         <input id="company" type="text" name="company" placeholder="Company" />
-        <input id="phone" type="text" name="phone" placeholder="Phone" />
+        <input id="phone" type="tel" name="phone" placeholder="Phone" />
       </div>
       <textarea class="message" name="message" placeholder="Message"></textarea>
       <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
@@ -34,24 +33,11 @@ export default {
 .intro-info {
   font-size: 1.5rem;
 }
+.contact-form {
+  max-width: 800px;
+}
 .honey {
   display: none;
-}
-.contact {
-  margin-right: 0%;
-  width: 100%;
-}
-.contact-header {
-  padding: 2rem 0 4rem 0;
-}
-.label {
-  font-family: "Archivo Black", "DM Sans", helvetica;
-  font-size: 2rem;
-}
-.contact-title {
-  font-size: 4rem;
-  margin: 0 0 4rem 0;
-  padding: 0;
 }
 .two-column {
   display: flex;
@@ -103,7 +89,7 @@ textarea {
   font-family: "DM Sans", sans-serif;
   background: transparent;
   border: none;
-  border-bottom: 1px solid var(--color-base-1);
+  border-bottom: 1px solid var(--color-contrast);
   transition: all 300ms ease-in-out;
   outline: none;
   padding: 0.8rem 1rem;
@@ -112,11 +98,14 @@ textarea {
   width: 100%;
   margin: 1rem 0 0.5rem;
 }
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-contrast);
+}
 textarea {
   resize: none;
   height: 50px;
   margin-bottom: 2rem;
-  border-bottom: 1px solid var(--color-contrast);
 }
 textarea:focus {
   height: 150px;
@@ -162,9 +151,6 @@ h3 {
   grid-column-gap: 2rem;
   grid-row-gap: 0;
 }
-.locations {
-  margin-bottom: 0;
-}
 
 @media (min-width: 1610px) {
   .grid-two {
@@ -177,18 +163,12 @@ h3 {
     display: flex;
     flex-direction: column;
   }
-  .contact-wrapper {
-    margin: 2rem 0 0;
-  }
   .grid-two {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 880px) {
-  .contact {
-    margin: 0;
-  }
   .link {
     font-size: 1.3rem;
   }
