@@ -19,7 +19,8 @@ intro:
     background: ''
     text: ''
     highlight: ''
-  background_hero_image: ''
+  background_hero_image: https://s3.amazonaws.com/forestry.iconinteractive.com/spoke-test.png
+  hero_image_toggle: false
 title: Rocket Mortgage
 project_blocks:
 - template: fullwidthimage
