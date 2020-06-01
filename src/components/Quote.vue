@@ -1,5 +1,5 @@
 <template>
-  <section class="quote-block">
+  <section class="quote-block margin">
     <blockquote v-html="quote" />
   </section>
 </template>

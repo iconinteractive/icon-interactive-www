@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div v-if="isMobile" class="embed">
+    <div v-if="isMobile" class="embed margin">
       <iframe
         :src="facebook360block.facebook_360_src_url"
         class="full-width"

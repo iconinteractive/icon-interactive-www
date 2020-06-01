@@ -50,16 +50,18 @@ export default {
 
 <style>
 .intro-container {
-  margin: 0 0 10rem;
+  margin: 0 0 20rem;
   color: var(--color-contrast);
 }
 .introduction {
   margin: 0 0 2rem;
   width: 55%;
-  border-bottom: 1px solid var(--color-highlight);
   font-size: 1.1rem;
   line-height: 1.6rem;
   max-width: 700px;
+}
+.project-info {
+  margin-left: 6rem;
 }
 .background {
   position: absolute;
@@ -69,14 +71,12 @@ export default {
   height: auto;
   z-index: -2;
   opacity: 0.4;
-  height: 100vh;
-  object-fit: contain;
 }
 .column-img {
   position: absolute;
   top: 20%;
   right: 0;
-  width: 50%;
+  width: 45%;
   height: auto;
   z-index: -2;
   object-fit: contain;
@@ -99,9 +99,10 @@ export default {
   margin-left: 2rem;
 }
 .paragraph-block {
-  margin: 2rem 0;
+  margin-left: 6rem;
   font-size: 1.1rem;
   line-height: 1.6rem;
+  border-bottom: 1px solid var(--color-highlight);
 }
 .title {
   font-size: 2.75rem;
@@ -110,18 +111,31 @@ export default {
 }
 .client-logo {
   width: 150px;
+  margin-left: 6rem;
 }
 @media (max-width: 800px) {
   .introduction {
-    width: 90%;
+    width: 100%;
   }
-  .background {
+  .background,
+  .column-img {
     position: static;
     opacity: 1;
     margin: 2rem 0;
+    width: 100%;
   }
   .client-logo {
     display: none;
+  }
+  .project-info {
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 1500px) {
+  .background {
+    height: 110vh;
+    width: auto;
+    object-fit: cover;
   }
 }
 @media (min-width: 1500px) {

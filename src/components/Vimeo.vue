@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="vimeo">
+    <div class="vimeo margin">
       <iframe
         :src="videoSource"
         class="full-width"

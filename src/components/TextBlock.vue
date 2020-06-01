@@ -1,5 +1,5 @@
 <template>
-  <section class="text-wrap">
+  <section class="text-wrap margin">
     <div class="text-block" v-html="textblock" />
   </section>
 </template>

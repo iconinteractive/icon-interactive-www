@@ -68,6 +68,7 @@ export default {
   justify-content: space-between;
   padding-top: 3rem;
   border-top: 1px solid rgba(53, 53, 53, 0.7);
+  margin: 0 6rem;
 }
 a .city {
   margin: 0;

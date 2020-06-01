@@ -1,5 +1,5 @@
 <template>
-  <section class="results">
+  <section class="results margin">
     <div class="three-column">
       <div class="roi" v-html="resultsObj.column_one"></div>
       <div class="roi" v-html="resultsObj.column_two"></div>

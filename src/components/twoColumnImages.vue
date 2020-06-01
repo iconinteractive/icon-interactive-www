@@ -1,5 +1,5 @@
 <template>
-  <section class="two-column">
+  <section class="two-column margin">
     <g-image :src="twoColImages.image_one" :alt="twoColImages.image_one_alt_text" />
     <g-image :src="twoColImages.image_two" :alt="twoColImages.image_two_alt_text" />
   </section>

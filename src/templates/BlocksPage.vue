@@ -16,7 +16,7 @@
           :twoColImages="item.images"
           :facebook360block="item.facebook_360"
         ></component>
-        <section class="contact-wrapper">
+        <section class="contact-wrap margin">
           <ContactForm />
         </section>
       </div>
@@ -86,7 +86,7 @@ export default {
   },
   computed: {
     style() {
-      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight};`;
+      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight}; --color-base:${this.$page.post.intro.page_colors.background};`;
     }
   },
   metaInfo() {
@@ -98,14 +98,21 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  margin: 0;
+}
 body {
-  background: var(--color-base) !important;
+  background: var(--color-base);
 }
 a {
   text-decoration: underline;
   color: var(--color-highlight);
 }
-.contact-wrapper {
+.margin {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.contact-wrap {
   display: flex;
   justify-content: center;
   border-top: 1px solid rgba(53, 53, 53, 0.7);
@@ -117,6 +124,10 @@ a {
 @media (max-width: 800px) {
   h1 {
     font-size: 1.5rem;
+  }
+  .margin {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 </style>
