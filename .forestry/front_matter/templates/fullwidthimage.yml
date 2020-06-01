@@ -15,3 +15,9 @@ fields:
   config:
     required: false
   label: Alt text
+- name: full_bleed
+  type: boolean
+  description: ON - image is full-bleed and goes all the way to the edge of the page<br>OFF
+    - image has a margin of space around it <br>
+  default: false
+  label: full bleed
