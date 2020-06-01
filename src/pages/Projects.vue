@@ -66,7 +66,7 @@ export default {
 }
 .see-more {
   font-weight: normal;
-  color: #fff;
+  color: var(--color-contrast);
 }
 .see-more:hover {
   text-decoration: underline;

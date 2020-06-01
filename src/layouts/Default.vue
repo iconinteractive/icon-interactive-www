@@ -1,5 +1,5 @@
 <template>
-  <div class="layout" id="snippet">
+  <div>
     <Header />
     <transition name="fade" appear>
       <slot />
@@ -95,7 +95,7 @@ h6 {
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-contrast);
   transition: all 300ms ease-in-out;
 }
 a:hover {

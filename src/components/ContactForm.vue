@@ -32,6 +32,7 @@ export default {
 <style scoped>
 .intro-info {
   font-size: 1.5rem;
+  color: var(--color-contrast);
 }
 .contact-form {
   max-width: 800px;
@@ -93,7 +94,7 @@ textarea {
   transition: all 300ms ease-in-out;
   outline: none;
   padding: 0.8rem 1rem;
-  color: inherit;
+  color: var(--color-contrast);
   font-size: 1.1rem;
   width: 100%;
   margin: 1rem 0 0.5rem;

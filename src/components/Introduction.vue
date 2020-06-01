@@ -48,6 +48,8 @@ export default {
 <style>
 .intro-container {
   margin: 0 0 10rem;
+  background: var(--color-base);
+  color: var(--color-contrast);
 }
 .introduction {
   margin: 0 0 2rem;

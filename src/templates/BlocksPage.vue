@@ -86,9 +86,7 @@ export default {
   },
   computed: {
     style() {
-      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight}; 
-      --color-contrast: ${this.$page.post.intro.page_colors.text};
-      --color-base: ${this.$page.post.intro.page_colors.background}; `;
+      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight};`;
     }
   },
   metaInfo() {
@@ -100,6 +98,9 @@ export default {
 </script>
 
 <style scoped>
+body {
+  background: var(--color-base) !important;
+}
 a {
   text-decoration: underline;
   color: var(--color-highlight);

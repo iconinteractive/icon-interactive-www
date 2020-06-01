@@ -15,6 +15,7 @@ export default {
   display: flex;
   justify-content: center;
   margin: 5rem 0;
+  color: var(--color-contrast);
 }
 .text-block {
   width: 50%;

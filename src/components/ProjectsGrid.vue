@@ -80,7 +80,7 @@ export default {
   width: 60%;
   opacity: 0;
   z-index: -1;
-  color: var(--color-contrast-1);
+  color: var(--color-contrast);
 }
 
 .project-label {
@@ -89,7 +89,7 @@ export default {
   bottom: 0;
   left: 0;
   font-size: 1rem;
-  color: var(--color-contrast-1);
+  color: var(--color-contrast);
   background: transparent;
   display: flex;
   flex-direction: column;
