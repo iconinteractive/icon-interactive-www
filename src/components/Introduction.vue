@@ -19,11 +19,14 @@
           rel="noopener noreferrer"
         >{{ intro.project_url }}</a>
       </div>
-      <img v-if="intro.background_hero_image" :src="intro.background_hero_image" class="background" />
+      <img
+        v-if="intro.background_hero_image"
+        :src="intro.background_hero_image"
+        :class="{'background': intro.hero_image_toggle, 'column-img': !intro.hero_image_toggle}"
+      />
       <div class="paragraph-block" v-html="intro.intro_paragraph" />
     </div>
     <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
-    <h1>{{intro.hero_image_toggle}}</h1>
   </section>
 </template>
 
@@ -48,7 +51,6 @@ export default {
 <style>
 .intro-container {
   margin: 0 0 10rem;
-  background: var(--color-base);
   color: var(--color-contrast);
 }
 .introduction {
@@ -68,6 +70,15 @@ export default {
   z-index: -2;
   opacity: 0.4;
   height: 100vh;
+  object-fit: contain;
+}
+.column-img {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 50%;
+  height: auto;
+  z-index: -2;
   object-fit: contain;
 }
 .highlight {
