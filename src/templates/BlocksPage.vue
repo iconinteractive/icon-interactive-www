@@ -30,18 +30,19 @@ query BlocksPage ($path: String!) {
   post: blocksPage (path: $path) {
     title
     intro {
-      display_on_site, 
-      date,
-      service_tags { service_tag_one, service_tag_two },
-      page_title,
-      client,
-      display_on_home_page,
-      thumbnail,
-      project_url,
-      client_logo,
+      display_on_site
+      date
+      service_tags { service_tag_one, service_tag_two }
+      page_title
+      client
+      display_on_home_page
+      thumbnail
+      project_url
+      client_logo
       intro_paragraph
       page_colors { background, text, highlight }
       background_hero_image
+      hero_image_toggle
     }
     project_blocks {
       template
@@ -85,7 +86,9 @@ export default {
   },
   computed: {
     style() {
-      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight};`;
+      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight}; 
+      --color-contrast: ${this.$page.post.intro.page_colors.text};
+      --color-base: ${this.$page.post.intro.page_colors.background}; `;
     }
   },
   metaInfo() {

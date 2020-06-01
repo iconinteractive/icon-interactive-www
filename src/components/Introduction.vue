@@ -23,6 +23,7 @@
       <div class="paragraph-block" v-html="intro.intro_paragraph" />
     </div>
     <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
+    <h1>{{intro.hero_image_toggle}}</h1>
   </section>
 </template>
 
@@ -64,6 +65,8 @@ export default {
   height: auto;
   z-index: -2;
   opacity: 0.4;
+  height: 100vh;
+  object-fit: contain;
 }
 .highlight {
   color: var(--color-highlight);
