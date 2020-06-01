@@ -15,9 +15,9 @@ intro:
     a world-class foray into the electric vehicle (EV) marketplace, Jaguar wanted
     to take the U.S. market by storm. So that's just what we did.</p>"
   page_colors:
-    background: "#9B9B9B"
-    text: "#50E3C2"
-    highlight: "#F8E71C"
+    background: ''
+    text: ''
+    highlight: ''
   background_hero_image: ''
   hero_image_toggle: false
 title: Jaguar I-Pace Launch
