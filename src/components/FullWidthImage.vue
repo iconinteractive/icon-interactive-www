@@ -1,12 +1,12 @@
 <template>
   <section>
-    <g-image :src="fullWidthSrc" :alt="fullWidthAltText" class="full-image" />
+    <g-image :src="fullWidthSrc" :alt="fullWidthAltText" class="full-image" :class="{ margin: fullBleedToggle }" />
   </section>
 </template>
 
 <script>
 export default {
-  props: ["fullWidthSrc", "fullWidthAltText"]
+  props: ["fullWidthSrc", "fullWidthAltText", "fullBleedToggle"]
 };
 </script>
 

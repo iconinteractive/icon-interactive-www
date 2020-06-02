@@ -10,6 +10,7 @@
           :quote="item.Quote"
           :fullWidthSrc="item.FullWidthImageSrc"
           :fullWidthAltText="item.FullWidthImageAltText"
+          :fullBleedToggle="item.full_bleed"
           :vimeo_video_id="item.vimeo_video_id"
           :resultsObj="item.results"
           :textblock="item.text_block"
@@ -49,6 +50,7 @@ query BlocksPage ($path: String!) {
       Quote
       FullWidthImageSrc
       FullWidthImgAltText
+      full_bleed
       vimeo_video_id
       results { column_one, column_two, column_three }
       text_block
@@ -71,6 +73,7 @@ import textblock from "../components/TextBlock";
 import twoColumnImages from "../components/twoColumnImages";
 import Facebook360 from "../components/Facebook360";
 import ContactForm from "../components/ContactForm";
+import ImageSlideShow from "../components/ImageSlideShow"
 
 export default {
   components: {
@@ -82,7 +85,8 @@ export default {
     textblock,
     twoColumnImages,
     Facebook360,
-    ContactForm
+    ContactForm,
+    ImageSlideShow
   },
   computed: {
     style() {

@@ -55,7 +55,7 @@ project_blocks:
   FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis-green@2x.jpg
   FullWidthImgAltText: golf ball and golf club
   full_bleed: false
-- template: image-slide-show
+- template: imageslideshow
   image_gallery:
   - https://s3.amazonaws.com/forestry.iconinteractive.com/Genesis_Carousel_6.jpg
   - https://s3.amazonaws.com/forestry.iconinteractive.com/Genesis_Carousel_5.jpg
