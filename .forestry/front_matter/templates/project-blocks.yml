@@ -161,6 +161,7 @@ fields:
   - vimeo
   - results
   - facebook360
+  - image-slide-show
   config:
     required: true
     wysiwyg: true
