@@ -1,0 +1,8 @@
+---
+label: Image Slide Show
+hide_body: false
+fields:
+- name: image_gallery
+  type: image_gallery
+  config: {}
+  label: image gallery
