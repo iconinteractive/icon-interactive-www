@@ -1,6 +1,6 @@
 <template>
   <section class="intro-container">
-    <div class="introduction">
+    <div class="introduction margin">
       <div class="project-info">
         <span class="highlight" v-html="client">{{ client }}</span>
         <h1 class="title" v-html="intro.page_title" />
@@ -123,6 +123,7 @@ export default {
     opacity: 1;
     margin: 2rem 0;
     width: 100%;
+    object-fit: contain;
   }
   .client-logo {
     display: none;
@@ -131,7 +132,7 @@ export default {
     margin: 0 2rem;
   }
 }
-@media (max-width: 1500px) {
+@media (min-width: 801px) and (max-width: 1500px) {
   .background {
     height: 110vh;
     width: auto;
