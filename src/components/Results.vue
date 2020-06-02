@@ -1,22 +1,27 @@
 <template>
   <section class="results margin">
     <div class="three-column">
-      <div class="roi" v-html="resultsObj.column_one"></div>
-      <div class="roi" v-html="resultsObj.column_two"></div>
-      <div class="roi" v-html="resultsObj.column_three"></div>
+      <div class="roi" v-html="addSuperscript(resultsObj.column_one)"></div>
+      <div class="roi" v-html="addSuperscript(resultsObj.column_two)"></div>
+      <div class="roi" v-html="addSuperscript(resultsObj.column_three)"></div>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  props: ["resultsObj"]
+  props: ["resultsObj"],
+  methods: {
+    addSuperscript(htmlString) {
+      return htmlString.replace(/%/g, "<sup>%</sup>");
+    }
+  }
 };
 </script>
 
 <style>
 .results {
-  margin: 1rem 10%;
+  margin: 1rem 10% 10rem;
   width: 80%;
 }
 .three-column {
@@ -48,6 +53,9 @@ export default {
 .roi > p {
   color: var(--color-contrast);
   margin-top: 0;
+}
+sup {
+  font-size: 2.75rem;
 }
 
 @media (max-width: 800px) {

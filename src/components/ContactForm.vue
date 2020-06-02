@@ -14,7 +14,10 @@
       </div>
       <textarea class="message" name="message" placeholder="Message"></textarea>
       <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
-      <input type="submit" class="button" value="SUBMIT" />
+      <button>
+        <span class="submit-text">SUBMIT</span>
+        <span class="submit-arrow">→</span>
+      </button>
     </form>
   </section>
 </template>
@@ -112,30 +115,50 @@ textarea:focus {
   height: 150px;
   transition: height 500ms ease-out;
 }
-input[type="submit"].button {
+button {
   -webkit-appearance: none;
   appearance: none;
   background: var(--color-base);
   color: var(--color-contrast);
   border: 1px solid var(--color-contrast);
   outline: none;
-  font-size: 1.1rem;
-  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  padding: 1.25rem;
   border-radius: 0.3rem;
   margin-top: 0rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
   letter-spacing: 0.035em;
-  max-width: 100px;
+  width: 180px;
   text-align: left;
+  font-family: "DM Sans", -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  position: relative;
 }
-input[type="submit"].button:hover {
+button:hover {
   border: 1px solid var(--color-highlight);
-  color: var(--color-highlight);
+  background-color: var(--color-highlight);
+  color: var(--color-contrast);
   transition: all 300ms ease-in-out;
 }
-.button:focus {
-  border: 1px solid var(--color-contrast);
+button:focus {
+  border: 1px solid var(--color-highlight);
+}
+.submit-arrow {
+  position: absolute;
+  right: 5%;
+  top: 31%;
+  font-size: 1.5rem;
+  line-height: 0.8rem;
+}
+.submit-text {
+  position: absolute;
+  left: 5%;
+  top: 19%;
+  transition: all 300ms ease-in-out;
+}
+button:hover .submit-text {
+  left: 45%;
 }
 .grid-two div {
   margin-bottom: 1rem;
