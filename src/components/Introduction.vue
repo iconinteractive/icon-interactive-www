@@ -70,7 +70,6 @@ export default {
   width: 100%;
   height: auto;
   z-index: -2;
-  opacity: 0.4;
 }
 .column-img {
   position: absolute;

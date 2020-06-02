@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <g-image :src="fullWidthSrc" :alt="fullWidthAltText" class="full-image" :class="{ margin: fullBleedToggle }" />
+  <section class="full-img-wrap" :class="{ 'margin': fullBleedToggle }">
+    <g-image :src="fullWidthSrc" :alt="fullWidthAltText" class="full-image" />
   </section>
 </template>
 
@@ -11,8 +11,23 @@ export default {
 </script>
 
 <style scoped>
+.full-img-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.margin {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
 .full-image {
-  margin: 3rem 0;
   width: 100%;
+}
+@media (max-width: 800px) {
+  .margin {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
 </style>

@@ -1,26 +1,23 @@
 <template>
-  <div>
-    <transition-group name="fade" tag="section">
-      <div v-for="i in [currentIdx]" :key="i">
-        <img :src="currentImg" />
-      </div>
-    </transition-group>
-    <a class="prev" @click="prev" href="#">&#10094; Previous</a>
-    <a class="next" @click="next" href="#">&#10095; Next</a>
-  </div>
+  <section class="slide-show-wrap">
+    <!-- <transition-group name="img-fade" tag="section"> -->
+    <div v-for="i in [currentIdx]" :key="i">
+      <img :src="currentImg" />
+    </div>
+    <!-- </transition-group> -->
+    <div class="slideshow-controls">
+      <span class="prev" @click="prev">←</span>
+      <span class="next" @click="next">→</span>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
   name: "ImageSlideShow",
+  props: ["imageGallery"],
   data() {
     return {
-      images: [
-        "https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg",
-        "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/12/04/19/30/berlin-cathedral-1882397_1280.jpg"
-      ],
       currentIdx: 0
     };
   },
@@ -34,60 +31,63 @@ export default {
   },
 
   computed: {
-    currentImg: function() {
-      return this.images[Math.abs(this.currentIdx) % this.images.length];
+    currentImg() {
+      return this.imageGallery[
+        Math.abs(this.currentIdx) % this.imageGallery.length
+      ];
     }
   }
 };
 </script>
 
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: all 0.9s ease;
-  overflow: hidden;
-  visibility: visible;
-  position: absolute;
-  width:100%;
+.slide-show-wrap {
+  min-height: 600px;
+  position: relative;
+}
+.img-fade-enter-active,
+.img-fade-leave-active {
   opacity: 1;
+  transition: opacity 0.5s;
 }
 
-.fade-enter,
-.fade-leave-to {
-  visibility: hidden;
-  width:100%;
+.img-fade-enter,
+.img-fade-leave-to {
   opacity: 0;
 }
-
 img {
-  height:600px;
-  width:100%
+  min-height: 600px;
+  width: 100%;
+  transition: all 300ms ease-in;
 }
-
-.prev, .next {
-  cursor: pointer;
+.slideshow-controls {
   position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.7s ease;
-  border-radius: 0 4px 4px 0;
-  text-decoration: none;
-  user-select: none;
+  left: 45%;
+  bottom: 5%;
 }
-
+.prev,
 .next {
-  right: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 30px;
+  height: 30px;
+  color: var(--color-highlight);
+  border: 2px solid var(--color-highlight);
+  border-radius: 4px;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+  background-color: var(--color-base);
 }
-
 .prev {
-  left: 0;
+  margin-right: 10px;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.9);
+.prev:hover,
+.next:hover {
+  color: var(--color-contrast);
+  cursor: pointer;
+  border: 2px solid var(--color-contrast);
+  opacity: 0.7;
 }
 </style>

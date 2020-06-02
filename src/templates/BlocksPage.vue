@@ -16,6 +16,7 @@
           :textblock="item.text_block"
           :twoColImages="item.images"
           :facebook360block="item.facebook_360"
+          :imageGallery="item.image_gallery"
         ></component>
         <section class="contact-wrap margin">
           <ContactForm />
@@ -58,6 +59,7 @@ query BlocksPage ($path: String!) {
         image_one, image_one_alt_text, image_two, image_two_alt_text
       }
       facebook_360 { facebook_360_src_url }
+      image_gallery
     } 
   }
 }
@@ -73,7 +75,7 @@ import textblock from "../components/TextBlock";
 import twoColumnImages from "../components/twoColumnImages";
 import Facebook360 from "../components/Facebook360";
 import ContactForm from "../components/ContactForm";
-import ImageSlideShow from "../components/ImageSlideShow"
+import Imageslideshow from "../components/ImageSlideShow"
 
 export default {
   components: {
@@ -86,7 +88,7 @@ export default {
     twoColumnImages,
     Facebook360,
     ContactForm,
-    ImageSlideShow
+    Imageslideshow
   },
   computed: {
     style() {
