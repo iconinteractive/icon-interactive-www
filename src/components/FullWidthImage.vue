@@ -16,6 +16,8 @@ export default {
   justify-content: center;
   margin-top: 6rem;
   margin-bottom: 6rem;
+  /* width: auto;
+  height: auto; */
 }
 .margin {
   margin-left: 6rem;
@@ -23,6 +25,8 @@ export default {
 }
 .full-image {
   width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 @media (max-width: 800px) {
   .margin {

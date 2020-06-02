@@ -1,10 +1,10 @@
 <template>
   <section class="slide-show-wrap">
-    <!-- <transition-group name="img-fade" tag="section"> -->
+    <!-- <transition name="img-fade" tag="section"> -->
     <div v-for="i in [currentIdx]" :key="i">
-      <img :src="currentImg" />
+      <g-image :src="currentImg" alt="image slide show" />
     </div>
-    <!-- </transition-group> -->
+    <!-- </transition> -->
     <div class="slideshow-controls">
       <span class="prev" @click="prev">←</span>
       <span class="next" @click="next">→</span>
@@ -48,17 +48,19 @@ export default {
 .img-fade-enter-active,
 .img-fade-leave-active {
   opacity: 1;
-  transition: opacity 0.5s;
+  transition: opacity 0.3s;
 }
 
 .img-fade-enter,
 .img-fade-leave-to {
   opacity: 0;
+  transition: opacity 0.3s;
 }
 img {
   min-height: 600px;
   width: 100%;
-  transition: all 300ms ease-in;
+  height: auto;
+  object-fit: contain;
 }
 .slideshow-controls {
   position: absolute;
@@ -78,6 +80,10 @@ img {
   font-size: 2rem;
   padding: 0 0.5rem;
   background-color: var(--color-base);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .prev {
   margin-right: 10px;
