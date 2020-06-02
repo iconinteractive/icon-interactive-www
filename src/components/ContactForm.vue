@@ -147,14 +147,14 @@ button:focus {
 .submit-arrow {
   position: absolute;
   right: 5%;
-  top: 31%;
+  top: 35%;
   font-size: 1.5rem;
   line-height: 0.8rem;
 }
 .submit-text {
   position: absolute;
   left: 5%;
-  top: 19%;
+  top: 21%;
   transition: all 300ms ease-in-out;
 }
 button:hover .submit-text {
