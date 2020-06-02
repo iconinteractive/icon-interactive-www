@@ -25,6 +25,7 @@ project_blocks:
 - template: fullwidthimage
   FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar1.jpg
   FullWidthImgAltText: jaguars in front of golden gate bridge
+  full_bleed: false
 - template: textblock
   text_block: <h2>Challenge</h2><p>Dream up and execute an attention-grabbing tour
     that would raise awareness and interest in the I-Pace.</p><h2>Solution</h2><p>ICON
@@ -48,5 +49,6 @@ project_blocks:
 - template: fullwidthimage
   FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/jaguar4.jpg
   FullWidthImgAltText: two guys walking in front of jaguar i pace
+  full_bleed: true
 
 ---
