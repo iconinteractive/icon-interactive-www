@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="container">
+    <div class="container margin">
       <section class="connect-row">
         <img src="../../static/icon-logo.svg" alt="icon logo" class="logo" />
         <g-link to="/connect">
@@ -68,7 +68,6 @@ export default {
   justify-content: space-between;
   padding-top: 3rem;
   border-top: 1px solid rgba(53, 53, 53, 0.7);
-  margin: 0 6rem;
 }
 a .city {
   margin: 0;

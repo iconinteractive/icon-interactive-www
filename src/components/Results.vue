@@ -21,8 +21,8 @@ export default {
 
 <style>
 .results {
-  margin: 1rem 10% 10rem;
-  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
 }
 .three-column {
   display: flex;
