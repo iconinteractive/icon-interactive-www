@@ -10,7 +10,7 @@
       <input id="email" type="email" name="email" placeholder="Email" />
       <div class="two-column">
         <input id="company" type="text" name="company" placeholder="Company" />
-        <input id="phone" type="tel" name="phone" placeholder="Phone" />
+        <input id="phone" type="tel" name="phone" placeholder="Phone" v-model="number" />
       </div>
       <textarea class="message" name="message" placeholder="Message"></textarea>
       <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
@@ -26,8 +26,16 @@
 export default {
   data() {
     return {
-      contact: require("../../data/contact.json")
+      contact: require("../../data/contact.json"),
+      number: ""
     };
+  },
+  watch: {
+    number() {
+      this.number = this.number
+        .replace(/[^0-9]/g, "")
+        .replace(/^(\d{3})(\d{3})(\d{4})/g, "($1) $2-$3");
+    }
   }
 };
 </script>
@@ -154,7 +162,7 @@ button:focus {
 .submit-text {
   position: absolute;
   left: 5%;
-  top: 21%;
+  top: 23%;
   transition: all 300ms ease-in-out;
 }
 button:hover .submit-text {
