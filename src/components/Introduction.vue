@@ -52,7 +52,7 @@ export default {
 .intro-container {
   margin: 0 0 20rem;
   color: var(--color-contrast);
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
 }
 .introduction {
   margin: 0 0 2rem;
