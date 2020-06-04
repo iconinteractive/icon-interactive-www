@@ -24,7 +24,7 @@
         :src="intro.background_hero_image"
         :class="{'background': intro.hero_image_toggle, 'column-img': !intro.hero_image_toggle}"
       />
-      <div class="paragraph-block" v-html="intro.intro_paragraph" />
+      <div class="paragraph-block margin" v-html="intro.intro_paragraph" />
     </div>
     <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
   </section>
@@ -52,6 +52,7 @@ export default {
 .intro-container {
   margin: 0 0 20rem;
   color: var(--color-contrast);
+  border: 1px solid cyan;
 }
 .introduction {
   margin: 0 0 2rem;
@@ -67,9 +68,10 @@ export default {
   position: absolute;
   top: -95px;
   left: 0;
-  width: 100%;
-  height: auto;
+  min-width: 100%;
+  height: 100%;
   z-index: -2;
+  object-fit: cover;
 }
 .column-img {
   position: absolute;
@@ -115,6 +117,10 @@ export default {
 @media (max-width: 800px) {
   .introduction {
     width: 100%;
+    max-width: 800px;
+  }
+  .intro-container {
+    margin: 0 0 5rem;
   }
   .background,
   .column-img {
@@ -127,14 +133,15 @@ export default {
   .client-logo {
     display: none;
   }
-  .project-info {
+  .project-info,
+  .paragraph-block {
     margin: 0 2rem;
   }
 }
 @media (min-width: 801px) and (max-width: 1500px) {
   .background {
-    height: 110vh;
-    width: auto;
+    /* height: 110vh;
+    width: auto; */
     object-fit: cover;
   }
 }

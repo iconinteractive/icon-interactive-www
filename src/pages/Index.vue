@@ -120,6 +120,8 @@ h2 {
   width: 50px;
   height: 50px;
   justify-self: end;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .start-button:hover {
   background: var(--color-highlight);

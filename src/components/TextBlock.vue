@@ -40,7 +40,7 @@ export default {
 }
 @media (max-width: 800px) {
   .text-block {
-    width: 90%;
+    width: 100%;
   }
 }
 </style>
