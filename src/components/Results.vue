@@ -62,5 +62,8 @@ sup {
   .three-column {
     flex-direction: column;
   }
+  sup {
+    font-size: 1.5rem;
+  }
 }
 </style>

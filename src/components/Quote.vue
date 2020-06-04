@@ -41,6 +41,7 @@ blockquote p {
 @media (max-width: 800px) {
   blockquote {
     width: 90%;
+    margin: 4.5rem 0;
   }
 }
 </style>

@@ -38,6 +38,10 @@ export default {
 .text-block p {
   margin: 0.5rem 0 2rem;
 }
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
 @media (max-width: 800px) {
   .text-block {
     width: 100%;

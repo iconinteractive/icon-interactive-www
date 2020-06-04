@@ -120,6 +120,16 @@ h2 {
   font-size: 2rem;
   letter-spacing: 1px;
 }
+.margin {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+@media (max-width: 800px) {
+  .margin {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
 @media (max-width: 800px) {
   h1 {
     font-size: 3rem;

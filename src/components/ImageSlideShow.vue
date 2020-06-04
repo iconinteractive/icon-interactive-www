@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
 .slide-show-wrap {
-  min-height: 600px;
+  min-height: 800px;
   position: relative;
 }
 .img-fade-enter-active,

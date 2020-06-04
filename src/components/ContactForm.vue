@@ -177,47 +177,13 @@ button:hover .submit-text {
 h3 {
   margin-bottom: 0.5rem;
 }
-.grid-two {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: 2rem;
-  grid-row-gap: 0;
-}
 
-@media (min-width: 1610px) {
-  .grid-two {
-    grid-template-columns: repeat(2, 1fr);
+@media (max-width: 800px) {
+  .two-column > input {
+    width: 100%;
   }
-}
-
-@media (max-width: 1100px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
-  .grid-two {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 880px) {
-  .link {
-    font-size: 1.3rem;
-  }
-  h3 {
-    font-size: 1.3rem;
-  }
-  .button:hover {
-    background: var(--color-base);
-    color: var(--color-highlight);
-  }
-  .grid-two {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 600px) {
-  .grid-two {
-    grid-template-columns: repeat(1, 1fr);
+  .two-column {
+    display: block;
   }
 }
 </style>

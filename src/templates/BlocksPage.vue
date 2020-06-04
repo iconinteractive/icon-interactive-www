@@ -75,7 +75,7 @@ import textblock from "../components/TextBlock";
 import twoColumnImages from "../components/twoColumnImages";
 import Facebook360 from "../components/Facebook360";
 import ContactForm from "../components/ContactForm";
-import Imageslideshow from "../components/ImageSlideShow"
+import Imageslideshow from "../components/ImageSlideShow";
 
 export default {
   components: {
@@ -114,10 +114,6 @@ a {
   text-decoration: underline;
   color: var(--color-highlight);
 }
-.margin {
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
 .contact-wrap {
   display: flex;
   justify-content: center;
@@ -126,6 +122,10 @@ a {
 }
 .contact-wrapper > section:first-of-type {
   max-width: 800px;
+}
+.margin {
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 @media (max-width: 800px) {
   h1 {

@@ -1,6 +1,6 @@
 <template>
   <section class="intro-container">
-    <div class="introduction margin">
+    <div class="introduction">
       <div class="project-info">
         <span class="highlight" v-html="client">{{ client }}</span>
         <h1 class="title" v-html="intro.page_title" />
@@ -24,7 +24,7 @@
         :src="intro.background_hero_image"
         :class="{'background': intro.hero_image_toggle, 'column-img': !intro.hero_image_toggle}"
       />
-      <div class="paragraph-block margin" v-html="intro.intro_paragraph" />
+      <div class="paragraph-block" v-html="intro.intro_paragraph" />
     </div>
     <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
   </section>
@@ -50,16 +50,17 @@ export default {
 
 <style>
 .intro-container {
-  margin: 0 0 20rem;
+  margin: 0 0 30vh;
   color: var(--color-contrast);
+  transition: all 300ms ease-in-out;
   /* border: 1px solid cyan; */
 }
 .introduction {
   margin: 0 0 2rem;
-  width: 55%;
   font-size: 1.1rem;
   line-height: 1.6rem;
   max-width: 700px;
+  transition: all 300ms ease-in-out;
 }
 .project-info {
   margin-left: 6rem;
@@ -92,6 +93,7 @@ export default {
   list-style: none;
   padding: 0;
   display: flex;
+  margin: 1rem 0;
 }
 .category {
   font-size: 1rem;
@@ -122,6 +124,11 @@ export default {
   .intro-container {
     margin: 0 0 5rem;
   }
+  .title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 1rem 0 0;
+  }
   .background,
   .column-img {
     position: static;
@@ -148,6 +155,11 @@ export default {
 @media (min-width: 1500px) {
   .intro-container {
     margin: 0 0 30rem;
+  }
+}
+@media only screen and (min-height: 900px) {
+  .intro-container {
+    margin: 0 0 50vh;
   }
 }
 @media (min-width: 2000px) {
