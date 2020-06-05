@@ -96,4 +96,10 @@ img {
   border: 2px solid var(--color-contrast);
   opacity: 0.7;
 }
+@media (max-width: 800px) {
+  .slide-show-wrap {
+    min-height: 400px;
+    border: 1px solid cyan;
+  }
+}
 </style>

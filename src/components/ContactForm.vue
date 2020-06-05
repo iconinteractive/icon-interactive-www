@@ -32,9 +32,13 @@ export default {
   },
   watch: {
     number() {
-      this.number = this.number
-        .replace(/[^0-9]/g, "")
-        .replace(/^(\d{3})(\d{3})(\d{4})/g, "($1) $2-$3");
+      if (this.number[0] === "+") {
+        return this.number;
+      } else {
+        this.number = this.number
+          .replace(/[^0-9]/g, "")
+          .replace(/^(\d{3})(\d{3})(\d{4})/g, "($1) $2-$3");
+      }
     }
   }
 };

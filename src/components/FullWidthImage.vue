@@ -30,8 +30,7 @@ export default {
 }
 @media (max-width: 800px) {
   .margin {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 2rem;
   }
 }
 </style>
