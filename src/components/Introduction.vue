@@ -145,19 +145,12 @@ export default {
     margin: 0 2rem;
   }
 }
-@media (min-width: 801px) and (max-width: 1500px) {
-  .background {
-    /* height: 110vh;
-    width: auto; */
-    object-fit: cover;
-  }
-}
 @media (min-width: 1500px) {
   .intro-container {
-    margin: 0 0 30rem;
+    margin: 0 0 35vh;
   }
 }
-@media only screen and (min-height: 900px) {
+@media only screen and (min-height: 900px) and (min-width: 800px) {
   .intro-container {
     margin: 0 0 50vh;
   }

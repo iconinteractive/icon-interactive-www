@@ -133,7 +133,7 @@ button {
   font-size: 1rem;
   padding: 1.25rem;
   border-radius: 0.3rem;
-  margin-top: 0rem;
+  margin: 0 0 0 1rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
   letter-spacing: 0.035em;
@@ -161,7 +161,7 @@ button:focus {
 }
 .submit-text {
   position: absolute;
-  left: 5%;
+  left: 8%;
   top: 23%;
   transition: all 300ms ease-in-out;
 }
