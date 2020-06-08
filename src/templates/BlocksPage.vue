@@ -1,7 +1,7 @@
 <template>
   <Layout :style="style">
     <section>
-      <div class="container">
+      <div class="container-blocks">
         <Introduction :intro="$page.post.intro" />
         <component
           v-for="(item, idx) in $page.post.project_blocks"
@@ -17,6 +17,7 @@
           :twoColImages="item.images"
           :facebook360block="item.facebook_360"
           :imageGallery="item.image_gallery"
+          :textColumns="item.text_columns"
         ></component>
         <section class="contact-wrap margin">
           <ContactForm />
@@ -60,6 +61,7 @@ query BlocksPage ($path: String!) {
       }
       facebook_360 { facebook_360_src_url }
       image_gallery
+      text_columns { left_column, right_column }
     } 
   }
 }
@@ -76,6 +78,7 @@ import twoColumnImages from "../components/twoColumnImages";
 import Facebook360 from "../components/Facebook360";
 import ContactForm from "../components/ContactForm";
 import Imageslideshow from "../components/ImageSlideShow";
+import twocolumntext from "../components/twoColumnText";
 
 export default {
   components: {
@@ -88,7 +91,8 @@ export default {
     twoColumnImages,
     Facebook360,
     ContactForm,
-    Imageslideshow
+    Imageslideshow,
+    twocolumntext
   },
   computed: {
     style() {
@@ -104,7 +108,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.container-blocks {
   margin: 0;
 }
 body {

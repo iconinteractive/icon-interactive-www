@@ -1,27 +1,29 @@
 <template>
-  <section class="text-wrap margin">
-    <div class="text-block" v-html="textblock" />
+  <section class="two-column margin">
+    <div class="text-block" v-html="textColumns.left_column" />
+    <div class="text-block" v-html="textColumns.right_column" />
   </section>
 </template>
 
 <script>
 export default {
-  props: ["textblock"]
+  props: ["textColumns"]
 };
 </script>
 
-<style>
-.text-wrap {
-  display: flex;
-  justify-content: center;
+<style scoped>
+.two-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+  grid-template-rows: auto;
   margin: 5rem 0;
-  color: var(--color-contrast);
 }
 .text-block {
-  width: 50%;
   font-size: 1.1rem;
   line-height: 1.6rem;
-  max-width: 700px;
+  color: var(--color-contrast);
+  width: 100%;
 }
 .text-block h1,
 .text-block h2,
@@ -47,12 +49,16 @@ ul {
   margin-right: 6rem;
 }
 @media (max-width: 800px) {
-  .text-block {
-    width: 100%;
+  h1 {
+    font-size: 1.5rem;
   }
   .margin {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+  .two-column {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
   }
 }
 </style>
