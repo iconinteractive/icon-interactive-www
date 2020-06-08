@@ -156,12 +156,13 @@ fields:
   template_types:
   - textblock
   - fullwidthimage
+  - twocolumntext
   - twoColumnImages
   - quote
   - vimeo
   - results
-  - facebook360
   - imageslideshow
+  - facebook360
   config:
     required: true
     wysiwyg: true
