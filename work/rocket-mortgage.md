@@ -11,10 +11,9 @@ intro:
   thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/lol-thumb.jpg
   project_url: ''
   client_logo: https://s3.amazonaws.com/forestry.iconinteractive.com/RocketMortgage.png
-  intro_paragraph: "<h3>ICON PLACES LEAGUE OF LEGENDS FANS ON THE BATTLEFIELD THROUGH
-    360 PROJECTION AT THE LCS 2019 TAILGATE PARTY</h3><p></p><p>Doubling down on eSports,
-    Rocket Mortgage partnered with Riot Games to bring League of Legends to Detroit
-    as presenting sponsor of the LCS Summer Finals.</p>"
+  intro_paragraph: "<p>Doubling down on eSports, Rocket Mortgage partnered with Riot
+    Games to bring League of Legends to Detroit as presenting sponsor of the LCS Summer
+    Finals.</p>"
   page_colors:
     background: ''
     text: ''
