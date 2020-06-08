@@ -1,9 +1,11 @@
+import Vue from "vue";
 import DefaultLayout from "@/layouts/Default.vue";
 import "@/assets/code-highlight.css";
 import Vue2TouchEvents from "vue2-touch-events";
 
+Vue.use(Vue2TouchEvents);
+
 export default function(Vue, { head }) {
-  Vue.use(Vue2TouchEvents);
   Vue.component("Layout", DefaultLayout);
 
   head.script.push({
