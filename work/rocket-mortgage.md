@@ -86,7 +86,7 @@ project_blocks:
 - template: twocolumntext
   text_columns:
     right_column: <p><img src="https://s3.amazonaws.com/forestry.iconinteractive.com/icon_rocket_mortgage_small_right.jpg"></p>
-    left_column: "<p>Challenge 3</p><p>Quicken Loans is a prominent partner of <strong>100
+    left_column: "<h2>Challenge 3</h2><p>Quicken Loans is a prominent partner of <strong>100
       Thieves</strong>, the North American organization founded by Matthew “Nadeshot”
       Haag in 2017. <strong>Dan Gilbert</strong>, the largest shareholder in 100 Thieves,
       is the founder of Quicken Loans.</p>"
