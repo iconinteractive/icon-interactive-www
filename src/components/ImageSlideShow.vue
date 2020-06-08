@@ -1,5 +1,5 @@
 <template>
-  <section class="slide-show-wrap">
+  <section class="slide-show-wrap" v-touch:swipe.left="prev" v-touch:swipe.right="next">
     <!-- <transition name="img-fade" tag="section"> -->
     <div v-for="i in [currentIdx]" :key="i">
       <g-image :src="currentImg" alt="image slide show" />

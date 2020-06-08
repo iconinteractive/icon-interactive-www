@@ -1,7 +1,9 @@
-import DefaultLayout from "~/layouts/Default.vue";
+import DefaultLayout from "@/layouts/Default.vue";
 import "@/assets/code-highlight.css";
+import Vue2TouchEvents from "vue2-touch-events";
 
 export default function(Vue, { head }) {
+  Vue.use(Vue2TouchEvents);
   Vue.component("Layout", DefaultLayout);
 
   head.script.push({
@@ -17,6 +19,6 @@ export default function(Vue, { head }) {
     var scr = document.getElementsByTagName('script')[0];
     scr.parentNode.insertBefore(ss, scr);
 })();`,
-    __dangerouslyDisableSanitizers: ["innerHTML"]
+    __dangerouslyDisableSanitizers: ["innerHTML"],
   });
 }

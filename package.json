@@ -13,7 +13,8 @@
     "gridsome": "^0.6.7",
     "gridsome-plugin-gtm": "^0.1.1",
     "vue-instant-pdf-viewer": "^1.0.2",
-    "vue-typer": "^1.2.0"
+    "vue-typer": "^1.2.0",
+    "vue2-touch-events": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
