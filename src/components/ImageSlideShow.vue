@@ -61,6 +61,11 @@ img {
   width: 100%;
   height: auto;
   object-fit: contain;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .slideshow-controls {
   position: absolute;
@@ -69,9 +74,6 @@ img {
 }
 .prev,
 .next {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 30px;
   height: 30px;
   color: var(--color-highlight);
@@ -98,8 +100,22 @@ img {
 }
 @media (max-width: 800px) {
   .slide-show-wrap {
-    min-height: 400px;
-    border: 1px solid cyan;
+    min-height: 200px;
+  }
+  .slideshow-controls {
+    position: absolute;
+    left: 40%;
+    bottom: -10%;
+  }
+  img {
+    min-height: auto;
+  }
+  .prev,
+  .next {
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+    border: none;
   }
 }
 </style>

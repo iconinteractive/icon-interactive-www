@@ -62,6 +62,7 @@ export default {
 .footer {
   font-size: 1rem;
   padding: 2.5rem 0 4rem;
+  background-color: #000;
 }
 .container {
   display: flex;

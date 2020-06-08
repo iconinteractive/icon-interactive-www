@@ -51,6 +51,7 @@ export default {
 }
 .contact-form {
   max-width: 800px;
+  background-color: #000;
 }
 .honey {
   display: none;
@@ -105,6 +106,7 @@ textarea {
   font-family: "DM Sans", sans-serif;
   background: transparent;
   border: none;
+  border-radius: 0;
   border-bottom: 1px solid var(--color-contrast);
   transition: all 300ms ease-in-out;
   outline: none;

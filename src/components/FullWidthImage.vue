@@ -32,5 +32,9 @@ export default {
   .margin {
     margin: 2rem;
   }
+  .full-img-wrap {
+    display: block;
+    justify-content: center;
+  }
 }
 </style>

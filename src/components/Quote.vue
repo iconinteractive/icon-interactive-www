@@ -20,13 +20,12 @@ export default {
 blockquote {
   display: flex;
   flex-direction: column;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2rem;
   color: var(--color-contrast);
-  padding-left: 1rem;
   margin: 8.5rem 0;
   width: 70%;
-  max-width: 800px;
+  max-width: 700px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -40,7 +39,7 @@ blockquote p {
 }
 @media (max-width: 800px) {
   blockquote {
-    width: 90%;
+    width: 100%;
     margin: 4.5rem 0;
   }
 }

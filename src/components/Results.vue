@@ -34,7 +34,7 @@ export default {
   flex-direction: column;
   align-content: center;
   text-align: left;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .roi :nth-child(1) {
   margin: 0;
@@ -61,6 +61,10 @@ sup {
 @media (max-width: 800px) {
   .three-column {
     flex-direction: column;
+  }
+  .results {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
   sup {
     font-size: 1.5rem;
