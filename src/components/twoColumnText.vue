@@ -17,7 +17,7 @@ export default {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
   grid-template-rows: auto;
-  margin: 5rem 0;
+  margin: 0 0 5rem;
 }
 .text-block {
   font-size: 1.1rem;
