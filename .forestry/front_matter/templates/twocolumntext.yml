@@ -1,27 +1,27 @@
 ---
-label: Two Column Text
+label: Two Column
 hide_body: false
 fields:
-- name: text_columns
-  type: field_group
-  config: {}
-  fields:
-  - name: left_column
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: left column
-  - name: right_column
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: right column
-  label: Text Columns
+  - name: text_columns
+    type: field_group
+    config: {}
+    fields:
+      - name: left_column
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html-blocks
+        label: left column
+      - name: right_column
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html-blocks
+        label: right column
+    label: Text Columns

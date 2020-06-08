@@ -1,5 +1,9 @@
 <template>
-  <section class="slide-show-wrap" v-touch:swipe.left="prev" v-touch:swipe.right="next">
+  <section
+    class="slide-show-wrap"
+    v-touch:swipe.left="prev"
+    v-touch:swipe.right="next"
+  >
     <!-- <transition name="img-fade" tag="section"> -->
     <div v-for="i in [currentIdx]" :key="i">
       <g-image :src="currentImg" alt="image slide show" />
@@ -44,6 +48,8 @@ export default {
 .slide-show-wrap {
   min-height: 800px;
   position: relative;
+  top: 2rem;
+  margin-bottom: 10rem;
 }
 .img-fade-enter-active,
 .img-fade-leave-active {
@@ -70,7 +76,7 @@ img {
 .slideshow-controls {
   position: absolute;
   left: 45%;
-  bottom: 5%;
+  bottom: -6%;
 }
 .prev,
 .next {
@@ -101,6 +107,7 @@ img {
 @media (max-width: 800px) {
   .slide-show-wrap {
     min-height: 200px;
+    margin-top: 3rem;
   }
   .slideshow-controls {
     position: absolute;
@@ -115,6 +122,11 @@ img {
     width: 20px;
     height: 20px;
     font-size: 1rem;
+    border: none;
+  }
+  .prev:hover,
+  .next:hover {
+    color: var(--color-highlight);
     border: none;
   }
 }

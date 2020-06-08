@@ -13,6 +13,7 @@
       ></iframe>
     </div>
     <div v-else class="hide" />
+    {{ mobileCheck }}
   </section>
 </template>
 
@@ -27,23 +28,17 @@ export default {
   methods: {
     isMobile() {
       if (process.isClient) {
-        let hasTouchScreen = false;
-        if ("maxTouchPoints" in navigator) {
-          hasTouchScreen = navigator.maxTouchPoints > 0;
-        } else if ("msMaxTouchPoints" in navigator) {
-          hasTouchScreen = navigator.msMaxTouchPoints > 0;
-        } else {
-          var mQ = window.matchMedia && matchMedia("(pointer:coarse)");
-          if (mQ && mQ.media === "(pointer:coarse)") {
-            hasTouchScreen = !!mQ.matches;
-          } else {
-            var UA = navigator.userAgent;
-            hasTouchScreen =
-              /\b(BlackBerry|webOS|iPhone|IEMobile)\b/i.test(UA) ||
-              /\b(Android|Windows Phone|iPad|iPod)\b/i.test(UA);
-          }
-        }
-        return hasTouchScreen;
+        if (navigator.userAgent.match(/Android/i) ||
+        navigator.userAgent.match(/webOS/i)||
+        navigator.userAgent.match(/iPhone/i)||
+        navigator.userAgent.match(/iPad/i)||
+        navigator.userAgent.match(/iPod/i)||
+        navigator.userAgent.match(/BlackBerry/i)||
+        navigator.userAgent.match(/Windows Phone/i)) {
+        return true
+      } else {
+        return false
+      }
       }
     }
   }
