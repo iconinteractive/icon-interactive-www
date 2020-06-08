@@ -137,6 +137,9 @@ export default {
     width: 100%;
     object-fit: contain;
   }
+  .column-img {
+    margin: inherit 2rem;
+  }
   .client-logo {
     display: none;
   }
