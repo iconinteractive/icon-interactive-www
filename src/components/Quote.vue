@@ -41,9 +41,12 @@ blockquote p {
   blockquote {
     width: 100%;
     margin: 4.5rem 0;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
   }
   blockquote p > em {
-    line-height: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
   }
 }
 </style>

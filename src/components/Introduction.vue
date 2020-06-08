@@ -1,6 +1,9 @@
 <template>
   <section class="intro-container">
-    <div class="introduction">
+    <div
+      class="introduction"
+      :class="{'column-adjust': !intro.hero_image_toggle}"
+    >
       <div class="project-info">
         <span class="highlight" v-html="client">{{ client }}</span>
         <h1 class="title" v-html="intro.page_title" />
@@ -67,6 +70,7 @@ export default {
   margin: 0 0 60vh;
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
+  background: none;
   /* border: 1px solid cyan; */
 }
 .introduction {
@@ -74,8 +78,11 @@ export default {
   font-size: 1.1rem;
   line-height: 1.6rem;
   max-width: 700px;
-  width: 50%;
+
   transition: all 300ms ease-in-out;
+}
+.introduction.column-adjust {
+  width: 50%;
 }
 .project-info {
   margin-left: 6rem;
@@ -86,8 +93,9 @@ export default {
   left: 0;
   min-width: 100%;
   height: 100%;
-  z-index: -2;
+  z-index: -1;
   object-fit: cover;
+  background-color: transparent;
 }
 .column-img {
   position: absolute;
@@ -95,7 +103,7 @@ export default {
   right: 0;
   width: 45%;
   height: auto;
-  z-index: -2;
+  z-index: -1;
   object-fit: contain;
 }
 .highlight {
@@ -135,6 +143,9 @@ export default {
   .introduction {
     width: 100%;
     max-width: 800px;
+  }
+  .introduction.column-adjust {
+    width: 100%;
   }
   .intro-container {
     margin: 0 0 5rem;

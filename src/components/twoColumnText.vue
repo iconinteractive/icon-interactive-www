@@ -59,6 +59,7 @@ ul {
   .two-column {
     grid-template-columns: 1fr;
     grid-gap: 20px;
+    margin: 0 0 2rem;
   }
 }
 </style>

@@ -10,10 +10,22 @@
       <input id="email" type="email" name="email" placeholder="Email" />
       <div class="two-column">
         <input id="company" type="text" name="company" placeholder="Company" />
-        <input id="phone" type="tel" name="phone" placeholder="Phone" v-model="number" />
+        <input
+          id="phone"
+          type="tel"
+          name="phone"
+          placeholder="Phone"
+          v-model="number"
+        />
       </div>
       <textarea class="message" name="message" placeholder="Message"></textarea>
-      <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
+      <input
+        type="text"
+        name="xx_password"
+        class="honey"
+        tabindex="-1"
+        autocomplete="off"
+      />
       <button>
         <span class="submit-text">SUBMIT</span>
         <span class="submit-arrow">→</span>
@@ -53,6 +65,9 @@ export default {
   max-width: 800px;
   background-color: #000;
 }
+.contact {
+  background-color: #000;
+}
 .honey {
   display: none;
 }
@@ -72,24 +87,9 @@ export default {
 .sender-info > div:last-of-type {
   margin: 0;
 }
-.pink-label {
-  position: relative;
-  bottom: -8px;
-  color: var(--color-highlight);
-  background-color: var(--color-base);
-  border-bottom: 1px solid var(--color-base);
-  padding-right: 1rem;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  margin-top: 3rem;
-}
-.pink-label:first-child {
-  margin-top: 15px;
-}
-.contact-wrapper {
+/* .contact-wrapper {
   margin: 0 0 0 8rem;
-}
+} */
 .link {
   font-family: "Archivo Black", "DM Sans", helvetica, sans-serif;
   font-size: 1.75rem;
@@ -132,7 +132,7 @@ textarea:focus {
 button {
   -webkit-appearance: none;
   appearance: none;
-  background: var(--color-base);
+  background: #000;
   color: var(--color-contrast);
   border: 1px solid var(--color-contrast);
   outline: none;
@@ -190,6 +190,10 @@ h3 {
   }
   .two-column {
     display: block;
+  }
+  .contact-form {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 </style>

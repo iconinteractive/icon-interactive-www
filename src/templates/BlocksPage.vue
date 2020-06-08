@@ -19,14 +19,13 @@
           :imageGallery="item.image_gallery"
           :textColumns="item.text_columns"
         ></component>
-        <section class="contact-wrap margin">
-          <ContactForm />
-        </section>
       </div>
+      <section class="contact-wrap margin">
+        <ContactForm />
+      </section>
     </section>
   </Layout>
 </template>
-
 
 <page-query>
 query BlocksPage ($path: String!) {
@@ -111,9 +110,9 @@ export default {
 .container-blocks {
   margin: 0;
 }
-body {
+/* * {
   background: var(--color-base);
-}
+} */
 a {
   text-decoration: underline;
   color: var(--color-highlight);
@@ -122,7 +121,11 @@ a {
   display: flex;
   justify-content: center;
   border-top: 1px solid rgba(53, 53, 53, 0.7);
-  padding: 8rem 0 2rem;
+  padding: 4rem 0 2rem;
+  background-color: #000;
+  width: 100%;
+  position: relative;
+  left: -6rem;
 }
 .contact-wrapper > section:first-of-type {
   max-width: 800px;
@@ -138,6 +141,9 @@ a {
   .margin {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+  .contact-wrap {
+    left: -2rem;
   }
 }
 </style>
