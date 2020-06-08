@@ -64,7 +64,7 @@ export default {
 
 <style>
 .intro-container {
-  margin: 0 0 50vh;
+  margin: 0 0 60vh;
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
   /* border: 1px solid cyan; */
@@ -166,9 +166,9 @@ export default {
   }
 }
 @media (min-width: 1500px) {
-  .intro-container {
+  /* .intro-container {
     margin: 0 0 35vh;
-  }
+  } */
 }
 @media only screen and (min-height: 900px) and (min-width: 800px) {
   .intro-container {
