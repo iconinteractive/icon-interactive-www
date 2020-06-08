@@ -73,5 +73,16 @@ project_blocks:
     activations outside the arena. This giant dome with projection mapping. We are
     getting great feedback and it makes me excited to be a part of it.”</p><p><em>Casey
     Hurbis, CMO, Rocket Mortgage</em></p>"
+- template: twocolumntext
+  text_columns:
+    left_column: "<h2>Challenge 1</h2><p>Come up with a stunning and attractive experiential
+      concept that authentically connects Rocket Mortgage with the world of eSports.
+      ICON delivered a “never seen before” experiential activation leveraging a 40’x40’
+      tailgate space located in the Little Caesar’s Arena Chevy Plaza in Detroit,
+      Michigan.</p>"
+    right_column: "<h2>Challenge 2</h2><p>Come up with a stunning and attractive experiential
+      concept that authentically connects Rocket Mortgage with the world of eSports.
+      Come up with a stunning and attractive experiential concept that authentically
+      connects Rocket Mortgage with the world of eSports.</p>"
 
 ---
