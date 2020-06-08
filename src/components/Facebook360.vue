@@ -13,7 +13,6 @@
       ></iframe>
     </div>
     <div v-else class="hide" />
-    {{ mobileCheck }}
   </section>
 </template>
 
@@ -35,11 +34,14 @@ export default {
         navigator.userAgent.match(/iPod/i)||
         navigator.userAgent.match(/BlackBerry/i)||
         navigator.userAgent.match(/Windows Phone/i)) {
-        return true
+        this.mobileCheck = true
       } else {
-        return false
+        this.mobileCheck = false
       }
       }
+    },
+    created() {
+      this.isMobile()
     }
   }
 };
