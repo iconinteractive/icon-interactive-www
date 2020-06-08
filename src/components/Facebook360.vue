@@ -12,6 +12,7 @@
         title="facebook 360 video"
       ></iframe>
     </div>
+    <div v-else class="hide" />
   </section>
 </template>
 
@@ -61,5 +62,8 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.hide {
+  display: none;
 }
 </style>
