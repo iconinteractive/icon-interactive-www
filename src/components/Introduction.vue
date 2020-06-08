@@ -129,8 +129,7 @@ export default {
     line-height: 2.5rem;
     margin: 1rem 0 0;
   }
-  .background,
-  .column-img {
+  .background {
     position: static;
     opacity: 1;
     margin: 2rem 0;
@@ -138,7 +137,9 @@ export default {
     object-fit: contain;
   }
   .column-img {
-    margin: inherit 2rem;
+    position: relative;
+    width: 95%;
+    left: 5%;
   }
   .client-logo {
     display: none;

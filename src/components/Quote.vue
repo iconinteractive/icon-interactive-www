@@ -42,5 +42,8 @@ blockquote p {
     width: 100%;
     margin: 4.5rem 0;
   }
+  blockquote p > em {
+    line-height: 1rem;
+  }
 }
 </style>
