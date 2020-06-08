@@ -1,5 +1,5 @@
 <template>
-  <section v-if="isMobile" class="facebook360">
+  <section class="facebook360">
     <div class="embed margin">
       <iframe
         :src="facebook360block.facebook_360_src_url"
@@ -47,9 +47,6 @@ export default {
             this.mobileCheck = hasTouchScreen
         }
       }
-    },
-    created() {
-      this.isMobile()
     }
   }
 };
@@ -71,9 +68,9 @@ export default {
 .hide {
   display: none;
 }
-/* @media (max-width: 800px) {
+@media (max-width: 1100px) {
   .facebook360 {
     display: none;
   }
-} */
+}
 </style>

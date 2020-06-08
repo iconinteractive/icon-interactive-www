@@ -6,8 +6,16 @@
         <h1 class="title" v-html="intro.page_title" />
         <div class="categories">
           <ul>
-            <li class="category highlight" v-for="(tag, index) in intro.service_tags" :key="index">
-              <g-link class="tag" :to="formatUrl(tag)">{{ formatServiceName(tag) }}</g-link>
+            <li
+              class="category highlight"
+              v-for="(tag, index) in intro.service_tags"
+              :key="index"
+            >
+              <g-link
+                class="tag"
+                :to="formatUrl(tag)"
+                >{{ formatServiceName(tag) }}</g-link
+              >
             </li>
           </ul>
         </div>
@@ -17,7 +25,8 @@
           :href="intro.project_url"
           target="_blank"
           rel="noopener noreferrer"
-        >{{ intro.project_url }}</a>
+          >{{ intro.project_url }}</a
+        >
       </div>
       <img
         v-if="intro.background_hero_image"
@@ -26,7 +35,12 @@
       />
       <div class="paragraph-block" v-html="intro.intro_paragraph" />
     </div>
-    <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
+    <img
+      v-if="intro.client_logo"
+      class="client-logo"
+      :src="intro.client_logo"
+      alt="client logo"
+    />
   </section>
 </template>
 
@@ -50,7 +64,7 @@ export default {
 
 <style>
 .intro-container {
-  margin: 0 0 30vh;
+  margin: 0 0 50vh;
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
   /* border: 1px solid cyan; */
@@ -60,6 +74,7 @@ export default {
   font-size: 1.1rem;
   line-height: 1.6rem;
   max-width: 700px;
+  width: 50%;
   transition: all 300ms ease-in-out;
 }
 .project-info {
@@ -76,7 +91,7 @@ export default {
 }
 .column-img {
   position: absolute;
-  top: 20%;
+  top: 196px;
   right: 0;
   width: 45%;
   height: auto;
@@ -140,6 +155,7 @@ export default {
     position: relative;
     width: 95%;
     left: 5%;
+    top: 0;
   }
   .client-logo {
     display: none;
