@@ -1,14 +1,10 @@
 <template>
-  <section
-    class="slide-show-wrap"
-    v-touch:swipe.left="prev"
-    v-touch:swipe.right="next"
-  >
-    <!-- <transition name="img-fade" tag="section"> -->
-    <div v-for="i in [currentIdx]" :key="i">
-      <g-image :src="currentImg" alt="image slide show" />
-    </div>
-    <!-- </transition> -->
+  <section class="embed-wrap" v-touch:swipe.left="prev" v-touch:swipe.right="next">
+    <transition name="img-fade" tag="section">
+      <div v-for="i in [currentIdx]" :key="i" class="full-img">
+        <g-image :src="currentImg" alt="image slide show" />
+      </div>
+    </transition>
     <div class="slideshow-controls">
       <span class="prev" @click="prev">←</span>
       <span class="next" @click="next">→</span>
@@ -51,32 +47,48 @@ export default {
   top: 2rem;
   margin-bottom: 10rem;
 }
-.img-fade-enter-active,
-.img-fade-leave-active {
-  opacity: 1;
-  transition: opacity 0.3s;
+.embed-wrap {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  overflow: hidden;
 }
-
-.img-fade-enter,
-.img-fade-leave-to {
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-img {
-  min-height: 600px;
+.full-img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+.img-fade-enter-active,
+.img-fade-leave-active {
+  opacity: 1;
+  transition: all 0.4s ease-out;
+  /* transform: translateX(0); */
+}
+.img-fade-enter,
+.img-fade-leave-to {
+  opacity: 0;
+  /* transform: translateX(-100%); */
+  transition: all 0.4s ease-out;
+}
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  width: 100%;
+  height: auto;
+}
 .slideshow-controls {
   position: absolute;
-  left: 45%;
-  bottom: -6%;
+  left: 47%;
+  bottom: 15px;
 }
 .prev,
 .next {
@@ -111,7 +123,7 @@ img {
   }
   .slideshow-controls {
     position: absolute;
-    left: 40%;
+    left: 43%;
     bottom: -10%;
   }
   img {
@@ -121,7 +133,7 @@ img {
   .next {
     width: 20px;
     height: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border: none;
   }
   .prev:hover,

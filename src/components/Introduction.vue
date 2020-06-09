@@ -1,24 +1,13 @@
 <template>
   <section class="intro-container">
-    <div
-      class="introduction"
-      :class="{'column-adjust': !intro.hero_image_toggle}"
-    >
+    <div class="introduction" :class="{'column-adjust': !intro.hero_image_toggle}">
       <div class="project-info">
         <span class="highlight" v-html="client">{{ client }}</span>
         <h1 class="title" v-html="intro.page_title" />
         <div class="categories">
           <ul>
-            <li
-              class="category highlight"
-              v-for="(tag, index) in intro.service_tags"
-              :key="index"
-            >
-              <g-link
-                class="tag"
-                :to="formatUrl(tag)"
-                >{{ formatServiceName(tag) }}</g-link
-              >
+            <li class="category highlight" v-for="(tag, index) in intro.service_tags" :key="index">
+              <g-link class="tag" :to="formatUrl(tag)">{{ formatServiceName(tag) }}</g-link>
             </li>
           </ul>
         </div>
@@ -28,8 +17,7 @@
           :href="intro.project_url"
           target="_blank"
           rel="noopener noreferrer"
-          >{{ intro.project_url }}</a
-        >
+        >{{ intro.project_url }}</a>
       </div>
       <img
         v-if="intro.background_hero_image"
@@ -38,12 +26,7 @@
       />
       <div class="paragraph-block" v-html="intro.intro_paragraph" />
     </div>
-    <img
-      v-if="intro.client_logo"
-      class="client-logo"
-      :src="intro.client_logo"
-      alt="client logo"
-    />
+    <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
   </section>
 </template>
 
@@ -78,7 +61,6 @@ export default {
   font-size: 1.1rem;
   line-height: 1.6rem;
   max-width: 700px;
-
   transition: all 300ms ease-in-out;
 }
 .introduction.column-adjust {
@@ -128,6 +110,7 @@ export default {
   margin-left: 6rem;
   font-size: 1.1rem;
   line-height: 1.6rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid var(--color-highlight);
 }
 .title {
@@ -137,7 +120,9 @@ export default {
 }
 .client-logo {
   width: 150px;
+  height: auto;
   margin-left: 6rem;
+  margin-top: 1rem;
 }
 @media (max-width: 800px) {
   .introduction {
