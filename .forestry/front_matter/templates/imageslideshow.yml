@@ -1,8 +1,8 @@
 ---
-label: Image Slide Show
+label: Image Slideshow
 hide_body: false
 fields:
-- name: image_gallery
-  type: image_gallery
-  config: {}
-  label: image gallery
+  - name: image_gallery
+    type: image_gallery
+    config: {}
+    label: image gallery
