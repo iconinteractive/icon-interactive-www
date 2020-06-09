@@ -122,9 +122,9 @@ img {
     margin-top: 3rem;
   }
   .slideshow-controls {
-    position: absolute;
+    position: relative;
     left: 43%;
-    bottom: -10%;
+    bottom: -2px;
   }
   img {
     min-height: auto;
