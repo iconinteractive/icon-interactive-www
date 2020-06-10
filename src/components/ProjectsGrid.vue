@@ -8,7 +8,7 @@
           class="thumbnail"
         />
         <div class="project-title">
-          <span class="client">{{item.node.intro.client}}</span>
+          <span class="client">{{ formatClient(item.node.intro.client) }}</span>
           <h3>{{ item.node.intro.page_title }}</h3>
         </div>
         <div class="project-label">
@@ -40,6 +40,9 @@ export default {
     formatUrl,
     tagFilter(tags) {
       return Object.values(tags).filter(tag => tag);
+    },
+    formatClient(client) {
+      return client.toUpperCase();
     }
   }
 };
