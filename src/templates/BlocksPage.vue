@@ -112,9 +112,9 @@ export default {
 .container-blocks {
   margin: 0;
 }
-* {
+/* * {
   background: var(--color-base);
-}
+} */
 a {
   text-decoration: underline;
   color: var(--color-highlight);

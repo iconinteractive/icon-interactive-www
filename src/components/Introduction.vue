@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style>
-.header {
+#app {
   background-color: var(--color-base);
 }
 .intro-container {
@@ -88,7 +88,7 @@ export default {
   right: 0;
   width: 45%;
   height: auto;
-  z-index: -1;
+  z-index: 2;
   object-fit: contain;
 }
 .highlight {

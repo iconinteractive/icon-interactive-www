@@ -20,25 +20,23 @@
 
 <page-query>
 query Posts {
-	projects: allProjectPost (filter: {display_on_site: {eq: true}}) {
+	projects: allBlocksPage (filter: {intro:{ display_on_site: {eq: true}} }) {
     edges {
       node {
-        id
-        date (format: "YYYY")
-        title
-        client
-        thumbnail
         path
-        display_on_site
-        service_tags {
-          service_tag_one
-          service_tag_two
+        intro {
+          display_on_site
+          date
+      		service_tags { service_tag_one, service_tag_two }
+      		page_title
+      		client
+          thumbnail
+      		project_url
         }
       }
     }
   }
 }
-
 </page-query>
 
 <script>

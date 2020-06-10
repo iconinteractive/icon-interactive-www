@@ -1,16 +1,20 @@
 <template>
   <div class="projects" :class="{threeColumn: $route.path === '/projects'}">
-    <div class="project" v-for="item in projects" :key="item.node.id">
+    <div class="project" v-for="(item, idx) in projects" :key="idx">
       <a :href="item.node.path" class="project-link">
-        <g-image :src="item.node.thumbnail" :alt="item.node.title" class="thumbnail" />
+        <g-image
+          :src="item.node.intro.thumbnail"
+          :alt="item.node.intro.page_title"
+          class="thumbnail"
+        />
         <div class="project-title">
-          <span class="client">{{item.node.client}}</span>
-          <h3>{{ item.node.title }}</h3>
+          <span class="client">{{item.node.intro.client}}</span>
+          <h3>{{ item.node.intro.page_title }}</h3>
         </div>
         <div class="project-label">
           <div
             class="category-wrap"
-            v-for="(tag, index) in tagFilter(item.node.service_tags)"
+            v-for="(tag, index) in tagFilter(item.node.intro.service_tags)"
             :key="index"
           >
             <a :href="formatUrl(tag)">{{ formatServiceName(tag) }}</a>
