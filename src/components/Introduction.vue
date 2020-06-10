@@ -61,7 +61,7 @@ export default {
 }
 .intro-container.clear {
   background: none;
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
 }
 .introduction {
   margin: 0 0 2rem;
