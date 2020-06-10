@@ -123,8 +123,8 @@ img {
   }
   .slideshow-controls {
     position: relative;
-    left: 43%;
-    bottom: -2px;
+    left: 42%;
+    bottom: 30px;
   }
   img {
     min-height: auto;
@@ -134,7 +134,10 @@ img {
     width: 20px;
     height: 20px;
     font-size: 1.2rem;
-    border: none;
+    border: 1px solid var(--color-highlight);
+  }
+  .prev {
+    margin-right: 5px;
   }
   .prev:hover,
   .next:hover {
