@@ -1,5 +1,5 @@
 <template>
-  <section class="intro-container">
+  <section class="intro-container" :class="{'clear': intro.hero_image_toggle}">
     <div class="introduction" :class="{'column-adjust': !intro.hero_image_toggle}">
       <div class="project-info">
         <span class="highlight" v-html="client">{{ client }}</span>
@@ -49,15 +49,19 @@ export default {
 </script>
 
 <style>
-#app {
+/* #app {
   background-color: var(--color-base);
-}
+} */
 .intro-container {
   margin: 0 0 60vh;
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
   background: none;
   /* border: 1px solid cyan; */
+}
+.intro-container.clear {
+  background: none;
+  border: 1px solid cyan;
 }
 .introduction {
   margin: 0 0 2rem;
