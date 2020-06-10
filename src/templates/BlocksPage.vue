@@ -95,7 +95,9 @@ export default {
   },
   computed: {
     style() {
-      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight}; --color-base:${this.$page.post.intro.page_colors.background};`;
+      return `--color-highlight: ${this.$page.post.intro.page_colors.highlight}; 
+              --color-base:${this.$page.post.intro.page_colors.background}; 
+              --color-contrast: ${this.$page.post.intro.page_colors.text}`;
     }
   },
   metaInfo() {
@@ -110,9 +112,9 @@ export default {
 .container-blocks {
   margin: 0;
 }
-/* * {
+* {
   background: var(--color-base);
-} */
+}
 a {
   text-decoration: underline;
   color: var(--color-highlight);

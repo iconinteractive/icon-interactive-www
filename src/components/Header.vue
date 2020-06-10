@@ -46,14 +46,12 @@ export default {
 
 <style scoped>
 .header {
-  /* position: sticky;
-  position: -webkit-sticky; */
   top: 0;
   padding: 2rem 0;
   z-index: 10;
   width: 100%;
   margin-bottom: 2rem;
-  background: transparent;
+  background-color: transparent;
 }
 .nav {
   display: flex;
@@ -169,7 +167,6 @@ export default {
   .mobile-x hr:nth-child(2) {
     transform: rotate(-45deg);
     border: 1px solid white;
-    /* margin-bottom: 20px; */
     position: relative;
     top: -12px;
   }

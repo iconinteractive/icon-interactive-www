@@ -15,7 +15,7 @@ export default {
 .two-column {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 100px;
+  grid-gap: 50px;
   grid-template-rows: auto;
   margin: 0 0 5rem;
 }

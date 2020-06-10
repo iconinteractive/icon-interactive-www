@@ -99,6 +99,9 @@ li {
 li:last-of-type {
   margin-right: 0;
 }
+li a h3 {
+  color: #fff;
+}
 .footer-text {
   font-weight: normal;
   margin: 0;

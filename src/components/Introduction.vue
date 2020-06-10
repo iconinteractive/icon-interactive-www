@@ -49,6 +49,9 @@ export default {
 </script>
 
 <style>
+.header {
+  background-color: var(--color-base);
+}
 .intro-container {
   margin: 0 0 60vh;
   color: var(--color-contrast);

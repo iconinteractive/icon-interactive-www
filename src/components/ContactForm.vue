@@ -10,22 +10,10 @@
       <input id="email" type="email" name="email" placeholder="Email" />
       <div class="two-column">
         <input id="company" type="text" name="company" placeholder="Company" />
-        <input
-          id="phone"
-          type="tel"
-          name="phone"
-          placeholder="Phone"
-          v-model="number"
-        />
+        <input id="phone" type="tel" name="phone" placeholder="Phone" v-model="number" />
       </div>
       <textarea class="message" name="message" placeholder="Message"></textarea>
-      <input
-        type="text"
-        name="xx_password"
-        class="honey"
-        tabindex="-1"
-        autocomplete="off"
-      />
+      <input type="text" name="xx_password" class="honey" tabindex="-1" autocomplete="off" />
       <button>
         <span class="submit-text">SUBMIT</span>
         <span class="submit-arrow">→</span>
@@ -59,7 +47,7 @@ export default {
 <style scoped>
 .intro-info {
   font-size: 1.5rem;
-  color: var(--color-contrast);
+  color: #fff;
 }
 .contact-form {
   max-width: 800px;
@@ -107,18 +95,18 @@ textarea {
   background: transparent;
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid var(--color-contrast);
+  border-bottom: 1px solid #fff;
   transition: all 300ms ease-in-out;
   outline: none;
   padding: 0.8rem 1rem;
-  color: var(--color-contrast);
+  color: #fff;
   font-size: 1.1rem;
   width: 100%;
   margin: 1rem 0 0.5rem;
 }
 input::placeholder,
 textarea::placeholder {
-  color: var(--color-contrast);
+  color: #fff;
 }
 textarea {
   resize: none;
@@ -133,8 +121,8 @@ button {
   -webkit-appearance: none;
   appearance: none;
   background: #000;
-  color: var(--color-contrast);
-  border: 1px solid var(--color-contrast);
+  color: #fff;
+  border: 1px solid #fff;
   outline: none;
   font-size: 1rem;
   padding: 1.25rem;
@@ -152,7 +140,7 @@ button {
 button:hover {
   border: 1px solid var(--color-highlight);
   background-color: var(--color-highlight);
-  color: var(--color-contrast);
+  color: #fff;
   transition: all 300ms ease-in-out;
 }
 button:focus {
