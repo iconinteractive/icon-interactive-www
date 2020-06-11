@@ -96,7 +96,7 @@ export default {
   -ms-hyphens: auto;
   hyphens: auto;
   line-height: 6.75rem;
-  width: 700px;
+  width: 710px;
   height: 80%;
   transform: all 500ms ease-out;
 }

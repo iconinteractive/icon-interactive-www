@@ -117,6 +117,10 @@ textarea:focus {
   height: 150px;
   transition: height 500ms ease-out;
 }
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
 button {
   -webkit-appearance: none;
   appearance: none;

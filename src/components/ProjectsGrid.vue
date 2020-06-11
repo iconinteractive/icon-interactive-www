@@ -63,6 +63,7 @@ export default {
   min-height: 100%;
   width: 100%;
   z-index: 0;
+  display: flex;
 }
 .project-link {
   text-decoration: none;

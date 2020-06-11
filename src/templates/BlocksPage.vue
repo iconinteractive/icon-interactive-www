@@ -101,10 +101,11 @@ export default {
       };
     },
     backgroundColor() {
-      if (this.$page.post.intro.hero_image_toggle)
+      if (!this.$page.post.intro.hero_image_toggle) {
         return {
           backgroundColor: `${this.$page.post.intro.page_colors.background}`
         };
+      }
     }
   },
   metaInfo() {

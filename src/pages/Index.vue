@@ -9,7 +9,7 @@
         </div>
         <section id="start" class="projects">
           <div class="title-wrap">
-            <h1 class="title">FEATURED WORK</h1>
+            <h1 class="title-feat">FEATURED WORK</h1>
           </div>
           <ProjectsGrid :projects="$page.projects.edges" />
         </section>
@@ -65,13 +65,15 @@ export default {
 </script>
 
 <style scoped>
-.title {
+.title-feat {
   font-size: 5.5rem;
   margin-bottom: 0;
   line-height: 5rem;
 }
 .title-wrap {
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 h2 {
   font-family: "DM Sans";
