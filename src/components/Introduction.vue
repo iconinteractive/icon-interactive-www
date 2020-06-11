@@ -1,5 +1,5 @@
 <template>
-  <section class="intro-container" :class="{'clear': intro.hero_image_toggle}">
+  <section class="intro-container" :class="{'clear': intro.hero_image_toggle}" :style="style">
     <div class="introduction" :class="{'column-adjust': !intro.hero_image_toggle}">
       <div class="project-info">
         <span class="highlight" v-html="client">{{ client }}</span>
@@ -49,19 +49,15 @@ export default {
 </script>
 
 <style>
-/* #app {
-  background-color: var(--color-base);
-} */
 .intro-container {
-  margin: 0 0 14%;
+  margin: 2% 0 10%;
+  padding-bottom: 20%;
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
   background: none;
-  /* border: 1px solid cyan; */
 }
 .intro-container.clear {
   background: none;
-  /* border: 1px solid cyan; */
 }
 .introduction {
   margin: 0 0 2rem;
@@ -119,11 +115,13 @@ export default {
   line-height: 1.6rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--color-highlight);
+  max-width: 700px;
 }
 .title {
   font-size: 2.75rem;
   line-height: 3.25rem;
   margin: 1rem 0 0;
+  max-width: 700px;
 }
 .client-logo {
   width: 150px;
@@ -131,22 +129,19 @@ export default {
   margin-left: 6rem;
   margin-top: 1rem;
 }
-@media (max-width: 1200px) {
-}
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .introduction {
-    width: 100%;
-    max-width: 800px;
+    max-width: 100%;
   }
+
   .introduction.column-adjust {
     width: 100%;
   }
   .intro-container {
-    margin: 0 0 5rem;
+    margin: 0 0 10%;
+    padding-bottom: 0;
   }
   .title {
-    font-size: 2rem;
-    line-height: 2.5rem;
     margin: 1rem 0 0;
   }
   .background {
@@ -167,20 +162,32 @@ export default {
   }
   .project-info,
   .paragraph-block {
-    margin: 0 2rem;
+    margin: 0 6rem;
   }
 }
-@media (min-width: 1500px) {
+@media (max-width: 800px) {
+  .project-info,
+  .paragraph-block {
+    margin: 0 2rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
 }
-@media only screen and (min-height: 900px) and (min-width: 800px) {
+
+@media only screen and (min-height: 1200px) and (min-width: 800px) {
   .intro-container {
-    margin: 0 0 30%;
-    /* border: 1px solid cyan; */
+    margin: 0 0 15%;
+  }
+}
+@media only screen and (min-height: 900px) and (max-height: 1200px) and (min-width: 900px) {
+  .intro-container {
+    margin: 0 0 15%;
   }
 }
 @media (min-width: 2000px) {
   .intro-container {
-    margin: 10rem 0 15%;
+    margin: 5% 0 0;
   }
 }
 </style>

@@ -16,8 +16,8 @@ intro:
     a world-class foray into the electric vehicle (EV) marketplace, Jaguar wanted
     to take the U.S. market by storm. So that's just what we did.</p>"
   page_colors:
-    background: "#610070"
-    text: "#34eb6e"
+    background: "#00565c"
+    text: "#ffcc80"
     highlight: ""
   background_hero_image: ""
   hero_image_toggle: false

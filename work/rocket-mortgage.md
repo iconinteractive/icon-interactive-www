@@ -16,7 +16,7 @@ intro:
     Games to bring League of Legends to Detroit as presenting sponsor of the LCS Summer
     Finals.</p>"
   page_colors:
-    background: ""
+    background: "#1e0082"
     text: ""
     highlight: ""
   background_hero_image: https://s3.amazonaws.com/forestry.iconinteractive.com/genesis_intro_test_sq.png
