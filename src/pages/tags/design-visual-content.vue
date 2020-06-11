@@ -8,20 +8,19 @@
 </template>
 
 <page-query>
-query TagPosts {
-	projects: allProjectPost (filter: {display_on_site: {eq: true}}) {
+query Posts {
+	projects: allBlocksPage (filter: { intro:{ display_on_site: {eq: true}} }) {
     edges {
       node {
-        id
-        date (format: "YYYY")
-        title
-        client
-        thumbnail
         path
-        service_tags { 
-          service_tag_one,
-          service_tag_two,
-          service_tag_three
+        intro {
+          display_on_site
+          date
+      		service_tags { service_tag_one, service_tag_two }
+      		page_title
+      		client
+          thumbnail
+      		project_url
         }
       }
     }
@@ -39,8 +38,8 @@ export default {
   created() {
     this.queryResults = this.$page.projects.edges;
     this.queryResults = this.queryResults.filter(({ node }) => {
-      for (const tag in node.service_tags) {
-        if (node.service_tags[tag] === "design and visual content") {
+      for (const tag in node.intro.service_tags) {
+        if (node.intro.service_tags[tag] === "design and visual content") {
           return true;
           break;
         }

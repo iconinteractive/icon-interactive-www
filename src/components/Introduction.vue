@@ -53,7 +53,7 @@ export default {
   background-color: var(--color-base);
 } */
 .intro-container {
-  margin: 0 0 60vh;
+  margin: 0 0 14%;
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
   background: none;
@@ -131,6 +131,8 @@ export default {
   margin-left: 6rem;
   margin-top: 1rem;
 }
+@media (max-width: 1200px) {
+}
 @media (max-width: 800px) {
   .introduction {
     width: 100%;
@@ -169,18 +171,16 @@ export default {
   }
 }
 @media (min-width: 1500px) {
-  /* .intro-container {
-    margin: 0 0 35vh;
-  } */
 }
 @media only screen and (min-height: 900px) and (min-width: 800px) {
   .intro-container {
-    margin: 0 0 50vh;
+    margin: 0 0 30%;
+    /* border: 1px solid cyan; */
   }
 }
 @media (min-width: 2000px) {
   .intro-container {
-    margin: 10rem 0 30rem;
+    margin: 10rem 0 15%;
   }
 }
 </style>
