@@ -3,7 +3,7 @@
     <div class="introduction" :class="{'column-adjust': !intro.hero_image_toggle}">
       <div class="project-info">
         <span class="highlight" v-html="client">{{ client }}</span>
-        <h1 class="title" v-html="intro.page_title" />
+        <h1 class="title-project" v-html="intro.page_title" />
         <div class="categories">
           <ul>
             <li class="category highlight" v-for="(tag, index) in intro.service_tags" :key="index">
@@ -12,7 +12,7 @@
           </ul>
         </div>
         <a
-          class="highlight"
+          class="highlight url"
           v-if="intro.project_url"
           :href="intro.project_url"
           target="_blank"
@@ -103,7 +103,8 @@ export default {
   display: flex;
   margin: 1rem 0;
 }
-.category {
+.category,
+.url {
   font-size: 1rem;
 }
 .category:nth-child(2) {
@@ -117,15 +118,15 @@ export default {
   border-bottom: 1px solid var(--color-highlight);
   max-width: 700px;
 }
-.title {
+.title-project {
   font-size: 2.75rem;
   line-height: 3.25rem;
   margin: 1rem 0 0;
   max-width: 700px;
 }
 .client-logo {
-  width: 150px;
-  height: auto;
+  width: auto;
+  max-height: 50px;
   margin-left: 6rem;
   margin-top: 1rem;
 }
@@ -141,7 +142,7 @@ export default {
     margin: 0 0 10%;
     padding-bottom: 0;
   }
-  .title {
+  .title-project {
     margin: 1rem 0 0;
   }
   .background {

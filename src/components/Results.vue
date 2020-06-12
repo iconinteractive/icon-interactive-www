@@ -47,6 +47,7 @@ export default {
 .roi > h6 {
   font-family: "DM Sans", sans-serif;
   font-weight: normal;
+  font-size: 5rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
