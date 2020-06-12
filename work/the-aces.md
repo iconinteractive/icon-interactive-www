@@ -27,7 +27,7 @@ intro:
 title: the aces
 project_blocks:
 - template: textblock
-  text_block: "<h2>Background</h2><p>Red Bull Records, the music branch of the global
+  text_block: <h2>Background</h2><p>Red Bull Records, the music branch of the global
     energy drink brand, came to ICON with a challenge. One of their bands, The Aces,
     had a new record coming out, and wanted to connect with their fans in a new way
     - through listening parties.</p><h2>Goal</h2><p>Fans would join with the band
@@ -37,6 +37,41 @@ project_blocks:
     would build a website where fans could vote for their city by streaming The Aces
     new single, “Daydream”, or by registering their information once per day on the
     site. This would verify each vote as being associated with a real person by capturing
-    their name and location.</p>"
+    their name and location.</p><h2>Deliverables</h2><p>We built and designed a completely
+    custom site at <a href="https://theacesofficial.com" title="https://theacesofficial.com">https://theacesofficial.com</a>
+    to both highlight The Aces new look and photos, and to provide a place for the
+    listening party voting to take place. Our custom interface allowed votes to be
+    counted both from the top cities streaming the single, as well as the top cities
+    voted for on the site itself. We were able to verify that real people were voting,
+    as well as limit fans to one vote per day by verifying their vote through a unique
+    code sent to either their phone number or email address. This also enabled us
+    to collect contact and location data for fans of the band so they could later
+    be notified of upcoming shows in their area, and it allowed us to retarget them
+    upon the album’s release for purchase. To display results, we implemented a live
+    leaderboard on the website showcasing the top cities in both categories.</p>
+- template: fullwidthimage
+  FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_1.png
+  FullWidthImgAltText: phone voting app
+  full_bleed: false
+- template: twocolumntext
+  text_columns:
+    left_column: '<h2>Technical Approach</h2><p>There were 3 primary technical challenges
+      for this website that we encountered: voting, streaming rankings, and performant
+      animations.</p><p class="p1">For voting, we needed to create a system that allowed
+      for an individual to vote once per day, but also allow multiple different ways
+      to vote. We built this system from the ground up, and integrated directly with
+      social media to allow the additional voting. This provided Redbull Records with
+      a lot of insight into where their engaged audience was, but also how they interact
+      with the band.</p>'
+    right_column: <p>In addition to displaying cities by their vote totals, we also
+      wanted to rank cities by the amount of daily streams. Unfortunately we could
+      not obtain data at the granular level that we were looking for directly from
+      streaming platforms, however working with an analytics company, daily reports
+      of streaming numbers could be pulled into the site and updated.</p><p class="p1">With
+      a minimalist design to the website, small animations throughout were needed
+      to keep users interested and engaged. We also needed these animations to not
+      hinder performance or load times in any way. Using the anime.js library to create
+      scripted timeline-based animations and the interaction observer API we could
+      control the movement of the site, while keeping everything smooth and fast.</p>
 
 ---
