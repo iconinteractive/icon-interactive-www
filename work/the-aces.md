@@ -99,7 +99,7 @@ project_blocks:
   results:
     column_one: "<h1>14,063</h1><p>Total Votes</p>"
     column_two: "<h1>7,322</h1><p>Individual Voters</p>"
-    column_three: "<p></p>"
+    column_three: "<h1>140</h1><p>Different Cities</p>"
 - template: twocolumntext
   text_columns:
     left_column: "<h2>Results</h2><p>The results speak for themselves. Over 7,300
