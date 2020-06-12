@@ -24,7 +24,7 @@ intro:
     text: ''
     highlight: ''
   background_hero_image: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Hero.jpg
-title: the aces
+title: The Aces
 project_blocks:
 - template: textblock
   text_block: <h2>Background</h2><p>Red Bull Records, the music branch of the global
