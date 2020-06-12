@@ -97,8 +97,8 @@ project_blocks:
     able to use to build targeted campaigns in the future.</p>"
 - template: results
   results:
-    column_one: "<p></p><h2>14,063</h2><p>Total Votes</p>"
-    column_two: "<h2>7,322</h2><p>Individual Voters</p>"
-    column_three: "<h2>140</h2><p>Different Cities</p>"
+    column_one: "<h1>14,063</h1><p>Total Votes</p>"
+    column_two: "<h1>7,322</h1><p>Individual Voters</p>"
+    column_three: "<h1>140</h1><p>Different Cities</p>"
 
 ---
