@@ -50,7 +50,7 @@ project_blocks:
     upon the album’s release for purchase. To display results, we implemented a live
     leaderboard on the website showcasing the top cities in both categories.</p>
 - template: fullwidthimage
-  FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_1.png
+  FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/aces.png
   FullWidthImgAltText: phone voting app
   full_bleed: false
 - template: twocolumntext
