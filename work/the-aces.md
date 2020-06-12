@@ -63,10 +63,10 @@ project_blocks:
       social media to allow the additional voting. This provided Redbull Records with
       a lot of insight into where their engaged audience was, but also how they interact
       with the band.</p>'
-    right_column: <p>In addition to displaying cities by their vote totals, we also
-      wanted to rank cities by the amount of daily streams. Unfortunately we could
-      not obtain data at the granular level that we were looking for directly from
-      streaming platforms, however working with an analytics company, daily reports
+    right_column: <p></p><p>In addition to displaying cities by their vote totals,
+      we also wanted to rank cities by the amount of daily streams. Unfortunately
+      we could not obtain data at the granular level that we were looking for directly
+      from streaming platforms, however working with an analytics company, daily reports
       of streaming numbers could be pulled into the site and updated.</p><p class="p1">With
       a minimalist design to the website, small animations throughout were needed
       to keep users interested and engaged. We also needed these animations to not
