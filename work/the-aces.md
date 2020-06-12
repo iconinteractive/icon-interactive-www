@@ -9,7 +9,7 @@ intro:
   page_title: Finding the Top Cities For the Latest Album
   client: Red Bull Records
   display_on_home_page: true
-  thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Hero.jpg
+  thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Thumbnail_3.jpg
   project_url: https://theacesofficial.com
   client_logo: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Logo.png
   intro_paragraph: "<p>We built and designed a completely custom site to both highlight
@@ -50,9 +50,9 @@ project_blocks:
     upon the album’s release for purchase. To display results, we implemented a live
     leaderboard on the website showcasing the top cities in both categories.</p>
 - template: fullwidthimage
-  FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/aces.png
+  FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_1.jpg
   FullWidthImgAltText: phone voting app
-  full_bleed: false
+  full_bleed: true
 - template: twocolumntext
   text_columns:
     left_column: '<h2>Technical Approach</h2><p>There were 3 primary technical challenges
@@ -63,10 +63,10 @@ project_blocks:
       social media to allow the additional voting. This provided Redbull Records with
       a lot of insight into where their engaged audience was, but also how they interact
       with the band.</p>'
-    right_column: <p></p><p>In addition to displaying cities by their vote totals,
-      we also wanted to rank cities by the amount of daily streams. Unfortunately
-      we could not obtain data at the granular level that we were looking for directly
-      from streaming platforms, however working with an analytics company, daily reports
+    right_column: <p>In addition to displaying cities by their vote totals, we also
+      wanted to rank cities by the amount of daily streams. Unfortunately we could
+      not obtain data at the granular level that we were looking for directly from
+      streaming platforms, however working with an analytics company, daily reports
       of streaming numbers could be pulled into the site and updated.</p><p class="p1">With
       a minimalist design to the website, small animations throughout were needed
       to keep users interested and engaged. We also needed these animations to not
