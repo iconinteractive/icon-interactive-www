@@ -73,5 +73,32 @@ project_blocks:
       hinder performance or load times in any way. Using the anime.js library to create
       scripted timeline-based animations and the interaction observer API we could
       control the movement of the site, while keeping everything smooth and fast.</p>
+- template: fullwidthimage
+  FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_2.jpg
+  FullWidthImgAltText: home page of aces site
+  full_bleed: true
+- template: twoColumnImages
+  images:
+    image_one: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_3.png
+    image_two: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_4.jpg
+    image_one_alt_text: phone app aces voting
+    image_two_alt_text: aces band
+- template: textblock
+  text_block: "<h2>Results</h2><p>The results speak for themselves. Over 7,300 people
+    voted on the site for the band to visit their city, capturing exactly 7,322 phone
+    numbers and emails tied to location data. Each fan voted twice on average, for
+    a total of over 14,000 votes. Fans voted from 140 different cities around the
+    country.</p><p>Engagement for the site skyrocketed over the course of the contest,
+    increasing over 200%, with the average visitor returning to the site 3 times per
+    day to vote and check the results. The contest was a success - The Aces will set
+    out on their listening tour to meet their highly engaged fans, which were able
+    to target down to the city. Additionally, Red Bull Records gained a rich data
+    set and a deep understanding of their band’s customer base, which they will be
+    able to use to build targeted campaigns in the future.</p>"
+- template: results
+  results:
+    column_one: "<p></p><h2>14,063</h2><p>Total Votes</p>"
+    column_two: "<h2>7,322</h2><p>Individual Voters</p>"
+    column_three: "<h2>140</h2><p>Different Cities</p>"
 
 ---
