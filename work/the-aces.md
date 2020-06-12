@@ -9,7 +9,7 @@ intro:
   page_title: Finding the Top Cities For the Latest Album
   client: Red Bull Records
   display_on_home_page: true
-  thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Hero.jpg
+  thumbnail: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_4.jpg
   project_url: https://theacesofficial.com
   client_logo: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Logo.png
   intro_paragraph: "<p>We built and designed a completely custom site to both highlight
