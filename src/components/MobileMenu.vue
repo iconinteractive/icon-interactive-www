@@ -17,9 +17,9 @@
 export default {
   props: {
     menuOn: Boolean,
-    close: Function
-  }
-};
+    close: Function,
+  },
+}
 </script>
 
 <style scoped>
@@ -28,7 +28,7 @@ export default {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: var(--color-highlight);
+  background-color: #e51365;
   width: 75%;
   height: 120vh;
   margin: 0;

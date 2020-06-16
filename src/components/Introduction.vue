@@ -1,13 +1,26 @@
 <template>
-  <section class="intro-container" :class="{'clear': intro.hero_image_toggle}" :style="style">
-    <div class="introduction" :class="{'column-adjust': !intro.hero_image_toggle}">
+  <section
+    class="intro-container"
+    :class="{ clear: intro.hero_image_toggle }"
+    :style="style"
+  >
+    <div
+      class="introduction"
+      :class="{ 'column-adjust': !intro.hero_image_toggle }"
+    >
       <div class="project-info">
         <span class="highlight" v-html="client">{{ client }}</span>
         <h1 class="title-project" v-html="intro.page_title" />
         <div class="categories">
           <ul>
-            <li class="category highlight" v-for="(tag, index) in intro.service_tags" :key="index">
-              <g-link class="tag" :to="formatUrl(tag)">{{ formatServiceName(tag) }}</g-link>
+            <li
+              class="category highlight"
+              v-for="(tag, index) in intro.service_tags"
+              :key="index"
+            >
+              <g-link class="tag" :to="formatUrl(tag)">{{
+                formatServiceName(tag)
+              }}</g-link>
             </li>
           </ul>
         </div>
@@ -17,44 +30,54 @@
           :href="intro.project_url"
           target="_blank"
           rel="noopener noreferrer"
-        >{{ intro.project_url }}</a>
+          >{{ intro.project_url }}</a
+        >
       </div>
       <img
         v-if="intro.background_hero_image"
         :src="intro.background_hero_image"
-        :class="{'background': intro.hero_image_toggle, 'column-img': !intro.hero_image_toggle}"
+        :class="{
+          background: intro.hero_image_toggle,
+          'column-img': !intro.hero_image_toggle,
+        }"
       />
       <div class="paragraph-block" v-html="intro.intro_paragraph" />
     </div>
-    <img v-if="intro.client_logo" class="client-logo" :src="intro.client_logo" alt="client logo" />
+    <img
+      v-if="intro.client_logo"
+      class="client-logo"
+      :src="intro.client_logo"
+      alt="client logo"
+    />
   </section>
 </template>
 
 <script>
-import formatServiceName from "./utility-funcs/formatServiceName.js";
-import formatUrl from "./utility-funcs/formatUrl.js";
+import formatServiceName from "./utility-funcs/formatServiceName.js"
+import formatUrl from "./utility-funcs/formatUrl.js"
 
 export default {
   props: ["intro"],
   methods: {
     formatServiceName,
-    formatUrl
+    formatUrl,
   },
   computed: {
     client() {
-      return this.intro.client.toUpperCase();
-    }
-  }
-};
+      return this.intro.client.toUpperCase()
+    },
+  },
+}
 </script>
 
 <style>
 .intro-container {
-  margin: 2% 0 10%;
-  padding-bottom: 20%;
+  margin: 2% 0 0;
+  padding-bottom: 10vh;
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
   background: none;
+  height: 850px;
 }
 .intro-container.clear {
   background: none;
@@ -72,10 +95,12 @@ export default {
 .project-info {
   margin-left: 6rem;
 }
+
 .background {
   position: absolute;
   top: -95px;
   left: 0;
+  min-height: 80vh;
   min-width: 100%;
   height: 100%;
   z-index: -1;
@@ -139,8 +164,8 @@ export default {
     width: 100%;
   }
   .intro-container {
-    margin: 0 0 10%;
     padding-bottom: 0;
+    height: auto;
   }
   .title-project {
     margin: 1rem 0 0;
@@ -175,20 +200,10 @@ export default {
     font-size: 2rem;
   }
 }
-
-@media only screen and (min-height: 1200px) and (min-width: 800px) {
-  .intro-container {
-    margin: 0 0 15%;
-  }
-}
-@media only screen and (min-height: 900px) and (max-height: 1200px) and (min-width: 900px) {
-  .intro-container {
-    margin: 0 0 15%;
-  }
-}
 @media (min-width: 2000px) {
   .intro-container {
     margin: 5% 0 0;
+    height: 900px;
   }
 }
 </style>
