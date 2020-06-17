@@ -3,7 +3,7 @@ date: 2020-06-17
 title: 'The Digital Pivot: A Learning Approach to Driving Audience Engagement'
 
 ---
-## Executive Summary
+### Executive Summary
 
 Whether we like it or not, the “new normal” world has forced us deeper into virtual communications. Social distancing, stay-at-home orders, and various states of emergency have forced many businesses to completely rethink the ways in which they interact, communicate, and promote their products and services both internally and externally.
 
@@ -15,7 +15,7 @@ Ultimately, we’ve identified some key instructional design and learning develo
 
 Early trending data in 2020 pointed to the following key areas of growth and development in the digital landscape:
 
-## INDUSTRY TRENDS IN 2020 THAT DRIVE ENGAGEMENT
+### INDUSTRY TRENDS IN 2020 THAT DRIVE ENGAGEMENT
 
 **LIVE STREAMING**
 
@@ -37,7 +37,7 @@ Perhaps the most important advantage of virtual events is the ability to track l
 
 Event marketers will continue to refine customized experiences for event attendees. In particular, companies will showcase their ability to turn visitors’ interests into personalized content after attended events. Administrative data collected at the event can show which user engaged with which content, creating an easy way to share relevant material with them during follow-up. As this follow-up strategy furnishes higher value Call-to-Actions given that the material is relevant to the audience, they will be relied on heavily. In addition to tracking behavior at virtual events, event hosts can conduct polls, surveys, and capture detailed information at registration to gather enough insights about their attendees for a customized follow-up strategy.
 
-## Engagement Success Factors: Fostering a Sustainable, Learner-Centric Model
+### Engagement Success Factors: Fostering a Sustainable, Learner-Centric Model
 
 As multiple communication scenarios play out right before our eyes, it’s clear that every service organization has a great opportunity to add new value for their clients in the area of digital communications.
 
@@ -59,7 +59,7 @@ Within this Learner Engagement Model, a program may be designed that moves learn
 
 Using a blend of innovative technology, social media and intelligent instructional design, every touchpoint in the audience experience becomes an opportunity to excite, engage and encourage learning along the way, while building and maintaining deeper relationships with your target markets.
 
-## Digital Engagement Strategy Best Practices
+### Digital Engagement Strategy Best Practices
 
 As you re-engineer your digital communications strategies, here are a few best practices to follow:
 
