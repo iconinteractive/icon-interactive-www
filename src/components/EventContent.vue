@@ -31,7 +31,6 @@ h6 {
 .text-wrap-news {
   display: flex;
   justify-content: center;
-
   margin: 2rem 0 0;
   color: var(--color-contrast);
 }
@@ -39,7 +38,7 @@ h6 {
   width: 70%;
   font-size: 1.1rem;
   line-height: 1.6rem;
-  max-width: 700px;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
 }
