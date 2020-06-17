@@ -31,7 +31,7 @@ export default {
   computed: {
     style() {
       return {
-        backgroundColor: `#c7c7c7`,
+        backgroundColor: `#ebebeb`,
         color: "#000",
       }
     },

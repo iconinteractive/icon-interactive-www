@@ -35,7 +35,7 @@ h6 {
   color: var(--color-contrast);
 }
 .text-block-news {
-  width: 70%;
+  width: 90%;
   font-size: 1.1rem;
   line-height: 1.6rem;
   max-width: 800px;
