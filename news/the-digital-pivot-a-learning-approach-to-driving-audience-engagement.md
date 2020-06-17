@@ -5,7 +5,7 @@ title: 'The Digital Pivot: A Learning Approach to Driving Audience Engagement'
 ---
 ## Executive Summary
 
-Whether we like it or not, the “new normal” world has forced us deeper into virtual communications. Social distancing, stay-at-home orders, and various states of emergency have forced many businesses to completely rethink the ways in which they interact, communicate, and promote their products and services both internally and externally. .
+Whether we like it or not, the “new normal” world has forced us deeper into virtual communications. Social distancing, stay-at-home orders, and various states of emergency have forced many businesses to completely rethink the ways in which they interact, communicate, and promote their products and services both internally and externally.
 
 As the physical distance between us grows further apart, we need to find ways to bring ourselves closer together with the intelligent, clever use of technology. Very quickly, we’re learning that digital planning and virtual continuity is key to sustaining the relationships that are the lifeblood of our work.
 
@@ -73,11 +73,11 @@ Focus on these four key areas when designing your blended program:
 
 2\. Strong Program Design
 
-   a. Pre-Event Engagement
+a. Pre-Event Engagement
 
-   b. Day-Of Activities
+b. Day-Of Activities
 
-   c. Post-Event Connection and Communication
+c. Post-Event Connection and Communication
 
 3\. Hosting and Moderation
 
