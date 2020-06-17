@@ -48,15 +48,14 @@ export default {
       logo: require("../../static/icon-logo.svg"),
       settings: require("../../data/theme.json"),
       date: "",
-      footer: require("../../data/footer.json")
-    };
+      footer: require("../../data/footer.json"),
+    }
   },
   mounted() {
-    this.date = new Date().getFullYear();
-  }
-};
+    this.date = new Date().getFullYear()
+  },
+}
 </script>
-
 
 <style scoped>
 .footer {
@@ -68,7 +67,7 @@ export default {
   display: flex;
   justify-content: space-between;
   padding-top: 3rem;
-  border-top: 1px solid rgba(53, 53, 53, 0.7);
+  /* border-top: 1px solid rgba(53, 53, 53, 0.7); */
 }
 a .city {
   margin: 0;

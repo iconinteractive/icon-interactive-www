@@ -1,6 +1,6 @@
 <template>
-  <Layout>
-    <div :style="style">
+  <Layout :style="style">
+    <div>
       <h1 v-html="$page.post.title" class="news-title" />
       <EventContent
         :style="style"
@@ -31,7 +31,7 @@ export default {
   computed: {
     style() {
       return {
-        backgroundColor: `#f7f7f7`,
+        backgroundColor: `#c7c7c7`,
         color: "#000",
       }
     },
@@ -51,7 +51,7 @@ a {
 }
 .news-title {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   width: 80%;
   margin: 0 auto;
 }

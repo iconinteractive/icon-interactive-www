@@ -1,5 +1,5 @@
 <template>
-  <section class="text-wrap margin">
+  <section class="text-wrap-news margin">
     <div class="text-block-news" v-html="content" />
   </section>
 </template>
@@ -13,6 +13,10 @@ export default {
 </script>
 
 <style>
+.text-block-news a {
+  color: #000;
+  text-decoration: underline;
+}
 h2 {
   font-size: 2rem;
 }
@@ -24,10 +28,11 @@ h5,
 h6 {
   font-size: 1.15rem;
 }
-.text-wrap {
+.text-wrap-news {
   display: flex;
   justify-content: center;
-  margin: 5rem 0 0;
+
+  margin: 2rem 0 0;
   color: var(--color-contrast);
 }
 .text-block-news {
