@@ -2,7 +2,11 @@
   <header class="header">
     <div class="container">
       <g-link :to="{ name: 'home' }" class="home-link">
-        <img src="../../static/icon-logo.svg" :alt="settings.site_name" class="logo" />
+        <img
+          src="../../static/icon-logo.svg"
+          :alt="settings.site_name"
+          class="logo"
+        />
       </g-link>
       <nav class="nav">
         <g-link class="nav__link" to="/projects">Work</g-link>
@@ -14,7 +18,11 @@
       <transition name="slide">
         <MobileMenu v-if="menuOn" :close="menuToggle" />
       </transition>
-      <section class="mobile-burger" :class="{'mobile-x': menuOn}" @click="menuToggle">
+      <section
+        class="mobile-burger"
+        :class="{ 'mobile-x': menuOn }"
+        @click="menuToggle"
+      >
         <hr />
         <hr />
       </section>
@@ -23,25 +31,25 @@
 </template>
 
 <script>
-import MobileMenu from "./MobileMenu";
+import MobileMenu from "./MobileMenu"
 
 export default {
   components: {
-    MobileMenu
+    MobileMenu,
   },
   data() {
     return {
       logo: require("../../static/icon-logo.svg"),
       settings: require("../../data/theme.json"),
-      menuOn: false
-    };
+      menuOn: false,
+    }
   },
   methods: {
     menuToggle() {
-      this.menuOn = !this.menuOn;
-    }
-  }
-};
+      this.menuOn = !this.menuOn
+    },
+  },
+}
 </script>
 
 <style scoped>
@@ -50,7 +58,7 @@ export default {
   padding: 2rem 0;
   z-index: 10;
   width: 100%;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background-color: transparent;
 }
 .nav {
