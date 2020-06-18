@@ -55,10 +55,10 @@ h6 {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: var(--color-highlight);
-  margin: 0;
+  margin: 1rem 0 0.25rem;
 }
 .text-block-news p {
-  margin: 0.5rem 0 2rem;
+  margin: 0.5rem 0;
 }
 ul {
   padding-left: 20px;
@@ -68,6 +68,19 @@ ul {
   margin-left: 6rem;
   margin-right: 6rem;
 }
+.contact-wrap {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(53, 53, 53, 0.7);
+  padding: 4rem 0 2rem;
+  background-color: #000;
+  width: 100%;
+  position: relative;
+  left: -6rem;
+}
+.contact-wrapper > section:first-of-type {
+  max-width: 800px;
+}
 @media (max-width: 800px) {
   .text-block-news {
     width: 100%;
@@ -75,6 +88,9 @@ ul {
   .margin {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+  .contact-wrap {
+    left: -2rem;
   }
 }
 </style>
