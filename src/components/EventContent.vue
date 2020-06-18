@@ -17,9 +17,8 @@ export default {
   color: #000;
   text-decoration: underline;
 }
-h2 {
-  font-size: 2rem;
-}
+
+h2,
 h3 {
   font-size: 1.5rem;
 }
@@ -55,14 +54,18 @@ h6 {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: var(--color-highlight);
-  margin: 1rem 0 0.25rem;
+  margin: 1rem 0;
 }
 .text-block-news p {
-  margin: 0.5rem 0;
+  margin: 0 0 1rem;
+}
+ol {
+  margin: 0 0 2rem;
+  padding-left: 20px;
 }
 ul {
   padding-left: 20px;
-  margin: 0;
+  margin: 0 0 2rem;
 }
 .margin {
   margin-left: 6rem;

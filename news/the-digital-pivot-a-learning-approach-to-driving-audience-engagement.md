@@ -1,8 +1,8 @@
 ---
 date: 2020-06-17
-title: 'The Digital Pivot: A Learning Approach to Driving Audience Engagement'
-
+title: "The Digital Pivot: A Learning Approach to Driving Audience Engagement"
 ---
+
 ### Executive Summary
 
 Whether we like it or not, the “new normal” world has forced us deeper into virtual communications. Social distancing, stay-at-home orders, and various states of emergency have forced many businesses to completely rethink the ways in which they interact, communicate, and promote their products and services both internally and externally.
@@ -69,19 +69,19 @@ As you jump into virtual events, know that your virtual event strategy is not go
 
 Focus on these four key areas when designing your blended program:
 
-1\. Ease-of-Use Technology
+1. Ease-of-Use Technology
 
-2\. Strong Program Design
+2. Strong Program Design
 
-a. Pre-Event Engagement
+   a. Pre-Event Engagement
 
-b. Day-Of Activities
+   b. Day-Of Activities
 
-c. Post-Event Connection and Communication
+   c. Post-Event Connection and Communication
 
-3\. Hosting and Moderation
+3. Hosting and Moderation
 
-4\. Robust Communication Support
+4. Robust Communication Support
 
 **Add to your Audience**
 
