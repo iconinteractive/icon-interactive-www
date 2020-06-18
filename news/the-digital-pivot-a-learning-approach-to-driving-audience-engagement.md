@@ -70,7 +70,7 @@ As you jump into virtual events, know that your virtual event strategy is not go
 Focus on these four key areas when designing your blended program:
 
 1. Ease-of-Use Technology
-
+   <br /><br />
 2. Strong Program Design
 
    a. Pre-Event Engagement
@@ -80,7 +80,7 @@ Focus on these four key areas when designing your blended program:
    c. Post-Event Connection and Communication
 
 3. Hosting and Moderation
-
+   <br /><br />
 4. Robust Communication Support
 
 **Add to your Audience**

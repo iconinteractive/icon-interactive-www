@@ -3,7 +3,7 @@
     <section>
       <div :style="style">
         <div class="news-title-wrap">
-          <h1 v-html="$page.post.title" class="news-title" />
+          <h1 v-html="$page.post.title" class="news-title margin" />
         </div>
         <EventContent
           :style="style"
@@ -79,7 +79,8 @@ a {
 }
 @media (max-width: 800px) {
   .news-title {
-    line-height: 3rem;
+    line-height: 2.5rem;
+    font-size: 2.25rem;
   }
   .margin {
     margin-left: 2rem;
