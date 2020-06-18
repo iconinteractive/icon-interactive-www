@@ -3,7 +3,7 @@ date: 2020-03-11
 title: ICON Interactive Acquires Hydric
 
 ---
-**Digital Agency Expands Its Global Market PresenceThrough Latest Acquisition**
+### Digital Agency Expands Its Global Market PresenceThrough Latest Acquisition
 
 Detroit (March 2020) - ICON Interactive completed another acquisition this month, adding Hydric to its growing footprint.
 
@@ -15,7 +15,7 @@ As a part of ICON's Future Forward campaign, this acquisition, completed in Janu
 
 "Our vision for Hydric was always to be a global technology studio and the preferred creative technology partner for our clients. ICON Interactive shares that vision, and together we complement each other's capabilities, enhancing our offerings to existing and future clients. We're very excited to become part of the ICON Interactive family; good people doing innovative, meaningful and creative work. We think we'll fit right in." says David Lowry, CEO of Hydric.
 
-**About ICON Interactive**
+### About ICON Interactive
 
 ICON Interactive is a full-service digital agency that represents the merger of extraordinary design and powerful technology. Each initiative, each project, receives the full weight of both sides of the brain, rendering beautiful imagery that engages the eye, and functional control that gives real purpose.
 
