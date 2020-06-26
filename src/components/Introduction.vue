@@ -73,11 +73,10 @@ export default {
 <style>
 .intro-container {
   margin: 2% 0 0;
-  padding-bottom: 10vh;
   color: var(--color-contrast);
   transition: all 300ms ease-in-out;
   background: none;
-  height: 850px;
+  height: 700px;
 }
 .intro-container.clear {
   background: none;
@@ -100,9 +99,8 @@ export default {
   position: absolute;
   top: -95px;
   left: 0;
-  min-height: 80vh;
-  min-width: 100%;
-  height: 100%;
+  width: 100%;
+  height: 900px;
   z-index: -1;
   object-fit: cover;
   background-color: transparent;
@@ -175,6 +173,7 @@ export default {
     opacity: 1;
     margin: 2rem 0;
     width: 100%;
+    height: auto;
     object-fit: contain;
   }
   .column-img {
@@ -204,6 +203,9 @@ export default {
   .intro-container {
     margin: 5% 0 0;
     height: 900px;
+  }
+  .background {
+    height: 1200px;
   }
 }
 </style>
