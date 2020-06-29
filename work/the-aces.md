@@ -55,14 +55,13 @@ project_blocks:
   full_bleed: true
 - template: twocolumntext
   text_columns:
-    left_column: '<h2>Technical Approach</h2><p>There were 3 primary technical challenges
-      for this website that we encountered: voting, streaming rankings, and performant
-      animations.</p><p class="p1">For voting, we needed to create a system that allowed
-      for an individual to vote once per day, but also allow multiple different ways
-      to vote. We built this system from the ground up, and integrated directly with
-      social media to allow the additional voting. This provided Redbull Records with
-      a lot of insight into where their engaged audience was, but also how they interact
-      with the band.</p>'
+    left_column: '<p>There were 3 primary technical challenges for this website that
+      we encountered: voting, streaming rankings, and performant animations.</p><p
+      class="p1">For voting, we needed to create a system that allowed for an individual
+      to vote once per day, but also allow multiple different ways to vote. We built
+      this system from the ground up, and integrated directly with social media to
+      allow the additional voting. This provided Redbull Records with a lot of insight
+      into where their engaged audience was, but also how they interact with the band.</p>'
     right_column: <p>In addition to displaying cities by their vote totals, we also
       wanted to rank cities by the amount of daily streams. Unfortunately we could
       not obtain data at the granular level that we were looking for directly from
@@ -73,7 +72,7 @@ project_blocks:
       hinder performance or load times in any way. Using the anime.js library to create
       scripted timeline-based animations and the interaction observer API we could
       control the movement of the site, while keeping everything smooth and fast.</p>
-    left_column_title: ''
+    left_column_title: Technical Approach
     right_column_title: ''
 - template: fullwidthimage
   FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_2.jpg
