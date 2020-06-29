@@ -73,6 +73,8 @@ project_blocks:
       hinder performance or load times in any way. Using the anime.js library to create
       scripted timeline-based animations and the interaction observer API we could
       control the movement of the site, while keeping everything smooth and fast.</p>
+    left_column_title: ''
+    right_column_title: ''
 - template: fullwidthimage
   FullWidthImageSrc: https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_2.jpg
   FullWidthImgAltText: home page of aces site
@@ -102,17 +104,19 @@ project_blocks:
     column_three: "<h1>140</h1><p>Different Cities</p>"
 - template: twocolumntext
   text_columns:
-    left_column: "<h2>Results</h2><p>The results speak for themselves. Over 7,300
-      people voted on the site for the band to visit their city, capturing exactly
-      7,322 phone numbers and emails tied to location data. Each fan voted twice on
-      average, for a total of over 14,000 votes. Fans voted from 140 different cities
-      around the country.</p><p>Engagement for the site skyrocketed over the course
-      of the contest, increasing over 200%, with the average visitor returning to
-      the site 3 times per day to vote and check the results. The contest was a success
-      - The Aces will set out on their listening tour to meet their highly engaged
-      fans, which were able to target down to the city. Additionally, Red Bull Records
-      gained a rich data set and a deep understanding of their band’s customer base,
-      which they will be able to use to build targeted campaigns in the future.</p>"
+    left_column: "<p>The results speak for themselves. Over 7,300 people voted on
+      the site for the band to visit their city, capturing exactly 7,322 phone numbers
+      and emails tied to location data. Each fan voted twice on average, for a total
+      of over 14,000 votes. Fans voted from 140 different cities around the country.</p><p>Engagement
+      for the site skyrocketed over the course of the contest, increasing over 200%,
+      with the average visitor returning to the site 3 times per day to vote and check
+      the results. The contest was a success - The Aces will set out on their listening
+      tour to meet their highly engaged fans, which were able to target down to the
+      city. Additionally, Red Bull Records gained a rich data set and a deep understanding
+      of their band’s customer base, which they will be able to use to build targeted
+      campaigns in the future.</p>"
     right_column: <p><img src="https://s3.amazonaws.com/forestry.iconinteractive.com/RedBull_Image_3.png"></p>
+    left_column_title: Results
+    right_column_title: ''
 
 ---
