@@ -6,6 +6,12 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: left_column_title
+    type: text
+    config:
+      required: false
+    label: left column title
+    description: Optional title for left column
   - name: left_column
     type: textarea
     default: ''
@@ -24,4 +30,10 @@ fields:
       schema:
         format: html-blocks
     label: right column
+  - name: right_column_title
+    type: text
+    config:
+      required: false
+    label: right column title
+    description: optional title for right column
   label: Text Columns
