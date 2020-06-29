@@ -60,24 +60,24 @@ query BlocksPage ($path: String!) {
       }
       facebook_360 { facebook_360_src_url }
       image_gallery
-      text_columns { left_column, right_column }
+      text_columns { left_column, left_column_title, right_column, right_column_title }
     } 
   }
 }
 </page-query>
 
 <script>
-import Introduction from "../components/Introduction";
-import fullwidthimage from "../components/FullWidthImage";
-import Quote from "../components/Quote";
-import Vimeo from "../components/Vimeo";
-import Results from "../components/Results";
-import textblock from "../components/TextBlock";
-import twoColumnImages from "../components/twoColumnImages";
-import Facebook360 from "../components/Facebook360";
-import ContactForm from "../components/ContactForm";
-import Imageslideshow from "../components/ImageSlideShow";
-import twocolumntext from "../components/twoColumnText";
+import Introduction from "../components/Introduction"
+import fullwidthimage from "../components/FullWidthImage"
+import Quote from "../components/Quote"
+import Vimeo from "../components/Vimeo"
+import Results from "../components/Results"
+import textblock from "../components/TextBlock"
+import twoColumnImages from "../components/twoColumnImages"
+import Facebook360 from "../components/Facebook360"
+import ContactForm from "../components/ContactForm"
+import Imageslideshow from "../components/ImageSlideShow"
+import twocolumntext from "../components/twoColumnText"
 
 export default {
   components: {
@@ -91,29 +91,29 @@ export default {
     Facebook360,
     ContactForm,
     Imageslideshow,
-    twocolumntext
+    twocolumntext,
   },
   computed: {
     style() {
       return {
         "--color-highlight": `${this.$page.post.intro.page_colors.highlight}`,
-        "--color-contrast": `${this.$page.post.intro.page_colors.text}`
-      };
+        "--color-contrast": `${this.$page.post.intro.page_colors.text}`,
+      }
     },
     backgroundColor() {
       if (!this.$page.post.intro.hero_image_toggle) {
         return {
-          backgroundColor: `${this.$page.post.intro.page_colors.background}`
-        };
+          backgroundColor: `${this.$page.post.intro.page_colors.background}`,
+        }
       }
-    }
+    },
   },
   metaInfo() {
     return {
-      title: this.$page.post.title
-    };
-  }
-};
+      title: this.$page.post.title,
+    }
+  },
+}
 </script>
 
 <style scoped>

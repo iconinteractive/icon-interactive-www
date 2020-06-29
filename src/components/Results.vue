@@ -13,10 +13,10 @@ export default {
   props: ["resultsObj"],
   methods: {
     addSuperscript(htmlString) {
-      return htmlString.replace(/%/g, "<sup>%</sup>");
-    }
-  }
-};
+      return htmlString.replace(/%/g, "<sup>%</sup>")
+    },
+  },
+}
 </script>
 
 <style>
@@ -27,17 +27,16 @@ export default {
 .three-column {
   display: flex;
   justify-content: space-around;
+  width: 1200px;
+  margin: 0 auto;
 }
 .roi {
   color: var(--color-highlight);
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   text-align: left;
-  /* padding: 1rem; */
-}
-.roi :nth-child(1) {
-  margin: 0;
+  min-width: 33.3%;
 }
 .roi > h1,
 .roi > h2,
@@ -48,6 +47,7 @@ export default {
   font-family: "DM Sans", sans-serif;
   font-weight: normal;
   font-size: 5rem;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -59,9 +59,10 @@ sup {
   font-size: 2.75rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .three-column {
     flex-direction: column;
+    width: auto;
   }
   .results {
     margin-top: 1rem;
