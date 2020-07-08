@@ -1,14 +1,21 @@
 <template>
-  <header class="header">
+  <header class="header" :class="{ news: this.$route.path.includes('/news/') }">
     <div class="container">
       <g-link :to="{ name: 'home' }" class="home-link">
         <img
+          v-if="this.$route.path.includes('/news/')"
+          src="../../static/icon-logo-blk.svg"
+          :alt="settings.site_name"
+          class="logo"
+        />
+        <img
+          v-else
           src="../../static/icon-logo.svg"
           :alt="settings.site_name"
           class="logo"
         />
       </g-link>
-      <nav class="nav">
+      <nav class="nav" :class="{ news: this.$route.path.includes('/news/') }">
         <g-link class="nav__link" to="/projects">Work</g-link>
         <g-link class="nav__link" to="/capabilities">Capabilities</g-link>
         <g-link class="nav__link" to="/news">News</g-link>
@@ -60,6 +67,11 @@ export default {
   width: 100%;
   /* margin-bottom: 2rem; */
   background-color: transparent;
+}
+.news,
+.news a {
+  background-color: rgb(235, 235, 235);
+  color: #000;
 }
 .nav {
   display: flex;

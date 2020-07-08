@@ -65,10 +65,7 @@ ul {
   padding-left: 20px;
   margin: 0;
 }
-.margin {
-  /* margin-left: 6rem;
-  margin-right: 6rem; */
-}
+
 @media (max-width: 800px) {
   article {
     margin-left: 2rem;
