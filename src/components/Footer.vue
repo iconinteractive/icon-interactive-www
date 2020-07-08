@@ -76,7 +76,7 @@ a .city {
   transition: all 300ms ease-in-out;
 }
 a .city:hover {
-  color: var(--color-highlight);
+  color: #e51365;
   transition: all 300ms ease-in-out;
 }
 .logo {
@@ -131,7 +131,7 @@ li a h3 {
   font-family: "DM Sans";
   font-size: 1.4rem;
   font-weight: normal;
-  color: var(--color-highlight);
+  color: #e51365;
   margin: 0 0 0 2rem;
   letter-spacing: 0;
   width: 100%;

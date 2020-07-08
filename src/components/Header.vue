@@ -122,11 +122,11 @@ export default {
   margin-right: 0;
 }
 .nav > *:hover {
-  color: var(--color-highlight);
-  transition: all 300ms ease-in;
+  color: #e51365;
+  transition: all 300ms ease;
 }
 .nav > .active {
-  color: var(--color-highlight);
+  color: #e51365;
 }
 .mobile-burger {
   display: none;
